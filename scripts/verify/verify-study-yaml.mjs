@@ -34,6 +34,22 @@ const violations = [];
 const REQUIRED_TOP = ['title', 'slug', 'author', 'license', 'current_version', 'versions'];
 const REQUIRED_VERSION = ['version', 'date', 'tag'];
 
+// Optional top-level fields — presence is fine, wrong shape is a violation.
+// - `type` (default 'study'): 'study' | 'article' | 'book' | 'translation'.
+//   'translation' is a subtype of 'book' per ADR-018 (2026-08-12); reserved
+//   in Phase 2b so Phase 3.5 translation studies validate cleanly.
+// - `language` (default 'en'): BCP-47 tag ('en', 'he', 'ar', 'fa',
+//   'zh-Hans', 'zh-Hant'). Used by build-bilingual + scripture-per-language.
+// - `translation_of` (translation studies only): slug of source-language
+//   study (typically <work>-en modernized edition). Independent DOI +
+//   versioning — this is a cross-reference, not an inheritance.
+// - `sibling_editions`: array of slugs, other language editions of the same
+//   work. Populated symmetrically as new editions land.
+const OPTIONAL_TOP_TYPES = {
+  type: ['study', 'article', 'book', 'translation'],
+};
+const BCP47_RE = /^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2}|-[0-9]{3})?$/;
+
 function validateStudyYaml(slug) {
   const p = path.join(studiesRoot, slug, 'study.yaml');
   if (!fs.existsSync(p)) return; // stub studies (Phase 2b) have no study.yaml yet
@@ -64,6 +80,32 @@ function validateStudyYaml(slug) {
     const known = study.versions.map(v => v.version);
     if (!known.includes(study.current_version)) {
       violations.push({ slug, error: `current_version=${study.current_version} not in versions[]` });
+    }
+  }
+
+  // Optional-field shape checks (presence is optional; malformed value is a violation).
+  if (study.type !== undefined && !OPTIONAL_TOP_TYPES.type.includes(study.type)) {
+    violations.push({ slug, error: `type=${study.type} not in {${OPTIONAL_TOP_TYPES.type.join('|')}}` });
+  }
+  if (study.language !== undefined) {
+    if (typeof study.language !== 'string' || !BCP47_RE.test(study.language)) {
+      violations.push({ slug, error: `language=${study.language} not a BCP-47 tag (e.g. en, he, ar, fa, zh-Hans, zh-Hant)` });
+    }
+  }
+  if (study.translation_of !== undefined) {
+    if (typeof study.translation_of !== 'string' || !/^[a-z0-9-]+$/.test(study.translation_of)) {
+      violations.push({ slug, error: `translation_of must be a study slug (lowercase kebab-case)` });
+    }
+    if (study.type !== 'translation') {
+      violations.push({ slug, error: `translation_of set but type != translation (expected type: translation for cross-edition source pointer)` });
+    }
+  }
+  if (study.sibling_editions !== undefined) {
+    if (!Array.isArray(study.sibling_editions) || !study.sibling_editions.every(s => typeof s === 'string' && /^[a-z0-9-]+$/.test(s))) {
+      violations.push({ slug, error: `sibling_editions must be array of study slugs (lowercase kebab-case)` });
+    }
+    if (Array.isArray(study.sibling_editions) && study.sibling_editions.includes(slug)) {
+      violations.push({ slug, error: `sibling_editions[] must not include self (${slug})` });
     }
   }
 }
