@@ -1,0 +1,57 @@
+# Lemma Theological Studies
+
+> A theological reference library — exegetical studies using the SCAR Quadrilateral framework. Offered freely to the family of Christ. CC BY 4.0.
+
+Site: https://lemma-content.pages.dev (Phase 2b preview; canonical https://lemma.gig8.com at Phase 4 exit)
+
+## What this is
+
+Long-form scholarly studies on specific biblical texts. Each study follows a five-chapter arc: Scripture → Christocentrism (Jesus' teaching) → Antiquity (pre-Nicene evidence) → Reality (major present-day views, steel-manned) → Synthesis (agreement, tension, questions). Chapter files are canonical markdown; compiled per-version PDFs + versioned URLs are stable citation targets.
+
+## Studies (published)
+
+(No studies published in Phase 2b. Pilot lands in Phase 3: What Is the Perfect — τὸ τέλειον in 1 Corinthians 13:10.)
+
+## Studies (migration queued)
+
+Stubs for 16 in-progress studies exist at these URLs; each carries `noindex` and a "Migration Queued" notice until its Phase 3+ content lands:
+
+- /amos-7-1/
+- /angel-of-the-lord/
+- /apostolic-quadrilateral/
+- /by-his-stripes/
+- /1-corinthians-11-17-34/
+- /daniel-9-24/
+- /lords-supper-research/
+- /meeting-structure/
+- /name-above-every-name/
+- /parents-and-adult-children/
+- /pre-nicene-christianity/
+- /satans-throne/
+- /sermon-on-the-mount/
+- /trumpet-call/
+- /what-is-the-perfect/
+- /wine-and-jesus/
+
+## Machine-readable variants
+
+- **Full corpus index (chunked scheme):** /llms-full.txt — one line per chapter chunk URL. Chunks are `/llms/full/<slug>/<chapter>.txt`. The chunked scheme is the chosen format from day-one (see docs/superpowers/plans/2026-08-11-llms-full-sizing-decision.md); do NOT expect a single concatenated file.
+- **Corpus claim registry:** /claims-index.jsonl — top-level claim IDs per study, with `confidence` and `counter_positions` pointers.
+- **Per-study briefing:** /<slug>/briefing.md — 500-1000-word RAG-optimized summary.
+- **Per-study schema:** /<slug>/study.yaml — DOIs, versions, tags.
+- **Raw markdown variant:** /<slug>/<chapter>.md — served alongside the HTML at the same slug root.
+- **Interaction policy:** /.well-known/ai.txt
+
+## How to cite
+
+Every published study has a concept DOI (all versions) and per-version DOIs. See individual `study.yaml` or Highwire `<meta name="citation_doi">` on the study landing page.
+
+## License
+
+CC BY 4.0. See /LICENSE-INTENT.md for the framing: this is offered as a gift; attribution helps other readers find the primary sources but never gate use or sharing.
+
+## Contact
+
+- Feedback (public): open an Issue at https://github.com/lemma-studies/lemma-content/issues (uses the feedback template)
+- Feedback (private): lemma@gig8.com
+- GDPR / data-subject requests: privacy@gig8.com

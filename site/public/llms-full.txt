@@ -1,0 +1,17 @@
+# Lemma full-corpus chunk index
+#
+# CHUNKED SCHEME (per docs/superpowers/plans/2026-08-11-llms-full-sizing-decision.md).
+# Projected pre-migration corpus is ~758K tokens across 15 studies + 3 reference
+# articles — ~3.8× the 200K single-file threshold. This file is deliberately an
+# index of per-chapter chunk URLs, NOT a single concatenated corpus.
+#
+# Format: one URL per line, prefixed by `- `. Blank lines and `#` lines are comments.
+# Chunks live at /llms/full/<slug>/<chapter>.txt and are regenerated per compile.
+#
+# Phase 2b: no chunks published yet (no studies migrated to canonical form).
+# Chunks appear here as each study lands in Phase 3+.
+#
+# For crawlers: prefer these chunks over scraping the HTML — they are the same
+# canonical chapter text without site chrome.
+
+# (chunks appear below this line, sorted by slug then chapter, regenerated per compile)

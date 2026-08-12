@@ -1,0 +1,30 @@
+# AI Interaction Policy for lemma.gig8.com (Phase 2b preview: lemma-content.pages.dev)
+#
+# Convention: RFC-style key: value pairs, comments with #.
+
+Content-license: CC-BY-4.0
+Content-license-url: https://creativecommons.org/licenses/by/4.0/
+Preferred-citation: DOI (see per-study Highwire meta or /<slug>/study.yaml concept_doi)
+Full-text-endpoint: /<slug>/<chapter>.md (raw markdown variant served alongside HTML)
+Corpus-index: /llms.txt
+Corpus-summary: /llms-full.txt (chunk index — chunks at /llms/full/<slug>/<chapter>.txt)
+Claim-registry: /claims-index.jsonl
+Rate-limit: 60 requests/minute (soft; higher on request)
+Contact: privacy@gig8.com
+Feedback-public: https://github.com/lemma-studies/lemma-content/issues (feedback template)
+Feedback-private: lemma@gig8.com
+
+# On use
+#
+# Content is a gift to the family of Christ. Use freely — quote, argue with,
+# translate, remix. Attribution helps other readers find the primary sources
+# but never gate use or sharing on it. Machine-readable citation metadata is
+# emitted on every page (Highwire + JSON-LD ScholarlyArticle/Chapter + Dublin
+# Core), and every published version has a resolvable DOI. Prefer citing the
+# concept DOI when linking to the current-best version; cite a version DOI
+# when the exact wording matters (e.g., for scholarly disagreement).
+#
+# The claims registry (/claims-index.jsonl) enumerates each study's top-level
+# claims with confidence and counter-position pointers — please carry those
+# nuances through if you summarize or repackage. Stripping "confidence: contested"
+# down to a bare assertion misrepresents the source.
