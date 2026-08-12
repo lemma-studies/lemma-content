@@ -1,0 +1,397 @@
+---
+title: "Chapter 4: Reality --- The Major Views and Their Fruit"
+sidebar:
+  order: 5
+---
+
+## Overview (Reality)
+
+Four main interpretive traditions have emerged from the history of reading 1 Corinthians 13:8-12. They are not equally distributed across the church's history, and they are not equally supported by the exegetical evidence --- but each deserves to be heard at its strongest before being evaluated.
+
+The four views are:
+
+1. **The Completed Canon** --- "the perfect" = the finished New Testament
+2. **Christ's Return** --- "the perfect" = the parousia, the personal return of Jesus
+3. **Church Maturity** --- "the perfect" = the spiritual maturity of the church or its members
+4. **The Eternal State** --- "the perfect" = the new heavens and new earth, the consummated kingdom
+
+An important structural observation: Views 2 and 4 overlap so significantly that many scholars treat them as a single position. Christ's return and the eternal state are not separated by a long interval in most interpretive frameworks --- they are the same horizon of redemption viewed at different focal lengths. The practical theological divide in most churches is not between Views 2 and 4, but between View 1 (the canon view, which implies that revelatory gifts have ceased) and Views 2-4 (eschatological views, which imply they have not). The debate about this verse is often a proxy for the larger cessationist-continuationist dispute --- but it should not be, because Paul's purpose in the passage is to exalt love, not to settle the gifts question.
+
+---
+
+## View 1: The Completed Canon
+
+### Held By (View 1)
+
+This view lives most densely in dispensational and fundamentalist Baptist cessationism, but its map is broader than sometimes assumed: verified advocates include the Reformed Baptist Walter Chantry (*Signs of the Apostles*, Banner of Truth, 1973 --- "When Scripture is completed, then the church will have revelation thoroughly suited to her condition on earth"; a maturity-via-completed-Scripture blend, pp. 50-54), the British evangelical Victor Budgen (*The Charismatics and the Word of God*, Evangelical Press, 2d ed. 1989 --- "'when perfection comes' means 'when Scripture is complete,'" p. 74), and, per D. A. Carson's survey, the Lutheran Douglas Judisch (*An Evaluation of Claims to the Charismatic Gifts*, Baker, 1978), of whose view Carson adds that it "is very common among noncharismatic writers treating this subject" (*Showing the Spirit*, p. 68 n. 56; all three verified via archive.org lending --- Primary-Sources). The Reformed cessationist *mainstream* (Warfield, Gaffin) has nonetheless declined it, Gentry being the notable Reformed-Presbyterian exception. Its best-known early advocate is W. E. Vine --- the lexicographer of the *Expository Dictionary* --- whose posthumous *1 Corinthians* commentary states it plainly: "With the completion of Apostolic testimony and the completion of the Scriptures of truth... 'that which is perfect' had come, and the temporary gifts were done away. For the Scriptures provided by the Spirit of God were 'perfect'" (London: Oliphants, 1951, p. 184; verified against the 1961 printing). Notably, Vine immediately adds a second horizon on the same page --- "It is also true that 'that which is perfect' is to be brought in at the Parousia of Christ when the Church is completed and caught up to be with Him" --- so that even the canon view's chief advocate reads the verse with a dual reference, canon-first and Parousia-also. His *Expository Dictionary* compresses the same both/and into a single parenthesis: 1 Corinthians 13:10 refers "to the complete revelation of God's will and ways, whether in the completed Scriptures or in the hereafter" (s.v. "Perfect"; verified against the 1952 one-volume edition). Later advocates include Robert Gromacki (*The Modern Tongues Movement*, 1967, quoting Weaver's 1964 argument), Merrill F. Unger (*New Testament Teaching on Tongues*, 1971), and Charles R. Smith (*Tongues in Biblical Perspective*, 1972), who argue that the completed canon answers to "the perfect"; R. Bruce Compton ("1 Corinthians 13:8-13 and the Cessation of Miraculous Gifts," *Detroit Baptist Seminary Journal* 9 [2004]: 97-144) mounts the tradition's most extensive scholarly defense: "the purpose of this article is to reexamine the exegetical evidence from 1 Corinthians 13:8-13 and to defend the above interpretation, namely, that 'the perfect' in 13:10 refers to the completed New Testament canon and that with the closing of the canon miraculous gifts ceased" --- concluding that "the completed canon view is established as the most exegetically defensible interpretation." Compton, professor at Detroit Baptist Theological Seminary, returned to the defense against Schreiner in 2020 ("First Corinthians 13 and the Cessation of Miraculous Gifts: A Critique of Thomas Schreiner's *Spiritual Gifts*," *DBSJ* 25 [2020]: 25-49, from a 2019 Evangelical Theological Society paper): "I have argued that the case for 'the perfect' in 1 Corinthians 13:10 to refer to the New Testament canon is, in fact, convincing." His two articles (both verified from the journal text, copies in Primary-Sources) make him, with Woods, the reading's most substantial living advocate --- and the 2020 piece its most recent scholarly defense. Richard B. Gaffin Jr. approaches cessationism differently in *Perspectives on Pentecost* (P&R Publishing, 1979) --- from a redemptive-historical angle that emphasizes the close of the apostolic age rather than this verse. B.B. Warfield's *Counterfeit Miracles* (1918) is the classic scholarly argument for cessationism, and it is telling that the book never cites 1 Corinthians 13:10 at all: Warfield rested his case on the gifts' function as apostolic credentials, not on this passage (see Decker).
+
+The view's fullest single-article synthesis --- and its most publicly active advocacy --- is Andy M. Woods, "The Meaning of 'the Perfect' in 1 Corinthians 13:8-13," *CTS Journal* 10/2 (Fall 2004; posted at spiritandtruth.org, © 2012; journal text verified via Galaxie). The article is explicit advocacy, not survey: "This article seeks to demonstrate that quantitative completeness is the best understanding of *teleion* and sees Paul as speaking of the completion of the New Testament canon." Woods --- since 2017 president of Chafer Theological Seminary and senior pastor of Sugar Land Bible Church --- synthesizes the case from Myron J. Houghton ("A Reexamination of 1 Corinthians 13:8-13," *Bibliotheca Sacra* 153 [1996]: 344-56, himself an advocate: "this writer's completed canon view"), Robert Dean Jr. ("Three Arguments for the Cessation of Tongues," Conservative Theological Society paper, 2002), and --- notably from outside dispensationalism --- the Reformed postmillennialist Kenneth L. Gentry Jr. (*The Charismatic Gift of Prophecy: A Reformed Response to Wayne Grudem*, 2d ed., 1989). The arguments and challenges below engage Woods's formulations directly, since his article is the strongest form the view currently takes.
+
+### Core Claim (View 1)
+
+When the New Testament was completed --- the last apostolic documents written and recognized, probably in the 90s AD --- God's full written revelation became available. The "partial" revelatory gifts (prophecy, tongues, word of knowledge) were instruments for a pre-canonical church that lacked complete access to God's word. Once "the perfect" --- the complete written revelation --- arrived, the partial instruments were no longer needed and ceased.
+
+In its advocates' own framing (as surveyed sympathetically in Thomas's 1974 article before he dissents, and in Compton's 2004 survey): *τέλειος* here carries its well-attested sense of "complete, the totality" --- and the antithesis with *τὸ ἐκ μέρους* is specifically quantitative, so that "what better opposite to partial is there than 'completeness'?" The gifts of verse 8 are precisely the revelatory channels through which the apostolic deposit was being delivered, and "included in what was given by men using these gifts was what was ultimately incorporated into the written word." The Corinthian congregation --- a church with no completed New Testament --- is exactly the situation those partial instruments served. Nor do the view's advocates simply concede verse 12: their published responses refer the "face to face" and "know even as I am known" language to the church's condition after the canon's completion or to the believer's state after death (Unger, p. 97; Smith, p. 79; both engaged in Thomas 1974, p. 82). The argument's most rigorous early statement is Gilbert B. Weaver's: "Logically, to teleion must refer to completeness or perfection in the same realm as that referred to by to ek merous. Since to ek merous refers to the transmission of divine truth by revelation, the other term to teleion must refer to God's complete revelation of truth, the entire New Testament" (" 'Tongues Shall Cease': 1 Corinthians 13:8," unpublished research paper, Grace Theological Seminary, 1964, p. 12, as quoted in Robert Gromacki, *The Modern Tongues Movement*, 1967, pp. 126-27; verified against the page). Gromacki's own survey advances the same case --- "Not until Revelation was written could it be said that God's revelation was complete (teleion)" --- and adds a lexical negative: *teleion* "is never used in the New Testament to depict the second coming, the millennium, or the eternal state." (Both the lexical negative and Weaver's realm-argument are answered under Honest Challenge 8 below.)
+
+### Strongest Arguments (View 1)
+
+**1. The sufficiency of Scripture.** 2 Timothy 3:16-17 says:
+
+> "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect (ἄρτιος), throughly furnished unto all good works."
+> --- 2 Timothy 3:16-17 (KJV)
+
+If completed Scripture makes the believer thoroughly equipped, the argument runs, additional revelatory gifts are functionally unnecessary. The word *ἄρτιος* ("perfect," "complete," "equipped") in this verse invites comparison with *τέλειον* in 1 Corinthians 13:10 --- both point toward a state of completeness that Scripture can supply.
+
+**2. "The perfect law of liberty."** James 1:25 uses *τέλειον* to describe the word of God:
+
+> "But whoso looketh into the perfect (τέλειον) law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed."
+> --- James 1:25 (KJV)
+
+If James can speak of God's word as *τέλειον*, Paul's use of the same term could carry a similar referent. And the parallel runs deeper than the adjective: two verses earlier, James supplies the only other New Testament occurrence of Paul's mirror-word --- the hearer "beholding his natural face in a glass (ἐσόπτρῳ)" (Jas. 1:23-24) --- so that a mirror and "the perfect law" stand within three verses of each other, in an explicitly Scripture-centered context. The canon view can claim here a biblical precedent for pairing mirror-language with a textual referent.
+
+The view's modern advocates press this parallel all the way into verse 12 itself. Gentry and Woods observe that the verse never actually says we shall see *God* face to face --- "Grudem's argument has to read God into the reference" (Gentry, p. 57, as quoted in Woods) --- and that one looks into a mirror to see *oneself*. On their reading, the dim mirror is piecemeal revelation giving the believer only a partial self-picture, and "face to face" is the clear self-sight that the completed canon's perfect mirror supplies --- exactly as James's hearer beholds "his natural face in a glass." This is the view's boldest exegetical move, and it is answered under Honest Challenges below.
+
+**3. "Once delivered to the saints."** Jude 3 speaks of a deposit of faith that was delivered once for all:
+
+> "Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered (ἅπαξ παραδοθείσῃ) unto the saints."
+> --- Jude 3 (KJV)
+
+The aorist *ἅπαξ παραδοθείσῃ* ("once for all delivered") implies a completed deposit. Advocates of this view argue that when the last apostolic writing was completed, that deposit was closed.
+
+**4. The canonical closure of Revelation.** Revelation 22:18-19 warns:
+
+> "For I testify unto every man that heareth the words of the prophecy of this book, If any man shall add unto these things, God shall add unto him the plagues that are written in this book: And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life..."
+> --- Revelation 22:18-19 (KJV)
+
+Whether this refers specifically to Revelation or to the completed canon (scholars debate this), canon-view advocates see it as marking the close of the revelatory period.
+
+**5. The childhood-to-adulthood analogy applied to the church's redemptive-historical development.** Canon-view advocates adapt the growth analogy whose fullest modern development belongs to the maturity theorists: the church's infancy (needing ongoing prophetic guidance) corresponds to the pre-canonical period. As the church "grew up" into the full revelation of God through the completed Scriptures, the childhood instruments were put away. (Robert L. Thomas developed the fullest form of this growth argument --- but his own position files it under church maturity, not the canon; see View 3.)
+
+**6. Historical observation.** The extraordinary revelatory gifts do appear --- at least in the historical record that survives --- to have diminished significantly after the apostolic generation. While this does not prove a theological cessation, it suggests a pattern consistent with the view.
+
+**7. The "abiding" triad as a timing argument.** In its sharpest published form (Houghton, *BibSac* 153: 352 --- "Faith and hope, then, will not remain beyond Christ's return"; Compton, *DBSJ* 9 --- "Unlike the revelatory gifts which cease with the completion of the canon, and unlike even faith and hope which cease with the return of Christ, love never ceases"), the argument reads verse 13 as a three-stage timetable: the gifts cease first; faith, hope, and love then abide through the church age; faith and hope cease at the parousia; love alone continues beyond. Verse 13 says faith, hope, and love "abide" --- and the *point* of μένει, the argument runs, is that the triad survives the very transition the gifts do not. But faith and hope cannot survive the parousia: faith gives way to sight and hope to possession (2 Cor. 5:7; Rom. 8:24). So an arrival of "the perfect" that faith and hope live *through* must fall before the parousia --- inside history --- and the completed canon is the obvious candidate. On this reading the eschatological interpretation collapses Paul's own contrast: if gifts, faith, and hope all terminate at the same moment, there is nothing for the triad's "abiding" to abide through. (Answered under Honest Challenge 8 below; see also Chapter 1 on verse 13 and Appendix A on νυνὶ δέ.)
+
+**8. The Hebrews 1:1 bridge.** "God, who at sundry times (πολυμερῶς) and in divers manners spake in time past unto the fathers by the prophets, hath in these last days spoken unto us by his Son" (Heb. 1:1-2). The adverb πολυμερῶς --- "in many parts," from the same μέρος as Paul's ἐκ μέρους --- describes precisely revelation delivered in installments, and Hebrews declares that installment-mode superseded by a definitive speaking, within history. The canon view reads Paul's partial/perfect antithesis as the 1 Corinthians form of the same movement. (Answered under Honest Challenge 8 below.)
+
+**9. The open-canon consequence.** The view's sharpest theological argument concerns what follows if it is wrong: if "the perfect" has not yet come, then the revelatory gifts of verse 8 remain normative for the entire church age --- and a church still receiving binding prophecy is a church whose canon is functionally open, in tension with a faith "once delivered" (Jude 3) and a completed word (Rev. 22:18-19). Dean states it plainly: "When theologians mistakenly identify the τέλειος with either the Second Coming of Christ, the perfection of heaven, the Rapture, or the Millennium, all the temporary gifts become normative for the entire Church Age" ("Three Arguments for the Cessation of Tongues," p. 10; verified against the author's text, copy in Primary-Sources). On this argument the canon reading is not exegetical opportunism but doctrinal self-defense: it protects *sola scriptura*. (Answered under Honest Challenge 7 below.)
+
+**10. The attestation-purpose argument.** The miraculous gifts, the argument runs, "all involve either the giving of divine revelation or the authenticating of divine revelation" --- grounded in "the signs of an apostle" (2 Cor. 12:12) and Hebrews 2:3-4, where God bore witness to the apostolic message "with signs and wonders" (Compton, *DBSJ* 9 [2004]; similarly Gromacki and Unger). If the gifts existed to deliver and attest revelation-in-progress, the completion of revelation ends both functions at once --- reinforcing the identification of "the perfect" with the completed deposit. (Answered under Honest Challenge 7 below.)
+
+### Pastoral Fruit (View 1)
+
+This view produces genuine and important goods in Christian communities that hold it:
+
+- A strong doctrine of Scripture's sufficiency, which protects against spiritual manipulation and the cult of charismatic personality
+- Stability of authority: the church is not waiting for the next word of prophecy to confirm or contradict the last one
+- Accountability: every claimed revelation must be tested against a fixed, final standard
+- Protection of the laity from prophetic claims that cannot be verified or falsified
+- Clear epistemological grounds for Christian unity: one text, one final authority
+
+### Honest Challenges (View 1)
+
+Even at its strongest published form, the canon view faces substantial difficulties that its most honest advocates acknowledge:
+
+**1. Anachronism.** The concept of a 27-book New Testament canon did not exist in Paul's day. Paul was writing to a church in Corinth around 55 AD. The question "when will the New Testament be complete?" was not a question Paul or his hearers could have had in mind. To interpret "the perfect" as the completed canon requires Paul to be referring to something he could not have been thinking about. Advocates have two replies. First, on a full doctrine of inspiration, the divine author can intend a referent beyond the human author's horizon, as the prophets themselves searched "what, or what manner of time the Spirit of Christ which was in them did signify" (1 Pet. 1:11). Second, the apostolic age was not without real-time awareness that apostolic writing carried Scripture's authority: Paul tells this very congregation that "the things that I write unto you are the commandments of the Lord" (1 Cor. 14:37), and 2 Peter 3:15-16 already ranks Paul's epistles with "the other scriptures" --- so Paul could be pointing, the argument runs, to a growing written deposit his readers knew was accumulating, not to an unimaginable future artifact. Woods adds Paul's charge to guard the entrusted deposit (2 Tim. 1:13-14) and his request for "the books, but especially the parchments" (2 Tim. 4:13) as marks of a collection-consciousness already forming. Both replies are real but costly. The first concedes that nothing in the passage's own context signals the canon, so the identification must be imported; a *sensus plenior* can rescue possibility, but it cannot supply positive evidence. The second proves awareness of apostolic *authority*, not of a bounded *collection*: knowing that a letter commands the Lord's authority is a different thing from conceiving a closed twenty-seven-book corpus whose completion would end the gifts --- and 2 Peter itself postdates 1 Corinthians, so the Corinthians hearing chapter 13 read aloud had not even that.
+
+**2. The strangeness of "face to face" as a description of reading a book.** Verse 12 says:
+
+> "For now we see through a glass, darkly; but then face to face (πρόσωπον πρὸς πρόσωπον): now I know in part; but then shall I know even as also I am known."
+> --- 1 Corinthians 13:12 (KJV)
+
+*Πρόσωπον πρὸς πρόσωπον* ("face to face") is consistently used in the Old Testament for direct personal encounter --- God speaking to Moses in Exodus 33:11, the description of prophetic directness in Numbers 12:8. It is intensely personal encounter language. Describing the arrival of a completed text as "face to face" is strained at best. Nor does the James 1:23-25 mirror parallel (argument 2 above) relieve the strain: in James the mirror gives a *true* image that the hearer promptly forgets --- the opposite of Paul's dim seeing "in an enigma" --- and James has no "then face to face" to account for.
+
+The view's most sophisticated reply turns the study's own observation about Exodus 33:20-23 into an argument. If Moses's "face to face" was itself compatible with *not* seeing God's face --- if it names a mode of revelation (clear, direct, "not in dark speeches") rather than the sight of God --- then Paul's "face to face" could likewise name maximal revelational clarity within this age: the complete, unriddled word over against fragmentary prophetic installments. The rabbis read Moses's privilege in exactly that register: "All of the prophets observed their prophecies through an obscure looking glass [*aspaklaria*]... However, Moses our master observed his prophecies through a clear looking glass" (b. Yevamot 49b, William Davidson Talmud) --- clear-glass vision as a grade of *prophetic reception*, held by a man within this life. On that reading, Numbers 12:6-8 contrasts two modes of receiving revelation, both inside history, and the canon view inherits the clearer mode. The reply deserves its full weight --- and then two texts answer it. Deuteronomy 34:10 closes the mode to history: "there arose not a prophet since in Israel like unto Moses" --- the clear-glass grade was not attained again within the age, so a finished text cannot simply claim it. And verse 12's second clause sets the standard beyond any mode of reception: "then shall I know even as also I am known" patterns the future knowing on God's present knowing of the believer --- personal, direct, exhaustive --- which no clarity of documents supplies. The clarity-reading can carry "face to face"; it cannot carry "even as I am known."
+
+The view has one further reply --- its boldest. Gentry and Woods deny that God is the object of the seeing at all: verse 12 never says we shall see *God* face to face ("Grudem's argument has to read God into the reference"), and a mirror's viewer sees *himself* --- so "face to face" is the believer's clear self-sight in the completed canon's perfect mirror, on the pattern of James 1:23, and Numbers 12:6-8 concerns the mode of revelation rather than fellowship. The reading is ingenious; the eschatological side answers that the passage's own grammar resists it. Paul's idiom is not "look at a mirror" but "see through a glass" (βλέπομεν δι' ἐσόπτρου) --- and when Paul elsewhere puts a mirror into present Christian experience, the object in the glass is the Lord, not the self: "we all, with open face beholding as in a glass (κατοπτριζόμενοι) the glory of the Lord" (2 Cor. 3:18). The elliptical "but then face to face" continues the verb of seeing from the first clause: whatever is now seen dimly through the glass is the very thing then seen face to face. The idiom itself requires two faces --- every Old Testament use of the formula is an encounter between two parties ("I have seen God face to face," Gen. 32:30; "whom the LORD knew face to face," Deut. 34:10; "I have seen an angel of the LORD face to face," Judg. 6:22) --- never a reflection. And the second clause settles the object: "then shall I know even as also I am known" pairs my future knowing with God's present knowing *of me*, a correspondence that is idle if the knowledge in view is self-inspection. The move also sits awkwardly within the view's own tradition: Vine, its chief earlier advocate, read "face to face" at the Parousia (see Held By above) --- the self-sight exegesis is a modern repair, not the view's native reading.
+
+A further refutation, this one from inside the Grace-tradition itself. Robert T. Stamp's 1970 M.Div. under James L. Boyer asserts the completed-canon reading of *τὸ τέλειον* in verse 10 as evident (p. 33) and, notably, never argues for it anywhere in the thesis --- the assertion is common ground in the seminary's tradition, not the thesis's subject. Its subject is verse 12; and within the assumed verse-10 frame, when Stamp examines the Weaver/Gromacki "mirror of the completed canon → clear self-sight" reading of verse 12, he rejects it on internal grounds. James's use of the same *ἔσοπτρον* image (Jas. 1:23--25) describes a mirror that yields a *clear* self-image, not a dim one: the hearer "beholdeth his natural face" --- *τὸ πρόσωπον τῆς γενέσεως*, "the face of his birth." So if Paul's own contemporary James already used the mirror figure for present, clear self-inspection, Paul cannot in 1 Corinthians 13:12 be pointing forward to a not-yet self-sight that would arrive only when the canon closed: "to look to James 1:23-25 for support for the view that 'face to face' has reference to seeing one's self in the Word of God, which is to come, is to look to weak support. For this verse indicates that men could already see themselves face to face. If Paul were looking to a time when men would be able to see themselves as they really were before God, how is it that James who wrote before Paul wrote I Corinthians, indicated that men could already see themselves as they really were? In James there is no indication that a clearer image was yet to come" (Stamp, *"But Then Face to Face": I Corinthians 13:12*, M.Div. thesis, Grace Theological Seminary, 1970, pp. 30--31; PDF in Primary-Sources). Stamp adds an empirical companion: "Is it possible for us to say that even today, after possessing the Scriptures in their completed form for more than nineteen hundred years that we know fully, as we have been known? The answer is obviously in the negative" (p. 34). The self-sight reading requires that the completed canon already supplies what verse 12 promises --- a claim its own tradition has not been willing to affirm without heavy qualification (compare Houghton's "Yes, but only in some limited qualified sense" under Challenge 3). Stamp himself takes the canon reading of verse 10 for granted; the fact that he could not make verse 12 cohere with it on the self-sight route is telling.
+
+Compton presses a subtler version: consistency of metaphor. Everyone grants that "seeing in a mirror dimly" is a figure for the limitations of partial revelation; but then, he argues, taking "face to face" as literally seeing the returned Christ "interprets the second part of Paul's analogy literally rather than metaphorically" --- both halves should be figures for modes of revelation, the dim mode and the clear (*DBSJ* 9 [2004]: 134-35, reading even Moses's "face to face" in Num. 12:8 as a metaphor for close relationship). The observation is fair as far as it goes, and the reply is that Paul's now/then contrasts pair figure with *reality*, not figure with figure: "we walk by faith, not by sight" (2 Cor. 5:7) sets a present mode against a future actuality, and here the mirror (the mediated mode) is contrasted with the absence of any medium --- πρόσωπον πρὸς πρόσωπον is not a second image Paul coins but the Old Testament's fixed idiom for unmediated encounter, and its companion texts name the encounter's object without figure: "we shall see him as he is" (1 John 3:2); "they shall see his face" (Rev. 22:4). A metaphor for clearer revelation still leaves the knowing mediated --- and "even as I am known" is precisely what mediation cannot supply (Challenge 3).
+
+A further canon-view retreat should be named, since the study's answers to the self-sight and clarity readings force it --- and its shape was already visible in 1970. Stamp's "modified second coming" view is precisely that retreat: verse 12's "face to face" remains what canon-view advocates like Vine had always read it as (the parousia), but severed from identifying what *τὸ τέλειον* in verse 10 names. Adopted by an interpreter who took the canon reading of *τὸ τέλειον* for granted (p. 33) and read verse 12 on the merits, the position lays out its own dilemma frankly. On the standard second-coming reading, Stamp writes, the interpreter must either "abandon the idea that 'that which is perfect' (13:10) refers to the completed canon of Scripture" or "say that we are still in the time of these forms of incomplete means of revelation and they will not be done away until the return of our Lord" (p. 33). Neither move Stamp takes; his escape holds both by decoupling: verse 12 becomes an example of the transitory nature of the imperfect means without identifying what *τὸ τέλειον* is --- the connective *γάρ* loaded as example-illustrative rather than referent-identifying. Stamp is candid about the cost: "this verse does not shed any light on the problem of the meaning of 'that which is perfect' of verse 10, for no matter which view one maintains, I Corinthians 13:12 still serves the same purpose, that of providing an example of the transitory nature of these incomplete means of revelation" (Stamp 1970, p. 40). The retreat is honest --- Stamp takes verse 12 seriously as parousia language --- but it carries three prices. First, *γάρ* is loaded with the weakest of its Pauline uses (a merely rhetorical "for," severed from the neighboring clause's content), where Paul's ordinary practice is a tight explanatory tie. Verse 11's childhood analogy shows Paul can indeed illustrate without identifying inside the same paragraph --- but verse 12 does more than analogize: its *ἄρτι/τότε* correlates resume the *ὅταν* arrival of verse 10, and its shift to a first-person future prediction (*ἐπιγνώσομαι*, "I shall know fully") is not the past-tense narrative move of verse 11 ("when I was a child"). The clean illustrative reading available for verse 11 is harder to pin on verse 12. Second, the canon claim of verse 10 must now shoulder its whole weight *without* the confirmation of verse 12, which reduces the argument's evidential base to the lexical-and-contextual case the study's Challenges 1--8 have already engaged. (Stamp's p. 40 formulation is symmetrical --- "no matter which view one maintains" --- suggesting the eschatological reading loses verse 12 too. But the symmetry is only apparent: the eschatological reading is not *forced* into the loose *γάρ*, since a tight explanatory tie between verses 10 and 12 fits it directly; the canon reading is forced into the loose *γάρ* on pain of contradiction with verse 12. The two positions do not pay the same price for the same asymmetry of options.) And third, having conceded the parousia reading of "face to face" and "know even as I am known," the interpreter has conceded exactly the pair of clauses on which the eschatological reading has been most textually secure --- so the split-referent position preserves the canon reading of verse 10 at the cost of validating the eschatological reading everywhere it most naturally lodges. Stamp's distinctive within the canon-view tradition is worth naming precisely: Unger (p. 97) and Smith (p. 79) had already offered readings that referred verse 12 either to "the church's condition after the canon's completion" (a unified-referent maneuver, verse 12 fulfilled corporately by the canon-era church) or to "the believer's state after death" (a split-referent maneuver, verse 12 taking effect at individual death rather than at Christ's return). Stamp is neither: he refers verse 12 to the parousia itself, and he makes explicit what Unger's and Smith's moves left implicit --- the neutrality thesis, that verse 12 sheds no light on what *τὸ τέλειον* names. That is what makes his 1970 thesis the earliest fully honest statement of the split-referent option, even though the option itself was already available inside the tradition. The retreat is real; whether it is worth the ground it cedes is for the reader to weigh.
+
+**3. The knowledge asymmetry.** "Then shall I know even as also I am known" --- the future knowing is compared to God's knowing of us. God does not know us *through a text*. He knows us directly and comprehensively. If "the perfect" is the completed canon, then Christians who have the completed canon should now know God with something approaching God's thoroughness of knowledge of us. This is manifestly not what any canon-view advocate claims.
+
+The view's advocates enter a definitional objection first: "knowledge" in verse 8, they argue, is not human cognition generally but the revelatory *gift* of knowledge (1 Cor. 12:8) --- so what verse 12 promises is not omniscience or unmediated vision but complete, un-riddled revelatory content, which the finished canon supplies (Compton, *DBSJ* 9 [2004], distinguishing the gift from "the knowledge gained from the other two gifts"). The definitional point is fair for verse 8 --- but verse 12 shifts from the gift-noun γνῶσις to Paul's first-person verb: ἐπιγνώσομαι, "I shall know," καθὼς καὶ ἐπεγνώσθην, "even as also I was known." The thing predicted is not the gift's replacement but the apostle's own knowing, patterned on God's knowing of him --- and God's knowing of Paul is not a revelatory deposit.
+
+Houghton's reply deserves record, because it is the view's best: the problem, he argues, does not vanish on the eschatological reading either --- "In eternity, will believers really know fully just as they have been fully known? The answer to this question seems to be, 'Yes, but only in some limited qualified sense.' If that answer is acceptable for the eschatological interpretation, then it ought to be acceptable for this writer's 'completed canon' view as well" (*BibSac* 153 [1996], n. 27; verified against the journal text via Galaxie, copy in Primary-Sources). Woods adds that the Spirit's illuminating ministry (1 Cor. 2:9-15) supplies what the bare text cannot. But the tu quoque misses what the asymmetry actually claims. The eschatological reading never claimed omniscience for the glorified; καθώς marks manner, not measure --- knowing *directly, without medium*, as God's knowing of us is direct. The ancient tradition made precisely this qualification from inside the eschatological reading: Theodoret glosses ἐπεγνώσθην with ᾠκειώθην --- "I shall see him more exactly, as one made his own" --- qualifying the καθώς without moving the arrival out of the resurrection (PG 82:336-337; Appendix B). That qualification costs the eschatological reading nothing, because unmediated sight is exactly what glorification supplies ("we shall see him as he is," 1 John 3:2). For the canon view the price is steeper: a text is by definition mediation, so knowledge through even a perfect book remains knowledge *through a glass* --- the very mode Paul says will pass. Whether that difference in price is decisive is for the reader to weigh. And the illumination supplement proves too much: the Spirit's illumination was equally present before the canon closed, so it cannot be the thing whose *arrival* verse 10 dates.
+
+**4. No patristic support.** Not a single pre-Nicene interpreter read this passage as a reference to the completed canon. The entire ante-Nicene period --- which overlapped with the very period when the canon was being completed --- read the passage eschatologically. The canonical interpretation has no attestation before the modern period. The silence holds even beyond antiquity: the Byzantine commentators who carried the Greek exegetical tradition into the Middle Ages --- pseudo-Oecumenius (10th c.) and Theophylact (c. 1100), both epitomizing Chrysostom --- still gloss the perfect's arrival as "in the time to come" (ἐν τῷ μέλλοντι χρόνῳ), Theophylact expressly naming "the life to come" (τῆς κατὰ τὴν μέλλουσαν ζωήν), some nine centuries after the last New Testament book was written (PG 118; PG 124; Appendix B). And the gap persists in the view's three fullest modern defenses: Compton's 2004 and 2020 articles and Woods's 2004 article --- some ninety journal pages between them, answering the grammatical and contextual objections in detail --- nowhere interact with any ancient interpreter's reading of the verse. Woods's only church-history discussion concerns whether the *gifts* continued (a question he sets aside as "a historical argument rather than an exegetical one"); Compton's articles do not mention a church father at all. The reception-historical evidence is not answered; it is unaddressed.
+
+**5. The problem of timing.** If "the perfect" arrived around 100 AD when the last New Testament documents were written, why did the canon not become settled and universally recognized for another two to three centuries? The canon was disputed into the 4th century. If "the perfect" has a specific arrival date, it is not clear what that date is.
+
+A companion difficulty was pressed by Schreiner and answered by Compton. If the perfect is the completed canon, then Christ could not have returned before the canon closed --- which conflicts with the New Testament's teaching that each generation of believers, including the first, could hope for the Lord's return in its lifetime (Jas. 5:8-9; 1 Cor. 1:7; 1 Thess. 4:17, where Paul writes "we who are alive"). Compton's reply: God revealed the timing of neither event, so "from Paul's perspective, the completion of the canon, like the Lord's return, could take place within his generation" --- no felt conflict (*DBSJ* 25 [2020]: 45-46). The reply is coherent, but note what it purchases and at what price: it requires that Paul held out the possibility of the canon completing within his own lifetime --- a canon whose concept, scope, and completion-event the New Testament nowhere describes --- which returns the argument to the anachronism problem (Challenge 1), now with the added premise that Paul reckoned with the canon's completion as a datable event within his own lifetime.
+
+**6. The "faith, hope, and love" problem.** Verse 13 says:
+
+> "And now abideth faith, hope, charity, these three; but the greatest of these is charity."
+> --- 1 Corinthians 13:13 (KJV)
+
+Paul says these three *abide* ("now abideth," *νυνὶ δὲ μένει*). Faith and hope are present-age realities --- they are not needed in the same way once we see face to face (cf. Romans 8:24: "hope that is seen is not hope"). If "the perfect" arrived in 100 AD, and faith and hope still abide now in the same sense they did then, the structure of Paul's argument becomes difficult to account for.
+
+**7. Cessationism has not, in fact, needed this verse.** The view's most rigorous supporting argument is the open-canon consequence (Argument 9): if "the perfect" is not the canon, the revelatory gifts of verse 8 remain normative and the canon is functionally open. The stakes are real. But the tradition that most needs cessationism has repeatedly affirmed a closed canon and ceased gifts *without* this verse.
+
+B.B. Warfield's *Counterfeit Miracles* (1918) --- the classic scholarly cessationist case --- never cites 1 Corinthians 13:10 at all (Decker). Richard Gaffin, in *Perspectives on Pentecost* (P&R, 1979), argues cessation on redemptive-historical grounds while judging that the coming of the perfect and the "then" of verse 12 "no doubt refer to the time of Christ's return" and that the canon reading "cannot be made credible exegetically" --- adding, in the same breath, that the continuationist inference from the passage is "likewise gratuitous" (p. 109; verified against the 1979 printing via archive.org, snippet in Primary-Sources). John MacArthur reads "the perfect" as the eternal state and carries cessation on the παύσονται argument and the gifts' apostolic-age function (*1 Corinthians*, MacArthur New Testament Commentary, 1984); Robert L. Thomas reads *τὸ τέλειον* as the maturity of the body of Christ, with the terminus "whatever comes first: the passing from childhood to adulthood or the return of Christ" (JETS 17 [1974]: 88, filed under View 3 in this study) --- neither man rests the canon's closure on 1 Corinthians 13:10. The Byzantine heirs of Chrysostom --- pseudo-Oecumenius, Theophylact --- held that the gifts had already faded within history while still reading "the perfect" eschatologically (Appendix B). If the canon's closure rests on the once-for-all apostolic office, it does not need this verse.
+
+The pattern is not confined to Reformed cessationism. Within the dispensationalist tradition that produced the canon reading's most extensive defenses, the same conclusion arose internally over three-and-a-half decades. Grace Theological Seminary --- whose faculty and graduates produced David F. Miller's 1977 Th.D. *Concerning Spiritual Gifts*, one of the fullest published dispensationalist defenses of the canon reading --- also produced the reading's sharpest internal critics. Warren E. Tamkin's 1949 B.D. under Alva J. McClain (Grace's founding president) shows the canon view was already the seminary's working reading before the charismatic movement's institutional shockwave. But the strain that would break open in the late-1970s dissent was already registering by 1970. Robert T. Stamp's 1970 M.Div. under James L. Boyer --- treated at length in Challenge 2 above under the split-referent retreat --- takes the canon reading of verse 10 for granted while reading verse 12 on the merits, and coins a "modified second coming" decoupling to hold both when a single-frame reading fails. One student, one thesis; but the position had to be engineered, and Reid, Webb, and Rothhaar in the next decade would abandon the engineering and revise verse 10 itself. Lester R. Reid's 1978 M.Div. thesis on 1 Corinthians 13:10, supervised by Smith, moves to the eternal-state reading. David R. Webb's 1982 Th.M. thesis *Is the Canon Complete?*, dual-supervised by Smith and George J. Zemek Jr., concludes that "building a theology of a completed canon upon a problem passage would doubtless be an exercise in unsound hermeneutics" (p. 13). James E. Rothhaar's 1984 M.Div. *An Exegetical Investigation of 1 Corinthians 13:10*, under Gary T. Meadors, moves to a modified maturity reading, writing that "the concept of a completed New Testament canon would have been totally foreign to the Corinthians at that time and so the word 'perfect' would have actually obscured Paul's meaning rather than explaining it" (p. 47). Smith's decision to supervise two theses that reject his own 1970 position is remarkable for scholarly honesty --- and telling for the state of the exegesis inside the tradition (all seven theses verified against direct copies; see the verification notes in Primary-Sources: `Rothhaar-Miller-Grace-theses-verified.md`, `Smith-1970-dissertation-verification-note.md`, and `Stamp-1970-fold-recommendations.md`).
+
+One further datum from the history of interpretation. The canon reading, by its content, entails the cessation of the revelatory gifts --- so it is no surprise, and no evidence of anything, that all its published advocates are cessationists; a continuationist advocate would be a near-contradiction in terms. The observation is empirical: no counter-example has been located in the literature surveyed. The informative pattern lies on the other side. The eschatological reading *underdetermines* the gifts question, and its adherents accordingly split --- Chrysostom, Edwards, Gaffin, MacArthur, and Schreiner remaining cessationists; Fee and Grudem continuationists. What work Argument 9 performs alongside the verse's own use as a proof of cessation is a question the reader is equipped to answer (see Chapter 5).
+
+The attestation-purpose argument (Argument 10) receives the same reply. Its premise proves the *Gaffin* conclusion, not the canon one. Hebrews 2:3-4 is past-referring --- God *bore* witness to the apostolic generation's preaching; attestation attaches to revelators, not to a book-completion event. That the gifts' purpose was bound to the apostolic, foundation-laying era is exactly the other-grounds cessationism of Warfield, Gaffin, and Ephesians 2:20 --- which its own holders decline to locate in 1 Corinthians 13:10.
+
+**8. The sub-arguments (Core Claim lexical negative, "abiding" triad, Hebrews bridge) each admit an eschatological answer.** The Core Claim's supporting lexical negative --- "*teleion* is never used in the New Testament to depict the second coming, the millennium, or the eternal state" (Gromacki, via Weaver) --- is true as far as it goes, and it cuts symmetrically: *τέλειος* is never used of a scriptural collection either. James 1:25's "perfect law" is the law of liberty, not a canon; the substantivized neuter here is a contrast-term paired with *τὸ ἐκ μέρους*, not a technical title for anything. Weaver's realm-argument (that "*to teleion* must refer to God's complete revelation of truth" because *to ek merous* refers to the transmission of divine truth by revelation) is answered by verse 12's own definition of the realm: the completeness in view is knowing "even as I am known."
+
+The "abiding" triad timing argument (Argument 7) is real but underdetermines its conclusion. The same three-stage structure was deployed by Robert L. Thomas for the *maturity* terminus, not just for the canon. On the logical reading of νυνὶ δέ --- the majority view --- verse 13 ranks rather than schedules, and the triad's "abiding" is its permanence-in-kind over against the gifts' instrumentality across the whole age, not a stopwatch. Even on the temporal reading, the triad abides *through the age until* the perfect, which is exactly what the eschatological reading affirms.
+
+The Hebrews 1:1 bridge (Argument 8) reads the πολυμερῶς/ἐκ μέρους root-echo as installment-mode superseded by definitive speaking. But Hebrews's contrast is prophets-versus-*Son*, not prophets-versus-book --- and the Son is the very one whom "we shall see... as he is" at his appearing (1 John 3:2). Followed to its end, the bridge leads to the parousia reading, not to the canon.
+
+---
+
+## View 2: Christ's Return
+
+### Held By (View 2)
+
+This is the majority view among modern commentators across traditions. Its most important scholarly advocates are Gordon D. Fee, whose *The First Epistle to the Corinthians* (NICNT, Eerdmans, 1987) remains the standard evangelical critical commentary on the letter, and Anthony C. Thiselton, whose *The First Epistle to the Corinthians* (NIGTC, Eerdmans, 2000) is the most thorough scholarly commentary in English. D.A. Carson argued for this view explicitly and against the canon interpretation in *Showing the Spirit* (Baker, 1987). F.F. Bruce, Leon Morris, Ben Witherington III, and the majority of Pentecostal, charismatic, Catholic, and Orthodox interpreters also hold this position.
+
+### Core Claim (View 2)
+
+"The perfect" is the return of Jesus Christ. When he appears, what is now partial --- prophecy, tongues, word of knowledge --- will be entirely superseded by direct, face-to-face fellowship with God. The gifts will not so much be "turned off" as rendered obsolete by the infinitely better thing that replaces them, just as a child's incomplete knowledge is not "turned off" but superseded by the fuller knowledge of maturity.
+
+### Strongest Arguments (View 2)
+
+**1. "Face to face" is personal-encounter language.** As noted above, *πρόσωπον πρὸς πρόσωπον* echoes the Mosaic privilege:
+
+> "And the LORD spake unto Moses face to face, as a man speaketh unto his friend."
+> --- Exodus 33:11 (KJV)
+
+> "And there arose not a prophet since in Israel like unto Moses, whom the LORD knew face to face."
+> --- Deuteronomy 34:10 (KJV)
+
+The phrase indicates direct, personal, unmediated encounter. At Christ's return, what Moses experienced uniquely will be the common experience of all believers. This is confirmed by 1 John 3:2:
+
+> "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is."
+> --- 1 John 3:2 (KJV)
+
+**2. "Know even as I am known" points to the resurrection.** The future knowledge Paul describes --- knowing with the thoroughness with which God knows us --- exceeds any earthly epistemological state. It matches the resurrection condition. Paul elsewhere describes resurrection knowledge as qualitatively different:
+
+> "For now we see through a glass, darkly; but then face to face."
+> --- 1 Corinthians 13:12a (KJV)
+
+The "dark glass" (*ἐν αἰνίγματι*, "in a riddle/enigma") describes the indirect, mediated, partial nature of all present knowledge of God. This includes Scripture. Direct vision awaits the resurrection.
+
+**3. The "now...then" contrast is Pauline eschatological shorthand.** Paul consistently uses *ἄρτι* ("now") and *τότε* ("then") to mark the present age versus the age to come:
+
+> "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us."
+> --- Romans 8:18 (KJV)
+
+> "For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory."
+> --- 2 Corinthians 4:17 (KJV)
+
+This "now/then" pattern is the characteristic signature of Pauline eschatology, not of a completed-canon argument.
+
+**4. The broader context of 1 Corinthians is eschatological.** Paul opens the letter by saying:
+
+> "So that ye come behind in no gift; waiting for the coming of our Lord Jesus Christ: Who shall also confirm you unto the end, that ye may be blameless in the day of our Lord Jesus Christ."
+> --- 1 Corinthians 1:7-8 (KJV)
+
+And closes it:
+
+> "Maranatha" (1 Corinthians 16:22)
+
+The entire letter is framed by eschatological expectation. Chapter 15, immediately following chapter 13 in sequence (though separated by ch. 14), is Paul's definitive treatment of the resurrection. "The perfect" arriving at Christ's return fits this frame precisely.
+
+**5. Near-unanimous patristic support.** Almost every ancient interpreter from the Didache to Augustine who commented on this passage read it in an eschatological direction (Shogren's phrase: "almost every church father"). Origen, Chrysostom, and Augustine understood "then shall I know even as also I am known" as a promise about the resurrection and the beatific vision (each pinned to work and translation in Chapter 3), and Theodoret's verse-by-verse commentary reads the passage of this age's partial, "childish" knowledge over against the coming face-to-face vision (*Interpretatio in xiv epistulas s. Pauli*, on 1 Cor 13; digest and pins in Shogren, *JPT* 15 [1999]). Within the study's ancient window Clement of Alexandria is the significant departure, reading the passage as present spiritual maturity (his direct exegesis of v. 12 in *Paedagogus* 1.6 nonetheless remains eschatological); and the survey's last father, John of Damascus (8th c.), takes "the perfect" as the law of Christ over against the law of Moses --- neither an eschatological reading nor a canon-completion one. Native Greek readers, notably, saw no grammatical obstacle: no extant Greek father remarks any difficulty in applying the neuter *τὸ τέλειον* to the eschaton (Shogren). This near-unanimity is significant: the early church, which was still in the period when canonical gifts were operative (by the canon view's own logic), never read this verse as referring to the canon.
+
+**6. Revelation 22:4 as the fulfillment.** The book of Revelation, which canon-view advocates use to mark the close of the canon, ends with exactly the "face to face" promise Paul anticipates:
+
+> "And they shall see his face; and his name shall be in their foreheads."
+> --- Revelation 22:4 (KJV)
+
+### Pastoral Fruit (View 2)
+
+- A robust eschatological hope that keeps believers oriented toward Christ's return
+- The gifts remain available for the church's edification throughout the present age, without needing to justify every claimed manifestation by appeal to a post-biblical period
+- The "not yet" quality of present knowledge produces the theological humility Paul is calling for --- we prophesy "in part," we know "in part," and this should make us gentle with one another
+- Strong motivation for holiness and readiness: "we shall see him as he is" (1 John 3:2)
+
+### Honest Challenges (View 2)
+
+- **The neuter-gender objection.** *Τὸ τέλειον* is grammatically neuter, and a neuter substantive more naturally names an event or state than a person. Canon-view advocates press this point (Gromacki, Compton) as the exegetical objection to identifying "the perfect" with Christ himself. The view's ablest advocates concede the force by speaking of "the state of affairs at Christ's coming" rather than of Christ *simpliciter* --- at which point this view begins to merge with View 4 (eternal state). Two mitigations deserve honest recording: (a) neuter substantives can bear personal reference to Christ elsewhere in the New Testament --- Jesus of himself: "*something greater* (μεῖζον, neuter) than the temple is here" (Matt. 12:6), "*something greater* (πλεῖον, neuter) than Jonah is here" and "than Solomon is here" (Matt. 12:41-42); 1 John 1:1's *ὃ ἦν ἀπ᾽ ἀρχῆς* ("that which was from the beginning") likewise takes a neuter relative for the Word of life; and (b) Shogren observes that "none of the extant Greek fathers even remarks on any supposed difficulty of applying the neuter gender to the eschaton" (*JPT* 15 [1999]; the observation is developed in Chapter 1's *τὸ τέλειον* grammatical note) --- the objection is a modern one, unfelt by the Greek-native readers of the passage.
+- If gifts continue until Christ's return, how should the church evaluate contemporary claims to prophecy and tongues? This view does not itself provide criteria for discernment, though other passages do (1 Corinthians 14:29, 1 Thessalonians 5:21, 1 John 4:1).
+- The view can seem to defer the entire question of gifts indefinitely, making it practically difficult for churches to set any policy on charismatic practice beyond "wait and see."
+- Some cessationist scholars (e.g., Gaffin) argue that even if "the perfect" is the eschaton, the gifts may have ceased for *other* redemptive-historical reasons --- the close of the apostolic age, the completion of the foundational revelation --- meaning this passage does not settle the gifts question either way.
+
+---
+
+## View 3: Church Maturity
+
+### Held By (View 3)
+
+This view is less common than the eschatological readings, but it is not without able advocates. Its most careful modern exegetical defense is Robert L. Thomas's "Tongues... Will Cease" (*Journal of the Evangelical Theological Society* 17 [1974]: 81-89, developed in *Understanding Spiritual Gifts*, 1978): Thomas argues from the νήπιος/ἀνήρ analogy of verse 11 and the Ephesians 4:11-16 parallel that *τὸ τέλειον* is the maturing body of Christ, reaching complete maturity at the parousia --- with the canon's completion at most one possible station within that growth. Clement of Alexandria held something resembling this view in the 2nd century, speaking of the *teleios* (perfect/mature one) as an already-achievable spiritual state for the Gnostic Christian --- though his framework is not directly transferable to the cessationist debate.
+
+### Core Claim (View 3)
+
+"The perfect" refers to the spiritual maturity of the church as a corporate body (or, in some versions, of individual believers). As the body of Christ grows into the "fullness of Christ" described in Ephesians 4, the scaffolding instruments of the immature church --- extraordinary revelatory gifts --- give way to the settled, mature operation of the body in love.
+
+### Strongest Arguments (View 3)
+
+**1. Ephesians 4 explicitly links gifts, maturity, and the word** *τέλειον*:
+
+> "And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man (εἰς ἄνδρα τέλειον), unto the measure of the stature of the fulness of Christ."
+> --- Ephesians 4:11-13 (KJV)
+
+This passage explicitly connects gifts, their purpose ("till we all come..."), and the word *τέλειον* --- making it a natural cross-reference for 1 Corinthians 13:10.
+
+**2. Paul uses** *τέλειος* **for present, achievable maturity elsewhere:**
+
+> "Howbeit we speak wisdom among them that are perfect (τελείοις): yet not the wisdom of this world."
+> --- 1 Corinthians 2:6 (KJV)
+
+> "Let us therefore, as many as be perfect (τέλειοι), be thus minded."
+> --- Philippians 3:15 (KJV)
+
+> "That we may present every man perfect (τέλειον) in Christ Jesus."
+> --- Colossians 1:28 (KJV)
+
+In each case *τέλειος* describes a present, human state of maturity --- not an eschatological condition. If this is Paul's primary use of the word, it shapes how we should read 1 Corinthians 13:10. The intra-epistle case is particularly striking: Paul opens the argument of chapter 3 by calling this same Corinthian congregation *νηπίοις* --- "as unto babes (νηπίοις) in Christ" (1 Cor. 3:1) --- the same word he then uses of himself in 13:11 ("when I was a child," *ὅτε ἤμην νήπιος*). The letter's own lexical arc runs from νήπιος at 3:1 to τέλειον at 13:10: the very audience Paul diagnoses as spiritually infantile is the audience being told that "the perfect" will supersede the partial. On this reading, the trajectory is the one Paul demands *of them*: from *νήπιοι* to *τέλειον*, from milk to meat, within history.
+
+**3. The childhood-to-adulthood analogy naturally describes maturation** as a process rather than an event. Paul himself became a man; this happened in time, gradually, through growth. The analogy invites a reading of "the perfect" as similarly gradual.
+
+**4.** *Hebrews* **uses** *τελείων* **for present, achievable maturity:**
+
+> "But strong meat belongeth to them that are of full age (τελείων), even those who by reason of use have their senses exercised to discern both good and evil."
+> --- Hebrews 5:14 (KJV)
+
+**5. The view's strongest modern form claims a twofold maturity, not an arrived one.** Thomas's developed position (JETS 17 [1974]: 85-87) does not claim the church has reached the *ἄνδρα τέλειον* of Ephesians 4:13. It reads the illustration of verse 11 as *relative*, increasing maturity --- the body of Christ "growing up as one body... reaching complete maturity at the parousia" --- and verse 12 as the *absolute*, fixed maturity of that consummation. On this form, the gifts serve until the goal is reached, and Paul, not knowing which would come first, "under divine inspiration carefully chose vocabulary and illustrations that would allow for either possibility": "Tongues... will cease," in Thomas's closing summary, "with whatever comes first: the passing from childhood to adulthood or the return of Christ."
+
+### Pastoral Fruit (View 3)
+
+- Emphasizes that the gifts are instruments for building up, not ends in themselves --- they serve maturity and then yield to it
+- Encourages continuous growth; the church is always moving toward greater fullness in Christ
+- Offers a flexible framework: does not require a firm dogmatic position on whether gifts have ceased or will cease
+- Coheres with the "building up" language of chapters 12-14 as a whole
+
+### Honest Challenges (View 3)
+
+Even at its strongest published form, the maturity view faces residual difficulties:
+
+**1. Has the church ever demonstrably reached maturity?** The history of the church is a history of schism, heresy, persecution, and profound failure of love. If "the perfect" is church maturity, it has not arrived in any recognizable form --- which means by this view's own logic the gifts should still be operating. (The view's strongest form, Thomas's, accepts precisely this consequence in principle and locates the terminus at "whatever comes first" --- at which point, for the question of *τὸ τέλειον* itself, the view becomes functionally hard to distinguish from the eschatological readings, and its distinctive cessationist payoff must be carried entirely by the middle-voice argument it advances only tentatively and by the relative-maturity observations.)
+
+**2. "Face to face" resists a maturity reading.** Even the most spiritually mature person does not encounter God "face to face" in the sense of Moses or the resurrection. The phrase implies a qualitative transformation, not a quantitative increase.
+
+**3. "Know even as I am known" exceeds any earthly state.** No degree of spiritual maturity brings any human being close to the thoroughness with which God knows us. This knowledge asymmetry points toward the resurrection and the eternal state, not toward ecclesial development.
+
+**4. The "now...then" structure suggests a decisive transition** rather than a gradual process. *Ὅταν δὲ ἔλθῃ τὸ τέλειον* ("but when the perfect comes/arrives") uses an aorist subjunctive with *ὅταν*, suggesting an event with a definite arrival rather than a process that unfolds.
+
+**5. Individual maturity creates a fragmented picture.** If "the perfect" refers to individual maturity, does each person experience the cessation of gifts when they individually mature? This would make the promised state of 1 Corinthians 13:12 a personal achievement rather than a corporate eschatological event --- but Paul consistently frames it as a shared future state.
+
+---
+
+## View 4: The Eternal State
+
+### Held By (View 4)
+
+This view overlaps substantially with View 2. Its distinctive emphasis is that "the perfect" is not just Christ's return (a moment in time) but the consummated kingdom --- the new heavens and new earth of Revelation 21-22, when God dwells directly with his people in the completed renewal of creation. Augustine's teaching on the *beatific vision* is related to this view: the fullest knowledge of God comes in eternity, not at any single moment, and the "face to face" of 1 Corinthians 13:12 is realized most completely in the unending direct vision of God.
+
+### Core Claim (View 4)
+
+"The perfect" is the consummated kingdom --- the eternal state described in Revelation 21-22 --- when every partial and creaturely means of knowing God (including prophecy, tongues, and Scripture itself as a mediated form of knowledge) will be superseded by direct, unending, beatific communion with God.
+
+### Strongest Arguments (View 4)
+
+**1. Revelation 21-22 describes the eternal state in exactly the terms Paul anticipates:**
+
+> "And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God. And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away."
+> --- Revelation 21:3-4 (KJV)
+
+> "And they shall see his face; and his name shall be in their foreheads."
+> --- Revelation 22:4 (KJV)
+
+This is the fulfillment of "face to face" --- not at a single moment of Christ's return but in the unending state that follows.
+
+**2. "Know even as I am known" fits the eternal state more fully than any single moment.** God's knowledge of us is not a one-time event; it is continuous and comprehensive. If Paul's future knowing is to match God's knowing of us, the fulfillment should also be continuous and unending --- which points to the eternal state rather than a single eschatological moment.
+
+**3. Augustine's beatific vision.**  Augustine in *De Trinitate* and *The City of God* speaks of the soul's final rest in direct vision of God as the completion of all earthly seeking. The "face to face" of 1 Corinthians 13:12 is for Augustine the promise of the *visio beatifica* --- the blessed vision that constitutes eternal life. This is not merely Christ's return but the state that follows and never ends.
+
+**4. The "abiding" triad (v.13) makes better sense with an extended arc.** If faith and hope and love "abide" (present tense, *μένει*), and if faith and hope belong especially to the present age (Romans 8:24-25 on hope; 2 Corinthians 5:7 on faith as contrasted with sight), then the transition to "the perfect" is not a single moment but the horizon of a long age of hope and faith --- which eventually yields to the eternal state where faith becomes sight and hope becomes possession.
+
+### Pastoral Fruit (View 4)
+
+- The ultimate hope of the Christian life is grounded in God's final purposes for creation, not merely in a sequence of end-times events
+- All present suffering and limitation is genuinely temporary; the eternal state is the context in which "face to face" will be fully realized
+- Keeps the church oriented toward what God is ultimately doing: not just rescuing souls but renewing all things
+
+### Honest Challenges (View 4)
+
+- For most practical purposes, Views 2 and 4 are identical: both say gifts continue until the eschaton, and both point to the same future reality. The distinction matters theologically but rarely changes the pastoral conclusion.
+- Paul seems to present "the perfect" as something with a specific arrival (*ὅταν ἔλθῃ* --- "when it comes"), not as an unfolding eternal reality. The language of arrival implies a moment, not a mode of existence.
+- The Corinthians were asking about gifts in their present assemblies (chapters 12-14). An answer pointing to the eternal state is true and important, but it may be a more remote answer than their immediate question requires.
+
+---
+
+## Comparative Analysis
+
+| Dimension | Canon (View 1) | Christ's Return (View 2) | Church Maturity (View 3) | Eternal State (View 4) |
+|-----------|---------------|--------------------------|--------------------------|------------------------|
+| **Timing** | c. 90-100 AD | Future (parousia) | Gradual / ongoing | Future (eschaton) |
+| **"Face to face" means** | Completed Scripture | Seeing Christ personally | Mature spiritual fellowship | Beatific vision |
+| **Key passage support** | 2 Tim 3:16-17; Jude 3 | 1 John 3:2; Rev 22:4 | Eph 4:11-13; Phil 3:15 | Rev 21-22; Augustine |
+| **Early church support** | None | Near-unanimous (Clement excepted) | Clement of Alexandria | Augustine and later |
+| **Gifts implication** | Ceased c. 100 AD | No terminus before the parousia asserted | Yield gradually to maturity | No terminus before the eschaton asserted |
+| **Pastoral strength** | Scripture's sufficiency | Eschatological hope | Ongoing growth | Ultimate hope |
+| **Main exegetical weakness** | "Face to face" anachronism | Defers discernment question | Church has not arrived | Confuses arrival with state |
+
+---
+
+## The Cessationist-Continuationist Intersection
+
+The practical urgency of this debate is rarely about 1 Corinthians 13:10 in isolation. The question "what is the perfect?" is almost always a proxy for the larger question: "Do revelatory spiritual gifts --- prophecy, tongues, word of knowledge --- continue to operate in the church today?"
+
+The alignment is broadly as follows:
+
+**Cessationists** (gifts have ceased) typically hold View 1, or hold View 2 while arguing that gifts ceased for *other* redemptive-historical reasons --- the close of the apostolic age, the completion of the foundational revelation --- independent of what "the perfect" means. Richard Gaffin represents this nuanced position: he argues for the eschatological reading of "the perfect" but maintains cessationism on the grounds that prophetic gifts were uniquely tied to the apostolic foundation of the church (Ephesians 2:20).
+
+**Continuationists** (gifts continue) typically hold Views 2, 3, or 4. Gordon Fee is a prominent example: he holds View 2 and argues that gifts continue until Christ's return.
+
+The separation of the two questions is real, but it is not symmetrical, and honesty requires saying so. On the eschatological reading, the verse *entails* neither position: one can hold that reading and remain cessationist, as Gaffin does. (On the canon reading, by contrast, the verse straightforwardly entails cessation --- the separation thesis is conditional on the reading this study judges strongest.) Nor does "no terminus asserted" collapse into "continuation entailed": the cessationist counter-move, in Gaffin's form, is that verses 8-10 address the partial *mode of knowledge* of the whole church between the advents, not the duration of each individual charisma --- so a particular gift could lapse within the age without the verse addressing it. But the burden thereby shifts: on the eschatological reading, the case for cessation must be carried entirely by arguments outside this text (Ephesians 2:20, the apostolic-foundation argument, the historical record). The verse does not settle the debate; it does assign the homework.
+
+That this separation is livable is not a modern discovery. Chrysostom held both sides of it in the fourth century: he read "the perfect" as the resurrection *and* observed that the gifts "then used to occur but now no longer take place" (Homily 29.1). Calvin held both sides of it in the sixteenth: his commentary reads verse 10's perfection as beginning "at death" and "not completely manifested until the day of judgment," while his Institutes teach that "the gift of healing disappeared with the other miraculous powers which the Lord was pleased to give for a time" (Comm. 1 Cor. 13:10; Inst. 4.19.18). The Puritan John Owen --- a firm cessationist and the tradition's great theologian of the Spirit --- carried the case through the close of the extraordinary offices; his *Discourse Concerning the Holy Spirit* does not argue it from this verse. Jonathan Edwards held both sides of it in the eighteenth: in *Charity and Its Fruits* he taught that "the canon of Scripture being completed when the apostle John had written the book of Revelation... these miraculous gifts were no longer continued in the church" --- yet his sermon on this very passage, "Heaven, a World of Charity or Love," reads "that which is perfect" as heaven, the perfect state of the church. The man who believed the gifts ended at the canon's close never read the canon into this verse. And John MacArthur --- arguably the most prominent living cessationist --- reads "the perfect" as the eternal state and rejects the canon view outright, carrying cessation instead on the παύσονται argument and the apostolic-age function of the gifts (*1 Corinthians*, MacArthur New Testament Commentary, 1984). Among living scholars, Thomas R. Schreiner --- a self-described "nuanced cessationist" --- reads "the perfect" as the second coming, rejects the canon view and the verb-voice argument outright, and states the asymmetry in his own words: 1 Corinthians 13:8-13 "is a good argument for all the gifts lasting until the second coming, but this text does not demand that all the gifts continue" (*Spiritual Gifts: What They Are and Why They Matter*, B&H, 2018). The modern debate in miniature: R. Fowler White's comparison of Richard Gaffin and Wayne Grudem ("Richard Gaffin and Wayne Grudem on 1 Cor 13:10," *Journal of the Evangelical Theological Society* 35/2 [1992]: 173-181) examines a cessationist and a continuationist who *agree* that "the perfect" arrives at Christ's return --- and locate their disagreement elsewhere; White defends the exegetical backbone of the other-grounds case in a companion piece on the apostolic-foundation reading of Ephesians 2:20 ("Gaffin and Grudem on Eph 2:20: In Defense of Gaffin's Cessationist Exegesis," *Westminster Theological Journal* 54 [1992]: 321-330).
+
+Three important clarifications:
+
+First, one can hold View 2 (the eschatological reading) and still be functionally cessationist --- the historical witnesses above prove the combination livable. The exegesis of 1 Corinthians 13:10 does not by itself settle the gifts debate, though on the eschatological reading the settling must happen elsewhere.
+
+Second, the gifts debate has a life beyond this passage. 1 Corinthians 12-14, Romans 12, Ephesians 4, Acts, and the question of the apostolic foundation (Ephesians 2:20) all bear on it independently.
+
+Third --- and most important --- Paul's purpose in 1 Corinthians 13 is not to answer the gifts question. His purpose is to show that love is greater than any gift and will outlast them all. The Corinthians were using gifts as status markers and sources of division. Paul's answer is not "your gifts will cease soon" but "your gifts are partial, temporary, and vastly inferior to love, which never fails." The interpreter who treats this passage primarily as a proof text for cessationism or continuationism has, in an ironic way, repeated the Corinthian error: using gifts (or the argument about them) for purposes other than love.
+
+---
+
+## Pastoral Considerations
+
+Across all four views, several things remain constant --- and these are more important for the life of the church than the interpretive question that divides them.
+
+**Love is Paul's argument.** Verses 1-3 establish the premise that a person can exercise every gift with maximum intensity and still be nothing without love. Verses 4-7 describe what love is. Verses 8-12 argue that love is permanent while gifts are temporary. Verse 13 declares love the greatest of the three permanent virtues. The structure of the chapter does not make gifts the subject --- love is the subject, and gifts are the foil that makes love's greatness visible.
+
+**The "glass darkly" calls for humility now.** Whatever one thinks "the perfect" is, verse 12 establishes that present knowledge is partial:
+
+> "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known."
+> --- 1 Corinthians 13:12 (KJV)
+
+Knowing "in part" applies to everyone's reading of this passage, including the present chapter's author. The appropriate posture is not confidence that one has correctly identified "the perfect," but humility about the limits of present knowledge --- which is, quite precisely, what Paul is teaching.
+
+**Something better is coming.** All four views agree on this. Whether "the perfect" arrived in 100 AD (View 1) or is still coming (Views 2-4), every interpreter acknowledges that the present mode of knowing God is incomplete and will one day be superseded. This shared conviction is more important for Christian hope than the interpretive disagreement.
+
+**Gifts without love are already noise.** The debate about when gifts will cease becomes practically moot if they are being exercised without love. Paul's prior point --- that prophecy and tongues and knowledge without love are "sounding brass" and "tinkling cymbal" --- applies regardless of when they will end.
+
+> "Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God."
+> --- 1 John 4:7 (KJV)
+
+---
+
+## Summary (Reality)
+
+On the evidence assembled in this study, the eschatological interpretations --- Views 2 and 4 --- appear to hold the strongest exegetical and historical ground. "Face to face," "know even as I am known," and the near-unanimous testimony of the early church (Clement of Alexandria excepted) all point toward Christ's return and the eternal state as the referent of "the perfect." The maturity view (View 3) captures something genuine in Paul's broader theology of gifts as instruments for building up, even if it struggles with the specific language of verses 11-12. The canon view (View 1) expresses a genuine and important conviction about Scripture's sufficiency, and it has produced serious and godly interpreters --- but it faces exegetical difficulties that its most honest advocates acknowledge: the "face to face" language, the knowledge asymmetry of verse 12, the absence of any patristic support, and the anachronism of expecting Paul's Corinthian readers to have the concept of a 27-book New Testament in mind.
+
+A thoughtful reader who weighs this evidence carefully should approach the remaining question --- whether gifts continue today --- with both seriousness and charity. The text does not resolve that question as directly as either side of the contemporary debate sometimes implies. What the text does resolve is the surpassing greatness of love. That conclusion is not partial. It is not "through a glass, darkly." It is the one thing in this chapter that Paul states without qualification: *"the greatest of these is charity."*
+

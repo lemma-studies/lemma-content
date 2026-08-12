@@ -16,7 +16,7 @@ const STUBBED_SLUGS = new Set([
 	'amos-7-1',
 	'daniel-9-24',
 	'trumpet-call',
-	'what-is-the-perfect',
+	// 'what-is-the-perfect', // Phase 3 pilot content live 2026-08-12 — sitemap enabled
 	'sermon-on-the-mount',
 	'satans-throne',
 	'angel-of-the-lord',

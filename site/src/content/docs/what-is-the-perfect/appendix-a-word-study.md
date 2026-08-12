@@ -1,0 +1,544 @@
+---
+title: "Appendix A: Hebrew and Greek Word Study"
+sidebar:
+  order: 7
+---
+
+This appendix collects and expands all key word studies from 1 Corinthians 13:8--13 that bear on the interpretation of "the perfect" (τὸ τέλειον). Each entry is designed as a standalone reference: you can read the full appendix for depth or consult a single section as needed. The goal is not to drive you to a conclusion but to equip you to read the Greek text more precisely than any English translation allows.
+
+The method: for each term, we examine the root meaning, the full semantic range, how Paul uses it elsewhere, how it is translated across versions, and what it contributes to the central interpretive question.
+
+---
+
+## Perfect, Complete, Mature --- *teleios / to teleion* (Strong's G5046)
+
+**Greek:** τέλειος / τὸ τέλειον
+**Root meaning:** From τέλος (telos, G5056), "end, goal, completion." Something that has reached its telos --- its designed endpoint.
+**Semantic range:** Perfect; complete; lacking nothing; mature; full-grown; adult; fully developed; entire.
+
+### Morphology
+
+The form in 1 Corinthians 13:10 is τὸ τέλειον --- a neuter singular adjective substantivized by the definite article τὸ. This construction means "the perfect thing" or "the perfect state." Greek regularly uses article + adjective to create a noun phrase. The gender is important:
+
+- **Neuter (τὸ τέλειον):** suggests a state, condition, or thing --- "the complete state," "the perfection"
+- **Masculine (ὁ τέλειος):** would more naturally point to a person --- "the perfect one"
+- **Feminine (ἡ τελεία):** would follow a feminine noun
+
+Paul chose neuter. This does not absolutely exclude a personal referent (neuter can refer to concepts that include persons), but it does make "the perfect" sound more like a state or era than a specific individual. Interpreters who identify τὸ τέλειον with Christ must reckon with this morphological datum.
+
+### BDAG Definition
+
+BDAG (3rd ed., pp. 995--996; entry content verified against the scanned text) opens the entry "gener. 'attaining an end or purpose, complete'" and gives two main senses:
+
+1. **"Pert. to meeting the highest standard"** --- "of things, perfect"
+2. **"Pert. to being mature, full-grown, mature, adult"**
+
+For 1 Corinthians 13:10 the entry's actual wording is instructive --- and hedged: "Subst. τὸ τέλειον *what is perfect* Ro 12:2; **perh.** 1 Cor 13:10 (opp. ἐκ μέρους)." Two things follow. BDAG files the verse (tentatively) under the qualitative "highest standard" sense, not the "mature" sense --- and its "perh." concedes that even the standard lexicon regards the classification as uncertain.
+
+### Usage in key passages (teleios)
+
+- **Matthew 5:48:** "Be ye therefore perfect (τέλειοι), even as your Father which is in heaven is perfect (τέλειός ἐστιν)." Here τέλειοι is plural and personal --- describing persons called to moral completeness in the manner of God. This is the "ethical perfection" sense.
+- **1 Corinthians 2:6:** "We speak wisdom among them that are perfect (τελείοις)." Paul addresses the mature or spiritually adult within the congregation. The contrast is with νηπίοις ("infants," 3:1). This is the "maturity" sense.
+- **1 Corinthians 14:20:** "Brethren, be not children in understanding: howbeit in malice be ye children, but in understanding be men (τέλειοι)." Again personal, contrasted with children --- the "adulthood" sense.
+- **Ephesians 4:13:** "Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man (ἄνδρα τέλειον), unto the measure of the stature of the fulness of Christ." Corporate maturity of the Church, aimed at an eschatological fullness.
+- **Philippians 3:15:** "Let us therefore, as many as be perfect (τέλειοι), be thus minded." Paul includes himself as "perfect" in some sense, yet in v.12 he says he has "not already attained" --- showing the word can describe both a present and a future state depending on context.
+- **Colossians 1:28:** "...that we may present every man perfect (τέλειον) in Christ Jesus." Goal of apostolic ministry, future-oriented but expressed as a present aim.
+- **Colossians 4:12:** "That ye may stand perfect (τέλειοι) and complete (πεπληρωμένοι) in all the will of God." (πεπληρωμένοι is the TR reading behind the KJV's "complete"; NA28/SBLGNT read πεπληροφορημένοι, "fully assured.") Two terms together; both point toward a state of spiritual wholeness.
+- **Hebrews 5:14:** "But strong meat belongeth to them that are of full age (τελείων)." The mature as contrasted with infants who drink milk.
+- **James 1:4:** "Let patience have her perfect work, that ye may be perfect (τέλειοι) and entire (ὁλόκληροι), wanting nothing." The pairing with ὁλόκληρος ("whole, complete, lacking no part") clarifies the "lacking nothing" dimension of the word.
+- **James 1:17:** "Every good gift and every perfect gift (δώρημα τέλειον) is from above." Used of things, not persons --- "perfect gifts."
+- **James 1:25:** "But whoso looketh into the perfect law (νόμον τέλειον) of liberty, and continueth therein... this man shall be blessed in his deed." The law of God described as "perfect" in the sense of complete and entire.
+- **James 3:2:** "For in many things we offend all. If any man offend not in word, the same is a perfect (τέλειος) man, and able also to bridle the whole body." Full moral self-command.
+
+### Translation comparison: 1 Corinthians 13:10 (teleios)
+
+| Translation | Rendering | Notes |
+|-------------|-----------|-------|
+| KJV | "that which is perfect" | Neuter construction preserved |
+| ESV | "the perfect" | Minimal, preserves ambiguity |
+| NASB (2020) | "the perfect" | Same |
+| NIV | "completeness" | Interprets the term as "fullness/completeness" |
+| LSB | "the perfect" | Follows NASB tradition |
+| NRSV | "the complete" | Rendered as abstraction |
+
+**Significance for the study:** τὸ τέλειον establishes that "the perfect" is a state or condition, not merely an attribute of a person. The word's semantic range spans ethical perfection, maturity, and eschatological completion. The context of 1 Corinthians 13 --- particularly the ἄρτι/τότε ("now/then") contrast and the "face to face" language of v.12 --- must determine which shade of meaning Paul intends. The word itself does not settle the question; it opens the interpretive space.
+
+---
+
+## Render Inoperative, Supersede --- *katargeō* (Strong's G2673)
+
+**Greek:** καταργέω
+**Root meaning:** From κατά (down, against, intensive) + ἀργέω (to be idle, inactive), from ἀργός (inactive, idle). The compound means "to make inactive, render inoperative, put out of use."
+**Semantic range:** To render inoperative; to make idle; to nullify; to abolish; to do away with; to bring to nothing; to be freed from. Importantly: NOT necessarily "to destroy" --- the thing rendered inoperative may still exist, but it no longer functions or is needed.
+
+### Paul's signature word
+
+Paul uses καταργέω 25 times in his letters. No other New Testament writer uses it more than twice. This is a characteristically Pauline term, and tracing his usage across the corpus reveals a consistent pattern: something *temporary* or *preparatory* is rendered inoperative by something *permanent* or *superior*. The old is not annihilated; it is superseded.
+
+### Usage in key passages (katargeō)
+
+- **Romans 3:3:** "For what if some did not believe? shall their unbelief make the faith of God without effect (καταργήσει)?" God's faithfulness cannot be nullified.
+- **Romans 3:31:** "Do we then make void (καταργοῦμεν) the law through faith? God forbid: yea, we establish the law." Faith does not render the law inoperative --- Paul insists on the law's ongoing validity even as its role changes.
+- **Romans 6:6:** "Knowing this, that our old man is crucified with him, that the body of sin might be destroyed (καταργηθῇ), that henceforth we should not serve sin." The body of sin "rendered inoperative" --- it loses its power to compel.
+- **1 Corinthians 1:28:** "And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought (καταργήσῃ) things that are." God's election nullifies human status categories.
+- **1 Corinthians 2:6:** "Howbeit we speak wisdom among them that are perfect: yet not the wisdom of this world, nor of the princes of this world, that come to nought (τῶν καταργουμένων)." The rulers of this age are being rendered inoperative --- ongoing, present-tense process.
+- **1 Corinthians 6:13:** "Meats for the belly, and the belly for meats: but God shall destroy (καταργήσει) both it and them." The stomach and food will one day be superseded by resurrection life.
+- **1 Corinthians 13:8,10,11:** Four uses in the passage: prophecy will be καταργηθήσονται (rendered inoperative), knowledge will be καταργηθήσεται, the partial will be καταργηθήσεται when the perfect comes --- and Paul applies the same verb to himself in verse 11: κατήργηκα τὰ τοῦ νηπίου, "I have put away childish things."
+- **1 Corinthians 15:24:** "Then cometh the end, when he shall have delivered up the kingdom to God, even the Father; when he shall have put down (καταργήσῃ) all rule and all authority and power." At the eschatological consummation, all rival powers rendered inoperative.
+- **1 Corinthians 15:26:** "The last enemy that shall be destroyed (καταργεῖται) is death." Death --- the most powerful adversary --- rendered inoperative at resurrection.
+- **2 Corinthians 3:7,11,13,14:** Four uses in the "letter kills, Spirit gives life" argument. The old covenant ministry had glory --- but a "fading" (καταργουμένην) glory, being rendered inoperative. The veil on Moses's face hid what was being done away with. The covenant is being superseded, not annihilated.
+- **Galatians 3:17:** "And this I say, that the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul (καταργῆσαι) it." The law cannot nullify the prior promise.
+- **Galatians 5:4:** "Christ is become of no effect (κατηργήθητε) unto you, whosoever of you are justified by the law; ye are fallen from grace." To seek justification by law is to render Christ inoperative in your life.
+- **Ephesians 2:15:** "Having abolished (καταργήσας) in his flesh the enmity, even the law of commandments contained in ordinances." Christ rendered inoperative the specific regulatory aspect of the Mosaic law.
+- **2 Thessalonians 2:8:** "And then shall that Wicked be revealed, whom the Lord shall consume with the spirit of his mouth, and shall destroy (καταργήσει) with the brightness of his coming." The man of lawlessness rendered inoperative at Christ's return.
+- **2 Timothy 1:10:** "But is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished (καταργήσαντος) death, and hath brought life and immortality to light through the gospel." Christ has already rendered death inoperative --- though we await its final cessation (1 Cor 15:26).
+
+### The pattern
+
+Across all 25 uses, the pattern is consistent: καταργέω describes the supersession of something real and functional by something greater. The old covenant's glory is genuine --- but it yields to the new. The law's regulatory demands are real --- but they yield to Christ's fulfillment. Death is real --- but it yields to resurrection. Prophecy and knowledge are real gifts of the Spirit --- but they yield to "the perfect."
+
+This is not annihilation but succession. The gifts are genuine. Their cessation is the result of something better arriving, not their own failure.
+
+### Translation comparison: 1 Corinthians 13:8,10 (katargeō)
+
+| Translation | Rendering | Notes |
+|-------------|-----------|-------|
+| KJV | "fail" / "vanish away" (v.8), "done away" (v.10) | Varies within the passage |
+| ESV | "pass away" (v.8), "pass away" (v.10) | Consistent but "pass away" softens the force |
+| NASB (2020) | "be done away with" | Closest to the literal force |
+| NIV | "cease" / "pass away" (v.8), "disappear" (v.10) | "Disappear" loses the supersession nuance |
+| LSB | "be done away" | Follows NASB |
+
+**Significance for the study:** The word choice is theologically loaded. "Done away" or "rendered inoperative" is more precise than "destroyed" or "disappear." The gifts are not failing; they are being superseded. The question of *when* they are superseded is what separates the interpretive camps --- but all can agree that the gifts are genuine and the supersession is real.
+
+---
+
+## Cease, Stop --- *pauō* (Strong's G3973)
+
+**Greek:** παύω
+**Root meaning:** To bring to a halt; to stop; to cause to cease. The middle voice (which is the form in 1 Cor 13:8) carries the sense of stopping oneself, ceasing of one's own accord.
+**Semantic range:** Active: to cause to stop, restrain, bring to an end. Middle: to cease, stop of oneself, come to rest.
+
+### The grammatical debate
+
+This is among the most technically contested points in the entire debate. In 1 Corinthians 13:8, Paul uses three different constructions for three gifts:
+
+> "whether there be prophecies, they shall fail (καταργηθήσονται --- future passive);
+> whether there be tongues, they shall cease (παύσονται --- future middle);
+> whether there be knowledge, it shall vanish away (καταργηθήσεται --- future passive)"
+> --- 1 Corinthians 13:8 (KJV, with Greek forms noted)
+
+Prophecy and knowledge: future *passive* of καταργέω --- they will be *rendered inoperative* (by something outside themselves, presumably by "the perfect").
+
+Tongues: future *middle* of παύω --- they will *cease* (with the middle voice suggesting self-cessation).
+
+**The cessationist argument** (advanced as early as Stanley D. Toussaint, "First Corinthians Thirteen and the Tongues Question," *BSac* 120 [1963]: 311-16, who paired it with an eschatological reading of *τὸ τέλειον*; developed most fully by Thomas R. Edgar; Robert L. Thomas advances it tentatively --- "perhaps no great significance may be attached to this distinction," JETS 17 [1974]: 81): The middle voice is significant. When Paul uses the future passive for prophecy and knowledge, he indicates they will be *brought to an end* by the coming of "the perfect." But when he uses the future middle for tongues, he indicates tongues will *cease of themselves* --- they will die out on their own, before the other gifts are superseded. This is taken to mean tongues ceased in the apostolic age, independently of "the perfect."
+
+**The continuationist counterargument** (associated with D.A. Carson, Gordon Fee, and others): The voice distinction cannot bear the weight placed on it:
+
+1. **παύω is naturally middle-tending.** In the New Testament, παύω appears rarely in the active voice. The middle form is nearly idiomatic --- Greek authors often use παύω in the middle simply because that is how the verb most naturally appears, not because they are making a theological point about self-cessation.
+2. **Stylistic variation.** Paul avoided repeating καταργηθήσεται three times in succession by using a synonymous verb for tongues. Greek style favors variation (*variatio*). A change of verb does not require a change of meaning.
+3. **The context does not support separate timing.** The entire paragraph argues for a single eschatological moment: the coming of "the perfect." Reading the middle voice as establishing a separate, earlier cessation imports a conclusion the grammar alone cannot establish.
+4. **παύσονται does not specify *when* or *why* tongues cease.** Even if we grant self-cessation, the grammar leaves open whether they ceased in 70 AD, at the close of the canon, or at the eschaton.
+
+### Resolution
+
+The middle voice of παύσονται is a genuine grammatical observation and should not be dismissed. But honest exegesis requires acknowledging that the grammatical form alone does not settle the timing question. To establish that tongues ceased before prophecy and knowledge --- and specifically that they ceased in the apostolic age --- requires additional historical and theological arguments beyond what the voice distinction alone supplies. The grammar opens a door; it does not itself walk through it.
+
+### Usage in key passages (pauō)
+
+- **Luke 8:24:** "And they came to him, and awoke him, saying, Master, master, we perish. Then he arose, and rebuked the wind and the raging of the water: and they ceased (ἐπαύσαντο)." The storm stopped --- middle voice, natural cessation.
+- **Acts 5:42:** "And daily in the temple, and in every house, they ceased (οὐκ ἐπαύοντο) not to teach and preach Jesus Christ." They did not stop teaching --- ongoing activity.
+- **Acts 20:1:** "And after the uproar was ceased (μετὰ τὸ παύσασθαι τὸν θόρυβον --- the articular aorist infinitive of παύω), Paul called unto him the disciples." The riot stopped of itself.
+- **1 Peter 4:1:** "For he that hath suffered in the flesh hath ceased from sin (πέπαυται ἁμαρτίας)." Suffering produces cessation from sin --- middle voice, internal cessation.
+
+### Translation comparison: 1 Corinthians 13:8 (pauō)
+
+| Translation | Rendering of παύσονται | Notes |
+|-------------|------------------------|-------|
+| KJV | "shall cease" | Neutral; does not flag the voice |
+| ESV | "will cease" | Same |
+| NASB (2020) | "will cease" | Same |
+| NIV | "will be stilled" | Slightly more passive in feel |
+| LSB | "will cease" | Same |
+
+**Significance for the study:** Every translation obscures the grammatical distinction that cessationists rely on. To engage this argument, a reader must examine the Greek. The cessationist case from the middle voice is not frivolous --- it is a real grammatical observation. But the continuationist reply --- that the voice distinction is stylistic rather than theological --- is equally well-grounded. Readers should know that this debate exists and that it cannot be resolved by the English text alone.
+
+---
+
+## Mirror --- *esoptron* (Strong's G2072)
+
+**Greek:** ἔσοπτρον
+**Root meaning:** From εἰς (into) + the ὀπ- root of seeing (cf. ὄψομαι; ὁράω supplies the present stem) --- literally "the seeing-into thing," an instrument for looking into one's own face.
+**Semantic range:** Mirror. The word is simple and specific; there is no significant range of meanings to navigate. The interpretive weight falls entirely on what ancient mirrors were like.
+
+### Ancient mirrors: the Corinthian context
+
+Ancient mirrors were not glass with silver backing --- they were polished metal. Bronze, silver, or copper, polished to a reflective sheen; such mirrors were fixtures of first-century life, in Corinth as everywhere. Pliny the Elder (*Natural History*, 34.6--8) records that Corinthian bronze (*aes Corinthium*) was the most prized metalwork in the ancient world, formed --- according to legend --- when gold, silver, and bronze alloys melted together in the great fire of 146 BC when Corinth was destroyed by Rome and later rebuilt.
+
+A polished bronze mirror gives a recognizable image but not a perfect one. The reflection is real --- you can see yourself, recognize your features --- but the image is dim, distorted by the curvature and surface imperfections of the metal, dulled by oxidation, and colored by the bronze itself. You know what you look like in a general way, but you do not see yourself with the clarity of direct light.
+
+Paul's Corinthian readers would have understood the metaphor immediately and precisely. They owned these mirrors. They knew their limitations. The best mirror available to them still produced only an approximation of reality.
+
+### The word "darkly" (ἐν αἰνίγματι)
+
+The KJV "through a glass, darkly" combines two Greek phrases:
+
+1. **δι' ἐσόπτρου:** "through a mirror" --- the instrument
+2. **ἐν αἰνίγματι:** "in a riddle/enigma" --- the *mode* of seeing
+
+The mirror is not dark because mirrors are inherently obscure. It is obscure *in the manner of a riddle* --- indirect, puzzling, requiring interpretation. See the next entry (αἴνιγμα) for the full significance of this word.
+
+### NT occurrences
+
+Only two:
+- **1 Corinthians 13:12:** The mirror as metaphor for present partial knowledge.
+- **James 1:23:** "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass (ἐν ἐσόπτρῳ)." James uses the mirror as something revealing truth that can be ignored.
+
+### Translation comparison: 1 Corinthians 13:12 (esoptron)
+
+| Translation | Rendering | Notes |
+|-------------|-----------|-------|
+| KJV | "through a glass, darkly" | "Glass" was a period word for mirror |
+| ESV | "in a mirror dimly" | "Dimly" captures the poor image quality |
+| NASB (2020) | "in a mirror dimly" | Same |
+| NIV | "in a mirror; we see only a reflection" | Paraphrastic; adds "only a reflection" |
+| LSB | "in a mirror, dimly" | Same as NASB/ESV |
+
+**Significance for the study:** The mirror metaphor establishes that present knowledge of God is *real but indirect*. We genuinely see something. The image is not false or illusory --- it is recognizable. But it is not the same as direct perception. The contrast with "face to face" in the second half of v.12 drives the point home: there is a coming state in which the indirection disappears. What that state is --- the closing of the canon, the return of Christ, the eternal state --- is what the interpretive debate is about.
+
+**The one other Pauline mirror: 2 Corinthians 3:18.** Paul's only other mirror passage uses the cognate verb, not the noun: "But we all, with open face beholding as in a glass (κατοπτριζόμενοι) the glory of the Lord, are changed into the same image." It matters for our passage in both directions: it shows Paul can describe a present, gospel-mediated beholding in mirror-language --- a point canon-view advocates may press --- and it confirms that even that transforming beholding is still *mirror-mode*, not face to face. The one other Pauline mirror leaves the ἄρτι/τότε line of 13:12 exactly where it stands.
+
+---
+
+## Riddle, Enigma --- *ainigma* (Strong's G135)
+
+**Greek:** αἴνιγμα
+**Root meaning:** From αἰνίσσομαι (to speak obscurely, to hint at, to speak in riddles). The noun names the thing spoken: an indirect, puzzling communication.
+**Semantic range:** Riddle; dark saying; enigmatic speech; indirect communication that requires interpretation to understand.
+
+### The single NT occurrence
+
+αἴνιγμα appears only once in the entire New Testament: 1 Corinthians 13:12. This rarity makes the word's background particularly important for interpretation.
+
+### The LXX allusion: Numbers 12:8
+
+This is the critical connection. The Septuagint (LXX) uses αἴνιγμα in Numbers 12:8, where God speaks to Miriam and Aaron after they criticize Moses:
+
+> "With him will I speak mouth to mouth (στόμα κατὰ στόμα), even apparently, and not in dark speeches (οὐ δι' αἰνιγμάτων): and the similitude of the LORD shall he behold."
+> --- Numbers 12:8 (KJV, with LXX forms noted)
+
+The Hebrew underlying this passage: פֶּה אֶל פֶּה אֲדַבֶּר בּוֹ וּמַרְאֶה וְלֹא בְחִידֹת ("mouth to mouth I speak with him, and in vision, and not in riddles"). The LXX renders חִידֹת (riddles, dark sayings) as αἰνιγμάτων.
+
+**The structure of Paul's allusion:**
+
+| Numbers 12:8 | Moses's privilege | "Not in riddles (οὐ δι' αἰνιγμάτων)" | Direct clarity |
+|---|---|---|---|
+| 1 Cor 13:12 | Our present state | "In a riddle (ἐν αἰνίγματι)" | Indirect, obscure |
+| 1 Cor 13:12 | Our future state | "Face to face" | Direct, like Moses |
+
+Paul does not quote Numbers 12:8, but he uses its distinctive vocabulary. The connection would have been audible to any reader steeped in the LXX, which Paul's congregations were.
+
+Paul is saying: What Moses uniquely had --- direct, non-riddle communication with God --- is what *all believers* will have when "the perfect" comes. This is a radical democratization of the Mosaic privilege. The "not yet" is that we currently experience what Moses was specifically said *not* to experience: enigmatic, indirect communication.
+
+### In Greek culture
+
+In the broader Greek world, αἴνιγμα was associated with the riddles of oracles (the Delphic oracle spoke in αἰνίγματα --- cryptic pronouncements requiring interpretation) and with the Sphinx's riddle in the Oedipus legend. The word carried connotations of truth veiled behind puzzling language --- present but requiring work to extract. Any educated Corinthian would have recognized the resonance.
+
+### Translation comparison: 1 Corinthians 13:12 (ainigma)
+
+| Translation | Rendering of ἐν αἰνίγματι | Notes |
+|-------------|---------------------------|-------|
+| KJV | "darkly" | Captures the obscurity but loses the "riddle" connotation |
+| ESV | "dimly" | Same issue --- "dim" is visual, αἴνιγμα is communicative |
+| NASB (2020) | "dimly" | Same |
+| NIV | "only a reflection as in a mirror" | Paraphrastic; loses the "riddle" entirely (NIV 2011) |
+| LSB | "dimly" | Same as NASB |
+
+No English translation fully preserves the "riddle" sense that makes the Numbers 12:8 allusion visible. A reader of only the English text misses the Moses connection entirely.
+
+**Significance for the study:** The allusion to Numbers 12:8 is exegetically decisive for understanding the *kind* of "perfection" Paul has in mind. It is not merely the completion of a canon, nor only personal moral maturity --- it is the condition of having direct, unmediated communion with God in the manner that Moses uniquely enjoyed. When Paul says "then face to face," he is promising that *all* believers will stand where Moses stood. Whatever "the perfect" is, it must be something capable of delivering that direct divine encounter.
+
+---
+
+## Face to Face --- *prosōpon pros prosōpon*
+
+**Greek:** πρόσωπον πρὸς πρόσωπον
+**Root meaning:** πρόσωπον means "face" (literally "toward-eye" --- the part of the head that faces the observer). The prepositional phrase πρὸς πρόσωπον means "toward the face," and the doubled construction means "face to face" --- direct, unmediated encounter.
+**Semantic range:** Direct personal encounter; unmediated presence; seeing someone as they truly are.
+
+### Hebrew background: the panim tradition
+
+The phrase echoes the Hebrew פָּנִים אֶל פָּנִים (*panim el panim*, "face to face") and פֶּה אֶל פֶּה (*peh el peh*, "mouth to mouth"). The LXX renders these with πρόσωπον κατὰ πρόσωπον or πρόσωπον πρὸς πρόσωπον --- slight variations of the same construction Paul uses. The OT background is essential:
+
+**Genesis 32:30** (English versification; MT and LXX Rahlfs number the verse 32:31):
+
+> "And Jacob called the name of the place Peniel: for I have seen God face to face (פָּנִים אֶל פָּנִים), and my life is preserved."
+> --- Genesis 32:30 (KJV)
+
+Jacob's wrestling encounter. The experience is life-threatening --- seeing God "face to face" is not casually accessible. He survives, and the encounter transforms him (he walks with a limp; he receives a new name).
+
+**Exodus 33:11:**
+
+> "And the LORD spake unto Moses face to face (פָּנִים אֶל פָּנִים), as a man speaketh unto his friend."
+> --- Exodus 33:11 (KJV)
+
+The defining characterization of Moses's unique prophetic relationship with God. "As a man speaketh unto his friend" --- the intimacy of friendship, not the terror of theophany. This is the relational ideal.
+
+**Numbers 12:8:**
+
+> "With him will I speak mouth to mouth (פֶּה אֶל פֶּה), even apparently, and not in dark speeches (חִידֹת): and the similitude of the LORD shall he behold."
+> --- Numbers 12:8 (KJV)
+
+God's own definition of Moses's uniqueness. Three elements: (1) mouth to mouth, (2) apparently (visibly, clearly), (3) not in riddles. All three contrast with every other prophet's mode of receiving revelation (dreams, visions, riddles --- Num 12:6).
+
+**Deuteronomy 34:10:**
+
+> "And there arose not a prophet since in Israel like unto Moses, whom the LORD knew face to face (פָּנִים אֶל פָּנִים)."
+> --- Deuteronomy 34:10 (KJV)
+
+The eulogy for Moses at the close of the Torah. His "face to face" relationship is cited as the defining mark of his uniqueness. No other prophet reached this level.
+
+### Paul's construction vs. the LXX
+
+The LXX renders the idiom with several constructions: πρόσωπον πρὸς πρόσωπον in Genesis 32:30 (LXX/MT 32:31) and Judges 6:22; πρόσωπον κατὰ πρόσωπον in Deuteronomy 5:4 and 34:10; ἐνώπιος ἐνωπίῳ in Exodus 33:11; and στόμα κατὰ στόμα ("mouth to mouth") in Numbers 12:8. Paul's πρόσωπον πρὸς πρόσωπον coincides exactly with the Genesis/Judges form --- he is not coining a variant but writing squarely inside the Septuagint's theophany vocabulary.
+
+### The democratization of the Mosaic privilege
+
+The theological weight of this allusion is considerable. The "face to face" experience was:
+- Jacob's terrifying once-in-a-lifetime encounter
+- Moses's unique ongoing relationship --- explicitly denied to all other prophets
+- Deuteronomy 34:10's declaration that *no one after Moses* had this
+
+Paul promises that "then" --- when "the perfect" comes --- *all* believers will see face to face. Every member of the eschatological community will have what was Moses's exclusive privilege. This is not merely "better knowledge" --- it is the democratization of the highest communion with God available in the Old Testament.
+
+### Cross-references
+
+- **1 John 3:2:** "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is." The same "not yet / then" pattern; the face-to-face vision is associated with Christ's appearing.
+- **Revelation 22:4:** "And they shall see his face (τὸ πρόσωπον αὐτοῦ ὄψονται); and his name shall be in their foreheads." The eschatological consummation includes direct vision of God's face --- language drawn from the same OT tradition.
+- **Matthew 18:10:** "Take heed that ye despise not one of these little ones; for I say unto you, That in heaven their angels do always behold the face (πρόσωπον) of my Father which is in heaven." Continuous access to the divine face.
+
+**Significance for the study:** "Face to face" is not a loose metaphor for "better understanding." It carries the full weight of the OT Moses tradition: direct, unmediated, unriddled communion with God. Any interpretation of τὸ τέλειον must be capable of delivering this. The completion of a written canon, however valuable, does not in itself constitute "face to face" encounter with God. The eschatological and resurrection-oriented readings bear more naturally on what "face to face" means in the OT background Paul is invoking.
+
+---
+
+## Know Fully --- *epiginōskō* (Strong's G1921) vs. Know --- *ginōskō* (Strong's G1097)
+
+**Greek:** ἐπιγινώσκω / γινώσκω
+**Root meaning:** γινώσκω: general knowledge, perception, recognition, understanding. ἐπιγινώσκω: the same verb with the prefix ἐπί (upon, over, intensifying) --- knowledge that is thorough, complete, full. (The intensification argument in 13:12 rests on Paul's deliberate switch inside that verse, not on any claim that the compound always carries the fuller sense --- see the simplex usage in 1 Cor 8:2-3 and Gal 4:9 below.)
+**Semantic range:**
+- γινώσκω: to know; to perceive; to understand; to recognize; to come to know. Very broad. ~220 NT occurrences.
+- ἐπιγινώσκω: to know fully; to recognize completely; to know through and through; to know in the sense of identifying precisely. ~44 NT occurrences.
+
+### The verb shift in 1 Corinthians 13:12
+
+The shift within a single verse is deliberate and precise:
+
+> ἄρτι γινώσκω ἐκ μέρους, τότε δὲ ἐπιγνώσομαι καθὼς καὶ ἐπεγνώσθην.
+> "Now I know in part; but then shall I know fully (ἐπιγνώσομαι) even as also I am fully known (ἐπεγνώσθην)."
+> --- 1 Corinthians 13:12 (KJV, with Greek forms noted)
+
+Three stages in a single sentence:
+
+1. **ἄρτι γινώσκω ἐκ μέρους** --- "now I know partially" (simple verb, present tense, qualified by ἐκ μέρους)
+2. **τότε ἐπιγνώσομαι** --- "then I will know fully" (intensive verb, future tense, no qualification)
+3. **καθὼς καὶ ἐπεγνώσθην** --- "even as I am fully known" (intensive verb, aorist passive --- God's thorough knowing of me is the *standard* and *model* for my future full knowing)
+
+### BDAG definitions
+
+**γινώσκω (BDAG p. 199--201):** "to arrive at a knowledge of someone or something, know." The most basic term for cognitive grasp of something or someone.
+
+**ἐπιγινώσκω (BDAG p. 368--369):** "to know exactly, completely, through and through." The ἐπί prefix intensifies: the same act of knowing, but pursued to completion.
+
+### The passive: "as I am fully known"
+
+The phrase καθὼς καὶ ἐπεγνώσθην ("even as I am known") is critical. The passive voice means *someone else* does the knowing: God knows Paul fully. God's knowledge of the believer is:
+- Already complete (aorist tense --- a completed action)
+- Fully thorough (ἐπιγινώσκω)
+
+Our future full knowing will be patterned on (καθώς --- "even as, just as") God's present full knowing of us. This does not mean we will become omniscient --- God's knowledge is infinite, ours will remain creaturely. The comparison is in *kind*, not *degree*: we will know with the same thoroughness and directness that characterizes God's knowledge of us. The indirection, the "in part," the enigma will be gone.
+
+### Usage in key passages (epiginōskō)
+
+**γινώσκω:**
+- **John 17:3:** "And this is life eternal, that they might know thee (γινώσκωσιν) the only true God, and Jesus Christ, whom thou hast sent." Eternal life defined as knowing God.
+- **1 Corinthians 8:2-3:** "And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know. But if any man love God, the same is known (ἔγνωσται) of him." Every knowing-verb in these verses is the simplex γινώσκω (ἐγνωκέναι, ἔγνω, γνῶναι, ἔγνωσται) --- a caution, from three chapters before our passage, against overloading the ἐπι- prefix: Paul can express even God's knowing of us with the simplex.
+- **Galatians 4:9:** "But now, after that ye have known (γνόντες) God, or rather are known (γνωσθέντες) of God..." Again both verbs are the simplex γινώσκω --- Paul renders "known of God," his most intimate knowing-claim, without the compound. The ἐπι- intensification argument in 13:12 therefore rests on the deliberate switch *within that verse*, supported by the genuine simplex/compound contrasts elsewhere (Matt. 11:27's exclusive-knowledge saying uses the compound ἐπιγινώσκει; cf. Rom. 1:32; Col. 1:6), not on any claim that the compound always carries the fuller sense.
+
+**ἐπιγινώσκω:**
+- **Matthew 11:27:** "...neither knoweth any man the Father, save the Son, and he to whomsoever the Son will reveal him." The kind of knowing Jesus has of the Father --- full, mutual, complete --- is what Jesus gives to others.
+- **Romans 1:32:** "Who knowing (ἐπιγνόντες) the judgment of God, that they which commit such things are worthy of death." Full recognition of God's standard.
+- **Colossians 1:6:** "...and knew (ἐπέγνωτε) the grace of God in truth." Full, genuine knowledge of grace.
+
+### Translation comparison: 1 Corinthians 13:12 (epiginōskō)
+
+| Translation | γινώσκω | ἐπιγνώσομαι | Notes |
+|-------------|---------|--------------|-------|
+| KJV | "I know" | "I know" | Flattens the contrast; verb shift invisible |
+| ESV | "I know" | "I will know fully" | Captures the shift |
+| NASB (2020) | "I know" | "I will know fully" | Same |
+| NIV | "I know" | "I shall know fully" | Same |
+| LSB | "I know" | "I will know fully" | Same |
+
+The KJV does not distinguish the two verbs. Modern translations (ESV, NASB, NIV, LSB) render ἐπιγινώσκω as "know fully," which is correct. A reader of only the KJV sees "I know in part; but then shall I know even as also I am known" --- the verb shift is invisible.
+
+**Significance for the study:** The two-verb construction is one of the clearest signals in the passage that Paul envisions a *qualitative leap* in knowing, not merely a quantitative increase. Present knowing is real but partial (γινώσκω + ἐκ μέρους). Future knowing will be thorough and direct (ἐπιγινώσκω), patterned on God's thorough knowing of us. This full knowing is not currently available in any degree --- it is reserved for "then," when "the perfect" comes.
+
+---
+
+## In Part, Partially --- *ek merous*
+
+**Greek:** ἐκ μέρους
+**Root meaning:** From ἐκ (from, out of) + μέρος (G3313: part, portion, share). Literally "out of a part" --- deriving from or constituting only a portion of the whole.
+**Semantic range:** In part; partially; to some degree; incompletely. μέρος itself can mean a part of a whole, a portion, a share, a piece, a side, a region.
+
+### Occurrences in 1 Corinthians 13
+
+The phrase appears five times in the passage, creating a structural rhythm:
+
+- **v.9:** "For we know *in part* (ἐκ μέρους), and we prophesy *in part* (ἐκ μέρους)."
+- **v.10:** "But when that which is perfect is come, then that which is *in part* (τὸ ἐκ μέρους) shall be done away."
+- **v.12:** "Now I know *in part* (ἐκ μέρους)."
+
+The phrase τὸ ἐκ μέρους in v.10 is the direct antithesis of τὸ τέλειον. The structure is elegant and deliberate:
+
+| Term | Meaning | Status |
+|------|---------|--------|
+| τὸ ἐκ μέρους | "that which is partial" | Present --- will be superseded |
+| τὸ τέλειον | "that which is perfect/complete" | Future --- will supersede |
+
+### What "in part" does and does not mean
+
+**What it does mean:**
+- Our present knowledge is incomplete. It does not encompass the whole.
+- Our present prophetic word is partial. No single prophecy or prophet delivers the full picture.
+- The gifts, however genuine and Spirit-given, are partial instruments.
+
+**What it does NOT mean:**
+- That present knowledge is false or illusory. A puzzle piece is genuinely part of the picture, even if you cannot see the whole from it alone. The partial is real; it is simply not complete.
+- That the gifts are defective or sub-standard. They are partial because the *situation* is partial --- we live between the ages, knowing in part because we have not yet arrived at "the perfect."
+
+### Translation comparison (ek)
+
+| Translation | Rendering | Notes |
+|-------------|-----------|-------|
+| KJV | "in part" | Literal and accurate |
+| ESV | "in part" | Same |
+| NASB (2020) | "in part" | Same |
+| NIV | "in part" | Same |
+| LSB | "in part" | Same |
+
+Unusual uniformity --- all translations agree here.
+
+**Significance for the study:** The ἐκ μέρους / τέλειον antithesis is the interpretive spine of the passage. Whatever "the perfect" is, it must be the *completion* of what is currently partial --- not merely more of the same, but the whole of which our current state is a fragment. This argues against any interpretation that sees "the perfect" as a qualitative extension of present experience. It must be categorically different: what a complete picture is to a single piece.
+
+**Related: Hebrews 1:1.** The adverb πολυμερῶς ("at sundry times," lit. "in many parts") in Hebrews 1:1 is built on the same μέρος and describes revelation delivered in installments --- superseded, Hebrews says, by God's speaking in his Son. Canon-view advocates read Paul's ἐκ μέρους/τέλειον antithesis as the same movement (see Chapter 4, View 1, argument 8, with the reply: the Hebrews contrast is prophets-versus-Son, and the Son is the one still awaited face to face).
+
+---
+
+## But Now --- *nyni de* (13:13)
+
+**Greek:** νυνὶ δέ
+**Root meaning:** νῦν (now) with an emphatic iota suffix: νυνί. The particle δέ is adversative/transitional: "but," "however," "and."
+**Semantic range:** This two-word phrase carries significant interpretive weight, because it can be read two ways.
+
+### The two readings
+
+**Reading 1 --- Temporal:** "But now, at the present time, faith, hope, and love remain." Under this reading, νυνὶ δέ marks the present age: in contrast to what has just been described (the partial giving way to the perfect), at the present moment these three abide.
+
+**Reading 2 --- Logical:** "But as things stand / in the last analysis, faith, hope, and love are the permanent realities." Under this reading, νυνί is not strictly temporal but argumentative --- it draws a logical conclusion: "given everything said above, the upshot is this."
+
+### Which reading fits?
+
+Paul uses νυνὶ δέ in both senses elsewhere:
+- **Temporal uses:** Romans 6:22, Romans 7:6, Ephesians 2:13 --- "but now" marking a transition from a prior state.
+- **Logical uses:** Romans 3:21, 1 Corinthians 15:20 --- "but as it is" drawing a conclusion.
+
+In 1 Corinthians 13:13, most commentators favor the *logical* reading for two reasons:
+
+1. If νυνί is temporal ("at present"), then faith, hope, and love "remain" *until* the perfect comes --- implying they will eventually cease too. But Paul's whole argument is that love *never* fails (v.8: ἡ ἀγάπη οὐδέποτε πίπτει). A temporal reading creates tension with v.8.
+
+2. The logical reading ("as things stand in the grand scheme") allows faith, hope, and love to be permanent in a way the gifts are not. The gifts are partial and temporary; the three are abiding.
+
+### The "remaining" of faith and hope
+
+Here the temporal reading offers a pointed argument in the opposite direction: if νυνί is temporal, then faith and hope "remain" only in the present age --- when "the perfect" comes, faith gives way to sight (2 Cor 5:7: "For we walk by faith, not by sight") and hope gives way to reality (Rom 8:24: "For we are saved by hope: but hope that is seen is not hope"). On this reading, "the perfect" must be the eschaton, because that is the only moment when faith becomes sight and hope becomes possession. The temporal reading actually strengthens the eschatological interpretation of τὸ τέλειον.
+
+### Translation comparison: 1 Corinthians 13:13 (nyni)
+
+| Translation | Rendering | Notes |
+|-------------|-----------|-------|
+| KJV | "And now abideth" | "And now" is mildly temporal |
+| ESV | "So now faith, hope, and love abide" | "So" captures the logical/conclusive sense |
+| NASB (2020) | "But now faith, hope, and love remain" | "But now" is ambiguous (NASB95 read "abide") |
+| NIV | "And now these three remain" | Neutral |
+| LSB | "But now abide faith, hope, love" | Verb-first; retains the NASB95 "abide" tradition |
+
+**Significance for the study:** The temporal reading of νυνὶ δέ produces a significant argument for eschatological interpretation: if faith and hope "remain" only until "the perfect," then "the perfect" must be the moment when faith becomes sight and hope becomes reality --- the resurrection or the eternal state. This is a legitimate and often under-noticed argument from within the immediate context. The logical reading is grammatically defensible but removes this argument. Either reading is possible; the interpreter must be transparent about which choice is being made.
+
+---
+
+## Summary (Word Study)
+
+The word study reveals that Paul's language in 1 Corinthians 13:8--13 is both technically precise and deeply rooted in OT theology, especially the Moses tradition. Six findings stand out:
+
+**1. τὸ τέλειον is neuter.** The grammatical form suggests a state or condition rather than a specific person. Interpreters who identify "the perfect" with Christ must explain why Paul used the neuter rather than the expected masculine if he had a person in mind.
+
+**2. The middle voice of παύσονται is debated but not decisive.** The cessationist argument from the middle voice is a genuine grammatical observation: tongues "will cease" may carry a self-cessation nuance not present in the passive constructions for prophecy and knowledge. But the counterargument --- that this is Pauline stylistic variation using a naturally middle-tending verb --- is equally grounded. The grammar opens a question; it does not answer it.
+
+**3. The mirror metaphor is grounded in Corinthian material culture.** Paul's audience knew exactly what bronze mirrors were: recognizable but imperfect. The metaphor establishes that present knowledge is *real but indirect* --- not false, not adequate.
+
+**4. The αἴνιγμα / "face to face" language deliberately echoes Numbers 12:8.** Paul is not using "riddle" and "face to face" as loose metaphors. He is invoking the specific OT tradition in which Moses uniquely enjoyed direct, unriddled communion with God --- and promising that all believers will have this when "the perfect" comes. Whatever "the perfect" is, it must be something capable of delivering the Moses-level encounter.
+
+**5. The two different verbs for knowing signal a qualitative leap.** The shift from γινώσκω (simple knowing, present, partial) to ἐπιγινώσκω (full knowing, future, thorough) is not stylistic variation. It is a deliberate escalation. The passive "as I am fully known" establishes that God's knowing of us is both the *pattern* and *standard* for our future knowing.
+
+**6. The permanence of faith, hope, and love (v.13) points toward the eschaton --- on the temporal reading of νυνὶ δέ, a live minority option.** If νυνὶ δέ is temporal ("now, at present"), then faith and hope "remain" only until "the perfect" comes. Faith is replaced by sight, hope by reality (2 Cor 5:7; Rom 8:24). This implies "the perfect" must be the moment of consummation --- resurrection or the eternal state --- when faith and hope are no longer needed because their objects have arrived.
+
+Together, these six findings create a cumulative case that "the perfect" in 1 Corinthians 13:10 points toward the eschatological consummation rather than any event within history --- while remaining honest that word studies alone do not constitute a proof. The grammar and vocabulary consistently *favor* the eschatological reading, but the interpretive question ultimately turns on how the entire passage fits within Paul's theology of the present and coming age.
+
+---
+
+## Bibliography
+
+| Source | Details |
+|--------|---------|
+| BDAG | Bauer, Danker, Arndt, Gingrich. *A Greek-English Lexicon of the New Testament and Other Early Christian Literature*, 3rd ed. University of Chicago Press, 2000. |
+| Liddell-Scott (LSJ) | Liddell, H.G. and Scott, R. *A Greek-English Lexicon*. Clarendon Press, 1996. |
+| Thayer | Thayer, Joseph. *Greek-English Lexicon of the New Testament*. Baker, 1977. |
+| Spicq | Spicq, Ceslas. *Theological Lexicon of the New Testament*. 3 vols. Hendrickson, 1994. |
+| TDNT | Kittel, Gerhard, ed. *Theological Dictionary of the New Testament*. Eerdmans, 1964--1976. |
+| Pliny | *Natural History* 34.6--8. On Corinthian bronze. |
+| LXX | Rahlfs, Alfred, ed. *Septuaginta*. Deutsche Bibelgesellschaft, 1935. |
+| Gaffin | Gaffin, Richard B. *Perspectives on Pentecost*. Presbyterian and Reformed, 1979. (Redemptive-historical cessationism from Eph. 2:20; explicitly does not rest on παύσονται or on reading τὸ τέλειον as the canon.) |
+| Carson | Carson, D.A. *Showing the Spirit: A Theological Exposition of 1 Corinthians 12--14*. Baker, 1987. (Continuationist reply.) |
+| Fee | Fee, Gordon D. *The First Epistle to the Corinthians*. NICNT. Eerdmans, 1987. |
+| Thomas | Thomas, Robert L. "Tongues...Will Cease." *Journal of the Evangelical Theological Society* 17 (1974): 81--89. (Maturity/Body view of τὸ τέλειον; middle-voice point advanced tentatively.) |
+| Edwards | Edwards, Jonathan. *Charity and Its Fruits*. 1852 (posthumous; preached 1738). (Reads "the perfect" as heaven in the final lecture; ties gift-cessation to the canon's completion elsewhere in the same work.) |
+| Warfield | Warfield, B.B. *Counterfeit Miracles*. 1918. (The classic scholarly cessationist case; never cites 1 Cor 13:10.) |
+| Calvin | Calvin, John. *Commentary on the Epistles of Paul the Apostle to the Corinthians*, vol. 1. Calvin Translation Society, 1848. (On 13:10: perfection begins at death, "not completely manifested until the day of judgment.") |
+| Hodge | Hodge, Charles. *An Exposition of the First Epistle to the Corinthians*. 1857. (Eschatological on v. 10.) |
+| Robertson-Plummer | Robertson, Archibald, and Alfred Plummer. *A Critical and Exegetical Commentary on the First Epistle of St Paul to the Corinthians*. ICC, 2nd ed. T&T Clark, 1914. (Eschatological.) |
+| Godet | Godet, Frédéric. *Commentary on St. Paul's First Epistle to the Corinthians*. 1889. (Eschatological.) |
+| Decker | Decker, Rodney J. "A History of Interpretation of 'That Which Is Perfect' (1 Cor 13:10) with Special Attention to the Origin of the 'Canon View.'" Paper, 1994. (Traces the view's origin to the modern period; the earliest known 19th-century mention, Robert Govett, reports the view only to refute it --- see Chapter 0.) |
+| White | White, R. Fowler. "Richard Gaffin and Wayne Grudem on 1 Cor 13:10: A Comparison of Cessationist and Noncessationist Argumentation." *Journal of the Evangelical Theological Society* 35/2 (1992): 173--181. |
+| Toussaint | Toussaint, Stanley D. "First Corinthians Thirteen and the Tongues Question." *Bibliotheca Sacra* 120 (October-December 1963): 311--16. (Eschatological *τὸ τέλειον* with early tongues-cessation via the middle voice; position verified via Gromacki's digest, pp. 127-28; original obtained via Galaxie, Primary-Sources.) |
+| Compton | Compton, R. Bruce. "1 Corinthians 13:8--13 and the Cessation of Miraculous Gifts." *Detroit Baptist Seminary Journal* 9 (2004): 97--144. (Canon-view ADVOCATE --- "to defend... that 'the perfect' in 13:10 refers to the completed New Testament canon" --- not a neutral survey; the tradition's most extensive scholarly defense. Original obtained via Galaxie; Primary-Sources.) |
+| Compton-2020 | Compton, R. Bruce. "First Corinthians 13 and the Cessation of Miraculous Gifts: A Critique of Thomas Schreiner's *Spiritual Gifts*." *Detroit Baptist Seminary Journal* 25 (2020): 25--49. (The most recent scholarly defense of the canon reading; source of the Schreiner-imminence exchange in Chapter 4. Original obtained via Galaxie; Primary-Sources.) |
+| McDougall | McDougall, Donald G. "Cessationism in 1 Cor 13:8--12." *The Master's Seminary Journal* 14/2 (2003): 177--213. (Survey of positions.) |
+| Gromacki | Gromacki, Robert. *The Modern Tongues Movement*. Presbyterian and Reformed, 1967. (Canon-view survey and advocacy; quotes Weaver's 1964 quantitative-parallelism argument, pp. 126-27; digests Toussaint, pp. 127-28. Verified via archive.org lending.) |
+| Unger | Unger, Merrill F. *New Testament Teaching on Tongues*. Kregel, 1971. (Canon-view advocate; see p. 97.) |
+| Smith | Smith, Charles R. *Tongues in Biblical Perspective*. BMH, 1972. (Canon-view advocate; see p. 79.) |
+| MacArthur | MacArthur, John. *1 Corinthians*. MacArthur New Testament Commentary. Moody, 1984. (Cessationist; reads "the perfect" as the eternal state and rejects the canon view.) |
+| Aquinas | Thomas Aquinas. *Super I Epistolam ad Corinthios*, cap. 13 (Reportatio Vulgata; Latin text at corpusthomisticum.org). ("The perfect" = *perfectio gloriae*; face-to-face vision *in patria*.) |
+| Owen | Owen, John. *Pneumatologia: A Discourse Concerning the Holy Spirit*. 1674. (Grounds the gifts' cessation in the close of the extraordinary offices.) |
+| Vine | Vine, W. E. *1 Corinthians*. London: Oliphants, 1951. (Canon-view advocate, p. 184, verified against the 1961 printing via archive.org lending; the same page adds the Parousia as a second horizon, and his v. 12 note cites Num. 12:8 on the enigma.) |
+| Woods | Woods, Andy M. "The Meaning of 'the Perfect' in 1 Corinthians 13:8-13." *CTS Journal* 10/2 (Fall 2004); posted at spiritandtruth.org (© 2012). (The fullest modern published defense of the canon reading --- an explicit advocate, not a neutral survey; engaged throughout Chapter 4, View 1. Also documents Vine's advocacy. Read in full from the spiritandtruth.org PDF; copy in Primary-Sources.) |
+| Ruthven | Ruthven, Jon. *On the Cessation of the Charismata: The Protestant Polemic on Post-Biblical Miracles*. Sheffield Academic Press, 1993. (The standard historical monograph on the cessationist polemic.) |
+| Shogren | Shogren, Gary S. "How Did They Suppose 'the Perfect' Would Come? 1 Corinthians 13.8-12 in Patristic Exegesis." *Journal of Pentecostal Theology* 15 (1999): 99--121. (Independent survey of the patristic exegesis of this passage; corroborates the no-canon-reading finding.) |
+| Shogren-JETS | Shogren, Gary S. "Christian Prophecy and Canon in the Second Century: A Response to B.B. Warfield." *Journal of the Evangelical Theological Society* 40/4 (1997): 609--26. (Second-century prophecy and the canon; cited in his JPT survey.) |
+| Houghton | Houghton, Myron J. "A Reexamination of 1 Corinthians 13:8-13." *Bibliotheca Sacra* 153/611 (July 1996): 344--56. (Canon-view advocate --- "this writer's 'completed canon' view"; his "know as known" tu quoque, n. 27, is engaged in Chapter 4. Original obtained via Galaxie --- PDF and text in Primary-Sources; quotation verified verbatim.) |
+| Gentry | Gentry, Kenneth L., Jr. *The Charismatic Gift of Prophecy: A Reformed Response to Wayne Grudem*. 2d ed. Memphis: Footstool, 1989. (Reformed postmillennialist advocate of the canon reading --- the notable Reformed-Presbyterian exception, per Chapter 4's expanded "Held By" list which now records other non-dispensational advocates including Chantry, Budgen, and Judisch; his mirror-as-self-sight exegesis, pp. 55--57, is engaged in Chapter 4. Quoted via Woods.) |
+| Dean | Dean, Robert, Jr. "Three Arguments for the Cessation of Tongues." Paper, Conservative Theological Society, Fort Worth, TX, 2002; later printed in the *Conservative Theological Journal* 9:26 (March 2005). (Canon-view advocate; source of the open-canon consequence argument. Author's text obtained --- Primary-Sources --- and all quotations adopted via Woods verified against it.) |
+| White-WTJ | White, R. Fowler. "Gaffin and Grudem on Eph 2:20: In Defense of Gaffin's Cessationist Exegesis." *Westminster Theological Journal* 54 (1992): 321--330. |
+| Schreiner | Schreiner, Thomas R. *Spiritual Gifts: What They Are and Why They Matter*. B&H, 2018. (Nuanced cessationist; reads "the perfect" as the second coming; rejects the canon view.) |
+
