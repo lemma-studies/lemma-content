@@ -136,3 +136,17 @@ const pdfUrl = study && canonicalBaseHint
     <meta name="DC.type" content="Text" />
   </>
 )}
+
+{/* Hypothes.is annotation layer — site-wide, no default focus so casual
+    readers land in the Public group (max discovery + AI ingestion), while
+    invited reviewers can toggle to "Lemma Studies Reviews" (group 4323PEnb)
+    via the sidebar group dropdown. Sidebar closed by default; highlights
+    always visible. See ~/.claude/projects/-home-tim-Projects-gig8-lemma/memory/hypothesis-integration.md */}
+<script type="application/json" class="js-hypothesis-config" is:inline set:html={JSON.stringify({
+  openSidebar: false,
+  showHighlights: 'always',
+})} />
+{/* No SRI hash: hypothes.is embed.js is a self-updating bootloader — pinning
+    integrity would break every upstream auto-upgrade. Same reason Google
+    Analytics, Intercom, etc. ship without SRI. */}
+<script src="https://hypothes.is/embed.js" async is:inline></script>
