@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 // scripts/lemma-cli/verify-release.mjs --tag <slug>/vN.N [--json] [--local]
 //
-// Runs §21C check set scoped to one release. Opens/updates a
-// `verify-release-failure`-labeled Issue per failing check (create-or-update by check-id
-// per §21I anti-drift).
+// Runs §21C check set scoped to one release. In CI, opens/updates a
+// `verify-release-failure`-labeled Issue per failing check (create-or-update
+// by check-id per §21I anti-drift).
 //
-// Per-study-lifecycle-gated: checks marked `study_lifecycle_gated: true` in
-// health-checks.yaml return `pending` when study.yaml.versions is empty; blocking
-// only after first release lands.
+// Per-study-lifecycle-gated: checks marked `study_lifecycle_gated: true`
+// in health-checks.yaml return `pending` when study.yaml.versions is
+// empty; blocking only after first release lands.
 //
 // Per §21A contract:
 //   --tag <tag>   required, form: <slug>/vN.N
 //   --check       read-only validation (this is default; script does not mutate)
 //   --dry-run     do not open Issues on failure; report what would open
-//   --json        machine-readable output (default when non-TTY)
+//   --json        machine-readable (default when non-TTY)
 //   --verbose     per-check human output
 //   --local       runtime_context=local
 //
@@ -26,6 +26,7 @@ import {
   REPO_ROOT, parseArgs, isJsonMode, loadPhaseState, loadHealthChecks,
   effectiveSeverity, worstStatus,
 } from './_common.mjs';
+import { CHECK_REGISTRY } from './_checks.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const tag = args.values.get('tag');
@@ -43,15 +44,20 @@ const runtimeContext = args.flags.has('local') ? 'local' : 'ci';
 const phaseState = loadPhaseState();
 const contract = loadHealthChecks();
 
-// Load study.yaml at HEAD; verify-release in CI targets the tagged commit, but that
-// checkout happens in the workflow — this script trusts its cwd is at the tagged sha.
+// Load study.yaml at HEAD (in CI, the workflow already checked out the tag).
 const studyYamlPath = path.join(REPO_ROOT, 'studies', slug, 'study.yaml');
 let study = null;
 if (fs.existsSync(studyYamlPath)) {
-  study = yamlLoad(fs.readFileSync(studyYamlPath, 'utf8'));
+  try { study = yamlLoad(fs.readFileSync(studyYamlPath, 'utf8')); } catch { /* ignore parse errors — verify-study-yaml catches these */ }
 }
-
 const hasReleases = !!(study && Array.isArray(study.versions) && study.versions.length > 0);
+
+const context = {
+  baseUrl: phaseState.base_url,
+  slug,
+  version,
+  study,
+};
 
 const results = [];
 
@@ -63,16 +69,33 @@ for (const [checkId, spec] of Object.entries(contract.checks)) {
     severity = 'pending';
   }
 
-  // Real implementations will land as each surface comes online.
+  const fn = CHECK_REGISTRY[checkId];
+  let result;
+  if (!fn) {
+    result = { status: 'pending', message: `no implementation registered for '${checkId}'` };
+  } else {
+    try {
+      result = await fn({ ...context, spec });
+    } catch (e) {
+      result = { status: 'fail', message: `check threw: ${e.message}` };
+    }
+  }
+
+  // Apply per-study lifecycle gating post-call: if the check ran and returned
+  // fail/warn but the study has no releases yet, downgrade to pending — those
+  // surfaces (DOI, PDF) don't exist yet.
+  if (spec.study_lifecycle_gated && !hasReleases && result.status !== 'clean') {
+    result = { ...result, status: 'pending', message: `study_lifecycle_gated (no releases): ${result.message}` };
+  }
+
   results.push({
     check: checkId,
-    status: 'pending',
+    status: result.status,
     severity,
-    tag,
-    slug,
-    version,
-    message: 'not yet implemented (Phase 2b scaffold)',
-    next_step: `implement check body when surface is live; failing checks open Issue "verify-release-failure: ${checkId}" on ${slug}/${version}`,
+    tag, slug, version,
+    message: result.message,
+    next_step: result.next_step,
+    evidence: verbose ? result.evidence : undefined,
   });
 }
 
@@ -95,17 +118,21 @@ const report = {
   dry_run: dryRun,
 };
 
-if (jsonMode) {
-  console.log(JSON.stringify(report, null, 2));
-} else {
+if (jsonMode) console.log(JSON.stringify(report, null, 2));
+else {
   console.log(`verify-release ${tag} @ ${phaseState.current_phase}: ${overall}`);
   const c = report.counts;
   console.log(`  clean=${c.clean}  warn=${c.warn}  pending=${c.pending}  fail=${c.fail}`);
   if (verbose) {
     for (const r of results) {
       console.log(`  [${r.severity}] ${r.check}: ${r.status} — ${r.message}`);
+      if (r.next_step) console.log(`      → ${r.next_step}`);
     }
   }
 }
+
+// TODO: in --json/CI mode, open/update `verify-release-failure`-labeled
+// Issues per failing check per §21I (dedupe by check-id + tag). Deferred
+// until we have a real failing check firing under real content to test against.
 
 process.exit(overall === 'fail' ? 1 : 0);

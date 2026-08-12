@@ -5,16 +5,11 @@
 //
 // Per §21A contract:
 //   --check     alias of default (this script is read-only by nature)
-//   --json      machine-readable output (default when non-TTY)
+//   --json      machine-readable (default when non-TTY)
 //   --verbose   include per-check detail on the TTY path
 //   --local     runtime_context=local (default: ci)
 //
 // Exit: 0 = clean/warn/pending, 1 = fail.
-//
-// PHASE 2b scope: real per-check implementations layer in progressively as the
-// surfaces they measure come online. Every check registered in health-checks.yaml
-// resolves to a status here; unimplemented checks emit `pending` with a stub note
-// so the aggregate stays honest.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -22,6 +17,7 @@ import {
   REPO_ROOT, parseArgs, isJsonMode, loadPhaseState, loadHealthChecks,
   effectiveSeverity, worstStatus,
 } from './_common.mjs';
+import { CHECK_REGISTRY } from './_checks.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const jsonMode = isJsonMode(args);
@@ -31,21 +27,50 @@ const runtimeContext = args.flags.has('local') ? 'local' : 'ci';
 const phaseState = loadPhaseState();
 const contract = loadHealthChecks();
 
+// Corpus-wide health-check: no per-study or per-version scoping — those
+// checks (study_lifecycle_gated) come out as `pending` when the caller has
+// no study/version context. Study-scoped health probing happens via
+// verify-release --tag <slug>/<vN.N>.
+
+const context = {
+  baseUrl: phaseState.base_url,
+  slug: null,
+  version: null,
+  study: null,
+};
+
 const results = [];
 
 for (const [checkId, spec] of Object.entries(contract.checks)) {
   if (!spec.runtime_context.includes(runtimeContext)) continue;
 
-  const severity = effectiveSeverity(spec, phaseState);
+  let severity = effectiveSeverity(spec, phaseState);
+  const fn = CHECK_REGISTRY[checkId];
 
-  // Real implementations get added as their surfaces come online.
-  // For now emit a `pending` stub with the next-step per §21A.
+  let result;
+  if (!fn) {
+    result = { status: 'pending', message: `no implementation registered for check '${checkId}'`, next_step: 'add to CHECK_REGISTRY in scripts/lemma-cli/_checks.mjs' };
+  } else {
+    try {
+      result = await fn({ ...context, spec });
+    } catch (e) {
+      result = { status: 'fail', message: `check threw: ${e.message}`, next_step: 'fix check implementation' };
+    }
+  }
+
+  // study_lifecycle_gated: when the check needs a study and we have none
+  // in corpus scope, downgrade to `pending` rather than `fail`.
+  if (spec.study_lifecycle_gated && !context.slug) {
+    result = { status: 'pending', message: 'study_lifecycle_gated: no study in scope for corpus health-check', ...result, status: 'pending' };
+  }
+
   results.push({
     check: checkId,
-    status: 'pending',
+    status: result.status,
     severity,
-    message: 'not yet implemented (Phase 2b scaffold)',
-    next_step: `implement check body in scripts/lemma-cli/health-check.mjs when surface is live`,
+    message: result.message,
+    next_step: result.next_step,
+    evidence: verbose ? result.evidence : undefined,
   });
 }
 
