@@ -1,0 +1,191 @@
+name: on-tag-release
+
+# Fires on `<slug>/vN.N` tag push. Job-staged pipeline per design §6.3:
+#
+#   Job 1 build         verify tag format + slug match + monotonicity;
+#                       compile:study --check; verify:study (fixtures +
+#                       manifest + anchors + study.yaml + machine-readable);
+#                       build.sh → PDF
+#   Job 2 release       create GH Release; attach composite + rag + PDF;
+#                       Job 2d commits release PDF to studies/<slug>/versions/vN.N/
+#                       on main (NO [skip ci]; guard rejects skip phrases)
+#   Job 3 doi-publish   read reserved DOIs; upload composite + rag + PDF to
+#                       Zenodo; PUBLISH deposit; metadata references
+#                       data/phase-state.yaml.base_url
+#   Job 4 mirror        (Phase 6+) skip in Phase 3 pilot
+#   Job 5 publish-surfaces
+#                       5a SWH save-code-now (idempotent)
+#                       5b HuggingFace Dataset push (Phase 3+)
+#                       5c PubPub cross-post (Phase 6+)
+#                       5d Wayback SPN2 (Phase 6+)
+#                       5e Wikidata (Phase 7+)
+#                       5f Preprint deposit (Phase 7+)
+#   Job 6 verify        verify-release --tag <tag> — creates/updates
+#                       verify-release-failure Issues per failing check
+#
+# **Repo-wide concurrency group** serializes cross-release pushes.
+#
+# **HUMAN GATE:** Tag creation (`git tag && git push origin <tag>`) is the
+# human gate. Tim executes; AI never delegated because Zenodo publish is
+# irreversible.
+#
+# PHASE 2b SCAFFOLD: workflow structure only. Each job runs its stage
+# script as a scaffold — real bodies land during Phase 3 execution
+# (Task 3.5-3.6). Workflow will not fire in Phase 2b because no tags
+# will be pushed.
+
+on:
+  # Tag-push only. Global Constraint bans `on: push` to BRANCHES (which would
+  # loop with Job 2d's App-token push); tag pushes are exempt per plan Task
+  # 2b.10 Step 4 comment ("tag-triggered workflows"). Do NOT add `branches:`
+  # here — the loop guard depends on it.
+  push:
+    tags:
+      - '*/v*'   # <slug>/vN.N
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Manual re-run tag (form <slug>/vN.N)'
+        required: true
+
+concurrency:
+  group: lemma-tag-release
+  cancel-in-progress: false   # never cancel a partial Zenodo publish
+
+permissions:
+  contents: write        # Job 2d needs this to push versioned PDF back to main
+  discussions: write     # Job 6a announces to Discussions
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      slug: ${{ steps.parse.outputs.slug }}
+      version: ${{ steps.parse.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Parse tag
+        id: parse
+        env:
+          TAG_REF: ${{ github.ref }}
+        run: |
+          TAG="${TAG_REF#refs/tags/}"
+          SLUG="${TAG%/*}"
+          VERSION="${TAG##*/}"
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Refuse if any open verify-release-failure Issue (R6 C12)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          count=$(gh issue list --label verify-release-failure --state open --json number | jq length)
+          if [ "$count" -gt 0 ]; then
+            echo "Refusing release: $count open verify-release-failure Issues"
+            exit 1
+          fi
+
+      - name: Install deps
+        run: npm ci --omit=optional || npm install
+
+      - name: 1b compile --check + emit artifacts
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+          VERSION: ${{ steps.parse.outputs.version }}
+        run: |
+          echo "TODO(Task 3.5): npm run compile:study -- --study \"$SLUG\" --version \"$VERSION\" --check"
+
+      - name: 1c verify:study (manifest + anchors + study.yaml + machine-readable)
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+        run: |
+          node scripts/verify/verify-study-yaml.mjs --study "$SLUG"
+          node scripts/verify/verify-anchors.mjs --study "$SLUG"
+          node scripts/verify/verify-machine-readable.mjs --study "$SLUG"
+          node scripts/verify/verify-manifest.mjs
+
+      - name: 1d build.sh → PDF
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+        run: |
+          echo "TODO(Task 3.5): studies/$SLUG/build.sh"
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 2a-c create GH Release + attach composite + rag + PDF
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          echo "TODO(Task 3.5): gh release create \"$TAG\" ..."
+
+      - name: 2d commit release PDF to main (NO [skip ci]; guard commit message)
+        env:
+          SLUG: ${{ needs.build.outputs.slug }}
+          VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          # commit message construction: MUST NOT contain [skip ci] or any CF-skip phrase.
+          # If future change ever adds them, the guard below refuses the push.
+          MSG="release(pdf): $SLUG/$VERSION [autogen]"
+          if echo "$MSG" | grep -Ei '\[skip ci\]|\[ci skip\]|\[cf-pages-skip\]|no ci'; then
+            echo "Refusing: Job 2d commit message contains a CI-skip phrase"
+            exit 1
+          fi
+          echo "TODO(Task 3.5): cp + git add + commit -m \"$MSG\" + fetch-rebase-push"
+
+  doi-publish:
+    needs: [build, release]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 3a-d PUBLISH Zenodo deposit
+        env:
+          SLUG: ${{ needs.build.outputs.slug }}
+          VERSION: ${{ needs.build.outputs.version }}
+          ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
+        run: |
+          echo "TODO(Task 3.5): node scripts/zenodo-publish.mjs --study \"$SLUG\" --version \"$VERSION\""
+
+  publish-surfaces:
+    needs: [build, release, doi-publish]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 5a SWH save-code-now (idempotent)
+        run: echo "TODO(Task 3.5): node scripts/push-software-heritage.mjs"
+
+      - name: 5b HuggingFace Dataset push (Phase 3+)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: echo "TODO(Task 3.5): node scripts/update-huggingface-ds.mjs"
+
+  verify:
+    needs: [build, release, doi-publish, publish-surfaces]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci --omit=optional || npm install
+
+      - name: 6 verify-release
+        env:
+          TAG: ${{ github.ref_name }}
+        run: node scripts/lemma-cli/verify-release.mjs --tag "$TAG"
