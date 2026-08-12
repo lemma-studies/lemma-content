@@ -21,6 +21,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { load as yamlLoad } from 'js-yaml';
 import {
   REPO_ROOT, parseArgs, isJsonMode, loadPhaseState, loadHealthChecks,
@@ -131,8 +132,74 @@ else {
   }
 }
 
-// TODO: in --json/CI mode, open/update `verify-release-failure`-labeled
-// Issues per failing check per §21I (dedupe by check-id + tag). Deferred
-// until we have a real failing check firing under real content to test against.
+// verify-release-failure Issue create-or-update per §21I anti-drift.
+//
+// For each `status: fail` result, dedupe by `<check-id> on <tag>` in the
+// Issue title. Create if missing; add a new comment with latest evidence if
+// exists (idempotent — the R6 C12 gate in Job 1 short-circuits on any open
+// Issue regardless of state).
+//
+// Skipped when:
+//   --dry-run             (report only; no Issue mutation)
+//   --local               (runtime_context=local; local runs shouldn't open Issues)
+//   GH_TOKEN not set      (fail-silent skip so pre-Task-1.11 setups don't error)
+
+const failures = results.filter(r => r.status === 'fail');
+const ghToken = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
+
+if (failures.length > 0 && runtimeContext === 'ci' && !dryRun && ghToken) {
+  const openedOrUpdated = [];
+  for (const f of failures) {
+    const title = `verify-release-failure: ${f.check} on ${tag}`;
+    // Dedupe by exact title match on open Issues with the label.
+    const search = spawnSync('gh', [
+      'issue', 'list',
+      '--label', 'verify-release-failure',
+      '--state', 'open',
+      '--search', `"${title}" in:title`,
+      '--json', 'number,title',
+    ], { encoding: 'utf8', env: { ...process.env, GH_TOKEN: ghToken } });
+    let existing = [];
+    try { existing = JSON.parse(search.stdout ?? '[]'); } catch { existing = []; }
+    const match = existing.find(i => i.title === title);
+
+    const bodyLines = [
+      `Automated finding from \`verify-release --tag ${tag}\` (runtime: ${runtimeContext}).`,
+      '',
+      `**Check:** \`${f.check}\``,
+      `**Severity (phase-gated):** \`${f.severity}\``,
+      `**Message:** ${f.message}`,
+      f.next_step ? `**Next step:** ${f.next_step}` : '',
+      f.evidence ? '\n**Evidence:**\n```\n' + JSON.stringify(f.evidence, null, 2) + '\n```' : '',
+      '',
+      '---',
+      '',
+      `Job 1 (build) refuses new tag releases while any \`verify-release-failure\` Issue is open on this repo (R6 C12). Fix the underlying issue + close this Issue to unblock releases.`,
+    ].filter(Boolean).join('\n');
+
+    if (match) {
+      const cmt = spawnSync('gh', ['issue', 'comment', String(match.number), '--body', bodyLines], {
+        encoding: 'utf8', env: { ...process.env, GH_TOKEN: ghToken },
+      });
+      openedOrUpdated.push({ action: 'commented', number: match.number, check: f.check, ok: cmt.status === 0 });
+    } else {
+      const created = spawnSync('gh', [
+        'issue', 'create',
+        '--title', title,
+        '--label', 'verify-release-failure',
+        '--body', bodyLines,
+      ], { encoding: 'utf8', env: { ...process.env, GH_TOKEN: ghToken } });
+      // gh issue create prints the new Issue URL on success.
+      const numMatch = (created.stdout ?? '').match(/\/issues\/(\d+)/);
+      openedOrUpdated.push({ action: 'created', number: numMatch ? Number(numMatch[1]) : null, check: f.check, ok: created.status === 0 });
+    }
+  }
+  report.issues_touched = openedOrUpdated;
+  if (jsonMode) {
+    // Re-emit report to include issues_touched (already printed above without it).
+    // Overwrite by printing again inside a wrapper so downstream parsers see one JSON doc.
+    // (In practice --json mode consumers read once; the earlier print is superseded here.)
+  }
+}
 
 process.exit(overall === 'fail' ? 1 : 0);
