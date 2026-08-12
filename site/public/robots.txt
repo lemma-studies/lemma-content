@@ -1,0 +1,13 @@
+# Permissive by design (design §7.6 + R7 C8 permissive AI-bot posture).
+# CC BY 4.0 content — machine crawling is welcome. See /.well-known/ai.txt
+# for interaction preferences (Content-license, DOI-citation, rate-limit,
+# corpus/claim/chunk endpoints).
+#
+# noindex is per-page (via <meta robots>) on Migration-Queued study stubs
+# and /versions/vN.N/... frozen pages; the sitemap filter in
+# site/astro.config.mjs excludes those URLs at the sitemap level too.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lemma.gig8.com/sitemap-index.xml
