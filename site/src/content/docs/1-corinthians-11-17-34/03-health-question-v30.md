@@ -144,6 +144,6 @@ A few observations that do not belong to any single view but matter for applicat
 
 ## Next
 
-- [Movement C: Worthy Participation (vv. 27-32)](/1-corinthians-11-17-34/movement-c/) — TBD; will fold this material into a full chapter
-- [Historical Context](/1-corinthians-11-17-34/historical-context/) — the meal-and-banquet background that conditions Movement C
-- [Back to the passage](/1-corinthians-11-17-34/01-text/)
+- [Movement C: Worthy Participation (vv. 27-32)](/1-corinthians-11-17-34/06-movement-c/) — TBD; will fold this material into a full chapter
+- [Historical Context](/1-corinthians-11-17-34/02-historical-context/) — the meal-and-banquet background that conditions Movement C
+- [Back to the passage](/1-corinthians-11-17-34/01-passage-and-text/)

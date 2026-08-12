@@ -74,7 +74,7 @@ It does not mean Paul welcomes the factions. The very next phrase makes that cle
 
 > "When ye come together therefore into one place, this is not to eat the Lord's supper. For in eating every one taketh before other his own supper: and one is hungry, and another is drunken." (vv. 20-21, KJV)
 
-The full treatment of this topic is in [Historical Context](/1-corinthians-11-17-34/historical-context/). Three points summarized here for the movement's argument:
+The full treatment of this topic is in [Historical Context](/1-corinthians-11-17-34/02-historical-context/). Three points summarized here for the movement's argument:
 
 1. **The Greek confirms a full meal.** *Deipnon* is the main evening meal. People are *hungry* and people are *drunken*. The vocabulary cannot bear the wafer-and-thimble reading; Paul is talking about a real dinner.
 2. **There are two suppers, not one.** Paul contrasts the *Lord's* supper (κυριακὸν δεῖπνον) with each Corinthian's *own* supper (ἴδιον δεῖπνον). The Corinthians are eating the second while imagining they are eating the first. The complaint is precisely that the gathering's name *Lord's supper* has been hollowed out — they are eating *their* food, *their* way, while telling themselves they are doing the Lord's thing.
@@ -111,7 +111,7 @@ The pattern Paul invokes here did not emerge in his theological mind from nowher
 
 The Lord whose Supper this is washed his disciples' feet on the night he instituted it. The Roman dinner he was *not* hosting was that one.
 
-It bears noting that Jesus's anti-stratifying meal teaching does not float free of his Jewish formation; it radicalizes the egalitarian logic *already inside* Jewish meal practice (Sabbath table, Passover seder, *havurah*). The [Historical Context page's section on the Jewish meal-tradition](/1-corinthians-11-17-34/historical-context/#part-3-the-jewish-meal--the-tradition-christianity-inherited) traces this background. The Corinthian drift toward the Roman *cena* was not just a betrayal of Jesus; it was a defection from the meal-form Jesus stood inside and pushed further.
+It bears noting that Jesus's anti-stratifying meal teaching does not float free of his Jewish formation; it radicalizes the egalitarian logic *already inside* Jewish meal practice (Sabbath table, Passover seder, *havurah*). The [Historical Context page's section on the Jewish meal-tradition](/1-corinthians-11-17-34/02-historical-context/#part-3-the-jewish-meal--the-tradition-christianity-inherited) traces this background. The Corinthian drift toward the Roman *cena* was not just a betrayal of Jesus; it was a defection from the meal-form Jesus stood inside and pushed further.
 
 ### What the early church did with this (Antiquity)
 
@@ -151,5 +151,5 @@ Movement A diagnoses. Movements B, C, and D respond.
 
 ## See Also
 
-- [Historical Context — Greco-Roman Meal](/1-corinthians-11-17-34/historical-context/) — the dinner-conventions background to vv. 20-22
-- [The Passage and Text](/1-corinthians-11-17-34/01-text/) — KJV, key Greek terms, translation comparisons
+- [Historical Context — Greco-Roman Meal](/1-corinthians-11-17-34/02-historical-context/) — the dinner-conventions background to vv. 20-22
+- [The Passage and Text](/1-corinthians-11-17-34/01-passage-and-text/) — KJV, key Greek terms, translation comparisons

@@ -52,15 +52,15 @@ A reader who finds that the earliest Christians did not teach "healing in the at
 
 This chapter is organized into five sections:
 
-1. **[Apostolic Fathers (c. 100--150 AD)](/03-antiquity/apostolic-fathers/)** --- The earliest post-apostolic Christian writings and their use of Isaiah 53. How did Clement of Rome, the Epistle of Barnabas, Ignatius, the Didache, and Polycarp understand the Servant's suffering and healing?
+1. **[Apostolic Fathers (c. 100--150 AD)](/by-his-stripes/03-antiquity/apostolic-fathers/)** --- The earliest post-apostolic Christian writings and their use of Isaiah 53. How did Clement of Rome, the Epistle of Barnabas, Ignatius, the Didache, and Polycarp understand the Servant's suffering and healing?
 
-2. **[Ante-Nicene Fathers (c. 150--325 AD)](/03-antiquity/ante-nicene-fathers/)** --- The major theological voices before Nicaea. How did Justin Martyr, Irenaeus, Origen, Tertullian, and Cyprian read Isaiah 53? Did any of them connect it to physical healing? What about the church's actual practice of healing prayer?
+2. **[Ante-Nicene Fathers (c. 150--325 AD)](/by-his-stripes/03-antiquity/ante-nicene-fathers/)** --- The major theological voices before Nicaea. How did Justin Martyr, Irenaeus, Origen, Tertullian, and Cyprian read Isaiah 53? Did any of them connect it to physical healing? What about the church's actual practice of healing prayer?
 
-3. **[Rabbinic Thought: Pre-Jesus / Second Temple Period](/03-antiquity/rabbinic-pre-jesus/)** --- The Dead Sea Scrolls, intertestamental literature, and the question of whether a "suffering Messiah" concept existed before Jesus.
+3. **[Rabbinic Thought: Pre-Jesus / Second Temple Period](/by-his-stripes/03-antiquity/rabbinic-pre-jesus/)** --- The Dead Sea Scrolls, intertestamental literature, and the question of whether a "suffering Messiah" concept existed before Jesus.
 
-4. **[Rabbinic Thought: At Jesus's Time](/03-antiquity/rabbinic-at-jesus-time/)** --- The Targum Jonathan's messianic reading of Isaiah 53, the Ethiopian eunuch's question, the Septuagint's interpretive choices, and Jewish messianic healing expectations.
+4. **[Rabbinic Thought: At Jesus's Time](/by-his-stripes/03-antiquity/rabbinic-at-jesus-time/)** --- The Targum Jonathan's messianic reading of Isaiah 53, the Ethiopian eunuch's question, the Septuagint's interpretive choices, and Jewish messianic healing expectations.
 
-5. **[Rabbinic Thought: Post-Jesus Shift](/03-antiquity/rabbinic-post-jesus/)** --- The Talmudic references to a suffering Messiah, Rashi's influential shift to the corporate-Israel reading, and the significance of the interpretive trajectory itself.
+5. **[Rabbinic Thought: Post-Jesus Shift](/by-his-stripes/03-antiquity/rabbinic-post-jesus/)** --- The Talmudic references to a suffering Messiah, Rashi's influential shift to the corporate-Israel reading, and the significance of the interpretive trajectory itself.
 
 ## A Word Before We Begin
 

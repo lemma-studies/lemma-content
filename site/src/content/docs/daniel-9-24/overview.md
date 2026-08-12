@@ -101,4 +101,4 @@ The edges are open: the starting decree, the calendar system, the 70th week. The
 > "Know therefore and understand, that from the going forth of the commandment to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, and threescore and two weeks."
 > --- Daniel 9:25 (KJV)
 
-For the full analysis, begin with [Chapter 1: Scripture](/daniel-9-24/01-scripture/), which provides the complete Hebrew text, word studies, and verse-by-verse exegesis. Or see the [At a Glance](/daniel-9-24/) page for a one-page summary.
+For the full analysis, begin with **Chapter 1: Scripture** (chapter forthcoming), which provides the complete Hebrew text, word studies, and verse-by-verse exegesis. Or see the [At a Glance](/daniel-9-24/) page for a one-page summary.

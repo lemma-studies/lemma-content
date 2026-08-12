@@ -219,7 +219,7 @@ Movement B does not lecture the Corinthians. It re-tells them the story they had
 
 ## Next
 
-- [Movement C: Worthy Participation (vv. 27-32)](/1-corinthians-11-17-34/movement-c/) — coming next
-- [Movement D: Practical Ordering (vv. 33-34)](/1-corinthians-11-17-34/movement-d/) — coming after C
-- [The Health Question (v. 30)](/1-corinthians-11-17-34/health-question/) — the bodily-consequences question, already written
-- [Back to the passage](/1-corinthians-11-17-34/01-text/)
+- [Movement C: Worthy Participation (vv. 27-32)](/1-corinthians-11-17-34/06-movement-c/) — coming next
+- [Movement D: Practical Ordering (vv. 33-34)](/1-corinthians-11-17-34/07-movement-d/) — coming after C
+- [The Health Question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/) — the bodily-consequences question, already written
+- [Back to the passage](/1-corinthians-11-17-34/01-passage-and-text/)

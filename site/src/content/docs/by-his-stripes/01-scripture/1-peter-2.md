@@ -168,6 +168,6 @@ How far that work extends into physical healing for believers today -- whether a
 
 ## Cross-References
 
-- [Isaiah 52:13-53:12](/01-scripture/isaiah-53/) -- The full Fourth Servant Song, Peter's source text
-- [Matthew 8:16-17](/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
-- [Related Passages](/01-scripture/related/) -- Other Scripture texts that inform this discussion, including James 5:14-16 on prayer for healing, and passages on believers who remained sick
+- [Isaiah 52:13-53:12](/by-his-stripes/01-scripture/isaiah-53/) -- The full Fourth Servant Song, Peter's source text
+- [Matthew 8:16-17](/by-his-stripes/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
+- [Related Passages](/by-his-stripes/01-scripture/related/) -- Other Scripture texts that inform this discussion, including James 5:14-16 on prayer for healing, and passages on believers who remained sick

@@ -208,9 +208,9 @@ The evidence from the Apostolic Fathers is a piece of the puzzle --- an importan
 
 ## Cross-References
 
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song, including the Hebrew word study of *choliy*, *makob*, and *rapha*
-- [1 Peter 2:24](/01-scripture/1-peter-2/) --- Peter's quotation of Isaiah 53:5, which Polycarp echoes in his letter to the Philippians
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing, a dimension absent from the Apostolic Fathers
-- [Ante-Nicene Fathers (c. 150--325 AD)](/03-antiquity/ante-nicene-fathers/) --- The next generation of early Christian writers and their more developed theological reflection on Isaiah 53
-- [Healing in the Atonement View](/04-reality/healing-in-atonement-view/) --- The theological position that must account for the Apostolic Fathers' silence on physical healing
-- [Spiritual Healing View](/04-reality/spiritual-healing-view/) --- The theological position that finds support in the Apostolic Fathers' consistent spiritual reading
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song, including the Hebrew word study of *choliy*, *makob*, and *rapha*
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) --- Peter's quotation of Isaiah 53:5, which Polycarp echoes in his letter to the Philippians
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing, a dimension absent from the Apostolic Fathers
+- [Ante-Nicene Fathers (c. 150--325 AD)](/by-his-stripes/03-antiquity/ante-nicene-fathers/) --- The next generation of early Christian writers and their more developed theological reflection on Isaiah 53
+- [Healing in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) --- The theological position that must account for the Apostolic Fathers' silence on physical healing
+- [Spiritual Healing View](/by-his-stripes/04-reality/spiritual-healing-view/) --- The theological position that finds support in the Apostolic Fathers' consistent spiritual reading

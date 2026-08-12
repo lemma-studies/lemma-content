@@ -208,7 +208,7 @@ Now re-read 1 Cor 11:17-22 with both backgrounds in view — the Greco-Roman *ce
 
 The shocking Christian claim, against the Greco-Roman cultural grain, is that this **cannot happen at the Lord's Table**, because the body of Christ has no patrons and clients. The Roman *cena* and the Lord's *deipnon* are not merely different in scale or food — they are different in *kind*. To eat as if it were a Roman dinner is to "not discern the body" (v. 29), because the body — both Christ's eucharistic body and the church as Christ's body — does not have a hierarchy of who eats first.
 
-This reading does not foreclose other things v. 29 may mean (see [The Health Question](/1-corinthians-11-17-34/health-question/) and Movement C). But it makes Paul's correction land with terrible specificity. He is not just saying "be reverent." He is saying *you have made the Lord's Supper into a Roman dinner, and you must stop.*
+This reading does not foreclose other things v. 29 may mean (see [The Health Question](/1-corinthians-11-17-34/03-health-question-v30/) and Movement C). But it makes Paul's correction land with terrible specificity. He is not just saying "be reverent." He is saying *you have made the Lord's Supper into a Roman dinner, and you must stop.*
 
 ---
 
@@ -258,6 +258,6 @@ This reading does not foreclose other things v. 29 may mean (see [The Health Que
 
 ## Next
 
-- [Movement A: The Problem at Corinth (vv. 17-22)](/1-corinthians-11-17-34/movement-a/) — TBD; will draw heavily on this page
-- [The Health Question (v. 30)](/1-corinthians-11-17-34/health-question/) — the v. 30 crux
-- [Back to the passage](/1-corinthians-11-17-34/01-text/)
+- [Movement A: The Problem at Corinth (vv. 17-22)](/1-corinthians-11-17-34/04-movement-a/) — TBD; will draw heavily on this page
+- [The Health Question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/) — the v. 30 crux
+- [Back to the passage](/1-corinthians-11-17-34/01-passage-and-text/)

@@ -22,7 +22,7 @@ banner:
 
 Movement A diagnosed the abuse. Movement B re-told the meal's meaning. Movement C draws the conclusion. Because the meal *is* what Movement B says it is, eating it the way Movement A described carries weight — *anaxiōs* (in an unworthy manner). Paul names the warning, prescribes self-examination, names the consequence already visible in the community, and frames the consequence as discipline aimed at *not* condemnation.
 
-Three topics open here that deserve careful work: what *unworthily* means (and what it does not mean), what *discerning the body* means (the great crux of the passage), and what Paul means by *judgment* / *chastening*. The bodily-consequences question of v. 30 is treated separately in the [Health Question](/1-corinthians-11-17-34/health-question/) page, which Movement C will cross-reference rather than duplicate.
+Three topics open here that deserve careful work: what *unworthily* means (and what it does not mean), what *discerning the body* means (the great crux of the passage), and what Paul means by *judgment* / *chastening*. The bodily-consequences question of v. 30 is treated separately in the [Health Question](/1-corinthians-11-17-34/03-health-question-v30/) page, which Movement C will cross-reference rather than duplicate.
 
 ---
 
@@ -83,7 +83,7 @@ Note again the syntax of v. 28: *examine himself, and so let him eat*. Paul does
 
 This is the great interpretive crux of the passage. *What body* is one failing to discern?
 
-The textual note from the [translation comparison](/1-corinthians-11-17-34/01-text/#v-29--not-discerning-the-lords-body) is important: "the Lord's" is a later manuscript addition; the earliest texts read simply *to sōma* ("the body"). The KJV "the Lord's body" reflects the Byzantine tradition; modern critical texts read just "the body." The shorter, earlier reading is *more* ambiguous than the longer one — and the ambiguity is theologically loaded.
+The textual note from the [translation comparison](/1-corinthians-11-17-34/01-passage-and-text/#v-29--not-discerning-the-lords-body) is important: "the Lord's" is a later manuscript addition; the earliest texts read simply *to sōma* ("the body"). The KJV "the Lord's body" reflects the Byzantine tradition; modern critical texts read just "the body." The shorter, earlier reading is *more* ambiguous than the longer one — and the ambiguity is theologically loaded.
 
 ### View 1 — The eucharistic body of Christ
 
@@ -149,7 +149,7 @@ The passage shifts from warning to diagnosis: the failure to discern is *already
 
 ### v. 30 — The bodily question
 
-The three views on v. 30 — Direct divine judgment, Natural consequence of broken community, Pentecostal healing reading — are developed in the [Health Question (v. 30)](/1-corinthians-11-17-34/health-question/) page. The summary is:
+The three views on v. 30 — Direct divine judgment, Natural consequence of broken community, Pentecostal healing reading — are developed in the [Health Question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/) page. The summary is:
 
 - **View 1 (Direct):** God is presently striking the Corinthians with illness and death because they are profaning the Supper. Held by patristic majority; grounds the Catholic/Orthodox preparation discipline.
 - **View 2 (Natural):** The community itself is sick — the poor go hungry, the weak go unsupported, the result is bodily harm distributed along the same lines Greco-Roman society distributed it. Held by Theissen and modern social-historical readings.
@@ -197,6 +197,6 @@ Movement D will close the passage with Paul's practical instructions — wait fo
 
 ## Next
 
-- [Movement D: Practical Ordering (vv. 33-34)](/1-corinthians-11-17-34/movement-d/) — coming next
-- [The Health Question (v. 30)](/1-corinthians-11-17-34/health-question/) — the bodily-consequences question in full
-- [Back to the passage](/1-corinthians-11-17-34/01-text/)
+- [Movement D: Practical Ordering (vv. 33-34)](/1-corinthians-11-17-34/07-movement-d/) — coming next
+- [The Health Question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/) — the bodily-consequences question in full
+- [Back to the passage](/1-corinthians-11-17-34/01-passage-and-text/)

@@ -200,9 +200,9 @@ The next section examines what happened at Jesus's time --- how the Targum Jonat
 
 ## Cross-References
 
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song, including the Hebrew word study that illuminates what *choliy*, *makob*, and *rapha* would have meant to pre-Christian readers
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing, which draws on the same messianic healing expectations documented in this section
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) --- Jesus's appeal to His healings as messianic evidence (Matt 11:4--5), directly echoing the expectations found in Isaiah 35 and 4Q521
-- [Rabbinic Thought: At Jesus's Time](/03-antiquity/rabbinic-at-jesus-time/) --- The next section, examining the Targum Jonathan, the Ethiopian eunuch, and first-century interpretive debates
-- [Rabbinic Thought: The Post-Jesus Shift](/03-antiquity/rabbinic-post-jesus/) --- The subsequent shift in Jewish interpretation away from messianic readings of Isaiah 53
-- [Appendix: Rabbinic Sources](/appendices/e-rabbinic-sources/) --- Extended primary source material for the rabbinic evidence discussed in this chapter
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song, including the Hebrew word study that illuminates what *choliy*, *makob*, and *rapha* would have meant to pre-Christian readers
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing, which draws on the same messianic healing expectations documented in this section
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) --- Jesus's appeal to His healings as messianic evidence (Matt 11:4--5), directly echoing the expectations found in Isaiah 35 and 4Q521
+- [Rabbinic Thought: At Jesus's Time](/by-his-stripes/03-antiquity/rabbinic-at-jesus-time/) --- The next section, examining the Targum Jonathan, the Ethiopian eunuch, and first-century interpretive debates
+- [Rabbinic Thought: The Post-Jesus Shift](/by-his-stripes/03-antiquity/rabbinic-post-jesus/) --- The subsequent shift in Jewish interpretation away from messianic readings of Isaiah 53
+- [Appendix: Rabbinic Sources](/by-his-stripes/appendices/e-rabbinic-sources/) --- Extended primary source material for the rabbinic evidence discussed in this chapter

@@ -203,11 +203,11 @@ One final observation: The fact that the cross is the pivot between curse and no
 
 ## Cross-References
 
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- Where *choliy* appears in the Servant Song
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing
-- [Related Passages](/01-scripture/related/) --- Romans 8:22--23 and Revelation 21:4
-- [The Atonement's Scope Through Christ's Lens](/02-christocentric/atonement-scope/) --- Christ as curse-bearer
-- [Ante-Nicene Fathers](/03-antiquity/ante-nicene-fathers/) --- Justin Martyr's "curses of all"; Melito's exchange language
-- [Healing Is in the Atonement View](/04-reality/healing-in-atonement-view/) --- The Derek Prince / T.L. Osborn framework
-- [Areas of Tension](/05-synthesis/areas-of-tension/) --- Tension 10: The scope of the curse and the scope of redemption
-- [Hebrew Word Study](/appendices/a-hebrew-word-study/) --- Full *choliy* analysis including Deuteronomy 28:61
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- Where *choliy* appears in the Servant Song
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing
+- [Related Passages](/by-his-stripes/01-scripture/related/) --- Romans 8:22--23 and Revelation 21:4
+- [The Atonement's Scope Through Christ's Lens](/by-his-stripes/02-christocentric/atonement-scope/) --- Christ as curse-bearer
+- [Ante-Nicene Fathers](/by-his-stripes/03-antiquity/ante-nicene-fathers/) --- Justin Martyr's "curses of all"; Melito's exchange language
+- [Healing Is in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) --- The Derek Prince / T.L. Osborn framework
+- [Areas of Tension](/by-his-stripes/05-synthesis/areas-of-tension/) --- Tension 10: The scope of the curse and the scope of redemption
+- [Hebrew Word Study](/by-his-stripes/appendices/a-hebrew-word-study/) --- Full *choliy* analysis including Deuteronomy 28:61

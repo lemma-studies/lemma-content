@@ -27,7 +27,7 @@ Four biblical texts form the core of this debate. Each is examined in detail in 
 
 This is the primary passage --- the origin of the phrase "by his stripes we are healed." The Fourth Servant Song describes the suffering, death, and vindication of the Servant of the LORD. Verses 4--5 are the epicenter of the debate, and the Hebrew words behind the English translations are genuinely ambiguous: they *can* refer to physical sickness and healing, and they *can* refer to spiritual grief and restoration. How translators and interpreters handle this ambiguity shapes the entire discussion.
 
-[Read the full analysis of Isaiah 52:13--53:12 &rarr;](/01-scripture/isaiah-53/)
+[Read the full analysis of Isaiah 52:13--53:12 &rarr;](/by-his-stripes/01-scripture/isaiah-53/)
 
 ### Matthew 8:16--17 --- The Fulfillment Citation
 
@@ -36,7 +36,7 @@ This is the primary passage --- the origin of the phrase "by his stripes we are 
 
 Matthew quotes Isaiah 53:4 in the context of Jesus physically healing the sick. This is the strongest New Testament evidence that Isaiah 53 includes physical healing. But interpreters disagree on *how* Matthew is applying the passage --- is he saying the atonement provides healing, or is he showing a broader pattern of the Servant's identification with human suffering?
 
-[Read the full analysis of Matthew 8:16--17 &rarr;](/01-scripture/matthew-8/)
+[Read the full analysis of Matthew 8:16--17 &rarr;](/by-his-stripes/01-scripture/matthew-8/)
 
 ### 1 Peter 2:24 --- The Spiritual Application
 
@@ -45,7 +45,7 @@ Matthew quotes Isaiah 53:4 in the context of Jesus physically healing the sick. 
 
 Peter quotes Isaiah 53:5 in a context that is explicitly about sin and righteousness --- not physical sickness. For many interpreters, this settles the question: Peter understood "healed" as spiritual restoration. But others argue that Peter is applying *one dimension* of a passage that has multiple dimensions, and that his spiritual application does not exclude the physical meaning found in Matthew 8:17.
 
-[Read the full analysis of 1 Peter 2:24 &rarr;](/01-scripture/1-peter-2/)
+[Read the full analysis of 1 Peter 2:24 &rarr;](/by-his-stripes/01-scripture/1-peter-2/)
 
 ### Related Passages
 
@@ -56,7 +56,7 @@ Several other biblical texts inform the discussion, including:
 - **James 5:14--16** (KJV): "Is any sick among you? let him call for the elders of the church... and the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him." --- Physical healing and forgiveness of sins linked in practice.
 - **Romans 8:22--23** (KJV): "For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our body." --- The "not yet" of bodily redemption.
 
-[Read the full analysis of related passages &rarr;](/01-scripture/related/)
+[Read the full analysis of related passages &rarr;](/by-his-stripes/01-scripture/related/)
 
 ## How This Chapter Is Organized
 

@@ -31,19 +31,19 @@ This question has three dimensions, each explored in its own section:
 
 Jesus healed. He healed extensively, publicly, and consistently throughout his earthly ministry. The Gospels record more space devoted to Jesus's healing ministry than to almost any other category of his activity. But what did the healings mean? Were they demonstrations of what the atonement provides? Authentication of his messianic identity? Foretastes of the coming kingdom? The evidence supports multiple readings, and the first section examines it in detail.
 
-[Read the full analysis of Jesus's Healing Ministry &rarr;](/02-christocentric/healing-ministry/)
+[Read the full analysis of Jesus's Healing Ministry &rarr;](/by-his-stripes/02-christocentric/healing-ministry/)
 
 ### Jesus's Teaching on Suffering
 
 Jesus also taught about suffering -- and what he taught complicates any simple equation between faith and physical wholeness. He promised tribulation. He modeled submission to suffering in Gethsemane. He rejected the assumption that sickness always results from sin. He called his followers to take up their cross. Any Christocentric analysis of healing must reckon with this equally Christocentric evidence.
 
-[Read the full analysis of Jesus's Teaching on Suffering &rarr;](/02-christocentric/teaching-on-suffering/)
+[Read the full analysis of Jesus's Teaching on Suffering &rarr;](/by-his-stripes/02-christocentric/teaching-on-suffering/)
 
 ### The Atonement's Scope Through Christ's Lens
 
 Finally, what did Jesus say the atonement accomplishes? His explicit atonement language centers on sin -- ransom, remission, salvation. But his vocabulary also includes "abundant life" and the comprehensive Greek word sozo, which means both "to save" and "to make whole." The synthesis section examines what Jesus himself revealed about the breadth of his atoning work and whether it includes physical healing as a present provision, a future guarantee, or both.
 
-[Read the full analysis of the Atonement's Scope &rarr;](/02-christocentric/atonement-scope/)
+[Read the full analysis of the Atonement's Scope &rarr;](/by-his-stripes/02-christocentric/atonement-scope/)
 
 ## Connecting to Chapter 1
 

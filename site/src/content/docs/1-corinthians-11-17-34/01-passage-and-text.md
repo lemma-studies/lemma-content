@@ -122,7 +122,7 @@ For the lines where translations diverge enough to affect the theology, here is 
 | NASB | "many among you are weak and sick, and a number sleep" |
 | NIV | "many among you are weak and sick, and a number of you have fallen asleep" |
 
-*Translation issue:* All translations agree on the literal meaning. The interpretive question is *not* the translation but whether this is **(a)** direct divine judgment, **(b)** natural consequence of broken community, or **(c)** an apostolic-era observation that does not continue. See [The Health Question (v. 30)](/1-corinthians-11-17-34/health-question/).
+*Translation issue:* All translations agree on the literal meaning. The interpretive question is *not* the translation but whether this is **(a)** direct divine judgment, **(b)** natural consequence of broken community, or **(c)** an apostolic-era observation that does not continue. See [The Health Question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/).
 
 ---
 
@@ -143,9 +143,9 @@ Two observations about this placement:
 
 ## Next
 
-- [Historical Context — the Greco-Roman Meal and the Lord's Supper](/1-corinthians-11-17-34/historical-context/)
-- [Movement A: The Problem at Corinth (vv. 17-22)](/1-corinthians-11-17-34/movement-a/) — TBD
-- [Movement B: The Tradition Received (vv. 23-26)](/1-corinthians-11-17-34/movement-b/) — TBD
-- [Movement C: Worthy Participation (vv. 27-32)](/1-corinthians-11-17-34/movement-c/) — TBD
-- [The Health Question (v. 30) — focused topic note](/1-corinthians-11-17-34/health-question/)
-- [Movement D: Practical Ordering (vv. 33-34)](/1-corinthians-11-17-34/movement-d/) — TBD
+- [Historical Context — the Greco-Roman Meal and the Lord's Supper](/1-corinthians-11-17-34/02-historical-context/)
+- [Movement A: The Problem at Corinth (vv. 17-22)](/1-corinthians-11-17-34/04-movement-a/) — TBD
+- [Movement B: The Tradition Received (vv. 23-26)](/1-corinthians-11-17-34/05-movement-b/) — TBD
+- [Movement C: Worthy Participation (vv. 27-32)](/1-corinthians-11-17-34/06-movement-c/) — TBD
+- [The Health Question (v. 30) — focused topic note](/1-corinthians-11-17-34/03-health-question-v30/)
+- [Movement D: Practical Ordering (vv. 33-34)](/1-corinthians-11-17-34/07-movement-d/) — TBD

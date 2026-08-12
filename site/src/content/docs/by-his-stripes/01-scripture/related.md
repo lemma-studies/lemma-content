@@ -338,6 +338,6 @@ These five observations do not point unanimously in one direction. They create a
 
 ## Cross-References
 
-- [Isaiah 52:13-53:12](/01-scripture/isaiah-53/) -- The foundational passage
-- [Matthew 8:16-17](/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
-- [1 Peter 2:24](/01-scripture/1-peter-2/) -- Peter's application of Isaiah 53:5 to spiritual healing
+- [Isaiah 52:13-53:12](/by-his-stripes/01-scripture/isaiah-53/) -- The foundational passage
+- [Matthew 8:16-17](/by-his-stripes/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) -- Peter's application of Isaiah 53:5 to spiritual healing

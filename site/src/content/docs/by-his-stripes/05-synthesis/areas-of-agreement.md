@@ -162,9 +162,9 @@ The real disagreements --- the ones that matter for pastoral care, personal fait
 
 ## Cross-References
 
-- [Areas of Tension](/05-synthesis/areas-of-tension/) --- Where the major positions diverge and the evidence is contested
-- [Questions for the Reader](/05-synthesis/questions-for-reader/) --- Guided questions for weighing the evidence
-- [Pastoral Considerations](/04-reality/pastoral-considerations/) --- Where all three views kneel together at the bedside
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- The foundational passage and word study
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) --- The Christocentric evidence for compassion-driven healing
-- [Ante-Nicene Fathers](/03-antiquity/ante-nicene-fathers/) --- The early church's practice of healing without grounding it in Isaiah 53
+- [Areas of Tension](/by-his-stripes/05-synthesis/areas-of-tension/) --- Where the major positions diverge and the evidence is contested
+- [Questions for the Reader](/by-his-stripes/05-synthesis/questions-for-reader/) --- Guided questions for weighing the evidence
+- [Pastoral Considerations](/by-his-stripes/04-reality/pastoral-considerations/) --- Where all three views kneel together at the bedside
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- The foundational passage and word study
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) --- The Christocentric evidence for compassion-driven healing
+- [Ante-Nicene Fathers](/by-his-stripes/03-antiquity/ante-nicene-fathers/) --- The early church's practice of healing without grounding it in Isaiah 53

@@ -230,8 +230,8 @@ The strength of this view is its ability to affirm both the healing evidence and
 
 ## Cross-References
 
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) -- The evidence for Jesus's extensive physical healing ministry
-- [The Atonement's Scope Through Christ's Lens](/02-christocentric/atonement-scope/) -- What Jesus revealed about the breadth of his atoning work
-- [Chapter 2 Overview](/02-christocentric/) -- The Christocentric framework and how it connects to Chapter 1
-- [Related Passages](/01-scripture/related/) -- Chapter 1's analysis of passages on suffering among believers, including 2 Corinthians 12:7-10 and Romans 8:22-23
-- [1 Peter 2:24](/01-scripture/1-peter-2/) -- Peter's quotation of Isaiah 53:5 in the context of Christ's suffering as a model
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) -- The evidence for Jesus's extensive physical healing ministry
+- [The Atonement's Scope Through Christ's Lens](/by-his-stripes/02-christocentric/atonement-scope/) -- What Jesus revealed about the breadth of his atoning work
+- [Chapter 2 Overview](/by-his-stripes/02-christocentric/) -- The Christocentric framework and how it connects to Chapter 1
+- [Related Passages](/by-his-stripes/01-scripture/related/) -- Chapter 1's analysis of passages on suffering among believers, including 2 Corinthians 12:7-10 and Romans 8:22-23
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) -- Peter's quotation of Isaiah 53:5 in the context of Christ's suffering as a model

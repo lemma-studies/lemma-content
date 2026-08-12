@@ -35,6 +35,6 @@ banner:
 
 **Where to start:**
 
-1. **[The text itself](/1-corinthians-11-17-34/01-text/)** — KJV with translation comparison
-2. **[Historical context](/1-corinthians-11-17-34/historical-context/)** — what was actually happening at the Corinthian gathering
-3. **[The health question (v. 30)](/1-corinthians-11-17-34/health-question/)** — the three live views on sickness, weakness, and discipline at the Table
+1. **[The text itself](/1-corinthians-11-17-34/01-passage-and-text/)** — KJV with translation comparison
+2. **[Historical context](/1-corinthians-11-17-34/02-historical-context/)** — what was actually happening at the Corinthian gathering
+3. **[The health question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/)** — the three live views on sickness, weakness, and discipline at the Table

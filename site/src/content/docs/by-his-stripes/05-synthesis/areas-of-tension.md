@@ -164,7 +164,7 @@ The reader must weigh not only the exegetical arguments but also the pastoral co
 
 ## 10. The Scope of the Curse and the Scope of Redemption
 
-The [Curse and Redemption](/01-scripture/curse-and-redemption/) section in Chapter 1 traced a biblical arc that runs from Genesis 3 to Revelation 22:3: the curse introduced by the fall, the curse codified in the law (Deuteronomy 28), the curse borne by Christ (Galatians 3:13), and the curse removed in the new creation ("there shall be no more curse," Rev 22:3, KJV). The central question is whether this arc includes physical healing as a present provision or a future hope.
+The [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) section in Chapter 1 traced a biblical arc that runs from Genesis 3 to Revelation 22:3: the curse introduced by the fall, the curse codified in the law (Deuteronomy 28), the curse borne by Christ (Galatians 3:13), and the curse removed in the new creation ("there shall be no more curse," Rev 22:3, KJV). The central question is whether this arc includes physical healing as a present provision or a future hope.
 
 **The healing-in-the-atonement view:** The law's curses explicitly include disease. Deuteronomy 28:21--22 names pestilence, consumption, fever, and inflammation. Deuteronomy 28:61 adds "every sickness, and every plague" (*choliy* --- the same Hebrew word used in Isaiah 53:4). Galatians 3:13 declares that Christ redeemed us from these curses. If the curses include disease and Christ redeemed us from the curses, then healing from disease is a present provision of the cross. Derek Prince and T.L. Osborn developed this argument with particular force.
 
@@ -188,13 +188,13 @@ The final section of this chapter offers the reader a set of questions --- not t
 
 ## Cross-References
 
-- [Areas of Agreement](/05-synthesis/areas-of-agreement/) --- The substantial common ground shared by all major positions
-- [Questions for the Reader](/05-synthesis/questions-for-reader/) --- Guided questions for weighing the evidence
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- The Hebrew word study at the center of tension 1
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- The key text for tensions 2, 3, and 4
-- [1 Peter 2:24](/01-scripture/1-peter-2/) --- The counterpoint to Matthew's physical application
-- [Jesus's Teaching on Suffering](/02-christocentric/teaching-on-suffering/) --- The Christocentric evidence for tension 8
-- [Apostolic Fathers](/03-antiquity/apostolic-fathers/) --- The early church evidence for tension 6
-- [Rabbinic Thought: The Post-Jesus Shift](/03-antiquity/rabbinic-post-jesus/) --- The trajectory evidence for tension 7
-- [Pastoral Considerations](/04-reality/pastoral-considerations/) --- The pastoral evidence for tension 9
-- [Curse and Redemption](/01-scripture/curse-and-redemption/) --- The Genesis-to-Revelation curse arc for tension 10
+- [Areas of Agreement](/by-his-stripes/05-synthesis/areas-of-agreement/) --- The substantial common ground shared by all major positions
+- [Questions for the Reader](/by-his-stripes/05-synthesis/questions-for-reader/) --- Guided questions for weighing the evidence
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- The Hebrew word study at the center of tension 1
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- The key text for tensions 2, 3, and 4
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) --- The counterpoint to Matthew's physical application
+- [Jesus's Teaching on Suffering](/by-his-stripes/02-christocentric/teaching-on-suffering/) --- The Christocentric evidence for tension 8
+- [Apostolic Fathers](/by-his-stripes/03-antiquity/apostolic-fathers/) --- The early church evidence for tension 6
+- [Rabbinic Thought: The Post-Jesus Shift](/by-his-stripes/03-antiquity/rabbinic-post-jesus/) --- The trajectory evidence for tension 7
+- [Pastoral Considerations](/by-his-stripes/04-reality/pastoral-considerations/) --- The pastoral evidence for tension 9
+- [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) --- The Genesis-to-Revelation curse arc for tension 10

@@ -82,7 +82,7 @@ There is also a structural move embedded in the instruction. By saying "if you a
 
 ### What this does *not* mean
 
-It is sometimes read as Paul deprecating the meal aspect of the Supper — "the real Supper is the bread and cup; the *food* is incidental, eat that at home." This is anachronistic. The Corinthian Supper *was* a real meal (see [Historical Context](/1-corinthians-11-17-34/historical-context/)). Paul is not saying the meal is unimportant; he is correcting how the meal was being eaten. The "eat at home" instruction is a corrective to the *abuse*, not a statement about the *nature* of the gathered meal.
+It is sometimes read as Paul deprecating the meal aspect of the Supper — "the real Supper is the bread and cup; the *food* is incidental, eat that at home." This is anachronistic. The Corinthian Supper *was* a real meal (see [Historical Context](/1-corinthians-11-17-34/02-historical-context/)). Paul is not saying the meal is unimportant; he is correcting how the meal was being eaten. The "eat at home" instruction is a corrective to the *abuse*, not a statement about the *nature* of the gathered meal.
 
 What does emerge, however, is a principle that the post-apostolic church will develop: the gathered meal of the church is not a substitute for ordinary meals, and ordinary appetites should not drive the gathered meal's shape. That principle is in seed form here.
 
@@ -162,7 +162,7 @@ The passage does not resolve every Eucharistic question. It was not written to. 
 
 ## Next
 
-- [The Health Question (v. 30)](/1-corinthians-11-17-34/health-question/) — the focused topic note on bodily consequence
-- [Historical Context](/1-corinthians-11-17-34/historical-context/) — the meal-and-banquet background
-- [Back to the passage](/1-corinthians-11-17-34/01-text/)
+- [The Health Question (v. 30)](/1-corinthians-11-17-34/03-health-question-v30/) — the focused topic note on bodily consequence
+- [Historical Context](/1-corinthians-11-17-34/02-historical-context/) — the meal-and-banquet background
+- [Back to the passage](/1-corinthians-11-17-34/01-passage-and-text/)
 - [Back to At a Glance](/1-corinthians-11-17-34/)

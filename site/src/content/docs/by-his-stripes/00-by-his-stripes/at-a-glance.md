@@ -33,4 +33,4 @@ sidebar:
 
 ---
 
-*This study does not pick a winner. It presents the strongest case for each position, names the honest challenges each one faces, and trusts you to weigh the evidence. [The full study follows](/00-by-his-stripes/).*
+*This study does not pick a winner. It presents the strongest case for each position, names the honest challenges each one faces, and trusts you to weigh the evidence. [The full study follows](/by-his-stripes/00-by-his-stripes/).*

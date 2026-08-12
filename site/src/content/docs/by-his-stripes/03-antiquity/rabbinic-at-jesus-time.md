@@ -135,7 +135,7 @@ The most significant LXX decision for our study occurs in Isaiah 53:4. The Hebre
 
 > "Surely he hath borne our griefs [choliy], and carried our sorrows [makob]." (KJV)
 
-As discussed in [Chapter 1's analysis of Isaiah 53](/01-scripture/isaiah-53/), the Hebrew words choliy and makob can refer to physical sickness and physical pain. But the LXX translators rendered the verse very differently:
+As discussed in [Chapter 1's analysis of Isaiah 53](/by-his-stripes/01-scripture/isaiah-53/), the Hebrew words choliy and makob can refer to physical sickness and physical pain. But the LXX translators rendered the verse very differently:
 
 > "This one bears our sins [hamartias] and suffers pain for us."
 
@@ -149,7 +149,7 @@ The LXX rendering matters for several reasons:
 
 **2. It shaped early Christian reading.** Because the LXX was the early church's Bible, most early Christians read Isaiah 53:4 as "he bears our sins" rather than "he hath borne our sicknesses." This LXX rendering influenced the Apostolic Fathers and the Ante-Nicene Fathers, who consistently read Isaiah 53 in terms of sin-bearing. The spiritual-healing reading of the early church was not created by those writers; it was inherited from the LXX they read.
 
-**3. Matthew deliberately rejected it.** As discussed in [Chapter 1's analysis of Matthew 8:17](/01-scripture/matthew-8/), when Matthew quotes Isaiah 53:4, he does *not* follow the LXX. Instead, he produces his own Greek rendering: "He himself took our infirmities [astheneias] and bore our diseases [nosous]" --- words that are unambiguously about physical sickness. Matthew knew the LXX rendering. He rejected it in favor of a translation that preserved the physical-sickness dimension of the Hebrew. This deliberate departure from the LXX is one of the strongest pieces of evidence that physical healing is part of what Isaiah 53:4 describes.
+**3. Matthew deliberately rejected it.** As discussed in [Chapter 1's analysis of Matthew 8:17](/by-his-stripes/01-scripture/matthew-8/), when Matthew quotes Isaiah 53:4, he does *not* follow the LXX. Instead, he produces his own Greek rendering: "He himself took our infirmities [astheneias] and bore our diseases [nosous]" --- words that are unambiguously about physical sickness. Matthew knew the LXX rendering. He rejected it in favor of a translation that preserved the physical-sickness dimension of the Hebrew. This deliberate departure from the LXX is one of the strongest pieces of evidence that physical healing is part of what Isaiah 53:4 describes.
 
 **4. It reveals that the physical-versus-spiritual question is ancient.** The LXX translators confronted the same question we are studying: does Isaiah 53:4 refer to physical sickness or spiritual sin? They chose spiritual sin. Matthew chose physical sickness. The question is not a modern invention; it is embedded in the earliest stages of the passage's transmission and interpretation.
 
@@ -171,7 +171,7 @@ The LXX does not spiritualize verse 5 in the same way it spiritualized verse 4. 
 
 ### The Messiah as Healer
 
-As documented in the [previous section on Second Temple Judaism](/03-antiquity/rabbinic-pre-jesus/), the expectation that the messianic age would bring physical healing was well established by the first century. The evidence from Qumran (4Q521), from Isaiah 35:5--6, and from Isaiah 61:1 converges on a picture of the Messiah as one whose coming brings sight to the blind, hearing to the deaf, and wholeness to the broken.
+As documented in the [previous section on Second Temple Judaism](/by-his-stripes/03-antiquity/rabbinic-pre-jesus/), the expectation that the messianic age would bring physical healing was well established by the first century. The evidence from Qumran (4Q521), from Isaiah 35:5--6, and from Isaiah 61:1 converges on a picture of the Messiah as one whose coming brings sight to the blind, hearing to the deaf, and wholeness to the broken.
 
 ### Jesus's Appeal to Messianic Healing Expectations
 
@@ -225,10 +225,10 @@ The Targum's reinterpretation, the eunuch's question, the LXX's translation choi
 
 ## Cross-References
 
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song, including the Hebrew-LXX comparison and the analysis of *choliy*, *makob*, and *rapha*
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's deliberate departure from the LXX rendering, choosing physical-sickness language for his quotation of Isaiah 53:4
-- [1 Peter 2:24](/01-scripture/1-peter-2/) --- Peter's quotation of Isaiah 53:5, using the same Greek word for "healed" (*iaomai*) that appears in the LXX
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) --- The Gospel evidence for Jesus's healings as messianic credentials, directly connected to first-century expectations
-- [Rabbinic Thought: Before Jesus](/03-antiquity/rabbinic-pre-jesus/) --- The pre-Christian background to the first-century interpretive debates documented in this section
-- [Rabbinic Thought: The Post-Jesus Shift](/03-antiquity/rabbinic-post-jesus/) --- How Jewish interpretation of Isaiah 53 changed after Christianity adopted the passage as its central messianic proof text
-- [Appendix: Rabbinic Sources](/appendices/e-rabbinic-sources/) --- Extended primary source material for the Targum Jonathan and other rabbinic sources
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song, including the Hebrew-LXX comparison and the analysis of *choliy*, *makob*, and *rapha*
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's deliberate departure from the LXX rendering, choosing physical-sickness language for his quotation of Isaiah 53:4
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) --- Peter's quotation of Isaiah 53:5, using the same Greek word for "healed" (*iaomai*) that appears in the LXX
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) --- The Gospel evidence for Jesus's healings as messianic credentials, directly connected to first-century expectations
+- [Rabbinic Thought: Before Jesus](/by-his-stripes/03-antiquity/rabbinic-pre-jesus/) --- The pre-Christian background to the first-century interpretive debates documented in this section
+- [Rabbinic Thought: The Post-Jesus Shift](/by-his-stripes/03-antiquity/rabbinic-post-jesus/) --- How Jewish interpretation of Isaiah 53 changed after Christianity adopted the passage as its central messianic proof text
+- [Appendix: Rabbinic Sources](/by-his-stripes/appendices/e-rabbinic-sources/) --- Extended primary source material for the Targum Jonathan and other rabbinic sources

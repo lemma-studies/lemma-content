@@ -376,8 +376,8 @@ The next two sections examine evidence that deepens and complicates the picture:
 
 ## Cross-References
 
-- [Jesus's Teaching on Suffering](/02-christocentric/teaching-on-suffering/) -- What Jesus taught about the role of suffering in the believer's life
-- [The Atonement's Scope Through Christ's Lens](/02-christocentric/atonement-scope/) -- What Jesus revealed about the breadth of his atoning work
-- [Chapter 2 Overview](/02-christocentric/) -- The Christocentric framework and how it connects to Chapter 1
-- [Matthew 8:16-17](/01-scripture/matthew-8/) -- Chapter 1's detailed exegesis of Matthew's fulfillment citation
-- [Isaiah 52:13-53:12](/01-scripture/isaiah-53/) -- Chapter 1's analysis of the Fourth Servant Song
+- [Jesus's Teaching on Suffering](/by-his-stripes/02-christocentric/teaching-on-suffering/) -- What Jesus taught about the role of suffering in the believer's life
+- [The Atonement's Scope Through Christ's Lens](/by-his-stripes/02-christocentric/atonement-scope/) -- What Jesus revealed about the breadth of his atoning work
+- [Chapter 2 Overview](/by-his-stripes/02-christocentric/) -- The Christocentric framework and how it connects to Chapter 1
+- [Matthew 8:16-17](/by-his-stripes/01-scripture/matthew-8/) -- Chapter 1's detailed exegesis of Matthew's fulfillment citation
+- [Isaiah 52:13-53:12](/by-his-stripes/01-scripture/isaiah-53/) -- Chapter 1's analysis of the Fourth Servant Song

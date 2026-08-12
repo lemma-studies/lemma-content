@@ -128,7 +128,7 @@ Jesus gave His followers a test for discerning truth: look at the fruit. This te
 
 ### What Fruit Does Each View Produce?
 
-This is not asking which view is *true* -- that is an exegetical question addressed in [Chapter 1](/01-scripture/). It is asking a different question: **When each view is actually lived out in real churches with real people, what fruit does it produce?**
+This is not asking which view is *true* -- that is an exegetical question addressed in [Chapter 1](/by-his-stripes/01-scripture/). It is asking a different question: **When each view is actually lived out in real churches with real people, what fruit does it produce?**
 
 **The healing-in-the-atonement view, at its best**, produces:
 - Bold, expectant faith
@@ -238,8 +238,8 @@ That is the love of Christ. And it is the final word.
 
 ## Cross-References
 
-- [Healing Is in the Atonement View](/04-reality/healing-in-atonement-view/) -- The view whose pastoral strengths and challenges are addressed in this section
-- [Spiritual Healing Only View](/04-reality/spiritual-healing-view/) -- The view whose pastoral strengths and challenges are addressed in this section
-- [Already / Not Yet View](/04-reality/already-not-yet-view/) -- The view whose pastoral strengths and challenges are addressed in this section
-- [Chapter 1: Related Passages](/01-scripture/related/) -- James 5:14--16, 2 Corinthians 12:7--10, John 9:1--3, and other texts that inform pastoral care
-- [Chapter 4 Overview](/04-reality/) -- The introduction to the Reality pillar and the framework for this chapter
+- [Healing Is in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) -- The view whose pastoral strengths and challenges are addressed in this section
+- [Spiritual Healing Only View](/by-his-stripes/04-reality/spiritual-healing-view/) -- The view whose pastoral strengths and challenges are addressed in this section
+- [Already / Not Yet View](/by-his-stripes/04-reality/already-not-yet-view/) -- The view whose pastoral strengths and challenges are addressed in this section
+- [Chapter 1: Related Passages](/by-his-stripes/01-scripture/related/) -- James 5:14--16, 2 Corinthians 12:7--10, John 9:1--3, and other texts that inform pastoral care
+- [Chapter 4 Overview](/by-his-stripes/04-reality/) -- The introduction to the Reality pillar and the framework for this chapter

@@ -43,7 +43,7 @@ The significance for the healing question turns on the scope of "the curse of th
 
 This lexical connection is one of the strongest arguments in the healing-in-atonement tradition: if Christ redeemed us from the curse, and the curse includes disease, then redemption from the curse includes redemption from disease. The counterargument holds that Paul's use of "the curse of the law" is narrower than the full scope of Deuteronomy 28 --- Paul is arguing about justification, not physical healing. Reading the disease-curses into Galatians 3:13 may expand his argument beyond its intent. Furthermore, Paul himself suffered a "thorn in the flesh" (2 Cor 12:7--10) and did not appeal to Galatians 3:13 as grounds for its removal. A third reading holds that the curse's scope is genuinely comprehensive --- including disease --- but that its full removal unfolds across the already/not yet timeline: secured at the cross, partially experienced now, and fully consummated at the resurrection (Rom 8:23).
 
-The [Curse and Redemption](/01-scripture/curse-and-redemption/) section in Chapter 1 treats this argument in full, including the three interpretive options and the Genesis-to-Revelation curse arc.
+The [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) section in Chapter 1 treats this argument in full, including the three interpretive options and the Genesis-to-Revelation curse arc.
 
 ### Seeking and Saving the Lost
 
@@ -184,7 +184,7 @@ These passages describe a future event: the second coming, the final judgment, t
 
 ## Sozo: The Word That Bridges Saving and Healing
 
-The sozo evidence was examined in detail in the [healing ministry section](/02-christocentric/healing-ministry/). Here it is placed in the context of the atonement question specifically.
+The sozo evidence was examined in detail in the [healing ministry section](/by-his-stripes/02-christocentric/healing-ministry/). Here it is placed in the context of the atonement question specifically.
 
 ### Jesus's Uses of Sozo -- A Summary Table
 
@@ -256,11 +256,11 @@ The answer to that question requires not only Scripture (Chapter 1) and Christoc
 
 ## Cross-References
 
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) -- The evidence for Jesus's extensive physical healing ministry, including the sozo analysis
-- [Jesus's Teaching on Suffering](/02-christocentric/teaching-on-suffering/) -- What Jesus taught about tribulation, the cross, and the role of suffering in discipleship
-- [Chapter 2 Overview](/02-christocentric/) -- The Christocentric framework and how it connects to Chapter 1
-- [Isaiah 52:13-53:12](/01-scripture/isaiah-53/) -- The Fourth Servant Song and the Hebrew analysis of healing language
-- [Matthew 8:16-17](/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
-- [1 Peter 2:24](/01-scripture/1-peter-2/) -- Peter's application of Isaiah 53:5 to spiritual healing
-- [Curse and Redemption](/01-scripture/curse-and-redemption/) -- The Genesis-to-Revelation curse arc: Genesis 3, Deuteronomy 28, Galatians 3:13, Romans 5 and 8, Revelation 22:3
-- [Related Passages](/01-scripture/related/) -- Passages on the already/not yet framework, including Romans 8:22-23 and Revelation 21:4
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) -- The evidence for Jesus's extensive physical healing ministry, including the sozo analysis
+- [Jesus's Teaching on Suffering](/by-his-stripes/02-christocentric/teaching-on-suffering/) -- What Jesus taught about tribulation, the cross, and the role of suffering in discipleship
+- [Chapter 2 Overview](/by-his-stripes/02-christocentric/) -- The Christocentric framework and how it connects to Chapter 1
+- [Isaiah 52:13-53:12](/by-his-stripes/01-scripture/isaiah-53/) -- The Fourth Servant Song and the Hebrew analysis of healing language
+- [Matthew 8:16-17](/by-his-stripes/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) -- Peter's application of Isaiah 53:5 to spiritual healing
+- [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) -- The Genesis-to-Revelation curse arc: Genesis 3, Deuteronomy 28, Galatians 3:13, Romans 5 and 8, Revelation 22:3
+- [Related Passages](/by-his-stripes/01-scripture/related/) -- Passages on the already/not yet framework, including Romans 8:22-23 and Revelation 21:4

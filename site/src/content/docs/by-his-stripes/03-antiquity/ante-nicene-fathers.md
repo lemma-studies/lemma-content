@@ -153,7 +153,7 @@ In his letter to the Ephesians, Ignatius describes Christ with a striking medica
 
 "One Physician" (*eis iatros*) is one of the earliest christological titles in post-apostolic literature. Ignatius uses medical language to describe Christ's person and work. The "Physician" who is "first passible and then impassible" --- first capable of suffering and then beyond suffering --- bridges the human experience of sickness and the divine reality of wholeness.
 
-Ignatius does not develop this metaphor into a healing-in-the-atonement theology. His letters elsewhere reveal a bishop who desired martyrdom and viewed physical suffering as the path to union with Christ (see the [Apostolic Fathers](/03-antiquity/apostolic-fathers/) chapter for the full treatment). But the "one Physician" title reveals a devotional instinct --- Christ as healer of the whole person --- that persisted from the earliest post-apostolic period.
+Ignatius does not develop this metaphor into a healing-in-the-atonement theology. His letters elsewhere reveal a bishop who desired martyrdom and viewed physical suffering as the path to union with Christ (see the [Apostolic Fathers](/by-his-stripes/03-antiquity/apostolic-fathers/) chapter for the full treatment). But the "one Physician" title reveals a devotional instinct --- Christ as healer of the whole person --- that persisted from the earliest post-apostolic period.
 
 ---
 
@@ -394,12 +394,12 @@ The evidence from the Ante-Nicene Fathers is a significant piece of the puzzle. 
 
 ## Cross-References
 
-- [Apostolic Fathers (c. 100--150 AD)](/03-antiquity/apostolic-fathers/) --- The earlier generation of post-apostolic writers, whose pattern the Ante-Nicene Fathers continue
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song
-- [1 Peter 2:24](/01-scripture/1-peter-2/) --- Peter's quotation of Isaiah 53:5 in a spiritual-healing context
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) --- The Gospel evidence for Jesus's healing work, which the Ante-Nicene Fathers witnessed continuing in their communities
-- [The Atonement's Scope](/02-christocentric/atonement-scope/) --- The Christocentric analysis of what the atonement accomplishes, relevant to Irenaeus's recapitulation theology
-- [Already/Not Yet View](/04-reality/already-not-yet-view/) --- The theological position that may find resonance in Irenaeus's framework of present inaugurated redemption and future consummation
-- [Curse and Redemption](/01-scripture/curse-and-redemption/) --- The Genesis-to-Revelation curse arc; Justin Martyr's "curses of all" language connects directly to this thread
-- [Healing in the Atonement View](/04-reality/healing-in-atonement-view/) --- The position that must account for the Ante-Nicene silence on healing-in-the-atonement while maintaining that the doctrine is biblical
+- [Apostolic Fathers (c. 100--150 AD)](/by-his-stripes/03-antiquity/apostolic-fathers/) --- The earlier generation of post-apostolic writers, whose pattern the Ante-Nicene Fathers continue
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) --- Peter's quotation of Isaiah 53:5 in a spiritual-healing context
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) --- The Gospel evidence for Jesus's healing work, which the Ante-Nicene Fathers witnessed continuing in their communities
+- [The Atonement's Scope](/by-his-stripes/02-christocentric/atonement-scope/) --- The Christocentric analysis of what the atonement accomplishes, relevant to Irenaeus's recapitulation theology
+- [Already/Not Yet View](/by-his-stripes/04-reality/already-not-yet-view/) --- The theological position that may find resonance in Irenaeus's framework of present inaugurated redemption and future consummation
+- [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) --- The Genesis-to-Revelation curse arc; Justin Martyr's "curses of all" language connects directly to this thread
+- [Healing in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) --- The position that must account for the Ante-Nicene silence on healing-in-the-atonement while maintaining that the doctrine is biblical

@@ -191,6 +191,6 @@ Across all four views, several points are widely agreed upon:
 
 ## Cross-References
 
-- [Isaiah 52:13-53:12](/01-scripture/isaiah-53/) -- The full Fourth Servant Song from which Matthew quotes
-- [1 Peter 2:24](/01-scripture/1-peter-2/) -- Peter's quotation of Isaiah 53:5, with a spiritual-healing emphasis
-- [Related Passages](/01-scripture/related/) -- Other Scripture texts that inform this discussion, including passages on suffering among believers and the already/not yet framework
+- [Isaiah 52:13-53:12](/by-his-stripes/01-scripture/isaiah-53/) -- The full Fourth Servant Song from which Matthew quotes
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) -- Peter's quotation of Isaiah 53:5, with a spiritual-healing emphasis
+- [Related Passages](/by-his-stripes/01-scripture/related/) -- Other Scripture texts that inform this discussion, including passages on suffering among believers and the already/not yet framework

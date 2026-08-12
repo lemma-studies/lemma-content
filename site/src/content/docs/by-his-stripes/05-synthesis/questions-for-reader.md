@@ -121,15 +121,15 @@ Until that day, we walk by faith, not by sight. We pray with hope. We hold our c
 
 ## Cross-References
 
-- [Areas of Agreement](/05-synthesis/areas-of-agreement/) --- The common ground shared by all major positions
-- [Areas of Tension](/05-synthesis/areas-of-tension/) --- Where the positions diverge and the evidence is contested
-- [Chapter 5 Overview](/05-synthesis/) --- The introduction to the synthesis chapter
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- The foundational passage and word study
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing
-- [1 Peter 2:24](/01-scripture/1-peter-2/) --- Peter's application of Isaiah 53:5 to spiritual healing
-- [Jesus's Healing Ministry](/02-christocentric/healing-ministry/) --- The Christocentric evidence for Jesus's healing work
-- [Jesus's Teaching on Suffering](/02-christocentric/teaching-on-suffering/) --- The Christocentric evidence for the role of suffering
-- [Apostolic Fathers](/03-antiquity/apostolic-fathers/) --- The earliest post-apostolic witness
-- [Curse and Redemption](/01-scripture/curse-and-redemption/) --- The Genesis-to-Revelation curse arc (questions 8--9)
-- [Ante-Nicene Fathers](/03-antiquity/ante-nicene-fathers/) --- Melito of Sardis and the early liturgical evidence (question 29)
-- [Pastoral Considerations](/04-reality/pastoral-considerations/) --- Where theology meets the bedside
+- [Areas of Agreement](/by-his-stripes/05-synthesis/areas-of-agreement/) --- The common ground shared by all major positions
+- [Areas of Tension](/by-his-stripes/05-synthesis/areas-of-tension/) --- Where the positions diverge and the evidence is contested
+- [Chapter 5 Overview](/by-his-stripes/05-synthesis/) --- The introduction to the synthesis chapter
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- The foundational passage and word study
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) --- Peter's application of Isaiah 53:5 to spiritual healing
+- [Jesus's Healing Ministry](/by-his-stripes/02-christocentric/healing-ministry/) --- The Christocentric evidence for Jesus's healing work
+- [Jesus's Teaching on Suffering](/by-his-stripes/02-christocentric/teaching-on-suffering/) --- The Christocentric evidence for the role of suffering
+- [Apostolic Fathers](/by-his-stripes/03-antiquity/apostolic-fathers/) --- The earliest post-apostolic witness
+- [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) --- The Genesis-to-Revelation curse arc (questions 8--9)
+- [Ante-Nicene Fathers](/by-his-stripes/03-antiquity/ante-nicene-fathers/) --- Melito of Sardis and the early liturgical evidence (question 29)
+- [Pastoral Considerations](/by-his-stripes/04-reality/pastoral-considerations/) --- Where theology meets the bedside

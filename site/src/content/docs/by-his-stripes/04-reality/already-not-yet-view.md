@@ -118,7 +118,7 @@ Healing follows a similar pattern:
 
 The curse-redemption arc reinforces this pattern. The curse of Genesis 3 introduced death, pain, and the conditions producing sickness. The curse of the law (Deuteronomy 28) explicitly lists diseases among its penalties. Galatians 3:13 declares that Christ redeemed us from this curse. And Revelation 22:3 promises that in the new creation, "there shall be no more curse."
 
-The already/not yet advocate sees the entire arc as real: Christ has redeemed believers from the curse (already), but the full removal of the curse --- including all disease and death --- awaits the new creation (not yet). Present healings are genuine anticipations of the curse's final removal, but the removal itself is not complete in this age. The disease-curses of Deuteronomy 28 have been addressed at the cross; their full eradication belongs to the resurrection. The [Curse and Redemption](/01-scripture/curse-and-redemption/) section in Chapter 1 treats this arc in full.
+The already/not yet advocate sees the entire arc as real: Christ has redeemed believers from the curse (already), but the full removal of the curse --- including all disease and death --- awaits the new creation (not yet). Present healings are genuine anticipations of the curse's final removal, but the removal itself is not complete in this age. The disease-curses of Deuteronomy 28 have been addressed at the cross; their full eradication belongs to the resurrection. The [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) section in Chapter 1 treats this arc in full.
 
 The already/not yet view holds all three stages together. It does not deny what Christ has accomplished. It does not deny what the Spirit is doing. And it does not pretend that the full consummation has already arrived.
 
@@ -233,10 +233,10 @@ The already/not yet view refuses to let this verse cancel the healing passages, 
 
 ## Cross-References
 
-- [Chapter 1: Isaiah 52:13--53:12](/01-scripture/isaiah-53/) -- The Hebrew word study underlying the debate about physical versus spiritual healing in the atonement
-- [Chapter 1: Matthew 8:16--17](/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing, a key text for the "already" side
-- [Chapter 1: 1 Peter 2:24](/01-scripture/1-peter-2/) -- Peter's spiritual application of Isaiah 53:5, a key text for the "not yet" nuance
-- [Chapter 1: Related Passages](/01-scripture/related/) -- Romans 8:22--23, 1 Corinthians 15:42--44, Revelation 21:4 -- the eschatological framework
-- [Healing Is in the Atonement View](/04-reality/healing-in-atonement-view/) -- The position that emphasizes the "already" dimension
-- [Spiritual Healing Only View](/04-reality/spiritual-healing-view/) -- The position that emphasizes the "not yet" dimension
-- [Pastoral Considerations](/04-reality/pastoral-considerations/) -- Practical wisdom for ministry that draws on the best of all three views
+- [Chapter 1: Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) -- The Hebrew word study underlying the debate about physical versus spiritual healing in the atonement
+- [Chapter 1: Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing, a key text for the "already" side
+- [Chapter 1: 1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) -- Peter's spiritual application of Isaiah 53:5, a key text for the "not yet" nuance
+- [Chapter 1: Related Passages](/by-his-stripes/01-scripture/related/) -- Romans 8:22--23, 1 Corinthians 15:42--44, Revelation 21:4 -- the eschatological framework
+- [Healing Is in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) -- The position that emphasizes the "already" dimension
+- [Spiritual Healing Only View](/by-his-stripes/04-reality/spiritual-healing-view/) -- The position that emphasizes the "not yet" dimension
+- [Pastoral Considerations](/by-his-stripes/04-reality/pastoral-considerations/) -- Practical wisdom for ministry that draws on the best of all three views

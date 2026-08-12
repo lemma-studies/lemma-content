@@ -126,7 +126,7 @@ The Septuagint (LXX) -- the Greek translation of the Old Testament used extensiv
 
 ### The Narrow Reading of "The Curse of the Law"
 
-Healing-in-the-atonement advocates appeal to Galatians 3:13 --- "Christ hath redeemed us from the curse of the law" --- and argue that since the law's curses include disease (Deuteronomy 28), Christ's redemption includes healing from disease. The spiritual-healing-only advocate responds with a precise reading of Paul's context: in Galatians 3, "the curse of the law" is the curse that falls on those who seek righteousness through law-keeping (Gal 3:10, quoting Deut 27:26). Paul is arguing about justification, not about physical health. Reading the disease-curses of Deuteronomy 28 into Galatians 3:13 expands the argument beyond what Paul himself develops. The atonement addresses the fundamental curse --- separation from God through sin --- and in doing so, it secures reconciliation, not a catalogue of physical provisions. The [Curse and Redemption](/01-scripture/curse-and-redemption/) section in Chapter 1 provides the full exegetical treatment.
+Healing-in-the-atonement advocates appeal to Galatians 3:13 --- "Christ hath redeemed us from the curse of the law" --- and argue that since the law's curses include disease (Deuteronomy 28), Christ's redemption includes healing from disease. The spiritual-healing-only advocate responds with a precise reading of Paul's context: in Galatians 3, "the curse of the law" is the curse that falls on those who seek righteousness through law-keeping (Gal 3:10, quoting Deut 27:26). Paul is arguing about justification, not about physical health. Reading the disease-curses of Deuteronomy 28 into Galatians 3:13 expands the argument beyond what Paul himself develops. The atonement addresses the fundamental curse --- separation from God through sin --- and in doing so, it secures reconciliation, not a catalogue of physical provisions. The [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) section in Chapter 1 provides the full exegetical treatment.
 
 ### God's Sovereignty and the Gift of Grace
 
@@ -253,10 +253,10 @@ That honesty -- the willingness to be present in suffering without offering glib
 
 ## Cross-References
 
-- [Chapter 1: 1 Peter 2:24](/01-scripture/1-peter-2/) -- Peter's application of "by his stripes" to spiritual healing from sin
-- [Chapter 1: Matthew 8:16--17](/01-scripture/matthew-8/) -- The passage that presents the greatest exegetical challenge to this view
-- [Chapter 1: Isaiah 52:13--53:12](/01-scripture/isaiah-53/) -- The Hebrew word study showing the dual semantic range of *choliy* and *makob*
-- [Chapter 1: Related Passages](/01-scripture/related/) -- 2 Corinthians 12:7--10, 2 Timothy 4:20, Philippians 2:25--27, and other texts that support this view
-- [Healing Is in the Atonement View](/04-reality/healing-in-atonement-view/) -- The contrasting position that sees physical healing as an atonement provision
-- [Already / Not Yet View](/04-reality/already-not-yet-view/) -- The mediating position that many cessationist scholars find a partial home in
-- [Pastoral Considerations](/04-reality/pastoral-considerations/) -- The pastoral impact of this view when applied well and when applied poorly
+- [Chapter 1: 1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) -- Peter's application of "by his stripes" to spiritual healing from sin
+- [Chapter 1: Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) -- The passage that presents the greatest exegetical challenge to this view
+- [Chapter 1: Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) -- The Hebrew word study showing the dual semantic range of *choliy* and *makob*
+- [Chapter 1: Related Passages](/by-his-stripes/01-scripture/related/) -- 2 Corinthians 12:7--10, 2 Timothy 4:20, Philippians 2:25--27, and other texts that support this view
+- [Healing Is in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) -- The contrasting position that sees physical healing as an atonement provision
+- [Already / Not Yet View](/by-his-stripes/04-reality/already-not-yet-view/) -- The mediating position that many cessationist scholars find a partial home in
+- [Pastoral Considerations](/by-his-stripes/04-reality/pastoral-considerations/) -- The pastoral impact of this view when applied well and when applied poorly

@@ -32,25 +32,25 @@ Three major positions on healing in the atonement have emerged from the scriptur
 
 This view holds that Christ's atoning work includes provision for physical healing -- that Isaiah 53:4--5 encompasses both the forgiveness of sin and the healing of the body. When believers pray in faith, they are accessing a benefit that Christ has already purchased. This position is central to Pentecostal, charismatic, and Word of Faith traditions and has deep roots in 19th-century evangelical theology.
 
-[Read the full presentation of the Healing in the Atonement view &rarr;](/04-reality/healing-in-atonement-view/)
+[Read the full presentation of the Healing in the Atonement view &rarr;](/by-his-stripes/04-reality/healing-in-atonement-view/)
 
 ### 2. Spiritual Healing Only
 
 This view holds that Isaiah 53:5 refers to spiritual restoration from sin, not physical healing. The atonement deals with humanity's fundamental problem -- sin and its consequences -- and "healed" is a metaphor for spiritual reconciliation with God. Physical healing, while possible through God's sovereign will, is not a provision of the cross. This position is most prominent in Reformed, cessationist, and many traditional evangelical traditions.
 
-[Read the full presentation of the Spiritual Healing Only view &rarr;](/04-reality/spiritual-healing-view/)
+[Read the full presentation of the Spiritual Healing Only view &rarr;](/by-his-stripes/04-reality/spiritual-healing-view/)
 
 ### 3. Already / Not Yet
 
 This view holds that healing *is* included in the atonement, but its full realization awaits the resurrection. Christ has secured the redemption of the whole person -- body and soul -- but the benefits of that redemption unfold across time. Forgiveness is received now; bodily resurrection comes later; physical healing in this life is a genuine but not guaranteed foretaste of the coming restoration. This position has become increasingly influential among evangelical scholars who seek to hold together the full range of biblical evidence.
 
-[Read the full presentation of the Already / Not Yet view &rarr;](/04-reality/already-not-yet-view/)
+[Read the full presentation of the Already / Not Yet view &rarr;](/by-his-stripes/04-reality/already-not-yet-view/)
 
 ## Pastoral Considerations
 
 Beyond the three theological positions, this chapter includes a separate section on pastoral considerations that cut across all views. Whatever a believer concludes about healing in the atonement, certain realities apply universally: the sick need compassion, not theological debates at their bedside; blaming sufferers for their suffering causes real harm; and the community of faith is called to weep with those who weep.
 
-[Read the Pastoral Considerations section &rarr;](/04-reality/pastoral-considerations/)
+[Read the Pastoral Considerations section &rarr;](/by-his-stripes/04-reality/pastoral-considerations/)
 
 ## The Standard of This Chapter
 

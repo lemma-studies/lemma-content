@@ -39,7 +39,7 @@ The Sanhedrin 98b passage is not the only Talmudic text that connects the Messia
 
 **Sanhedrin 93b** discusses the Messiah's ability to judge by scent (rather than by sight), drawing on Isaiah 11:3. In the broader context, the Messiah is presented as a figure of discernment and authority, but the discussion implies that he may not operate by ordinary physical means --- a possible hint at the Messiah's own affliction.
 
-**Sukkah 52a** contains the tradition of Messiah ben Joseph --- the messianic figure who dies in battle. This tradition, discussed in the [previous section on pre-Christian Judaism](/03-antiquity/rabbinic-pre-jesus/), preserves a Jewish concept of a dying Messiah, though distinct from the Suffering Servant of Isaiah 53. The death of Messiah ben Joseph is a military death, not a substitutionary atoning death. Nonetheless, the existence of this tradition demonstrates that the concept of a suffering and dying messianic figure was part of the rabbinic theological landscape.
+**Sukkah 52a** contains the tradition of Messiah ben Joseph --- the messianic figure who dies in battle. This tradition, discussed in the [previous section on pre-Christian Judaism](/by-his-stripes/03-antiquity/rabbinic-pre-jesus/), preserves a Jewish concept of a dying Messiah, though distinct from the Suffering Servant of Isaiah 53. The death of Messiah ben Joseph is a military death, not a substitutionary atoning death. Nonetheless, the existence of this tradition demonstrates that the concept of a suffering and dying messianic figure was part of the rabbinic theological landscape.
 
 **Berakhot 5a** contains a discussion of "chastisements of love" (*yissurim shel ahavah*) --- the idea that suffering can be a sign of God's special attention and discipline rather than punishment. This concept is relevant because it provides a rabbinic framework for understanding suffering as purposeful and beneficial --- a framework that resonates with the Servant's suffering in Isaiah 53.
 
@@ -201,7 +201,7 @@ This rabbinic teaching resonates with several New Testament passages that presen
 
 Rabbinic theology does connect sickness and sin --- to a degree. The Talmud contains discussions about whether suffering corresponds to specific sins, whether illness can be understood as divine discipline, and whether the righteous suffer more or less than the wicked. The relationship between sickness and sin in rabbinic thought is not simple or mechanical; it is nuanced, debated, and sometimes paradoxical.
 
-What rabbinic theology does *not* develop is a specific link between the Messiah's *atoning suffering* and *physical healing* in the way that some Christians read Isaiah 53:5. The rabbinic tradition connects the messianic age with healing (as documented in the [pre-Christian section](/03-antiquity/rabbinic-pre-jesus/)), and it connects the Messiah with sickness (Sanhedrin 98b). But it does not develop the specific claim that the Messiah's wounds *produce* healing for others --- that is, it does not read Isaiah 53:5 as a mechanism by which the Messiah's suffering results in the physical healing of individuals.
+What rabbinic theology does *not* develop is a specific link between the Messiah's *atoning suffering* and *physical healing* in the way that some Christians read Isaiah 53:5. The rabbinic tradition connects the messianic age with healing (as documented in the [pre-Christian section](/by-his-stripes/03-antiquity/rabbinic-pre-jesus/)), and it connects the Messiah with sickness (Sanhedrin 98b). But it does not develop the specific claim that the Messiah's wounds *produce* healing for others --- that is, it does not read Isaiah 53:5 as a mechanism by which the Messiah's suffering results in the physical healing of individuals.
 
 This absence is worth noting, but it should not be overstated. Rabbinic theology was not asking the question that the healing-in-the-atonement debate asks. The rabbis were addressing different concerns: the nature of suffering, the identity of the Messiah, the relationship between Israel and the nations. The absence of a specific teaching on "healing in the atonement" does not mean the rabbis rejected the concept; it means they were not engaged with it.
 
@@ -223,18 +223,18 @@ The post-Jesus rabbinic evidence completes the three-part trajectory that this c
 
 The evidence from antiquity --- both Christian and Jewish --- is now before the reader. The Apostolic Fathers and Ante-Nicene Fathers consistently read Isaiah 53 as a prophecy of Christ's substitutionary suffering for sin, without connecting it to physical healing. The Jewish interpretive trajectory reveals a messianic reading that predates Christianity, was challenged by the Targum's removal of suffering, and was eventually replaced by Rashi's corporate reading. Both streams of evidence are significant, and neither stream resolves the healing question by itself.
 
-The reader now carries this evidence forward into [Chapter 4: Reality](/04-reality/), where the three major views on healing in the atonement are presented in full, each with its strongest arguments and its most serious challenges.
+The reader now carries this evidence forward into [Chapter 4: Reality](/by-his-stripes/04-reality/), where the three major views on healing in the atonement are presented in full, each with its strongest arguments and its most serious challenges.
 
 ---
 
 ## Cross-References
 
-- [Isaiah 52:13--53:12](/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song
-- [Matthew 8:16--17](/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing, which aligns with the Talmud's physical-sickness reading of the passage
-- [1 Peter 2:24](/01-scripture/1-peter-2/) --- Peter's application of Isaiah 53:5 to spiritual healing
-- [Rabbinic Thought: Before Jesus](/03-antiquity/rabbinic-pre-jesus/) --- The pre-Christian Jewish evidence for messianic healing expectations
-- [Rabbinic Thought: At Jesus's Time](/03-antiquity/rabbinic-at-jesus-time/) --- The Targum Jonathan, the Ethiopian eunuch, and the LXX translation choices
-- [Healing in the Atonement View](/04-reality/healing-in-atonement-view/) --- The position that draws on the messianic trajectory as supporting evidence
-- [Spiritual Healing View](/04-reality/spiritual-healing-view/) --- The position that notes the absence of physical-healing theology in both early Christian and rabbinic interpretation
-- [Already/Not Yet View](/04-reality/already-not-yet-view/) --- The position that may find the Talmudic "leper scholar" image suggestive of inaugurated-but-not-consummated messianic healing
-- [Appendix: Rabbinic Sources](/appendices/e-rabbinic-sources/) --- Extended primary source material for the Talmudic and medieval rabbinic sources discussed in this section
+- [Isaiah 52:13--53:12](/by-his-stripes/01-scripture/isaiah-53/) --- Chapter 1's detailed exegesis of the Fourth Servant Song
+- [Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) --- Matthew's application of Isaiah 53:4 to physical healing, which aligns with the Talmud's physical-sickness reading of the passage
+- [1 Peter 2:24](/by-his-stripes/01-scripture/1-peter-2/) --- Peter's application of Isaiah 53:5 to spiritual healing
+- [Rabbinic Thought: Before Jesus](/by-his-stripes/03-antiquity/rabbinic-pre-jesus/) --- The pre-Christian Jewish evidence for messianic healing expectations
+- [Rabbinic Thought: At Jesus's Time](/by-his-stripes/03-antiquity/rabbinic-at-jesus-time/) --- The Targum Jonathan, the Ethiopian eunuch, and the LXX translation choices
+- [Healing in the Atonement View](/by-his-stripes/04-reality/healing-in-atonement-view/) --- The position that draws on the messianic trajectory as supporting evidence
+- [Spiritual Healing View](/by-his-stripes/04-reality/spiritual-healing-view/) --- The position that notes the absence of physical-healing theology in both early Christian and rabbinic interpretation
+- [Already/Not Yet View](/by-his-stripes/04-reality/already-not-yet-view/) --- The position that may find the Talmudic "leper scholar" image suggestive of inaugurated-but-not-consummated messianic healing
+- [Appendix: Rabbinic Sources](/by-his-stripes/appendices/e-rabbinic-sources/) --- Extended primary source material for the Talmudic and medieval rabbinic sources discussed in this section

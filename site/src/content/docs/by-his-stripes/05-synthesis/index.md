@@ -29,15 +29,15 @@ What it does is lay out a map of the evidence landscape --- showing where the gr
 
 The chapter is organized into three sections:
 
-### [Areas of Agreement](/05-synthesis/areas-of-agreement/)
+### [Areas of Agreement](/by-his-stripes/05-synthesis/areas-of-agreement/)
 
 There is more common ground than the debate usually acknowledges. Across all three major views, faithful interpreters agree on a surprising number of foundational truths --- about God's character, about the atonement's significance, about the practice of prayer, and about the ultimate hope of bodily resurrection. This section maps that shared territory.
 
-### [Areas of Tension](/05-synthesis/areas-of-tension/)
+### [Areas of Tension](/by-his-stripes/05-synthesis/areas-of-tension/)
 
 The disagreements are real, and they matter. The meaning of *rapha*, the relationship between Matthew 8:17 and 1 Peter 2:24, the scope of "fulfilled," the cessation question, and the pastoral implications of each view --- these tensions are not resolved by appeal to a single proof text. This section presents each tension with the strongest arguments from each side, without editorial verdict.
 
-### [Questions for the Reader](/05-synthesis/questions-for-reader/)
+### [Questions for the Reader](/by-his-stripes/05-synthesis/questions-for-reader/)
 
 Finally, this chapter offers the reader a set of guided questions --- organized by SCAR quadrant --- designed not to lead but to help. These are honest questions, the kind that do not have easy answers, the kind that require the reader to weigh evidence, examine their own experience, and seek the guidance of the Holy Spirit.
 

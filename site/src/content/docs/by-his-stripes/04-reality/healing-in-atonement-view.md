@@ -74,7 +74,7 @@ Advocates of healing in the atonement build their case on several interlocking b
 
 ### Isaiah 53:4--5 Includes Physical Sickness
 
-As the detailed word study in [Chapter 1](/01-scripture/isaiah-53/) demonstrates, the Hebrew words in Isaiah 53:4 are genuinely capable of referring to physical illness:
+As the detailed word study in [Chapter 1](/by-his-stripes/01-scripture/isaiah-53/) demonstrates, the Hebrew words in Isaiah 53:4 are genuinely capable of referring to physical illness:
 
 - **חֳלִי** (*choliy*) -- translated "griefs" in the KJV, but the word means "sickness, disease, illness" in its primary usage throughout the Old Testament (Deut 7:15, 28:61; 1 Kgs 17:17; 2 Kgs 1:2, 8:8; 2 Chr 16:12, 21:15).
 - **מַכְאוֹב** (*makob*) -- translated "sorrows" in the KJV, but the word refers to physical pain and suffering (Job 33:19; Jer 30:15, 51:8).
@@ -86,7 +86,7 @@ The healing-in-the-atonement advocate argues that these words are not metaphors 
 > "That it might be fulfilled which was spoken by Esaias the prophet, saying, Himself took our infirmities, and bare our sicknesses."
 > --- Matthew 8:17 (KJV)
 
-Matthew is not ambiguous. He quotes Isaiah 53:4 in the context of Jesus physically healing the sick, and he uses unmistakably physical language -- ἀσθένεια (*astheneia*, "weakness, infirmity") and νόσος (*nosos*, "disease"). As noted in [Chapter 1's analysis of Matthew 8](/01-scripture/matthew-8/), *nosos* is used exclusively for physical disease in the New Testament. Matthew understands Isaiah 53:4 as a prophecy that the Servant would bear physical sickness, and he sees that prophecy fulfilled in Jesus's healing ministry.
+Matthew is not ambiguous. He quotes Isaiah 53:4 in the context of Jesus physically healing the sick, and he uses unmistakably physical language -- ἀσθένεια (*astheneia*, "weakness, infirmity") and νόσος (*nosos*, "disease"). As noted in [Chapter 1's analysis of Matthew 8](/by-his-stripes/01-scripture/matthew-8/), *nosos* is used exclusively for physical disease in the New Testament. Matthew understands Isaiah 53:4 as a prophecy that the Servant would bear physical sickness, and he sees that prophecy fulfilled in Jesus's healing ministry.
 
 For the healing-in-the-atonement advocate, this is decisive: an inspired New Testament author, under the guidance of the Holy Spirit, applies Isaiah 53 to physical healing. To limit Isaiah 53 to spiritual healing is to override Matthew's own interpretation.
 
@@ -121,7 +121,7 @@ Derek Prince, in *Blessing or Curse: You Can Choose* (1990), developed this argu
 
 **A fair counterargument must be noted:** Paul's context in Galatians 3 is justification by faith, not physical healing. The "curse of the law" that Paul is addressing is the curse that falls on those who try to achieve righteousness through law-keeping: "Cursed is every one that continueth not in all things which are written in the book of the law to do them" (Gal 3:10, KJV, quoting Deut 27:26). Reading the full scope of Deuteronomy 28's disease-curses into Paul's argument may expand it beyond his intent. Furthermore, Paul himself experienced physical suffering (2 Cor 12:7--10; Gal 4:13--14) and did not appeal to Galatians 3:13 for relief.
 
-The [Curse and Redemption](/01-scripture/curse-and-redemption/) section in Chapter 1 treats this argument in full, including the Genesis-to-Revelation curse arc and the three interpretive options.
+The [Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) section in Chapter 1 treats this argument in full, including the Genesis-to-Revelation curse arc and the three interpretive options.
 
 ### The Logic of the Atonement
 
@@ -224,10 +224,10 @@ This moderation does not represent a loss of conviction. It represents a maturat
 
 ## Cross-References
 
-- [Chapter 1: Isaiah 52:13--53:12 — The Hebrew word study](/01-scripture/isaiah-53/) -- The detailed analysis of *choliy*, *makob*, and *rapha* that underlies this view's scriptural argument
-- [Chapter 1: Matthew 8:16--17](/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
-- [Chapter 1: Related Passages](/01-scripture/related/) -- Psalm 103:3, Exodus 15:26, James 5:14--16, and other texts central to this view
-- [Spiritual Healing Only View](/04-reality/spiritual-healing-view/) -- The contrasting position that limits Isaiah 53:5 to spiritual healing
-- [Already / Not Yet View](/04-reality/already-not-yet-view/) -- The mediating position that many healing-in-the-atonement advocates have moved toward
-- [Chapter 1: Curse and Redemption](/01-scripture/curse-and-redemption/) -- The full treatment of the Genesis-to-Revelation curse arc and Galatians 3:13
-- [Pastoral Considerations](/04-reality/pastoral-considerations/) -- The pastoral impact of this view when applied well and when applied poorly
+- [Chapter 1: Isaiah 52:13--53:12 — The Hebrew word study](/by-his-stripes/01-scripture/isaiah-53/) -- The detailed analysis of *choliy*, *makob*, and *rapha* that underlies this view's scriptural argument
+- [Chapter 1: Matthew 8:16--17](/by-his-stripes/01-scripture/matthew-8/) -- Matthew's application of Isaiah 53:4 to physical healing
+- [Chapter 1: Related Passages](/by-his-stripes/01-scripture/related/) -- Psalm 103:3, Exodus 15:26, James 5:14--16, and other texts central to this view
+- [Spiritual Healing Only View](/by-his-stripes/04-reality/spiritual-healing-view/) -- The contrasting position that limits Isaiah 53:5 to spiritual healing
+- [Already / Not Yet View](/by-his-stripes/04-reality/already-not-yet-view/) -- The mediating position that many healing-in-the-atonement advocates have moved toward
+- [Chapter 1: Curse and Redemption](/by-his-stripes/01-scripture/curse-and-redemption/) -- The full treatment of the Genesis-to-Revelation curse arc and Galatians 3:13
+- [Pastoral Considerations](/by-his-stripes/04-reality/pastoral-considerations/) -- The pastoral impact of this view when applied well and when applied poorly
