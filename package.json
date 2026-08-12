@@ -14,8 +14,9 @@
     "verify-release": "node scripts/lemma-cli/verify-release.mjs",
     "dry-run-erasure": "node scripts/lemma-cli/dry-run-erasure.mjs",
     "self-test": "node scripts/lemma-cli/self-test.mjs",
-    "site:build": "npm run copy-pdfs && cd site && npm run build",
-    "site:dev": "cd site && npm run dev",
+    "site:install": "cd site && (npm ci --omit=optional 2>/dev/null || npm install --no-audit --no-fund)",
+    "site:build": "npm run site:install && npm run copy-pdfs && cd site && npm run build",
+    "site:dev": "npm run site:install && cd site && npm run dev",
     "site:preview": "cd site && npm run preview"
   },
   "dependencies": {
