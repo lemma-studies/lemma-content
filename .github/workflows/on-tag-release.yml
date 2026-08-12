@@ -215,13 +215,13 @@ jobs:
             echo "Refusing: Job 2d commit message contains a CI-skip phrase"
             exit 1
           fi
-          # Fetch main; copy PDF into versions dir; fetch-rebase-push loop for
+          # Fetch master; copy PDF into versions dir; fetch-rebase-push loop for
           # concurrency safety (multiple releases may race).
           git config user.name "lemma-studies-bot[bot]"
           git config user.email "${APP_ID}+lemma-studies-bot[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/lemma-studies/lemma-content.git"
-          git fetch origin main
-          git checkout main
+          git fetch origin master
+          git checkout master
           mkdir -p "studies/$SLUG/versions/$VERSION"
           cp ".release-assets/$SLUG-$VERSION.pdf" "studies/$SLUG/versions/$VERSION/"
           git add "studies/$SLUG/versions/$VERSION/$SLUG-$VERSION.pdf"
@@ -232,8 +232,8 @@ jobs:
           git commit -m "$MSG"
           # Fetch-rebase-push retry for concurrent release safety.
           for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main && git push origin main && break
+            git fetch origin master
+            git rebase origin/master && git push origin master && break
             [ $attempt -eq 3 ] && { echo "push failed after 3 attempts"; exit 1; }
             echo "push conflict; retrying ($attempt/3)"
             sleep 5
