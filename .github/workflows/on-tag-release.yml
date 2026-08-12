@@ -132,6 +132,17 @@ jobs:
           SLUG: ${{ steps.parse.outputs.slug }}
           VERSION: ${{ steps.parse.outputs.version }}
         run: |
+          # Phase 3 pilot workaround: build.sh is a WSL2-local script that
+          # references Vault paths + assumes pandoc/lualatex/fonts. Until the
+          # PDF pipeline is portable to ubuntu-latest (separate cleanup task),
+          # we accept a pre-built PDF committed at
+          # studies/<slug>/versions/<version>/<slug>-<version>.pdf.
+          # If present, skip the in-CI build.
+          PREBUILT="studies/$SLUG/versions/$VERSION/$SLUG-$VERSION.pdf"
+          if [ -f "$PREBUILT" ]; then
+            echo "Pre-built PDF present at $PREBUILT — skipping in-CI build.sh"
+            exit 0
+          fi
           if [ ! -f "studies/$SLUG/build.sh" ]; then
             echo "studies/$SLUG/build.sh missing — cannot produce PDF"
             exit 1
