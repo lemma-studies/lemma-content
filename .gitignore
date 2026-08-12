@@ -9,6 +9,11 @@ site/dist/
 site/node_modules/
 site/.astro/
 
+# Playwright MCP snapshots — accessibility trees + screenshots. Capture verbatim
+# DOM including any tokens/passwords shown in-page (e.g., Zenodo PAT display
+# page, OAuth signup forms). Local-only, never committed.
+.playwright-mcp/
+
 # Compile:study composite manuscripts land at studies/<slug>/<slug>-vN.N.md.
 # Per design v7.1 §7.1 + canonical-chapters memory: these are RELEASE-ONLY
 # derived artifacts. Chapter files are canonical; composites regen from them.
