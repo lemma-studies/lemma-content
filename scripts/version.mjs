@@ -25,7 +25,7 @@
 import { execSync } from 'child_process';
 import { writeFileSync } from 'fs';
 
-const SITE_VERSION = '1.0.0';
+const SITE_VERSION = '1.1.0';
 
 let hash = '';
 try {

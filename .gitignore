@@ -19,3 +19,12 @@ site/.astro/
 # derived artifacts. Chapter files are canonical; composites regen from them.
 # Never commit the composite from the study root.
 studies/*/*-v*.md
+
+# Derived on every build by scripts/version.mjs (contains git short SHA).
+# Site build's prebuild hook (npm run version:generate) regenerates.
+# Committing the file makes every build produce a git-status dirty file.
+site/src/version.generated.mjs
+site/src/version.generated.ts
+
+# Local health-check output — regenerated on every run
+data/last-health-check.json
