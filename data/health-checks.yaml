@@ -1,0 +1,144 @@
+# Health-check contract per design v7.1 §21C.
+# Consumed by scripts/lemma-cli/health-check.mjs and verify-release.mjs.
+#
+# Per-check schema:
+#   severity            blocking | warn | pending  (default)
+#   phase_gated_by      key in data/phase-state.yaml (usually current_phase)
+#   phase_gates         { <phase>: <severity> }    (overrides default per phase)
+#   study_lifecycle_gated  true  = severity is `pending` when target study has no releases
+#   runtime_context     [ci, local]                which environments run this check
+#   eventually_consistent  true  = defer to recheck_window_hours before failing
+#   recheck_window_hours integer
+#   uas                 list of user-agents (only for ai_bot_ua_synthetic)
+
+checks:
+
+  base_url_reachable:
+    severity: warn
+    phase_gated_by: current_phase
+    phase_gates: { phase-4-exit: blocking, steady-state: blocking }
+    runtime_context: [ci, local]
+
+  study_canonical_url:
+    severity: blocking
+    study_lifecycle_gated: true
+    runtime_context: [ci, local]
+
+  concept_doi_resolves:
+    severity: blocking
+    study_lifecycle_gated: true
+    runtime_context: [ci, local]
+
+  version_doi_resolves:
+    severity: blocking
+    study_lifecycle_gated: true
+    runtime_context: [ci, local]
+
+  pdf_url_200:
+    severity: blocking
+    study_lifecycle_gated: true
+    runtime_context: [ci, local]
+
+  llms_txt_200:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  llms_full_txt_200:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  ai_bot_ua_synthetic:
+    severity: warn
+    phase_gated_by: current_phase
+    phase_gates: { phase-4-exit: blocking, steady-state: blocking }
+    runtime_context: [ci, local]
+    uas:
+      - GPTBot
+      - ClaudeBot
+      - CCBot
+      - OAI-SearchBot
+      - PerplexityBot
+      - Meta-ExternalAgent
+      - ChatGPT-User
+      - Claude-SearchBot
+      - Claude-User
+      - Bytespider
+      - Amazonbot
+      - Perplexity-User
+
+  swh_archived:
+    severity: pending
+    eventually_consistent: true
+    recheck_window_hours: 48
+    runtime_context: [ci, local]
+
+  hf_dataset_current:
+    severity: pending
+    eventually_consistent: true
+    recheck_window_hours: 24
+    runtime_context: [ci, local]
+
+  scarlight_reindexed:
+    severity: warn
+    runtime_context: [local]   # cannot query LAN Scarlight from CI
+
+  heartbeat_fresh:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  retention_chore_current:
+    severity: warn
+    runtime_context: [local]   # reads workroom chore-log
+
+  claims_jsonl_schema:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  xrefs_json_schema:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  rag_breadcrumbs_present:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  design_version_header_matches:
+    severity: warn
+    runtime_context: [local]
+
+  sitemap_excludes_versions:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  no_test_slugs_on_main:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  no_skip_ci_in_job_2d:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  zenodo_token_valid:
+    severity: warn
+    runtime_context: [ci]
+
+  hf_token_valid:
+    severity: warn
+    runtime_context: [ci]
+
+  base_url_consistency:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  pubpub_hash_match:
+    severity: warn
+    study_lifecycle_gated: true
+    runtime_context: [ci]
+
+  mailflow:
+    # Referenced by failure-modes.yaml/zoho-filter-deleted. Passes when a
+    # `type:email-feedback` Issue has landed in workroom within the last 7 days
+    # OR the last-known Zoho→Gmail forward observed within 7 days (whichever is
+    # more recent). Warn-level until Phase 3+ when the intake is actually load-bearing.
+    severity: warn
+    runtime_context: [ci, local]

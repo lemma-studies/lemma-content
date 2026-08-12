@@ -1,0 +1,197 @@
+# Failure-mode registry per design v7.1 §21F.
+# Machine-readable + queryable. Public — transparency-safe (no PII, no secrets).
+#
+# Per-entry schema:
+#   id                    kebab-case identifier
+#   detection             human-readable trigger condition
+#   recovery              human-readable remediation
+#   autonomy              auto | propose | human-gate
+#   auto_detectable       true | false (does a health check exist?)
+#   health_check_hook     dotted path into data/health-checks.yaml
+#   introduced_in         design version that added this mode
+#   last_verified         YYYY-MM-DD of last game-day exercise
+#   owner                 tim | ai | shared
+#   max_auto_attempts     integer (only when autonomy: auto); circuit-breaker cap
+#   auto_cooldown_hours   integer (only when autonomy: auto); retry window
+#
+# Circuit-breaker (R7 C6): any `auto` mode that fails `max_auto_attempts` times
+# within `auto_cooldown_hours` is dynamically downgraded to `propose` and opens
+# a `verify-release-failure`-labeled Issue.
+
+modes:
+
+  - id: zoho-filter-deleted
+    detection: "No new type:email-feedback issues in workroom > 7 days when Zoho INBOX matches to:lemma@gig8.com"
+    recovery: "Re-run §10.4 filter setup (Zoho Settings → Filters → New: To contains lemma@gig8.com → Move to Lemma-Feedback + Forward to Gmail)"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.mailflow
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: cf-skip-reintroduced
+    detection: "Job 2d commit message contains [skip ci] or CF-Pages-Skip phrase; CF Pages did not deploy the PDF"
+    recovery: "Revert the offending Job 2d commit; re-run compile+release without the skip phrase; audit the Action guard that should have rejected"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.no_skip_ci_in_job_2d
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: zenodo-api-expired
+    detection: "zenodo-* script fails with 401/403; api.zenodo.org token rejected"
+    recovery: "Regenerate PAT at zenodo.org/account/settings/applications; update ZENODO_ACCESS_TOKEN Actions secret + /mnt/a/gig8/credentials.json; log to rotation-log.md"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.zenodo_token_valid
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: hf-token-revoked
+    detection: "update-huggingface-ds.mjs fails with 401 on push"
+    recovery: "Regenerate HF token (WRITE scope) at huggingface.co/settings/tokens; update HF_TOKEN secret + credentials; log rotation"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.hf_token_valid
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: swh-takedown-pending
+    detection: "Software Heritage save-code-now returns pending > 48h"
+    recovery: "Requeue via /api/1/origin/save/git/url/<repo>/; if still pending after 96h, escalate to SWH support"
+    autonomy: auto
+    max_auto_attempts: 3
+    auto_cooldown_hours: 24
+    auto_detectable: true
+    health_check_hook: checks.swh_archived
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: gh-cron-auto-disabled
+    detection: "GitHub Actions disables scheduled workflows after 60 days of no repo activity; keep-alive missed"
+    recovery: "Manually re-enable workflow via gh workflow enable; investigate why keep-alive stopped"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.heartbeat_fresh
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: astro-build-broken
+    detection: "site:build fails in CI or local; CF Pages deployment red"
+    recovery: "Read build log; fix the broken chapter/component; local `npm run site:build` before re-push"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.base_url_reachable
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: retention-out-of-sync
+    detection: "Zoho + Gmail auto-delete drifted vs workroom quarterly filter-repo chore"
+    recovery: "Reconcile per retention-schedule.md; run workroom filter-repo purge; verify Zoho + Gmail rules still active"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.retention_chore_current
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: shared
+
+  - id: pubpub-drift
+    detection: "PubPub mirror content-hash != source content-hash for a published version"
+    recovery: "Re-run pubpub-crosspost.mjs for affected tag; verify hash match; open Issue if API-side divergence"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.pubpub_hash_match
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: scarlight-polling-stopped
+    detection: "~/.scarlight/last-lemma-tag not updated > 24h since a new release"
+    recovery: "Re-run scarlight-poll-releases.sh manually; reinstall cron if missing; verify Scarlight service running"
+    autonomy: auto
+    max_auto_attempts: 3
+    auto_cooldown_hours: 6
+    auto_detectable: true
+    health_check_hook: checks.scarlight_reindexed
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: phase4-exit-partial
+    detection: "phase4-exit.mjs failed midway; some Zenodo records point at canonical URL, others at pages.dev"
+    recovery: "Read phase4-exit.mjs progress log; resume from last successful step; verify data/phase-state.yaml.base_url matches actual state"
+    autonomy: human-gate
+    auto_detectable: true
+    health_check_hook: checks.base_url_consistency
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: zenodo-draft-collision
+    detection: "zenodo-reserve-doi.mjs finds > 1 orphan draft on concept — cannot disambiguate"
+    recovery: "Manual resolution at zenodo.org: identify which draft matches current version; delete others; retry reserve"
+    autonomy: human-gate
+    auto_detectable: true
+    health_check_hook: null
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: apps-script-trigger-disabled
+    detection: "Google Apps Script quarterly retention trigger did not fire; retention chore log stale"
+    recovery: "Reopen Apps Script editor; re-authorize; re-install trigger; note in rotation-log.md"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.retention_chore_current
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: design-doc-claude-md-header-auto-sync
+    detection: "docs/superpowers/specs/*-design.md version > CLAUDE.md frontmatter design-version AND playbook sections unchanged"
+    recovery: "Auto-bump CLAUDE.md design-version: header to match design file version"
+    autonomy: auto
+    max_auto_attempts: 1
+    auto_cooldown_hours: 24
+    auto_detectable: true
+    health_check_hook: checks.design_version_header_matches
+    introduced_in: v7
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: design-doc-claude-md-content-drift
+    detection: "CLAUDE.md playbook sections diverge from design canonical anti-patterns/rituals"
+    recovery: "Open PR against develop with proposed CLAUDE.md updates aligned to design; human review required"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: checks.design_version_header_matches
+    introduced_in: v7
+    last_verified: 2026-08-11
+    owner: ai
+
+  - id: zenodo-draft-orphaned
+    detection: "Concept has an unpublished draft > 30 days old with no matching study.yaml version entry"
+    recovery: "Verify no in-flight release intent; delete via Zenodo UI or API DELETE /deposit/depositions/{id}"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: null
+    introduced_in: v6
+    last_verified: 2026-08-11
+    owner: tim
+
+  - id: verify-release-noise
+    detection: "> 3 verify-release-failure Issues open simultaneously"
+    recovery: "Triage: dedupe by check-id; close resolved; if noise pattern, tune check thresholds and reopen with new baselines"
+    autonomy: propose
+    auto_detectable: true
+    health_check_hook: null
+    introduced_in: v7
+    last_verified: 2026-08-11
+    owner: ai

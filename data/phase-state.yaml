@@ -1,0 +1,15 @@
+# Phase state — SINGLE SOURCE OF TRUTH per R7 B3 / design v7.1 §21
+# Read by CI (via yq) and lemma-cli.
+# Updated by scripts/phase4-exit.mjs at Phase 4 exit.
+# Any manual edit MUST be reviewed — this file gates release publish, base URL,
+# and phase-scoped health-check severities.
+
+current_phase: phase-2b  # phase-1 | phase-2a | phase-2b | phase-3-pilot | phase-3-complete | phase-4-bulk | phase-4-exit | steady-state
+
+# release_publish_unlocked flips true at Phase 3 first release (Task 3.5).
+# Pre-Phase-3, Zenodo publishes are refused; only reservations allowed.
+release_publish_unlocked: false
+
+# base_url is what Zenodo metadata + canonical <link> point at. Flips to
+# https://lemma.gig8.com at Phase 4 exit domain cutover.
+base_url: https://lemma-content.pages.dev

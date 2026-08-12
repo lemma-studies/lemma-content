@@ -9,8 +9,15 @@
     "compile:study": "node scripts/compile-study.js",
     "verify:study": "node scripts/verify/index.js",
     "review:dispatch": "node scripts/review/dispatch-reviews.mjs",
+    "health-check": "node scripts/lemma-cli/health-check.mjs",
+    "verify-release": "node scripts/lemma-cli/verify-release.mjs",
+    "dry-run-erasure": "node scripts/lemma-cli/dry-run-erasure.mjs",
+    "self-test": "node scripts/lemma-cli/self-test.mjs",
     "site:build": "npm run copy-pdfs && cd site && npm run build",
     "site:dev": "cd site && npm run dev",
     "site:preview": "cd site && npm run preview"
+  },
+  "dependencies": {
+    "js-yaml": "^5.2.3"
   }
 }
