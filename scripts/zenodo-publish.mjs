@@ -96,10 +96,23 @@ const assets = [
 const missing = assets.filter(a => !fs.existsSync(a.path));
 
 async function findDepositionByVersionDoi(versionDoi) {
-  // Try direct query first — depositions?q=doi:"..." or prereserve_doi
+  // Zenodo DOIs encode the recid in the trailing numeric segment
+  // (e.g. 10.5281/zenodo.21907595 → recid 21907595). Direct GET is reliable
+  // for DRAFTS whose prereserve_doi isn't in the public search index.
+  const zenodoRecidMatch = versionDoi.match(/(?:^|[.\/])(\d+)$/);
+  if (zenodoRecidMatch) {
+    const recid = zenodoRecidMatch[1];
+    try {
+      return await getDeposition({ token, id: recid });
+    } catch (e) {
+      // Fall through to search on 404 / auth mismatch; log if verbose.
+      if (verbose) console.error(`direct GET /depositions/${recid} failed: ${e.message}`);
+    }
+  }
+  // Search fallback — only reliable for PUBLISHED records (doi: search index).
   const list = await listMyDepositions({
     token,
-    q: `doi:"${versionDoi}" OR prereserve_doi.doi:"${versionDoi}"`,
+    q: `doi:"${versionDoi}"`,
     size: 20,
     allVersions: true,
   });
