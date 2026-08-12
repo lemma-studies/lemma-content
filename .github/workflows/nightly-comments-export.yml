@@ -1,0 +1,47 @@
+name: nightly-comments-export
+
+# Pulls GitHub Discussions (Giscus source of truth) into comments/<slug>.jsonl.
+# See scripts/export-comments.mjs for the export contract.
+#
+# PHASE 2b: scaffolded; live GraphQL export is TODO until Discussions is
+# enabled on lemma-studies/lemma-content (see site/astro.config.mjs Giscus
+# TODO) and repo/category IDs are re-captured.
+
+on:
+  schedule:
+    - cron: '30 5 * * *'   # nightly 05:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  discussions: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install root deps
+        run: npm ci --omit=optional || npm install
+
+      - name: Export Discussions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/export-comments.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add comments/
+          if git diff --cached --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "chore(comments): nightly export $(date -u +%F)"
+          git push

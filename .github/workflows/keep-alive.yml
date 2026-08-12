@@ -1,0 +1,40 @@
+name: keep-alive
+
+# Weekly heartbeat. GitHub disables scheduled workflows after 60 days of no
+# repo activity; this write to data/last-heartbeat.txt keeps them alive
+# regardless of other push cadence.
+#
+# [skip ci] on the heartbeat commit is DELIBERATE (per plan R7 P4):
+# heartbeat writes should not trigger CF Pages rebuilds. The Job 2d guard
+# that rejects [skip ci] is scoped to release commits, not this workflow.
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'   # Sunday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update heartbeat
+        run: |
+          mkdir -p data
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last-heartbeat.txt
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/last-heartbeat.txt
+          if git diff --cached --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "chore(keepalive): $(date -u +%F) [skip ci]"
+          git push

@@ -1,0 +1,49 @@
+name: nightly-annotations-export
+
+# Pulls hypothes.is annotations for the public group into annotations/<slug>.jsonl
+# and (separately) editorial-group annotations into ../lemma-workroom/annotations/.
+# See scripts/export-annotations.mjs for the export contract.
+#
+# PHASE 2b: workflow scaffolded; live API integration is scripted-scaffold
+# until Task 2b.5 creates the hypothes.is groups + HYPOTHESIS_TOKEN secret.
+
+on:
+  schedule:
+    - cron: '30 5 * * *'   # nightly 05:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install root deps
+        run: npm ci --omit=optional || npm install
+
+      - name: Export public annotations
+        env:
+          HYPOTHESIS_TOKEN: ${{ secrets.HYPOTHESIS_TOKEN }}
+        run: |
+          node scripts/export-annotations.mjs \
+            --group "${{ vars.HYPOTHESIS_PUBLIC_GROUP_ID || '__world__' }}" \
+            --target public
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add annotations/
+          if git diff --cached --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "chore(annotations): nightly export $(date -u +%F)"
+          git push
