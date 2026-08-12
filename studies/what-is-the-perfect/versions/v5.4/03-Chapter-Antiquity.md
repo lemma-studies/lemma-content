@@ -249,7 +249,7 @@ Reading through the ancient interpreters, one is struck by where their interest 
 
 ---
 
-## Summary
+## Summary (Antiquity)
 
 The early church's reading of 1 Corinthians 13:10 tilts strongly and consistently toward the eschatological: "the perfect" is the future state in which believers see God face to face at Christ's return, in the resurrection, or in the eternal beatific vision. This reading spans the Apostolic Fathers, the major Ante-Nicene writers, and the great post-Nicene theologians of both East (Chrysostom) and West (Augustine).
 
@@ -265,7 +265,7 @@ The historical weight of the ancient tradition falls on the side of the eschatol
 
 ---
 
-### Chronological Summary Table
+### Chronological Summary Table (Chapter Preview)
 
 | Father | Date | Location | Primary Reading / Orientation (1 Cor 13:10-12) | Source |
 |----------|----------------|------------|----------------------------------|----------|

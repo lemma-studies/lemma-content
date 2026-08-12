@@ -1,6 +1,6 @@
 # What Is the Perfect: At a Glance
 
-## The Question
+## The Question (Summary)
 
 What does Paul mean by "the perfect" in 1 Corinthians 13:10?
 
@@ -44,7 +44,7 @@ What does Paul mean by "the perfect" in 1 Corinthians 13:10?
 
 ---
 
-## What Is Clear
+## What Is Clear (Summary)
 
 - **Love is permanent and supreme.** Every tradition agrees: "Charity never faileth" (13:8). Gifts are temporary instruments; love is the character of God himself.
 - **Present knowledge is genuinely partial.** "We know in part, and we prophesy in part" (13:9). No interpreter denies this --- and the shared limitation ought to produce shared humility.
@@ -54,7 +54,7 @@ What does Paul mean by "the perfect" in 1 Corinthians 13:10?
 
 ---
 
-## What Is Debated
+## What Is Debated (Summary)
 
 - **The referent of τὸ τέλειον** --- whether it is a completed text, a divine person, a corporate state, or an eschatological era. Grammar does not settle it; context is disputed.
 - **The middle voice of παύσονται** --- whether tongues "ceasing of themselves" implies a different timeline from prophecy and knowledge being "rendered inoperative," or whether the middle voice is simply standard Hellenistic Greek.

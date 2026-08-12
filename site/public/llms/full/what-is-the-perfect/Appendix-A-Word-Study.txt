@@ -38,7 +38,7 @@ BDAG (3rd ed., pp. 995--996; entry content verified against the scanned text) op
 
 For 1 Corinthians 13:10 the entry's actual wording is instructive --- and hedged: "Subst. τὸ τέλειον *what is perfect* Ro 12:2; **perh.** 1 Cor 13:10 (opp. ἐκ μέρους)." Two things follow. BDAG files the verse (tentatively) under the qualitative "highest standard" sense, not the "mature" sense --- and its "perh." concedes that even the standard lexicon regards the classification as uncertain.
 
-### Usage in key passages
+### Usage in key passages (teleios)
 
 - **Matthew 5:48:** "Be ye therefore perfect (τέλειοι), even as your Father which is in heaven is perfect (τέλειός ἐστιν)." Here τέλειοι is plural and personal --- describing persons called to moral completeness in the manner of God. This is the "ethical perfection" sense.
 - **1 Corinthians 2:6:** "We speak wisdom among them that are perfect (τελείοις)." Paul addresses the mature or spiritually adult within the congregation. The contrast is with νηπίοις ("infants," 3:1). This is the "maturity" sense.
@@ -53,7 +53,7 @@ For 1 Corinthians 13:10 the entry's actual wording is instructive --- and hedged
 - **James 1:25:** "But whoso looketh into the perfect law (νόμον τέλειον) of liberty, and continueth therein... this man shall be blessed in his deed." The law of God described as "perfect" in the sense of complete and entire.
 - **James 3:2:** "For in many things we offend all. If any man offend not in word, the same is a perfect (τέλειος) man, and able also to bridle the whole body." Full moral self-command.
 
-### Translation comparison: 1 Corinthians 13:10
+### Translation comparison: 1 Corinthians 13:10 (teleios)
 
 | Translation | Rendering | Notes |
 |-------------|-----------|-------|
@@ -78,7 +78,7 @@ For 1 Corinthians 13:10 the entry's actual wording is instructive --- and hedged
 
 Paul uses καταργέω 25 times in his letters. No other New Testament writer uses it more than twice. This is a characteristically Pauline term, and tracing his usage across the corpus reveals a consistent pattern: something *temporary* or *preparatory* is rendered inoperative by something *permanent* or *superior*. The old is not annihilated; it is superseded.
 
-### Usage in key passages
+### Usage in key passages (katargeō)
 
 - **Romans 3:3:** "For what if some did not believe? shall their unbelief make the faith of God without effect (καταργήσει)?" God's faithfulness cannot be nullified.
 - **Romans 3:31:** "Do we then make void (καταργοῦμεν) the law through faith? God forbid: yea, we establish the law." Faith does not render the law inoperative --- Paul insists on the law's ongoing validity even as its role changes.
@@ -102,7 +102,7 @@ Across all 25 uses, the pattern is consistent: καταργέω describes the su
 
 This is not annihilation but succession. The gifts are genuine. Their cessation is the result of something better arriving, not their own failure.
 
-### Translation comparison: 1 Corinthians 13:8,10
+### Translation comparison: 1 Corinthians 13:8,10 (katargeō)
 
 | Translation | Rendering | Notes |
 |-------------|-----------|-------|
@@ -148,14 +148,14 @@ Tongues: future *middle* of παύω --- they will *cease* (with the middle voic
 
 The middle voice of παύσονται is a genuine grammatical observation and should not be dismissed. But honest exegesis requires acknowledging that the grammatical form alone does not settle the timing question. To establish that tongues ceased before prophecy and knowledge --- and specifically that they ceased in the apostolic age --- requires additional historical and theological arguments beyond what the voice distinction alone supplies. The grammar opens a door; it does not itself walk through it.
 
-### Usage in key passages
+### Usage in key passages (pauō)
 
 - **Luke 8:24:** "And they came to him, and awoke him, saying, Master, master, we perish. Then he arose, and rebuked the wind and the raging of the water: and they ceased (ἐπαύσαντο)." The storm stopped --- middle voice, natural cessation.
 - **Acts 5:42:** "And daily in the temple, and in every house, they ceased (οὐκ ἐπαύοντο) not to teach and preach Jesus Christ." They did not stop teaching --- ongoing activity.
 - **Acts 20:1:** "And after the uproar was ceased (μετὰ τὸ παύσασθαι τὸν θόρυβον --- the articular aorist infinitive of παύω), Paul called unto him the disciples." The riot stopped of itself.
 - **1 Peter 4:1:** "For he that hath suffered in the flesh hath ceased from sin (πέπαυται ἁμαρτίας)." Suffering produces cessation from sin --- middle voice, internal cessation.
 
-### Translation comparison: 1 Corinthians 13:8
+### Translation comparison: 1 Corinthians 13:8 (pauō)
 
 | Translation | Rendering of παύσονται | Notes |
 |-------------|------------------------|-------|
@@ -198,7 +198,7 @@ Only two:
 - **1 Corinthians 13:12:** The mirror as metaphor for present partial knowledge.
 - **James 1:23:** "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass (ἐν ἐσόπτρῳ)." James uses the mirror as something revealing truth that can be ignored.
 
-### Translation comparison: 1 Corinthians 13:12
+### Translation comparison: 1 Corinthians 13:12 (esoptron)
 
 | Translation | Rendering | Notes |
 |-------------|-----------|-------|
@@ -248,7 +248,7 @@ Paul is saying: What Moses uniquely had --- direct, non-riddle communication wit
 
 In the broader Greek world, αἴνιγμα was associated with the riddles of oracles (the Delphic oracle spoke in αἰνίγματα --- cryptic pronouncements requiring interpretation) and with the Sphinx's riddle in the Oedipus legend. The word carried connotations of truth veiled behind puzzling language --- present but requiring work to extract. Any educated Corinthian would have recognized the resonance.
 
-### Translation comparison: 1 Corinthians 13:12
+### Translation comparison: 1 Corinthians 13:12 (ainigma)
 
 | Translation | Rendering of ἐν αἰνίγματι | Notes |
 |-------------|---------------------------|-------|
@@ -361,7 +361,7 @@ The phrase καθὼς καὶ ἐπεγνώσθην ("even as I am known") is c
 
 Our future full knowing will be patterned on (καθώς --- "even as, just as") God's present full knowing of us. This does not mean we will become omniscient --- God's knowledge is infinite, ours will remain creaturely. The comparison is in *kind*, not *degree*: we will know with the same thoroughness and directness that characterizes God's knowledge of us. The indirection, the "in part," the enigma will be gone.
 
-### Usage in key passages
+### Usage in key passages (epiginōskō)
 
 **γινώσκω:**
 - **John 17:3:** "And this is life eternal, that they might know thee (γινώσκωσιν) the only true God, and Jesus Christ, whom thou hast sent." Eternal life defined as knowing God.
@@ -373,7 +373,7 @@ Our future full knowing will be patterned on (καθώς --- "even as, just as")
 - **Romans 1:32:** "Who knowing (ἐπιγνόντες) the judgment of God, that they which commit such things are worthy of death." Full recognition of God's standard.
 - **Colossians 1:6:** "...and knew (ἐπέγνωτε) the grace of God in truth." Full, genuine knowledge of grace.
 
-### Translation comparison: 1 Corinthians 13:12
+### Translation comparison: 1 Corinthians 13:12 (epiginōskō)
 
 | Translation | γινώσκω | ἐπιγνώσομαι | Notes |
 |-------------|---------|--------------|-------|
@@ -421,7 +421,7 @@ The phrase τὸ ἐκ μέρους in v.10 is the direct antithesis of τὸ τ
 - That present knowledge is false or illusory. A puzzle piece is genuinely part of the picture, even if you cannot see the whole from it alone. The partial is real; it is simply not complete.
 - That the gifts are defective or sub-standard. They are partial because the *situation* is partial --- we live between the ages, knowing in part because we have not yet arrived at "the perfect."
 
-### Translation comparison
+### Translation comparison (ek)
 
 | Translation | Rendering | Notes |
 |-------------|-----------|-------|
@@ -467,7 +467,7 @@ In 1 Corinthians 13:13, most commentators favor the *logical* reading for two re
 
 Here the temporal reading offers a pointed argument in the opposite direction: if νυνί is temporal, then faith and hope "remain" only in the present age --- when "the perfect" comes, faith gives way to sight (2 Cor 5:7: "For we walk by faith, not by sight") and hope gives way to reality (Rom 8:24: "For we are saved by hope: but hope that is seen is not hope"). On this reading, "the perfect" must be the eschaton, because that is the only moment when faith becomes sight and hope becomes possession. The temporal reading actually strengthens the eschatological interpretation of τὸ τέλειον.
 
-### Translation comparison: 1 Corinthians 13:13
+### Translation comparison: 1 Corinthians 13:13 (nyni)
 
 | Translation | Rendering | Notes |
 |-------------|-----------|-------|
@@ -481,7 +481,7 @@ Here the temporal reading offers a pointed argument in the opposite direction: i
 
 ---
 
-## Summary
+## Summary (Word Study)
 
 The word study reveals that Paul's language in 1 Corinthians 13:8--13 is both technically precise and deeply rooted in OT theology, especially the Moses tradition. Six findings stand out:
 

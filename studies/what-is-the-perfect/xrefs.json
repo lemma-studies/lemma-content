@@ -1,7 +1,7 @@
 {
   "study": "what-is-the-perfect",
   "version": "v5.4",
-  "extracted_at": "2026-08-12T17:19:56.262Z",
+  "extracted_at": "2026-08-12T17:27:25.429Z",
   "anchors": [
     {
       "chapter": "00-At-a-Glance.md",
@@ -14,8 +14,8 @@
       "chapter": "00-At-a-Glance.md",
       "line": 3,
       "level": 2,
-      "text": "The Question",
-      "slug": "the-question"
+      "text": "The Question (Summary)",
+      "slug": "the-question-summary"
     },
     {
       "chapter": "00-At-a-Glance.md",
@@ -42,15 +42,15 @@
       "chapter": "00-At-a-Glance.md",
       "line": 47,
       "level": 2,
-      "text": "What Is Clear",
-      "slug": "what-is-clear"
+      "text": "What Is Clear (Summary)",
+      "slug": "what-is-clear-summary"
     },
     {
       "chapter": "00-At-a-Glance.md",
       "line": 57,
       "level": 2,
-      "text": "What Is Debated",
-      "slug": "what-is-debated"
+      "text": "What Is Debated (Summary)",
+      "slug": "what-is-debated-summary"
     },
     {
       "chapter": "00-At-a-Glance.md",
@@ -168,8 +168,8 @@
       "chapter": "01-Chapter-Scripture.md",
       "line": 3,
       "level": 2,
-      "text": "Overview",
-      "slug": "overview"
+      "text": "Overview (Scripture)",
+      "slug": "overview-scripture"
     },
     {
       "chapter": "01-Chapter-Scripture.md",
@@ -350,8 +350,8 @@
       "chapter": "01-Chapter-Scripture.md",
       "line": 426,
       "level": 2,
-      "text": "Summary",
-      "slug": "summary"
+      "text": "Summary (Scripture)",
+      "slug": "summary-scripture"
     },
     {
       "chapter": "02-Chapter-Christocentrism.md",
@@ -553,15 +553,15 @@
       "chapter": "03-Chapter-Antiquity.md",
       "line": 252,
       "level": 2,
-      "text": "Summary",
-      "slug": "summary"
+      "text": "Summary (Antiquity)",
+      "slug": "summary-antiquity"
     },
     {
       "chapter": "03-Chapter-Antiquity.md",
       "line": 268,
       "level": 3,
-      "text": "Chronological Summary Table",
-      "slug": "chronological-summary-table"
+      "text": "Chronological Summary Table (Chapter Preview)",
+      "slug": "chronological-summary-table-chapter-preview"
     },
     {
       "chapter": "04-Chapter-Reality.md",
@@ -574,8 +574,8 @@
       "chapter": "04-Chapter-Reality.md",
       "line": 3,
       "level": 2,
-      "text": "Overview",
-      "slug": "overview"
+      "text": "Overview (Reality)",
+      "slug": "overview-reality"
     },
     {
       "chapter": "04-Chapter-Reality.md",
@@ -588,36 +588,36 @@
       "chapter": "04-Chapter-Reality.md",
       "line": 20,
       "level": 3,
-      "text": "Held By",
-      "slug": "held-by"
+      "text": "Held By (View 1)",
+      "slug": "held-by-view-1"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 26,
       "level": 3,
-      "text": "Core Claim",
-      "slug": "core-claim"
+      "text": "Core Claim (View 1)",
+      "slug": "core-claim-view-1"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 32,
       "level": 3,
-      "text": "Strongest Arguments",
-      "slug": "strongest-arguments"
+      "text": "Strongest Arguments (View 1)",
+      "slug": "strongest-arguments-view-1"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 76,
       "level": 3,
-      "text": "Pastoral Fruit",
-      "slug": "pastoral-fruit"
+      "text": "Pastoral Fruit (View 1)",
+      "slug": "pastoral-fruit-view-1"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 86,
       "level": 3,
-      "text": "Honest Challenges",
-      "slug": "honest-challenges"
+      "text": "Honest Challenges (View 1)",
+      "slug": "honest-challenges-view-1"
     },
     {
       "chapter": "04-Chapter-Reality.md",
@@ -630,36 +630,36 @@
       "chapter": "04-Chapter-Reality.md",
       "line": 148,
       "level": 3,
-      "text": "Held By",
-      "slug": "held-by"
+      "text": "Held By (View 2)",
+      "slug": "held-by-view-2"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 152,
       "level": 3,
-      "text": "Core Claim",
-      "slug": "core-claim"
+      "text": "Core Claim (View 2)",
+      "slug": "core-claim-view-2"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 156,
       "level": 3,
-      "text": "Strongest Arguments",
-      "slug": "strongest-arguments"
+      "text": "Strongest Arguments (View 2)",
+      "slug": "strongest-arguments-view-2"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 206,
       "level": 3,
-      "text": "Pastoral Fruit",
-      "slug": "pastoral-fruit"
+      "text": "Pastoral Fruit (View 2)",
+      "slug": "pastoral-fruit-view-2"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 213,
       "level": 3,
-      "text": "Honest Challenges",
-      "slug": "honest-challenges"
+      "text": "Honest Challenges (View 2)",
+      "slug": "honest-challenges-view-2"
     },
     {
       "chapter": "04-Chapter-Reality.md",
@@ -672,36 +672,36 @@
       "chapter": "04-Chapter-Reality.md",
       "line": 224,
       "level": 3,
-      "text": "Held By",
-      "slug": "held-by"
+      "text": "Held By (View 3)",
+      "slug": "held-by-view-3"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 228,
       "level": 3,
-      "text": "Core Claim",
-      "slug": "core-claim"
+      "text": "Core Claim (View 3)",
+      "slug": "core-claim-view-3"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 232,
       "level": 3,
-      "text": "Strongest Arguments",
-      "slug": "strongest-arguments"
+      "text": "Strongest Arguments (View 3)",
+      "slug": "strongest-arguments-view-3"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 263,
       "level": 3,
-      "text": "Pastoral Fruit",
-      "slug": "pastoral-fruit"
+      "text": "Pastoral Fruit (View 3)",
+      "slug": "pastoral-fruit-view-3"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 270,
       "level": 3,
-      "text": "Honest Challenges",
-      "slug": "honest-challenges"
+      "text": "Honest Challenges (View 3)",
+      "slug": "honest-challenges-view-3"
     },
     {
       "chapter": "04-Chapter-Reality.md",
@@ -714,36 +714,36 @@
       "chapter": "04-Chapter-Reality.md",
       "line": 288,
       "level": 3,
-      "text": "Held By",
-      "slug": "held-by"
+      "text": "Held By (View 4)",
+      "slug": "held-by-view-4"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 292,
       "level": 3,
-      "text": "Core Claim",
-      "slug": "core-claim"
+      "text": "Core Claim (View 4)",
+      "slug": "core-claim-view-4"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 296,
       "level": 3,
-      "text": "Strongest Arguments",
-      "slug": "strongest-arguments"
+      "text": "Strongest Arguments (View 4)",
+      "slug": "strongest-arguments-view-4"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 314,
       "level": 3,
-      "text": "Pastoral Fruit",
-      "slug": "pastoral-fruit"
+      "text": "Pastoral Fruit (View 4)",
+      "slug": "pastoral-fruit-view-4"
     },
     {
       "chapter": "04-Chapter-Reality.md",
       "line": 320,
       "level": 3,
-      "text": "Honest Challenges",
-      "slug": "honest-challenges"
+      "text": "Honest Challenges (View 4)",
+      "slug": "honest-challenges-view-4"
     },
     {
       "chapter": "04-Chapter-Reality.md",
@@ -770,8 +770,8 @@
       "chapter": "04-Chapter-Reality.md",
       "line": 388,
       "level": 2,
-      "text": "Summary",
-      "slug": "summary"
+      "text": "Summary (Reality)",
+      "slug": "summary-reality"
     },
     {
       "chapter": "05-Chapter-Synthesis.md",
@@ -917,15 +917,15 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 34,
       "level": 3,
-      "text": "Usage in key passages",
-      "slug": "usage-in-key-passages"
+      "text": "Usage in key passages (teleios)",
+      "slug": "usage-in-key-passages-teleios"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
       "line": 49,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:10",
-      "slug": "translation-comparison-1-corinthians-1310"
+      "text": "Translation comparison: 1 Corinthians 13:10 (teleios)",
+      "slug": "translation-comparison-1-corinthians-1310-teleios"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -945,8 +945,8 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 74,
       "level": 3,
-      "text": "Usage in key passages",
-      "slug": "usage-in-key-passages"
+      "text": "Usage in key passages (katargeō)",
+      "slug": "usage-in-key-passages-katarge"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -959,8 +959,8 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 98,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:8,10",
-      "slug": "translation-comparison-1-corinthians-13810"
+      "text": "Translation comparison: 1 Corinthians 13:8,10 (katargeō)",
+      "slug": "translation-comparison-1-corinthians-13810-katarge"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -987,15 +987,15 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 144,
       "level": 3,
-      "text": "Usage in key passages",
-      "slug": "usage-in-key-passages"
+      "text": "Usage in key passages (pauō)",
+      "slug": "usage-in-key-passages-pau"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
       "line": 151,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:8",
-      "slug": "translation-comparison-1-corinthians-138"
+      "text": "Translation comparison: 1 Corinthians 13:8 (pauō)",
+      "slug": "translation-comparison-1-corinthians-138-pau"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -1029,8 +1029,8 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 194,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:12",
-      "slug": "translation-comparison-1-corinthians-1312"
+      "text": "Translation comparison: 1 Corinthians 13:12 (esoptron)",
+      "slug": "translation-comparison-1-corinthians-1312-esoptron"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -1064,8 +1064,8 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 244,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:12",
-      "slug": "translation-comparison-1-corinthians-1312"
+      "text": "Translation comparison: 1 Corinthians 13:12 (ainigma)",
+      "slug": "translation-comparison-1-corinthians-1312-ainigma"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -1134,15 +1134,15 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 357,
       "level": 3,
-      "text": "Usage in key passages",
-      "slug": "usage-in-key-passages"
+      "text": "Usage in key passages (epiginōskō)",
+      "slug": "usage-in-key-passages-epiginsk"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
       "line": 369,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:12",
-      "slug": "translation-comparison-1-corinthians-1312"
+      "text": "Translation comparison: 1 Corinthians 13:12 (epiginōskō)",
+      "slug": "translation-comparison-1-corinthians-1312-epiginsk"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -1169,8 +1169,8 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 417,
       "level": 3,
-      "text": "Translation comparison",
-      "slug": "translation-comparison"
+      "text": "Translation comparison (ek)",
+      "slug": "translation-comparison-ek"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
@@ -1204,15 +1204,15 @@
       "chapter": "Appendix-A-Word-Study.md",
       "line": 463,
       "level": 3,
-      "text": "Translation comparison: 1 Corinthians 13:13",
-      "slug": "translation-comparison-1-corinthians-1313"
+      "text": "Translation comparison: 1 Corinthians 13:13 (nyni)",
+      "slug": "translation-comparison-1-corinthians-1313-nyni"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",
       "line": 477,
       "level": 2,
-      "text": "Summary",
-      "slug": "summary"
+      "text": "Summary (Word Study)",
+      "slug": "summary-word-study"
     },
     {
       "chapter": "Appendix-A-Word-Study.md",

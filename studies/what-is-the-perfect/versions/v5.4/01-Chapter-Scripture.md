@@ -1,6 +1,6 @@
 # Chapter 1: Scripture --- What Does the Text Actually Say?
 
-## Overview
+## Overview (Scripture)
 
 This chapter examines 1 Corinthians 13:10 --- "But when that which is perfect is come, then that which is in part shall be done away" --- with the attention it deserves: verse by verse, word by word, in Greek and in context. The goal is not to settle the question of what "the perfect" means, but to establish precisely what the text says, what the grammar permits, what the Old Testament background illuminates, and where genuine interpretive disagreement begins.
 
@@ -423,7 +423,7 @@ Chapter 4 presents each view in full detail. Here, the goal is to identify the s
 
 ---
 
-## Summary
+## Summary (Scripture)
 
 The textual evidence of 1 Corinthians 13:8--13 presents a case study in genuine grammatical ambiguity at a theologically crucial point. What is not ambiguous is Paul's main argument: love is permanent; gifts are temporary servants of love; the partial is destined to be superseded by the perfect. These claims Paul makes with force and clarity. The debate begins precisely where Paul says *when* and *what* --- and here the text deliberately leaves the referent of *to teleion* unresolved.
 
