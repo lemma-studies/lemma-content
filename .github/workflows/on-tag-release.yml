@@ -3,25 +3,28 @@ name: on-tag-release
 # Fires on `<slug>/vN.N` tag push. Job-staged pipeline per design §6.3:
 #
 #   Job 1 build         verify tag format + slug match + monotonicity;
-#                       compile:study --check; verify:study (fixtures +
-#                       manifest + anchors + study.yaml + machine-readable);
-#                       build.sh → PDF
-#   Job 2 release       create GH Release; attach composite + rag + PDF;
-#                       Job 2d commits release PDF to studies/<slug>/versions/vN.N/
-#                       on main (NO [skip ci]; guard rejects skip phrases)
-#   Job 3 doi-publish   read reserved DOIs; upload composite + rag + PDF to
-#                       Zenodo; PUBLISH deposit; metadata references
-#                       data/phase-state.yaml.base_url
-#   Job 4 mirror        (Phase 6+) skip in Phase 3 pilot
+#                       compile:study; verify:study (fixtures + manifest
+#                       + anchors + study.yaml + machine-readable);
+#                       build.sh → PDF; uploads composite/rag/PDF as
+#                       workflow artifacts.
+#   Job 2 release       downloads artifacts; creates GH Release; attaches
+#                       composite + rag + PDF; Job 2d commits release PDF
+#                       to studies/<slug>/versions/vN.N/ on main via
+#                       lemma-studies-bot App token (NO [skip ci]; guard
+#                       rejects skip phrases).
+#   Job 3 doi-publish   downloads artifacts; publishes Zenodo deposit
+#                       with metadata referencing data/phase-state.yaml
+#                       base_url. Refuses if release_publish_unlocked=false.
+#   Job 4 mirror        (Phase 6+) skip in Phase 3 pilot.
 #   Job 5 publish-surfaces
-#                       5a SWH save-code-now (idempotent)
+#                       5a SWH save-code-now (idempotent, unauthenticated)
 #                       5b HuggingFace Dataset push (Phase 3+)
 #                       5c PubPub cross-post (Phase 6+)
 #                       5d Wayback SPN2 (Phase 6+)
 #                       5e Wikidata (Phase 7+)
 #                       5f Preprint deposit (Phase 7+)
 #   Job 6 verify        verify-release --tag <tag> — creates/updates
-#                       verify-release-failure Issues per failing check
+#                       verify-release-failure Issues per failing check.
 #
 # **Repo-wide concurrency group** serializes cross-release pushes.
 #
@@ -29,19 +32,16 @@ name: on-tag-release
 # human gate. Tim executes; AI never delegated because Zenodo publish is
 # irreversible.
 #
-# PHASE 2b SCAFFOLD: workflow structure only. Each job runs its stage
-# script as a scaffold — real bodies land during Phase 3 execution
-# (Task 3.5-3.6). Workflow will not fire in Phase 2b because no tags
-# will be pushed.
+# PHASE 2b STATUS: workflow is fully wired to real scripts. Scripts are
+# still scaffolds — they exit 0 with `status: scaffold` when env vars
+# are unset (ZENODO_ACCESS_TOKEN, HF_TOKEN) — so this workflow will not
+# create real Zenodo records / HF pushes until Phase 3 secrets land.
+# Refuses on missing study.yaml (fail-loud rather than silently succeed).
 
 on:
-  # Tag-push only. Global Constraint bans `on: push` to BRANCHES (which would
-  # loop with Job 2d's App-token push); tag pushes are exempt per plan Task
-  # 2b.10 Step 4 comment ("tag-triggered workflows"). Do NOT add `branches:`
-  # here — the loop guard depends on it.
   push:
     tags:
-      - '*/v*'   # <slug>/vN.N
+      - '*/v*'   # <slug>/vN.N — GLOBAL CONSTRAINT: tag-push only; NO branches: (would loop with Job 2d App-token push)
   workflow_dispatch:
     inputs:
       tag:
@@ -53,8 +53,8 @@ concurrency:
   cancel-in-progress: false   # never cancel a partial Zenodo publish
 
 permissions:
-  contents: write        # Job 2d needs this to push versioned PDF back to main
-  discussions: write     # Job 6a announces to Discussions
+  contents: read              # base perms; Job 2d + workroom writes go via App token
+  discussions: write          # Job 6 announces to Discussions
 
 jobs:
 
@@ -63,25 +63,37 @@ jobs:
     outputs:
       slug: ${{ steps.parse.outputs.slug }}
       version: ${{ steps.parse.outputs.version }}
+      tag: ${{ steps.parse.outputs.tag }}
     steps:
+      - name: Resolve tag (push OR workflow_dispatch)
+        id: parse
+        env:
+          TAG_REF: ${{ github.ref }}
+          MANUAL_TAG: ${{ inputs.tag }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="$MANUAL_TAG"
+          else
+            TAG="${TAG_REF#refs/tags/}"
+          fi
+          if [ -z "$TAG" ] || ! echo "$TAG" | grep -qE '^[a-z0-9-]+/v[0-9]+(\.[0-9]+)*$'; then
+            echo "Invalid tag format: $TAG (expected <slug>/vN.N)"
+            exit 1
+          fi
+          SLUG="${TAG%/*}"
+          VERSION="${TAG##*/}"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
       - uses: actions/checkout@v4
         with:
+          ref: ${{ steps.parse.outputs.tag }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Parse tag
-        id: parse
-        env:
-          TAG_REF: ${{ github.ref }}
-        run: |
-          TAG="${TAG_REF#refs/tags/}"
-          SLUG="${TAG%/*}"
-          VERSION="${TAG##*/}"
-          echo "slug=$SLUG" >> $GITHUB_OUTPUT
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Refuse if any open verify-release-failure Issue (R6 C12)
         env:
@@ -90,18 +102,21 @@ jobs:
           count=$(gh issue list --label verify-release-failure --state open --json number | jq length)
           if [ "$count" -gt 0 ]; then
             echo "Refusing release: $count open verify-release-failure Issues"
+            gh issue list --label verify-release-failure --state open
             exit 1
           fi
 
       - name: Install deps
         run: npm ci --omit=optional || npm install
 
-      - name: 1b compile --check + emit artifacts
+      - name: 1b compile:study (writes versioned + composite + xrefs + rag; regenerates corpus)
         env:
           SLUG: ${{ steps.parse.outputs.slug }}
           VERSION: ${{ steps.parse.outputs.version }}
         run: |
-          echo "TODO(Task 3.5): npm run compile:study -- --study \"$SLUG\" --version \"$VERSION\" --check"
+          mkdir -p .rag
+          npm run compile:study -- --study "$SLUG" --version "$VERSION" --force \
+            --rag-out ".rag/$SLUG-$VERSION.rag.md"
 
       - name: 1c verify:study (manifest + anchors + study.yaml + machine-readable)
         env:
@@ -115,34 +130,114 @@ jobs:
       - name: 1d build.sh → PDF
         env:
           SLUG: ${{ steps.parse.outputs.slug }}
+          VERSION: ${{ steps.parse.outputs.version }}
         run: |
-          echo "TODO(Task 3.5): studies/$SLUG/build.sh"
+          if [ ! -f "studies/$SLUG/build.sh" ]; then
+            echo "studies/$SLUG/build.sh missing — cannot produce PDF"
+            exit 1
+          fi
+          (cd "studies/$SLUG" && bash build.sh "$VERSION")
+
+      - name: Stage release assets
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+          VERSION: ${{ steps.parse.outputs.version }}
+        run: |
+          mkdir -p .release-assets
+          cp "studies/$SLUG/$SLUG-$VERSION.md" ".release-assets/"
+          cp ".rag/$SLUG-$VERSION.rag.md" ".release-assets/"
+          cp "studies/$SLUG/versions/$VERSION/$SLUG-$VERSION.pdf" ".release-assets/" 2>/dev/null || \
+            cp "studies/$SLUG/$SLUG-$VERSION.pdf" ".release-assets/"
+          ls -la .release-assets/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-assets-${{ steps.parse.outputs.slug }}-${{ steps.parse.outputs.version }}
+          path: .release-assets/
+          retention-days: 30
 
   release:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
 
+      # App-minted token authenticates as lemma-studies-bot for gh release
+      # create + Job 2d push-to-main. Cleaner audit trail than GITHUB_TOKEN
+      # (which shows as github-actions[bot]).
+      - name: Mint App installation token (self-repo)
+        uses: actions/create-github-app-token@v1
+        id: bot-token
+        with:
+          app-id: ${{ vars.LEMMA_BOT_APP_ID }}
+          private-key: ${{ secrets.LEMMA_BOT_PRIVATE_KEY }}
+          owner: lemma-studies
+          repositories: lemma-content
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-assets-${{ needs.build.outputs.slug }}-${{ needs.build.outputs.version }}
+          path: .release-assets/
+
       - name: 2a-c create GH Release + attach composite + rag + PDF
         env:
-          TAG: ${{ github.ref_name }}
-        run: |
-          echo "TODO(Task 3.5): gh release create \"$TAG\" ..."
-
-      - name: 2d commit release PDF to main (NO [skip ci]; guard commit message)
-        env:
+          GH_TOKEN: ${{ steps.bot-token.outputs.token }}
+          TAG: ${{ needs.build.outputs.tag }}
           SLUG: ${{ needs.build.outputs.slug }}
           VERSION: ${{ needs.build.outputs.version }}
         run: |
-          # commit message construction: MUST NOT contain [skip ci] or any CF-skip phrase.
-          # If future change ever adds them, the guard below refuses the push.
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists — updating assets (idempotent)"
+          else
+            gh release create "$TAG" \
+              --title "$SLUG $VERSION" \
+              --notes "Automated release of $SLUG $VERSION. See changelog in commit history for the tagged range."
+          fi
+          gh release upload "$TAG" \
+            ".release-assets/$SLUG-$VERSION.md" \
+            ".release-assets/$SLUG-$VERSION.rag.md" \
+            ".release-assets/$SLUG-$VERSION.pdf" \
+            --clobber
+
+      - name: 2d commit release PDF to main (NO [skip ci]; guard commit message)
+        env:
+          GH_TOKEN: ${{ steps.bot-token.outputs.token }}
+          SLUG: ${{ needs.build.outputs.slug }}
+          VERSION: ${{ needs.build.outputs.version }}
+          APP_ID: ${{ vars.LEMMA_BOT_APP_ID }}
+        run: |
+          # Commit message MUST NOT contain [skip ci] or any CF-skip phrase —
+          # would suppress CF Pages rebuild + fail the cf-skip-reintroduced check.
           MSG="release(pdf): $SLUG/$VERSION [autogen]"
           if echo "$MSG" | grep -Ei '\[skip ci\]|\[ci skip\]|\[cf-pages-skip\]|no ci'; then
             echo "Refusing: Job 2d commit message contains a CI-skip phrase"
             exit 1
           fi
-          echo "TODO(Task 3.5): cp + git add + commit -m \"$MSG\" + fetch-rebase-push"
+          # Fetch main; copy PDF into versions dir; fetch-rebase-push loop for
+          # concurrency safety (multiple releases may race).
+          git config user.name "lemma-studies-bot[bot]"
+          git config user.email "${APP_ID}+lemma-studies-bot[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/lemma-studies/lemma-content.git"
+          git fetch origin main
+          git checkout main
+          mkdir -p "studies/$SLUG/versions/$VERSION"
+          cp ".release-assets/$SLUG-$VERSION.pdf" "studies/$SLUG/versions/$VERSION/"
+          git add "studies/$SLUG/versions/$VERSION/$SLUG-$VERSION.pdf"
+          if git diff --cached --quiet; then
+            echo "no change (PDF already committed at this path)"
+            exit 0
+          fi
+          git commit -m "$MSG"
+          # Fetch-rebase-push retry for concurrent release safety.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main && git push origin main && break
+            [ $attempt -eq 3 ] && { echo "push failed after 3 attempts"; exit 1; }
+            echo "push conflict; retrying ($attempt/3)"
+            sleep 5
+          done
 
   doi-publish:
     needs: [build, release]
@@ -150,13 +245,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci --omit=optional || npm install
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-assets-${{ needs.build.outputs.slug }}-${{ needs.build.outputs.version }}
+          path: .release-assets/
+
       - name: 3a-d PUBLISH Zenodo deposit
         env:
           SLUG: ${{ needs.build.outputs.slug }}
           VERSION: ${{ needs.build.outputs.version }}
           ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
         run: |
-          echo "TODO(Task 3.5): node scripts/zenodo-publish.mjs --study \"$SLUG\" --version \"$VERSION\""
+          node scripts/zenodo-publish.mjs --study "$SLUG" --version "$VERSION" --assets-dir .release-assets
 
   publish-surfaces:
     needs: [build, release, doi-publish]
@@ -164,13 +271,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci --omit=optional || npm install
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-assets-${{ needs.build.outputs.slug }}-${{ needs.build.outputs.version }}
+          path: .release-assets/
+
       - name: 5a SWH save-code-now (idempotent)
-        run: echo "TODO(Task 3.5): node scripts/push-software-heritage.mjs"
+        run: node scripts/push-software-heritage.mjs
 
       - name: 5b HuggingFace Dataset push (Phase 3+)
         env:
+          SLUG: ${{ needs.build.outputs.slug }}
+          VERSION: ${{ needs.build.outputs.version }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: echo "TODO(Task 3.5): node scripts/update-huggingface-ds.mjs"
+        run: |
+          node scripts/update-huggingface-ds.mjs --study "$SLUG" --version "$VERSION" --assets-dir .release-assets
 
   verify:
     needs: [build, release, doi-publish, publish-surfaces]
@@ -185,7 +307,8 @@ jobs:
       - name: Install deps
         run: npm ci --omit=optional || npm install
 
-      - name: 6 verify-release
+      - name: 6 verify-release (opens verify-release-failure Issue per fail)
         env:
-          TAG: ${{ github.ref_name }}
+          TAG: ${{ needs.build.outputs.tag }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/lemma-cli/verify-release.mjs --tag "$TAG"
