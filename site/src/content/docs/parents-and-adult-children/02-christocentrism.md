@@ -7,7 +7,7 @@ banner:
     <strong>Draft</strong> — this study is under active development. Content may change without notice; not yet peer-reviewed. See <a href="/what-is-the-perfect/">What Is the Perfect?</a> for a completed example.
 ---
 
-## Overview
+## Overview (Christocentrism)
 
 What did Jesus teach and demonstrate about the parent-child relation?
 The evidence falls into four groups: Jesus's own conduct as a son;

@@ -7,7 +7,7 @@ banner:
     <strong>Draft</strong> — this study is under active development. Content may change without notice; not yet peer-reviewed. See <a href="/what-is-the-perfect/">What Is the Perfect?</a> for a completed example.
 ---
 
-## Overview
+## Overview (Scripture)
 
 Scripture addresses parents and children extensively — but almost
 always at the two ends: minor children under parental roof, and

@@ -16,6 +16,17 @@
 
 # (chunks appear below this line, sorted by slug then chapter, regenerated per compile)
 
+- /llms/full/parents-and-adult-children/00-At-a-Glance.txt
+- /llms/full/parents-and-adult-children/00-Preface.txt
+- /llms/full/parents-and-adult-children/01-Chapter-Scripture.txt
+- /llms/full/parents-and-adult-children/02-Chapter-Christocentrism.txt
+- /llms/full/parents-and-adult-children/03-Chapter-Antiquity.txt
+- /llms/full/parents-and-adult-children/04-Chapter-Reality.txt
+- /llms/full/parents-and-adult-children/05-Chapter-Synthesis.txt
+- /llms/full/parents-and-adult-children/06-Chapter-How-To-Use-Scar-Before-The-Lord.txt
+- /llms/full/parents-and-adult-children/06-conclusion.txt
+- /llms/full/parents-and-adult-children/Appendix-A-Sources-Consulted-Selected.txt
+- /llms/full/parents-and-adult-children/Appendix-B-Historical-Origins-And-Empirical-Background.txt
 - /llms/full/what-is-the-perfect/00-At-a-Glance.txt
 - /llms/full/what-is-the-perfect/00-Overview.txt
 - /llms/full/what-is-the-perfect/01-Chapter-Scripture.txt

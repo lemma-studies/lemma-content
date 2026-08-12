@@ -1,3 +1,10 @@
+# study: parents-and-adult-children
+# version: v2.16.0
+# chapter: 02-Chapter-Christocentrism.md
+# canonical: https://lemma-content.pages.dev/parents-and-adult-children/02-chapter-christocentrism/
+# license: CC BY 4.0 (see https://creativecommons.org/licenses/by/4.0/)
+# source: /studies/parents-and-adult-children/02-Chapter-Christocentrism.md  (canonical chapter file — chunks regenerate per compile)
+
 # Chapter 2 — Christocentrism
 
 ## Overview (Christocentrism)

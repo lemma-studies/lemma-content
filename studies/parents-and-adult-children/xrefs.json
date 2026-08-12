@@ -1,0 +1,1260 @@
+{
+  "study": "parents-and-adult-children",
+  "version": "v2.16.0",
+  "extracted_at": "2026-08-12T21:15:59.499Z",
+  "anchors": [
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 1,
+      "level": 1,
+      "text": "TL;DR — Executive Summary",
+      "slug": "tldr-executive-summary"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 3,
+      "level": 2,
+      "text": "The Question",
+      "slug": "the-question"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 17,
+      "level": 2,
+      "text": "The Method",
+      "slug": "the-method"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 42,
+      "level": 2,
+      "text": "The Non-Negotiables",
+      "slug": "the-non-negotiables"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 94,
+      "level": 2,
+      "text": "The Views",
+      "slug": "the-views"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 165,
+      "level": 2,
+      "text": "The Twin Idolatries",
+      "slug": "the-twin-idolatries"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 179,
+      "level": 2,
+      "text": "The Parent's Three Postures",
+      "slug": "the-parents-three-postures"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 194,
+      "level": 2,
+      "text": "The Eight-Question Test",
+      "slug": "the-eight-question-test"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 213,
+      "level": 2,
+      "text": "The Summons",
+      "slug": "the-summons"
+    },
+    {
+      "chapter": "00-Preface.md",
+      "line": 1,
+      "level": 1,
+      "text": "A Note on What This Is, and What It Is Not",
+      "slug": "a-note-on-what-this-is-and-what-it-is-not"
+    },
+    {
+      "chapter": "00-Preface.md",
+      "line": 60,
+      "level": 2,
+      "text": "On Attribution, Citation, and Correspondence",
+      "slug": "on-attribution-citation-and-correspondence"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 1 — Scripture",
+      "slug": "chapter-1-scripture"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview (Scripture)",
+      "slug": "overview-scripture"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 39,
+      "level": 2,
+      "text": "1 The Foundational Command: Honor",
+      "slug": "1-the-foundational-command-honor"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 66,
+      "level": 3,
+      "text": "1.1 Four Senses of \"Authority\"",
+      "slug": "11-four-senses-of-authority"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 135,
+      "level": 2,
+      "text": "2 The Command to Obey (and Its Limits)",
+      "slug": "2-the-command-to-obey-and-its-limits"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 212,
+      "level": 3,
+      "text": "2.1 Whether Eph. 6:1's ὑπακούω Tracks a Household-Status Transition: Seven Considerations, with 1b's Answers",
+      "slug": "21-whether-eph-61s-tracks-a-household-status-transition-seven-considerations-with-1bs-answers"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 776,
+      "level": 3,
+      "text": "2.2 The Content of Honor, and the Middle Mode",
+      "slug": "22-the-content-of-honor-and-the-middle-mode"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 980,
+      "level": 2,
+      "text": "3 The Foundational Leaving Text",
+      "slug": "3-the-foundational-leaving-text"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1010,
+      "level": 3,
+      "text": "3.1 Can \"Leave\" and \"Cleave\" Be Separated in Time?",
+      "slug": "31-can-leave-and-cleave-be-separated-in-time"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1110,
+      "level": 2,
+      "text": "4 The Unmarried Adult: Direct Texts",
+      "slug": "4-the-unmarried-adult-direct-texts"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1115,
+      "level": 3,
+      "text": "4.1 Numbers 30 — Vows of Unmarried Daughters",
+      "slug": "41-numbers-30-vows-of-unmarried-daughters"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1262,
+      "level": 3,
+      "text": "4.2 First Corinthians 7 — The Unmarried and Their Fathers",
+      "slug": "42-first-corinthians-7-the-unmarried-and-their-fathers"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1296,
+      "level": 3,
+      "text": "4.3 Acts 21 — Philip's Daughters",
+      "slug": "43-acts-21-philips-daughters"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1319,
+      "level": 3,
+      "text": "4.4 The Direction of Provision",
+      "slug": "44-the-direction-of-provision"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1367,
+      "level": 3,
+      "text": "4.5 The Marriage-Arrangement Cluster",
+      "slug": "45-the-marriage-arrangement-cluster"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1508,
+      "level": 3,
+      "text": "4.6 Vocational Household Transfer",
+      "slug": "46-vocational-household-transfer"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1607,
+      "level": 3,
+      "text": "4.7 The Nazirite / Set-Apart Exception",
+      "slug": "47-the-nazirite-set-apart-exception"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1631,
+      "level": 3,
+      "text": "4.8 The Warrior Departure Pattern",
+      "slug": "48-the-warrior-departure-pattern"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1719,
+      "level": 3,
+      "text": "4.9 Adult Filial Bonds Beyond the Nuclear Frame",
+      "slug": "49-adult-filial-bonds-beyond-the-nuclear-frame"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1794,
+      "level": 3,
+      "text": "4.10 The Mixed Household — Believer Under Unbelieving Parents",
+      "slug": "410-the-mixed-household-believer-under-unbelieving-parents"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1922,
+      "level": 3,
+      "text": "4.11 The Return Seam — Leaving as Reversible",
+      "slug": "411-the-return-seam-leaving-as-reversible"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2008,
+      "level": 2,
+      "text": "5 The Wisdom Literature",
+      "slug": "5-the-wisdom-literature"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2127,
+      "level": 2,
+      "text": "6 The Church as Extended Family",
+      "slug": "6-the-church-as-extended-family"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2146,
+      "level": 3,
+      "text": "6.1 God's Own Placement of the Solitary",
+      "slug": "61-gods-own-placement-of-the-solitary"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2197,
+      "level": 3,
+      "text": "6.2 The Consecrated Unmarried: The Better Portion",
+      "slug": "62-the-consecrated-unmarried-the-better-portion"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2247,
+      "level": 3,
+      "text": "6.3 The Church's Concrete Family Practice",
+      "slug": "63-the-churchs-concrete-family-practice"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2324,
+      "level": 3,
+      "text": "6.4 Kinship Vocabulary in the New Testament",
+      "slug": "64-kinship-vocabulary-in-the-new-testament"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2468,
+      "level": 3,
+      "text": "6.5 Worked Example: Timothy",
+      "slug": "65-worked-example-timothy"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2595,
+      "level": 2,
+      "text": "7 The Difficult Texts",
+      "slug": "7-the-difficult-texts"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2650,
+      "level": 2,
+      "text": "8 What Scripture Requires, Permits, and Forbids",
+      "slug": "8-what-scripture-requires-permits-and-forbids"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 2731,
+      "level": 2,
+      "text": "9 Three Genuine Ambiguities",
+      "slug": "9-three-genuine-ambiguities"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 2 — Christocentrism",
+      "slug": "chapter-2-christocentrism"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview (Christocentrism)",
+      "slug": "overview-christocentrism"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 11,
+      "level": 2,
+      "text": "1 Jesus at Twelve — Subject to Parents, Yet Not Only to Them",
+      "slug": "1-jesus-at-twelve-subject-to-parents-yet-not-only-to-them"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 40,
+      "level": 2,
+      "text": "2 Jesus's Departure for Ministry",
+      "slug": "2-jesuss-departure-for-ministry"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 68,
+      "level": 3,
+      "text": "2.1 But the Independence Was Real",
+      "slug": "21-but-the-independence-was-real"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 158,
+      "level": 2,
+      "text": "3 \"Who Is My Mother?\" — The Reordering of Kinship",
+      "slug": "3-who-is-my-mother-the-reordering-of-kinship"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 193,
+      "level": 2,
+      "text": "4 The Hard Sayings",
+      "slug": "4-the-hard-sayings"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 258,
+      "level": 2,
+      "text": "5 The Defense of the Honor Commandment",
+      "slug": "5-the-defense-of-the-honor-commandment"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 312,
+      "level": 2,
+      "text": "6 Care for Mary from the Cross",
+      "slug": "6-care-for-mary-from-the-cross"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 338,
+      "level": 2,
+      "text": "7 The Father's House — Where All Household Questions Lead",
+      "slug": "7-the-fathers-house-where-all-household-questions-lead"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 474,
+      "level": 2,
+      "text": "8 Jesus's Priorities Extracted",
+      "slug": "8-jesuss-priorities-extracted"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 517,
+      "level": 2,
+      "text": "9 What the Christocentric Data Does Not Settle",
+      "slug": "9-what-the-christocentric-data-does-not-settle"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 3 — Antiquity",
+      "slug": "chapter-3-antiquity"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview (Antiquity)",
+      "slug": "overview-antiquity"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 28,
+      "level": 2,
+      "text": "1 The Context — Greco-Roman *Patria Potestas* and Jewish Household",
+      "slug": "1-the-context-greco-roman-patria-potestas-and-jewish-household"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 49,
+      "level": 3,
+      "text": "1.1 The Qumran Community and the Dead Sea Scrolls",
+      "slug": "11-the-qumran-community-and-the-dead-sea-scrolls"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 136,
+      "level": 3,
+      "text": "1.2 Rabbinic Judaism (Mishnah, Talmud, Traditional Halakhah)",
+      "slug": "12-rabbinic-judaism-mishnah-talmud-traditional-halakhah"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 389,
+      "level": 2,
+      "text": "2 The Didache (late 1st or early 2nd century)",
+      "slug": "2-the-didache-late-1st-or-early-2nd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 447,
+      "level": 2,
+      "text": "3 The Epistle of Barnabas (early 2nd century)",
+      "slug": "3-the-epistle-of-barnabas-early-2nd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 461,
+      "level": 2,
+      "text": "4 Ignatius of Antioch and Polycarp of Smyrna (c. 107-155)",
+      "slug": "4-ignatius-of-antioch-and-polycarp-of-smyrna-c-107-155"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 504,
+      "level": 2,
+      "text": "4a Shepherd of Hermas (mid-2nd century)",
+      "slug": "4a-shepherd-of-hermas-mid-2nd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 581,
+      "level": 2,
+      "text": "5 Justin Martyr (mid-2nd century)",
+      "slug": "5-justin-martyr-mid-2nd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 594,
+      "level": 2,
+      "text": "6 Athenagoras (late 2nd century)",
+      "slug": "6-athenagoras-late-2nd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 603,
+      "level": 2,
+      "text": "6a Clement of Alexandria (c. 150-215)",
+      "slug": "6a-clement-of-alexandria-c-150-215"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 662,
+      "level": 2,
+      "text": "7 Tertullian (late 2nd to early 3rd century)",
+      "slug": "7-tertullian-late-2nd-to-early-3rd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 691,
+      "level": 3,
+      "text": "7.1 The Passio Perpetuae (c. 203)",
+      "slug": "71-the-passio-perpetuae-c-203"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 798,
+      "level": 3,
+      "text": "7.2 The Acts of Paul and Thecla — a Popular Witness the Church Itself Policed",
+      "slug": "72-the-acts-of-paul-and-thecla-a-popular-witness-the-church-itself-policed"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 836,
+      "level": 2,
+      "text": "7a Origen (c. 184-253, via Eusebius *Historia Ecclesiastica* 6.2)",
+      "slug": "7a-origen-c-184-253-via-eusebius-historia-ecclesiastica-62"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 884,
+      "level": 2,
+      "text": "8 Cyprian (mid-3rd century)",
+      "slug": "8-cyprian-mid-3rd-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 914,
+      "level": 2,
+      "text": "9 Methodius (late 3rd to early 4th century)",
+      "slug": "9-methodius-late-3rd-to-early-4th-century"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 923,
+      "level": 2,
+      "text": "10 Patterns Across the Pre-Nicene Church",
+      "slug": "10-patterns-across-the-pre-nicene-church"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 955,
+      "level": 2,
+      "text": "11 What Antiquity Requires, Permits, and Forbids",
+      "slug": "11-what-antiquity-requires-permits-and-forbids"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 969,
+      "level": 2,
+      "text": "12 What Antiquity Leaves Open",
+      "slug": "12-what-antiquity-leaves-open"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 4 — Reality",
+      "slug": "chapter-4-reality"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview (Reality)",
+      "slug": "overview-reality"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 23,
+      "level": 2,
+      "text": "1 Household Continuity — Two Sub-Positions",
+      "slug": "1-household-continuity-two-sub-positions"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 39,
+      "level": 3,
+      "text": "1a Household Continuity (Prudential Covering)",
+      "slug": "1a-household-continuity-prudential-covering"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 230,
+      "level": 3,
+      "text": "1b Continuous Doctrinal Authority",
+      "slug": "1b-continuous-doctrinal-authority"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 594,
+      "level": 2,
+      "text": "2 Launched at Adulthood — Two Sub-Positions",
+      "slug": "2-launched-at-adulthood-two-sub-positions"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 615,
+      "level": 3,
+      "text": "2a Prudential Launching (Continuing Honor Without Continuing Directive Authority)",
+      "slug": "2a-prudential-launching-continuing-honor-without-continuing-directive-authority"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 710,
+      "level": 3,
+      "text": "2b Release with Prayer — the Prodigal-Father Posture",
+      "slug": "2b-release-with-prayer-the-prodigal-father-posture"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 856,
+      "level": 2,
+      "text": "3 Consecrated Singleness in Community",
+      "slug": "3-consecrated-singleness-in-community"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 878,
+      "level": 3,
+      "text": "3.1 The Catholic Formulation",
+      "slug": "31-the-catholic-formulation"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 929,
+      "level": 3,
+      "text": "3.2 The Orthodox Formulation",
+      "slug": "32-the-orthodox-formulation"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1062,
+      "level": 3,
+      "text": "3.3 Christ as Bridegroom of the Unmarried",
+      "slug": "33-christ-as-bridegroom-of-the-unmarried"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1105,
+      "level": 3,
+      "text": "3.4 The Pauline Caveat: 1 Timothy 4:1-3",
+      "slug": "34-the-pauline-caveat-1-timothy-41-3"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1137,
+      "level": 3,
+      "text": "3.5 Missional Singleness as Affirmative Calling",
+      "slug": "35-missional-singleness-as-affirmative-calling"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1208,
+      "level": 2,
+      "text": "4 Multigenerational Household as Cultural Norm",
+      "slug": "4-multigenerational-household-as-cultural-norm"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1247,
+      "level": 3,
+      "text": "4.1 The Anabaptist / Mennonite Pattern",
+      "slug": "41-the-anabaptist-mennonite-pattern"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1351,
+      "level": 2,
+      "text": "5 The Arrangement Question — Parental Mediation of the Marriage Covenant",
+      "slug": "5-the-arrangement-question-parental-mediation-of-the-marriage-covenant"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1691,
+      "level": 2,
+      "text": "6 Vocational Household Transfer as a Cross-Cutting Pattern",
+      "slug": "6-vocational-household-transfer-as-a-cross-cutting-pattern"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1746,
+      "level": 2,
+      "text": "7 Patterns Across Faithful Communities",
+      "slug": "7-patterns-across-faithful-communities"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1748,
+      "level": 3,
+      "text": "The Views at a Glance",
+      "slug": "the-views-at-a-glance"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1781,
+      "level": 2,
+      "text": "8 What Reality Requires, Permits, and Forbids",
+      "slug": "8-what-reality-requires-permits-and-forbids"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1830,
+      "level": 2,
+      "text": "9 What Reality Leaves Open",
+      "slug": "9-what-reality-leaves-open"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 5 — Synthesis",
+      "slug": "chapter-5-synthesis"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview (Synthesis)",
+      "slug": "overview-synthesis"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 15,
+      "level": 2,
+      "text": "0 The Biblical Pattern of the Parent's Posture",
+      "slug": "0-the-biblical-pattern-of-the-parents-posture"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 53,
+      "level": 3,
+      "text": "0.1 Release-and-Await",
+      "slug": "01-release-and-await"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 188,
+      "level": 4,
+      "text": "The Featured Contrast — Samson's Parents and Eli",
+      "slug": "the-featured-contrast-samsons-parents-and-eli"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 256,
+      "level": 4,
+      "text": "Summary of Release-and-Await",
+      "slug": "summary-of-release-and-await"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 265,
+      "level": 3,
+      "text": "0.2 Intercession-Without-Restraint",
+      "slug": "02-intercession-without-restraint"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 312,
+      "level": 4,
+      "text": "Summary of Intercession-Without-Restraint",
+      "slug": "summary-of-intercession-without-restraint"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 326,
+      "level": 3,
+      "text": "0.3 Dedication",
+      "slug": "03-dedication"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 403,
+      "level": 4,
+      "text": "The Wider Christian Tradition of Dedication",
+      "slug": "the-wider-christian-tradition-of-dedication"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 432,
+      "level": 3,
+      "text": "0.4 How the Three Postures Relate",
+      "slug": "04-how-the-three-postures-relate"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 463,
+      "level": 3,
+      "text": "0.5 A Practitioner's Operational Frame — Cop → Coach → Consultant",
+      "slug": "05-a-practitioners-operational-frame-cop-coach-consultant"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 539,
+      "level": 2,
+      "text": "1 Where All Four Components Agree",
+      "slug": "1-where-all-four-components-agree"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 567,
+      "level": 2,
+      "text": "2 Where the Components Create Tension",
+      "slug": "2-where-the-components-create-tension"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 614,
+      "level": 2,
+      "text": "3 The Views, Presented Neutrally",
+      "slug": "3-the-views-presented-neutrally"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 639,
+      "level": 3,
+      "text": "View 1a — Household Continuity (Prudential Covering)",
+      "slug": "view-1a-household-continuity-prudential-covering"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 705,
+      "level": 3,
+      "text": "View 1b — Continuous Doctrinal Authority (Systematic Covering)",
+      "slug": "view-1b-continuous-doctrinal-authority-systematic-covering"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 761,
+      "level": 3,
+      "text": "View 2a — Prudential Launching (Continuing Honor Without Continuing Directive Authority)",
+      "slug": "view-2a-prudential-launching-continuing-honor-without-continuing-directive-authority"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 815,
+      "level": 3,
+      "text": "View 2b — Release with Prayer",
+      "slug": "view-2b-release-with-prayer"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 849,
+      "level": 3,
+      "text": "Note on the \"Household-Formed but Kingdom-Directed\" Pattern",
+      "slug": "note-on-the-household-formed-but-kingdom-directed-pattern"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 875,
+      "level": 3,
+      "text": "The Arrangement Question — Parental Mediation of the Marriage Covenant",
+      "slug": "the-arrangement-question-parental-mediation-of-the-marriage-covenant"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 925,
+      "level": 2,
+      "text": "4 Practical Guidelines Applicable to All Faithful Views",
+      "slug": "4-practical-guidelines-applicable-to-all-faithful-views"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1058,
+      "level": 3,
+      "text": "The Marriage-Arrangement Dimension",
+      "slug": "the-marriage-arrangement-dimension"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1093,
+      "level": 3,
+      "text": "Commonly Offered Counsel Not Directly Derived from SCAR",
+      "slug": "commonly-offered-counsel-not-directly-derived-from-scar"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1156,
+      "level": 2,
+      "text": "5 Failure Modes Common to All Views",
+      "slug": "5-failure-modes-common-to-all-views"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1300,
+      "level": 3,
+      "text": "Reality-Leg Notes on Household-Continuity Communities",
+      "slug": "reality-leg-notes-on-household-continuity-communities"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1373,
+      "level": 2,
+      "text": "6 Pastoral Edge Cases and Exceptions",
+      "slug": "6-pastoral-edge-cases-and-exceptions"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1494,
+      "level": 2,
+      "text": "7 The Ultimate Test, Restated",
+      "slug": "7-the-ultimate-test-restated"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1540,
+      "level": 3,
+      "text": "Worksheet",
+      "slug": "worksheet"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 6 — How to Use SCAR Before the Lord",
+      "slug": "chapter-6-how-to-use-scar-before-the-lord"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 13,
+      "level": 2,
+      "text": "1 What SCAR Is and Is Not",
+      "slug": "1-what-scar-is-and-is-not"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 44,
+      "level": 2,
+      "text": "2 Walking Your Case Through SCAR",
+      "slug": "2-walking-your-case-through-scar"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 81,
+      "level": 2,
+      "text": "3 Three Sub-Tools for the Scripture Leg",
+      "slug": "3-three-sub-tools-for-the-scripture-leg"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 87,
+      "level": 3,
+      "text": "3.1 Precept → Principle → Person of Truth",
+      "slug": "31-precept-principle-person-of-truth"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 125,
+      "level": 3,
+      "text": "3.2 The Leaky-Bucket Test",
+      "slug": "32-the-leaky-bucket-test"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 146,
+      "level": 3,
+      "text": "3.3 The Assumptive-Language Audit",
+      "slug": "33-the-assumptive-language-audit"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 169,
+      "level": 2,
+      "text": "4 The Three Biblical Postures as a Discernment Aid",
+      "slug": "4-the-three-biblical-postures-as-a-discernment-aid"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 196,
+      "level": 2,
+      "text": "5 A Worked Example — Eli and Samson",
+      "slug": "5-a-worked-example-eli-and-samson"
+    },
+    {
+      "chapter": "06-Chapter-How-To-Use-Scar-Before-The-Lord.md",
+      "line": 225,
+      "level": 2,
+      "text": "6 Where SCAR Runs Out and Prayer Begins",
+      "slug": "6-where-scar-runs-out-and-prayer-begins"
+    },
+    {
+      "chapter": "06-conclusion.md",
+      "line": 1,
+      "level": 1,
+      "text": "Conclusion — Love and Unity in Christ",
+      "slug": "conclusion-love-and-unity-in-christ"
+    },
+    {
+      "chapter": "06-conclusion.md",
+      "line": 3,
+      "level": 2,
+      "text": "The Shared Ground",
+      "slug": "the-shared-ground"
+    },
+    {
+      "chapter": "06-conclusion.md",
+      "line": 45,
+      "level": 2,
+      "text": "Love and Unity",
+      "slug": "love-and-unity"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 1,
+      "level": 1,
+      "text": "Appendix A — Sources Consulted (Selected)",
+      "slug": "appendix-a-sources-consulted-selected"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 3,
+      "level": 2,
+      "text": "Scripture",
+      "slug": "scripture"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 7,
+      "level": 2,
+      "text": "Deuterocanonical / Second-Temple Sources",
+      "slug": "deuterocanonical-second-temple-sources"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 26,
+      "level": 2,
+      "text": "Pre-Nicene Sources",
+      "slug": "pre-nicene-sources"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 79,
+      "level": 2,
+      "text": "Hebrew Bible Commentary (Rechabites, Jeremiah 35)",
+      "slug": "hebrew-bible-commentary-rechabites-jeremiah-35"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 97,
+      "level": 2,
+      "text": "Modern Sources — View 1 (Household Continuity and Covering)",
+      "slug": "modern-sources-view-1-household-continuity-and-covering"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 112,
+      "level": 2,
+      "text": "Modern Sources — Views 2a and 2b (Launched at Adulthood) and Household-Formed / Kingdom-Directed Communities",
+      "slug": "modern-sources-views-2a-and-2b-launched-at-adulthood-and-household-formed-kingdom-directed-communities"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 140,
+      "level": 2,
+      "text": "Modern Sources — The Arrangement Question (Parental Mediation of the Marriage Covenant)",
+      "slug": "modern-sources-the-arrangement-question-parental-mediation-of-the-marriage-covenant"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 168,
+      "level": 2,
+      "text": "Modern Sources — Consecrated Singleness and Christ-as-Bridegroom (§4.3)",
+      "slug": "modern-sources-consecrated-singleness-and-christ-as-bridegroom-43"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 184,
+      "level": 2,
+      "text": "Historical and Sociological Sources (Appendix B)",
+      "slug": "historical-and-sociological-sources-appendix-b"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 218,
+      "level": 2,
+      "text": "Methodological Sources",
+      "slug": "methodological-sources"
+    },
+    {
+      "chapter": "Appendix-A-Sources-Consulted-Selected.md",
+      "line": 237,
+      "level": 2,
+      "text": "Adjacent Material Consulted, Not Integrated",
+      "slug": "adjacent-material-consulted-not-integrated"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 1,
+      "level": 1,
+      "text": "Appendix B — Historical Origins and Empirical Background",
+      "slug": "appendix-b-historical-origins-and-empirical-background"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 13,
+      "level": 2,
+      "text": "B.1 Modern Origins of View 1b (Continuous Authority / \"Umbrella\" Doctrine)",
+      "slug": "b1-modern-origins-of-view-1b-continuous-authority-umbrella-doctrine"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 56,
+      "level": 3,
+      "text": "B.1.1 Watchman Nee — *Spiritual Authority* (1948 lectures / 1972 English)",
+      "slug": "b11-watchman-nee-spiritual-authority-1948-lectures-1972-english"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 140,
+      "level": 3,
+      "text": "B.1.2 The Shepherding Movement (Fort Lauderdale, 1966-1989)",
+      "slug": "b12-the-shepherding-movement-fort-lauderdale-1966-1989"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 177,
+      "level": 3,
+      "text": "B.1.3 Bill Gothard — the \"Umbrella of Protection\" (1961-2014)",
+      "slug": "b13-bill-gothard-the-umbrella-of-protection-1961-2014"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 254,
+      "level": 3,
+      "text": "B.1.4 Doug Phillips, Vision Forum, and Biblical Patriarchy (1998-2014)",
+      "slug": "b14-doug-phillips-vision-forum-and-biblical-patriarchy-1998-2014"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 311,
+      "level": 3,
+      "text": "B.1.5 R.C. Sproul Jr. — Family-Integrated Church Voice (deposed 2006)",
+      "slug": "b15-rc-sproul-jr-family-integrated-church-voice-deposed-2006"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 321,
+      "level": 3,
+      "text": "B.1.6 The \"Recovery of Puritan and Catholic Teaching\" Claim",
+      "slug": "b16-the-recovery-of-puritan-and-catholic-teaching-claim"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 394,
+      "level": 3,
+      "text": "B.1.7 The Actual Reformed and Puritan Warrant — for View 1a, Not 1b",
+      "slug": "b17-the-actual-reformed-and-puritan-warrant-for-view-1a-not-1b"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 477,
+      "level": 3,
+      "text": "B.1.8 Current Carriers and Adjacent Voices",
+      "slug": "b18-current-carriers-and-adjacent-voices"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 712,
+      "level": 2,
+      "text": "B.2 Modern Origins of View 2 (Launched at Adulthood)",
+      "slug": "b2-modern-origins-of-view-2-launched-at-adulthood"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 720,
+      "level": 3,
+      "text": "B.2.1 The Pre-Industrial Household",
+      "slug": "b21-the-pre-industrial-household"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 793,
+      "level": 3,
+      "text": "B.2.2 Industrialization, Urbanization, and the College Track",
+      "slug": "b22-industrialization-urbanization-and-the-college-track"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 811,
+      "level": 3,
+      "text": "B.2.3 Developmental Psychology — Erikson and Arnett",
+      "slug": "b23-developmental-psychology-erikson-and-arnett"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 840,
+      "level": 3,
+      "text": "B.2.4 Focus on the Family and the Evangelical Adaptation",
+      "slug": "b24-focus-on-the-family-and-the-evangelical-adaptation"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 859,
+      "level": 3,
+      "text": "B.2.5 The Boomerang Generation and the Delayed Launch",
+      "slug": "b25-the-boomerang-generation-and-the-delayed-launch"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 874,
+      "level": 3,
+      "text": "B.2.6 Where 2a and 2b Diverge",
+      "slug": "b26-where-2a-and-2b-diverge"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 889,
+      "level": 3,
+      "text": "B.2.7 The Secular Career-Track Parallel and Delayed Marriage",
+      "slug": "b27-the-secular-career-track-parallel-and-delayed-marriage"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 966,
+      "level": 2,
+      "text": "B.3 Empirical Studies on Launched Emerging Adults",
+      "slug": "b3-empirical-studies-on-launched-emerging-adults"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 987,
+      "level": 3,
+      "text": "B.3.1 Christian Smith and the National Study of Youth and Religion (NSYR)",
+      "slug": "b31-christian-smith-and-the-national-study-of-youth-and-religion-nsyr"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 1023,
+      "level": 3,
+      "text": "B.3.2 David Kinnaman and Barna Group",
+      "slug": "b32-david-kinnaman-and-barna-group"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 1043,
+      "level": 3,
+      "text": "B.3.3 Jean Twenge — *iGen* and the Post-Smartphone Cohort",
+      "slug": "b33-jean-twenge-igen-and-the-post-smartphone-cohort"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 1060,
+      "level": 3,
+      "text": "B.3.4 What the Empirical Picture Does and Does Not Show",
+      "slug": "b34-what-the-empirical-picture-does-and-does-not-show"
+    },
+    {
+      "chapter": "Appendix-B-Historical-Origins-And-Empirical-Background.md",
+      "line": 1081,
+      "level": 3,
+      "text": "B.3.5 What Positive Data Exists for 1a-Shaped Communities",
+      "slug": "b35-what-positive-data-exists-for-1a-shaped-communities"
+    }
+  ],
+  "internal_links": [],
+  "external_study_links": [],
+  "footnotes": [
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 37,
+      "id": "scar-taylor",
+      "text": "SCAR is a Protestant restatement of Dean Taylor's"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1625,
+      "id": "nazirite",
+      "text": "\"Nazirite\" is the standard modern scholarly spelling"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 328,
+      "id": "adelphoi-note",
+      "text": "Whether these ἀδελφοί are Mary's biological sons"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 211,
+      "id": "analects",
+      "text": "This schematic age-staged life-course has a striking"
+    }
+  ]
+}

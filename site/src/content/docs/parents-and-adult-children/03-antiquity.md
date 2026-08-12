@@ -7,7 +7,7 @@ banner:
     <strong>Draft</strong> — this study is under active development. Content may change without notice; not yet peer-reviewed. See <a href="/what-is-the-perfect/">What Is the Perfect?</a> for a completed example.
 ---
 
-## Overview
+## Overview (Antiquity)
 
 The pre-Nicene church (roughly AD 30 to 325) inherited a strong
 household-piety culture from both Judaism and the Greco-Roman world,

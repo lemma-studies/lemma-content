@@ -1,11 +1,11 @@
----
-title: "Chapter 5 — Synthesis"
-sidebar:
-  order: 5
-banner:
-  content: |
-    <strong>Draft</strong> — this study is under active development. Content may change without notice; not yet peer-reviewed. See <a href="/what-is-the-perfect/">What Is the Perfect?</a> for a completed example.
----
+# study: parents-and-adult-children
+# version: v2.16.0
+# chapter: 05-Chapter-Synthesis.md
+# canonical: https://lemma-content.pages.dev/parents-and-adult-children/05-chapter-synthesis/
+# license: CC BY 4.0 (see https://creativecommons.org/licenses/by/4.0/)
+# source: /studies/parents-and-adult-children/05-Chapter-Synthesis.md  (canonical chapter file — chunks regenerate per compile)
+
+# Chapter 5 — Synthesis
 
 ## Overview (Synthesis)
 

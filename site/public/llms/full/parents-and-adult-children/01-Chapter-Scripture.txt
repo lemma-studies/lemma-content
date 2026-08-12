@@ -1,3 +1,10 @@
+# study: parents-and-adult-children
+# version: v2.16.0
+# chapter: 01-Chapter-Scripture.md
+# canonical: https://lemma-content.pages.dev/parents-and-adult-children/01-chapter-scripture/
+# license: CC BY 4.0 (see https://creativecommons.org/licenses/by/4.0/)
+# source: /studies/parents-and-adult-children/01-Chapter-Scripture.md  (canonical chapter file — chunks regenerate per compile)
+
 # Chapter 1 — Scripture
 
 ## Overview (Scripture)

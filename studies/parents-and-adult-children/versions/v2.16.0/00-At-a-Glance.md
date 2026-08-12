@@ -1,0 +1,240 @@
+# TL;DR — Executive Summary
+
+## The Question
+
+*What does Scripture require, permit, and forbid regarding
+parent-and-adult-child relations between the end of childhood and
+marriage?* The Bible speaks abundantly to the child under the roof
+and to the married couple in the new household. It speaks to the
+unmarried adult son or daughter *between* those seams only
+obliquely, through a handful of texts and a great deal of pattern.
+That silence is not indifference; it is also not blanket permission
+(a hermeneutic §3.2 applies to the Didache's own silence). It is space
+bounded by what Scripture *does* say, checked by Christ, tested by
+Antiquity and Reality — inside which faithful households have
+arranged themselves in more than one way for two thousand years.
+
+## The Method
+
+This study uses the **SCAR quadrilateral** — Scripture, Christocentrism,
+Antiquity, Reality — a discernment tool for questions where explicit
+biblical command runs out and pattern, tradition, and consequence
+must be weighed together.[^scar-taylor] The four legs are not
+co-equal votes. They are ordered: Scripture governs; the Christ of
+Scripture is the lens through which Scripture is read; Antiquity
+(with special weight to the pre-Nicene witness — the church before
+the Council of Nicaea, AD 325) checks whether the reading is one the
+church has held; Reality tests whether the
+resulting doctrine survives contact with the lives of actual
+families. **Where Scripture is clear, the question is settled and
+the other three legs illuminate application. Where Scripture is
+open or contested, the convergence or divergence of the remaining
+legs governs how firmly anything can be said** — the paper
+*presents* the honest disagreement rather than adjudicating it, and
+trains the reader to walk his own case through the same four
+questions before the Lord (Chapter 6).
+
+[^scar-taylor]: SCAR is a Protestant restatement of Dean Taylor's
+Apostolic Quadrilateral, developed at *A Change of Allegiance* (2009)
+and RadicalReformation.com, with the ordered-leg discipline and the
+"discipleship test" emphasis retained.
+
+## The Non-Negotiables
+
+Five things no faithful view denies. All five rest on direct
+scriptural teaching, with one partial exception: the second half
+of #4 (that *none may compel* marriage) rests on a Scripture-and-
+tradition convergence the paper treats as settled catholic teaching,
+as noted at #4 below.
+
+1. **Honor never expires and has content.** Exodus 20:12 and
+   Ephesians 6:2 are addressed to adults, not only minors. Honor
+   includes material provision (Mark 7:9-13; 1 Tim. 5:4), reverent
+   speech (Exod. 21:17), consultation (Prov. 23:22), and care in
+   the years when the direction of provision reverses (2 Cor. 12:14
+   → 1 Tim. 5:4).
+2. **Marriage is the God-given seam.** Genesis 2:24 — quoted by
+   Christ (Matt. 19:5) and Paul (Eph. 5:31) — attaches the
+   paradigmatic leaving to the marriage covenant, not to a
+   launching age.
+3. **Christ relativizes every human bond.** Allegiance to Christ
+   supersedes allegiance to parents (Matt. 10:37); but no tradition,
+   however pious, may nullify the honor commandment (Mark 7:9-13).
+   Both hold.
+4. **No tradition may forbid marriage.** 1 Timothy 4:1-3 names
+   forbidding-to-marry as "doctrine of devils." Scripture is
+   direct on this point, and the pre-Nicene church defended the
+   line: Clement of Alexandria's *Stromata* III (c. 200) is the
+   paper's principal early Christian polemic against the encratite
+   party that took bodily renunciation as constitutive of the
+   higher Christian life (§3.6a). On the further claim that *none
+   may compel it*, the paper reads Scripture and catholic tradition
+   as converging: the paradigmatic biblical case of arranged
+   marriage explicitly turns on the adult child's consent (Gen.
+   24:57-58, "we will call the damsel, and enquire at her mouth"),
+   and the Western tradition from Roman canon through Trent Sess.
+   24 through the modern Code of Canon Law (c. 1057 §1) requires
+   consent for validity — a convergence the paper treats as
+   settled catholic teaching rather than as a claim from any one
+   proof-text alone.
+5. **The unmarried Christian's covenant belonging to Christ is
+   not less than the married Christian's.** Isaiah 54:5, 2
+   Corinthians 11:2, and Revelation 19:7-9 address the church
+   corporately as Christ's Bride; the corporate bond is fully and
+   without remainder shared by every member. The Bridegroom-
+   language is not consolation-language for a missing spouse; it
+   is the actual state of the case for every Christian, married
+   or unmarried (§4.3.3). What the corporate texts are *not*
+   claiming is an individual bridal union in a sense that would
+   compete with earthly marriage; what they *are* claiming is a
+   covenant belonging so total that no earthly bond can add to it
+   or diminish it. This is the theological ground on which every
+   faithful arrangement stands.
+
+## The Views
+
+Where the non-negotiables run out, faithful households arrange
+themselves along four patterns of residence and authority — plus a
+distinct, orthogonal question about how the marriage covenant itself
+is initiated. All are presented here without adjudication (Chapter 4
+gives each its steel-manned best):
+
+**View 1a — Household Continuity (Prudential Covering).** Unmarried
+adults ordinarily remain in the parental household until marriage,
+under paternal formation and (for daughters especially) paternal
+protection. Framed as biblical pattern and pastoral wisdom, not
+absolute rule (Deut. 6:6-7; Ps. 78:5-8; Mal. 4:6; Eph. 6:4). Voiced
+by Voddie Baucham, Scott Brown, and the National Center for
+Family-Integrated Churches (NCFIC) tradition (§4.1a; on the
+tradition's Reformed-Puritan warrant, §B.1.7; on its entanglement
+with and separation from the Phillips-era movement, §B.1.4). Cases like Elisha, Samuel, and the
+Zebedee sons — the adult child remaining embedded in a household
+while directly accountable to Christ for vocation — are treated in
+Chapter 1 as biblical pattern rather than as a separate view
+(§1.4.6). Presented at its steel-manned best at §4.1a.
+
+**View 1b — Continuous Doctrinal Authority.** A stronger, systematic
+form: the biblical household is understood to place every believer
+under a continuing, defined human authority (father, then husband;
+or an equivalent covering) for the whole of unmarried adult life,
+grounded in exegesis of the New Testament household codes
+(*Haustafel*, §1.2) that reads the "obey" verb (ὑπακούω) as
+continuing beyond minority, and in a systematic reading of honor
+that includes continuing obedience. **Presented by its advocates** as continuous
+with older streams (Reformed household-covenant theology, Puritan
+household religion, Catholic teaching on paternal role, Anabaptist
+family-integrated practice) and articulated in twentieth-century
+form by, among others, Watchman Nee (*Spiritual Authority,* 1972),
+Bill Gothard (the "Umbrella of Protection" seminars, §B.1.3), and
+Doug Phillips (*Tenets of Biblical Patriarchy,* 2007, §B.1.4). This
+twentieth-century articulation is historically distinct from the
+older streams on which View 1a draws, and the two views are
+frequently conflated by critics and proponents alike; the paper
+treats them separately throughout (§4.1). Appendix B.1 traces the
+exegetical genealogy, and the continuity claim is examined against
+the primary sources — Gouge, Baxter, Aquinas, the CCC — at §B.1.6.
+Presented at its
+steel-manned best at §4.1b.
+
+**View 2a — Prudential Launching (Continuing Honor Without
+Continuing Directive Authority).** At adulthood, directive obedience
+matures into consultation, honor, and lifelong care; the adult child
+directs his or her own life under Christ, in continuing relation to
+the parents. Widely held across mainstream evangelicalism and
+articulated by John MacArthur, James Dobson, Wayne Grudem, and
+others (see §5.3 for the full list of representative published
+works). Presented at its steel-manned best at §4.2a.
+
+**View 2b — Release with Prayer.** Outward launch shaped by Luke
+15's father: releases the adult child with what is due, does not
+chase, watches the horizon, keeps the door open, keeps praying.
+Honor is kept; directive authority is released; petition to the
+Father continues. Presented at its steel-manned best at §4.2b.
+
+**The Arrangement Question.** Distinct from — and orthogonal to —
+Views 1a/1b/2a/2b: how is the marriage covenant itself initiated
+and mediated? Parental arrangement / betrothal concentrates
+parental authority at the marriage moment (initiating, mediating,
+blessing the covenant) rather than diffusing it across daily life.
+This is not a fifth arrangement of daily life; a household holding
+any of 1a/1b/2a/2b can answer it in more than one way. Ignatius
+of Antioch (*To Polycarp* 5:2, c. 107 — among the earliest
+post-apostolic witnesses) is the pre-Nicene warrant (§3.4).
+Presented at its steel-manned best at §4.5.
+
+## The Twin Idolatries
+
+Every view has a central good — family, launched adulthood,
+parental mediation — and every view can drift the same way: when
+the central good ceases to point to Christ and becomes a god in its
+own right. Two drifts are *paired* twins. The **Clutch** —
+sometimes a failure mode of 1b's discipline — promises safety
+through remaining under one's covering. The **Abandonment** —
+sometimes a failure mode of 2b's release — promises safety through
+throwing off every covering. Both refuse the Father: one by
+clutching, one by fleeing (§5.5). The Prodigal parable diagnoses
+both, and does so without collapsing either doctrine into its
+idolatry.
+
+## The Parent's Three Postures
+
+Scripture models three parental postures toward the released adult
+child (§5.0): **Release-and-Await** (the Prodigal father; the
+Samson/Eli contrast — Samson's parents speak the covenantal word
+and release; Eli neither confronts nor restrains sons still under
+his priestly jurisdiction — with which View 2b's
+steel-manned "Release with Prayer" shape is closely
+kindred); **Intercession-without-Restraint** (Jairus, the widow of
+Nain, the Syrophoenician mother; and — critically — the parent whose
+adult child has walked away, §5.0.2); and **Dedication** (Hannah
+lending Samuel to the LORD, Mary at the cross, the Son's own
+submission in Gethsemane). All are faithful; mature parenthood
+practices them at different times toward the same child.
+
+## The Eight-Question Test
+
+Every arrangement must pass a *family* test and a *discipleship*
+test (§5.7). The four family questions — the questions any warmly
+affectionate household, Christian or not, might set for itself:
+does it promote love (John 13:34-35); preserve unity (John
+17:20-23); enable lifelong honor with content (Ex. 20:12; Mark
+7:9-13; 1 Tim. 5:4); and keep the peace of the household (Rom.
+12:18; 1 Pet. 3:8-9)? The four discipleship questions — the
+questions only a Christian household can honestly ask and answer:
+does it form disciples, not merely well-adjusted family members
+(Matt. 28:19-20; Luke 14:26-33); produce visible witness (Matt.
+5:14-16; 1 Pet. 3:15); bring the church genuinely into the
+discernment (Acts 15; Ignatius, *To Polycarp* 5:2); and leave Christ
+above every human bond, including this household's own — bearing
+the cost of doing so (Matt. 10:37; Luke 14:27-33)? A warmly
+affectionate secular family can pass all four family questions. Only
+a Christian household can pass all eight.
+
+## The Summons
+
+**To the unmarried daughter:** you are not incomplete for lack of a
+husband. You are already the beloved of the Bridegroom (Isa. 54:5).
+Whether marriage follows or not, that is your first bond.
+
+**To the unmarried son:** your task is not to *wait* for a wife;
+your task is to *become* the man Christ is calling you to be
+(the missionary author Elisabeth Elliot, *The Mark of a Man*, 1981 —
+her book-length letter to her nephew Pete). Do the next thing He has given you,
+today.
+
+**To the parent releasing a child:** your love outlasts your
+control. Hannah lent Samuel "as long as he liveth"; Mary stood at
+the cross. Release your child to Christ, and keep releasing him,
+in prayer, as long as you draw breath.
+
+**To the parent whose child has walked away:** Luke 15's father was
+watching the whole time. Keep praying. Keep the door open. Do not
+chase; do not relent on the household's confession. Do the next
+thing the LORD has given you today, and trust the ending to Him.
+
+Chapters 1-6 give the full argument. Chapter 6 trains the reader in
+SCAR itself — because the paper's final work is not to hand the
+reader an answer, but to hand the reader the tools to seek the Lord
+for one.
+
+\newpage

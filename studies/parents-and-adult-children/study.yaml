@@ -1,0 +1,30 @@
+# study.yaml — canonical metadata for "Under Whose Roof?"
+# Read by site/src/components/Head.astro (Highwire + JSON-LD + DC meta),
+# by scripts/zenodo-reserve-doi.mjs (DOI reservation),
+# and by scripts/zenodo-publish.mjs (DOI publish at tag time).
+#
+# Chapter files at this study root are canonical. Composite is DERIVED
+# via `npm run compile:study` — never edit the composite directly.
+
+slug: parents-and-adult-children
+title: Under Whose Roof?
+subtitle: >-
+  Parents and Adult Children Between Childhood and Marriage
+  — a SCAR Quadrilateral Analysis
+author: E. Timothy Uy
+orcid: 0009-0008-8717-2249
+license: cc-by-4.0
+language: en
+type: study
+
+current_version: v2.16.0
+current_version_date: '2026-08-04'
+
+# concept_doi will be assigned by Zenodo at first publish (PATH-A).
+concept_doi: null
+
+versions:
+  - version: v2.16.0
+    date: '2026-08-04'
+    tag: parents-and-adult-children/v2.16.0
+    version_doi: null   # to be reserved via `npm run reserve-doi` once Zenodo account is unblocked
