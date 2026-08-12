@@ -1,0 +1,47 @@
+# study.yaml — السلوك المسيحي (Arabic)
+# Skeleton per ADR docs/adr/2026-08-12-translation-studies.md.
+# Chapter files pending migration from FDT-side authoring in
+# Vault/Projects/family-discipleship-translations/bunyan-christian-behaviour-en/
+# (see workroom sync + playbook-translation-study.md for the migration ritual).
+
+slug: bunyan-christian-behaviour-ar
+title: 'السلوك المسيحي'
+subtitle: >-
+  Christian Behaviour (Arabic edition)
+author: E. Timothy Uy
+orcid: 0009-0008-8717-2249
+license: cc-by-4.0
+language: ar
+type: translation
+
+# rights_tier reflects current effective posture given all anchor layers used.
+# Bunyan Christian Behaviour uses PD scripture anchors (KJV / Masoretic /
+# Van Dyck / Henry Martyn / CUV) on the primary path — full_public.
+# Switch to private_pending_grant if we adopt any upgrade_candidate anchor
+# from data/bible-sources.yaml before its grant lands.
+rights_tier: full_public
+
+current_version: v0.1
+current_version_date: '2026-08-12'
+
+# concept_doi assigned by Zenodo at first publish (currently blocked pending
+# tim-uy account unblock — see zenodo-first-publish-anti-spam memory).
+concept_doi: null
+
+translation_of:
+  source_slug: 'bunyan-christian-behaviour-en'
+  translation_method: 'llm-with-back-translation-verify'
+  scripture_anchor: 'van-dyck-svd-1865'
+
+sibling_editions:
+  - {language: en, slug: bunyan-christian-behaviour-en}
+  - {language: he, slug: bunyan-christian-behaviour-he}
+  - {language: fa, slug: bunyan-christian-behaviour-fa}
+  - {language: zh-Hans, slug: bunyan-christian-behaviour-zh-hans}
+  - {language: zh-Hant, slug: bunyan-christian-behaviour-zh-hant}
+
+versions:
+  - version: v0.1
+    date: '2026-08-12'
+    tag: bunyan-christian-behaviour-ar/v0.1
+    version_doi: null

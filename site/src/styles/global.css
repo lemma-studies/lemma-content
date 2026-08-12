@@ -1,0 +1,20 @@
+/* lemma-content site global styles */
+
+/* ─── Translation-study RTL + per-language font stacks (ADR §8.1) ─────────── */
+:root {
+  --font-body:      'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-hebrew:    'Frank Ruhl Libre', 'Noto Serif Hebrew', 'David CLM', serif;
+  --font-arabic:    'Amiri', 'Noto Serif', 'Cairo', serif;
+  --font-farsi:     'Vazirmatn', 'Amiri', 'Noto Serif', serif;
+  --font-cjk-sc:    'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-cjk-tc:    'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+}
+[lang="he"]      { font-family: var(--font-hebrew); }
+[lang="ar"]      { font-family: var(--font-arabic); }
+[lang="fa"]      { font-family: var(--font-farsi); }
+[lang="zh-Hans"] { font-family: var(--font-cjk-sc); }
+[lang="zh-Hant"] { font-family: var(--font-cjk-tc); }
+[dir="rtl"], [lang="he"], [lang="ar"], [lang="fa"] {
+  direction: rtl;
+  text-align: right;
+}

@@ -18,8 +18,14 @@ const STUBBED_SLUGS = new Set([
 	'pre-nicene-christianity',
 	'apostolic-quadrilateral',
 	'lords-supper-research',
-	// translations — placeholder section until family-discipleship editions land
+	// translations — placeholder section + Bunyan skeletons; content pending FDT migration
 	'translations',
+	'bunyan-christian-behaviour-en',
+	'bunyan-christian-behaviour-he',
+	'bunyan-christian-behaviour-ar',
+	'bunyan-christian-behaviour-fa',
+	'bunyan-christian-behaviour-zh-hans',
+	'bunyan-christian-behaviour-zh-hant',
 ]);
 
 const tag = readFileSync(new URL('./src/version.generated.mjs', import.meta.url), 'utf8')
@@ -88,7 +94,21 @@ export default defineConfig({
 				{
 					label: 'Translations',
 					collapsed: false,
-					autogenerate: { directory: 'translations' },
+					items: [
+						{ label: 'About Translations', link: '/translations/' },
+						{
+							label: 'John Bunyan — Christian Behaviour',
+							collapsed: true,
+							items: [
+								{ label: 'English (modern)',            collapsed: true, autogenerate: { directory: 'bunyan-christian-behaviour-en' } },
+								{ label: 'Hebrew — עברית',              collapsed: true, autogenerate: { directory: 'bunyan-christian-behaviour-he' } },
+								{ label: 'Arabic — العربية',             collapsed: true, autogenerate: { directory: 'bunyan-christian-behaviour-ar' } },
+								{ label: 'Farsi — فارسی',                collapsed: true, autogenerate: { directory: 'bunyan-christian-behaviour-fa' } },
+								{ label: 'Chinese (Simplified) — 简体',   collapsed: true, autogenerate: { directory: 'bunyan-christian-behaviour-zh-hans' } },
+								{ label: 'Chinese (Traditional) — 繁體',  collapsed: true, autogenerate: { directory: 'bunyan-christian-behaviour-zh-hant' } },
+							],
+						},
+					],
 				},
 			],
 		}),

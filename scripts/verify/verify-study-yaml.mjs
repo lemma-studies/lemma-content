@@ -40,13 +40,24 @@ const REQUIRED_VERSION = ['version', 'date', 'tag'];
 //   in Phase 2b so Phase 3.5 translation studies validate cleanly.
 // - `language` (default 'en'): BCP-47 tag ('en', 'he', 'ar', 'fa',
 //   'zh-Hans', 'zh-Hant'). Used by build-bilingual + scripture-per-language.
-// - `translation_of` (translation studies only): slug of source-language
-//   study (typically <work>-en modernized edition). Independent DOI +
-//   versioning — this is a cross-reference, not an inheritance.
+// - `translation_of` (translation studies only): either a study slug (string
+//   form — points to a sibling `<work>-en` modern-English edition) OR an
+//   object per ADR §3.1: {source_slug or external: {citation, url, license,
+//   eebo_tcp_id?}, source_edition, source_license, translation_method,
+//   scripture_anchor}. The external-object form is used by the `-en` edition
+//   itself, which points to an EEBO-TCP / CCEL / Gutenberg source outside
+//   the repo. Independent DOI + versioning — cross-reference, not inheritance.
 // - `sibling_editions`: array of slugs, other language editions of the same
 //   work. Populated symmetrically as new editions land.
+// - `rights_tier` (default 'full_public'): 'full_public' | 'pd_anchor_only' |
+//   'private_pending_grant'. Reflects whether the study can be publicly
+//   rendered given the license posture of all anchor layers it uses
+//   (scripture Bible sources, etc.). verify-release blocks publish when
+//   rights_tier == 'private_pending_grant'. See ADR-018 §7.3 upgrade_candidate
+//   discussion; the tier is a study-level rollup of all anchor-layer choices.
 const OPTIONAL_TOP_TYPES = {
   type: ['study', 'article', 'book', 'translation'],
+  rights_tier: ['full_public', 'pd_anchor_only', 'private_pending_grant'],
 };
 const BCP47_RE = /^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2}|-[0-9]{3})?$/;
 
@@ -93,20 +104,62 @@ function validateStudyYaml(slug) {
     }
   }
   if (study.translation_of !== undefined) {
-    if (typeof study.translation_of !== 'string' || !/^[a-z0-9-]+$/.test(study.translation_of)) {
-      violations.push({ slug, error: `translation_of must be a study slug (lowercase kebab-case)` });
+    const to = study.translation_of;
+    // Accept either: string (sibling-slug form) OR object (ADR §3.1 form with source_slug|external + metadata).
+    if (typeof to === 'string') {
+      if (!/^[a-z0-9-]+$/.test(to)) {
+        violations.push({ slug, error: `translation_of (string form) must be a study slug (lowercase kebab-case)` });
+      }
+    } else if (typeof to === 'object' && to !== null && !Array.isArray(to)) {
+      // Object form: exactly one of source_slug or external must be present
+      const hasSlug = typeof to.source_slug === 'string';
+      const hasExternal = typeof to.external === 'object' && to.external !== null;
+      if (hasSlug === hasExternal) {  // both true or both false
+        violations.push({ slug, error: `translation_of (object form) must set exactly one of source_slug or external` });
+      }
+      if (hasSlug && !/^[a-z0-9-]+$/.test(to.source_slug)) {
+        violations.push({ slug, error: `translation_of.source_slug must be a study slug (lowercase kebab-case)` });
+      }
+      if (hasExternal) {
+        if (typeof to.external.citation !== 'string') violations.push({ slug, error: `translation_of.external must have a string citation` });
+        if (typeof to.external.url !== 'string') violations.push({ slug, error: `translation_of.external must have a url` });
+        if (typeof to.external.license !== 'string') violations.push({ slug, error: `translation_of.external must have a license (e.g. PD, CC0, CC-BY-4.0)` });
+      }
+    } else {
+      violations.push({ slug, error: `translation_of must be a string (sibling slug) or object (per ADR §3.1)` });
     }
     if (study.type !== 'translation') {
       violations.push({ slug, error: `translation_of set but type != translation (expected type: translation for cross-edition source pointer)` });
     }
   }
   if (study.sibling_editions !== undefined) {
-    if (!Array.isArray(study.sibling_editions) || !study.sibling_editions.every(s => typeof s === 'string' && /^[a-z0-9-]+$/.test(s))) {
-      violations.push({ slug, error: `sibling_editions must be array of study slugs (lowercase kebab-case)` });
+    // Accept string-slug array OR array of {language, slug} objects per ADR §3.1.
+    const arr = study.sibling_editions;
+    if (!Array.isArray(arr)) {
+      violations.push({ slug, error: `sibling_editions must be an array` });
+    } else {
+      for (const [i, entry] of arr.entries()) {
+        if (typeof entry === 'string') {
+          if (!/^[a-z0-9-]+$/.test(entry)) {
+            violations.push({ slug, error: `sibling_editions[${i}] must be a study slug (lowercase kebab-case)` });
+          }
+          if (entry === slug) violations.push({ slug, error: `sibling_editions[${i}] must not be self (${slug})` });
+        } else if (typeof entry === 'object' && entry !== null) {
+          if (typeof entry.slug !== 'string' || !/^[a-z0-9-]+$/.test(entry.slug)) {
+            violations.push({ slug, error: `sibling_editions[${i}].slug must be a study slug (lowercase kebab-case)` });
+          }
+          if (typeof entry.language !== 'string' || !BCP47_RE.test(entry.language)) {
+            violations.push({ slug, error: `sibling_editions[${i}].language must be a BCP-47 tag` });
+          }
+          if (entry.slug === slug) violations.push({ slug, error: `sibling_editions[${i}] must not be self (${slug})` });
+        } else {
+          violations.push({ slug, error: `sibling_editions[${i}] must be a slug string or {language, slug} object` });
+        }
+      }
     }
-    if (Array.isArray(study.sibling_editions) && study.sibling_editions.includes(slug)) {
-      violations.push({ slug, error: `sibling_editions[] must not include self (${slug})` });
-    }
+  }
+  if (study.rights_tier !== undefined && !OPTIONAL_TOP_TYPES.rights_tier.includes(study.rights_tier)) {
+    violations.push({ slug, error: `rights_tier=${study.rights_tier} not in {${OPTIONAL_TOP_TYPES.rights_tier.join('|')}}` });
   }
 }
 

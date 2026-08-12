@@ -1,0 +1,89 @@
+# bible-sources.yaml — per-language canonical Bible source config.
+# Read by scripts/verify/scripture-per-language.js (Phase 3.5) when a
+# translation study cites a scripture verse. Enforces: the target-language
+# rendering is verbatim from the configured Bible source, and the source-
+# language rendering (usually English) matches translation_of.scripture_anchor.
+#
+# Design per ADR 2026-08-12-translation-studies.md §7.3.
+#
+# Each language has:
+#   - primary: source used TODAY (public-domain, safe to publish)
+#   - upgrade_candidate (optional): permission-pending contemporary source that
+#     we might switch to once granted. When a study uses an upgrade_candidate,
+#     study.yaml.rights_tier must be 'private_pending_grant' until the grant
+#     lands, and verify-release blocks public publish.
+
+en:
+  primary:
+    id: kjv-1769
+    citation: "King James Version, 1769 Oxford standard"
+    license: PD
+  upgrade_candidates: []      # KJV suffices for period-appropriate use with Bunyan/Puritan sources
+  api:
+    local_cache: loqu8/bible sqlite (KJV)
+
+he:
+  # Old Testament (Tanakh) + New Testament handled separately in Hebrew.
+  tanakh:
+    id: sefaria-masoretic
+    citation: "Masoretic Text via Sefaria (Aleppo/Leningrad tradition)"
+    license: PD
+    api: https://www.sefaria.org/api/texts/
+  nt:
+    id: delitzsch-12ed
+    citation: "Franz Delitzsch, Hebrew New Testament, 12th edition"
+    license: PD
+    api: local-cache
+  upgrade_candidates:
+    - id: kalisher-bsi-contemporary-2025
+      citation: "Kalisher Contemporary Hebrew, BSI 2025 (both OT+NT)"
+      license: permission-pending
+      contact: "BSI (Bible Society in Israel) — letter sent 2026-08-12; response 10-15 bus days"
+      rights_tier_when_used: private_pending_grant
+
+ar:
+  primary:
+    id: van-dyck-svd-1865
+    citation: "Van Dyck / Smith-Van Dyck Arabic Bible, 1865 (SVD)"
+    license: PD
+  upgrade_candidates:
+    - id: nav-biblica
+      citation: "New Arabic Version (NAV), Biblica"
+      license: CC-BY-SA-4.0
+      note: "CC-BY-SA is INCOMPATIBLE with our CC-BY-4.0 container unless we get bounded BY-compat grant"
+      rights_tier_when_used: private_pending_grant
+
+fa:
+  primary:
+    id: henry-martyn-nt-1837
+    citation: "Henry Martyn Persian New Testament, 1837"
+    license: PD
+  upgrade_candidates:
+    - id: elam-pmv
+      citation: "Elam Ministries Persian Modern Version (PMV)"
+      license: permission-pending
+      rights_tier_when_used: private_pending_grant
+
+zh-Hans:
+  primary:
+    id: cuv-1919-simplified
+    citation: "Chinese Union Version, 1919, Simplified script"
+    license: PD
+    api: local-cache
+  upgrade_candidates:
+    - id: rcuv-hkbs
+      citation: "Revised Chinese Union Version, HK Bible Society"
+      license: permission-pending
+      rights_tier_when_used: private_pending_grant
+
+zh-Hant:
+  primary:
+    id: cuv-1919-traditional
+    citation: "Chinese Union Version, 1919, Traditional script"
+    license: PD
+    api: local-cache
+  upgrade_candidates:
+    - id: rcuv-hkbs
+      citation: "Revised Chinese Union Version, HK Bible Society"
+      license: permission-pending
+      rights_tier_when_used: private_pending_grant
