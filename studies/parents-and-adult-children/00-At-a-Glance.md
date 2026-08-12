@@ -1,11 +1,4 @@
----
-title: "TL;DR — Executive Summary"
-sidebar:
-  order: 0
-banner:
-  content: |
-    <strong>Draft</strong> — this study is under active development. Content may change without notice; not yet peer-reviewed. See <a href="/what-is-the-perfect/">What Is the Perfect?</a> for a completed example.
----
+# TL;DR — Executive Summary
 
 ## The Question
 

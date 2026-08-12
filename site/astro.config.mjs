@@ -14,7 +14,7 @@ import { readFileSync } from 'fs';
 // (LIVE), by-his-stripes (LIVE-tree), and 7 DRAFT-marked studies. Only the 4
 // truly-planned (no Vault content yet) slugs remain excluded.
 const STUBBED_SLUGS = new Set([
-	'parents-and-adult-children',
+	// parents-and-adult-children — migrated 2026-08-12 (11 chapter split from v2.16.0)
 	'pre-nicene-christianity',
 	'apostolic-quadrilateral',
 	'lords-supper-research',

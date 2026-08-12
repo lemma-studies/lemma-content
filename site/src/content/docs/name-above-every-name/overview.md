@@ -92,4 +92,4 @@ If the God of the universe emptied himself, became a servant, died on a cross, a
 > "He that overcometh, the same shall be clothed in white raiment; and I will not blot out his name out of the book of life, but I will confess his name before my Father, and before his angels."
 > --- Revelation 3:5 (KJV)
 
-For the full study, begin with **Chapter 1: The Ancient Pattern** (chapter forthcoming), which traces the biblical pattern through seven lives. Or see the [At a Glance](/name-above-every-name/) page for a one-page summary.
+For the full study, begin with [Chapter 1: The Ancient Pattern](/name-above-every-name/01-ancient-pattern/), which traces the biblical pattern through seven lives. Or see the [At a Glance](/name-above-every-name/) page for a one-page summary.
