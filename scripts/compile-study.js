@@ -54,6 +54,8 @@ const { values: args } = parseArgs({
     force:       { type: 'boolean', default: false },
     'skip-versioned': { type: 'boolean', default: false },   // dev/test escape hatch
     'skip-corpus':    { type: 'boolean', default: false },   // dev/test escape hatch
+    'skip-xrefs':     { type: 'boolean', default: false },   // dev/test escape hatch
+    'rag-out':        { type: 'string' },                    // Release-only breadcrumbed variant path
   },
 });
 
@@ -113,6 +115,139 @@ export function compileChapters(dir, chapterFiles = null) {
   return files.map(f => readFileSync(join(dir, f), 'utf8')).join('');
 }
 
+// Slugify a heading text to a github-slugger-style anchor id (matches Astro/
+// Starlight's default). Lowercase, strip non-word chars, collapse whitespace.
+function slugifyHeading(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-');
+}
+
+// Extract xrefs from chapter files. Returns { anchors, internal_links,
+// external_study_links, footnotes }.
+export function extractXrefs(studyDir, chapterFiles, slug) {
+  const anchors = [];
+  const internal_links = [];
+  const external_study_links = [];
+  const footnotes = [];
+
+  const chapterSet = new Set(chapterFiles);
+
+  for (const chapter of chapterFiles) {
+    const content = readFileSync(join(studyDir, chapter), 'utf8');
+    const lines = content.split('\n');
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+
+      // Headings: capture anchor.
+      const hmatch = line.match(/^(#{1,6})\s+(.+?)\s*$/);
+      if (hmatch) {
+        const level = hmatch[1].length;
+        const text = hmatch[2].replace(/^\d+\.\s*/, '');   // strip leading numeric prefix
+        anchors.push({ chapter, line: i + 1, level, text, slug: slugifyHeading(text) });
+        continue;
+      }
+
+      // Footnote definitions.
+      const fmatch = line.match(/^\[\^([^\]]+)\]:\s*(.+)$/);
+      if (fmatch) {
+        footnotes.push({ chapter, line: i + 1, id: fmatch[1], text: fmatch[2] });
+      }
+
+      // Links: [text](url) — one or more per line, extract each.
+      const linkRe = /\[([^\]]+)\]\(([^)]+)\)/g;
+      let m;
+      while ((m = linkRe.exec(line)) !== null) {
+        const url = m[2];
+
+        // Skip external URLs (http/https, mailto, tel, etc.).
+        if (/^([a-z]+:)/i.test(url)) continue;
+
+        // Anchor-only: #foo → same-chapter internal link
+        if (url.startsWith('#')) {
+          internal_links.push({
+            from: { chapter, line: i + 1 },
+            to_chapter: chapter,
+            anchor: url.slice(1),
+          });
+          continue;
+        }
+
+        // Path forms.
+        const [pathPart, anchorPart] = url.split('#');
+        const target = pathPart.replace(/^\.\//, '');
+
+        // Same-study cross-chapter link (target is a known chapter filename or bare basename).
+        if (chapterSet.has(target)) {
+          internal_links.push({
+            from: { chapter, line: i + 1 },
+            to_chapter: target,
+            anchor: anchorPart ?? null,
+          });
+          continue;
+        }
+
+        // Absolute /<other-slug>/... → external study link.
+        const absMatch = target.match(/^\/([a-z0-9-]+)(?:\/(.*))?$/);
+        if (absMatch) {
+          external_study_links.push({
+            from: { chapter, line: i + 1 },
+            to_study: absMatch[1],
+            to_path: absMatch[2] ?? null,
+            anchor: anchorPart ?? null,
+          });
+          continue;
+        }
+
+        // Relative ../other-slug/... → external study link.
+        const relMatch = target.match(/^\.\.\/([a-z0-9-]+)(?:\/(.*))?$/);
+        if (relMatch) {
+          external_study_links.push({
+            from: { chapter, line: i + 1 },
+            to_study: relMatch[1],
+            to_path: relMatch[2] ?? null,
+            anchor: anchorPart ?? null,
+          });
+        }
+      }
+    }
+  }
+
+  return {
+    study: slug,
+    version: null,   // caller fills
+    extracted_at: new Date().toISOString(),
+    anchors,
+    internal_links,
+    external_study_links,
+    footnotes,
+  };
+}
+
+// Produce a breadcrumbed composite (.rag.md) from chapter files. Each heading
+// line gets a preceding HTML comment: <!-- study: X chapter: Y anchor: Z -->.
+// Per R6 B9 requirement + verify-machine-readable.mjs check.
+export function renderRagMd(studyDir, chapterFiles, slug) {
+  const parts = [];
+  for (const chapter of chapterFiles) {
+    const content = readFileSync(join(studyDir, chapter), 'utf8');
+    const lines = content.split('\n');
+    for (const line of lines) {
+      const hmatch = line.match(/^(#{1,6})\s+(.+?)\s*$/);
+      if (hmatch) {
+        const text = hmatch[2].replace(/^\d+\.\s*/, '');
+        const anchor = slugifyHeading(text);
+        parts.push(`<!-- study: ${slug} chapter: ${chapter} anchor: ${anchor} -->`);
+      }
+      parts.push(line);
+    }
+  }
+  return parts.join('\n');
+}
+
 const chapters = findChapterFiles(studyDir);
 if (chapters.length === 0) {
   console.error(`compile-study: no chapter files found in ${studyDir} (expected files matching /^([0-9]|Appendix-)/)`);
@@ -151,6 +286,30 @@ if (sourceKind === 'in-repo' && !args['skip-versioned']) {
   }
 }
 
+// --- xrefs.json extraction (in-repo only) ---
+// Extract anchors + internal_links + external_study_links + footnotes per §7.1.
+// Committed at studies/<slug>/xrefs.json (design line 452 "extracted per compile, committed").
+let xrefsWritten = 0;
+if (sourceKind === 'in-repo' && !args['skip-xrefs']) {
+  const xrefs = extractXrefs(studyDir, chapters, slug);
+  xrefs.version = args.version;
+  const xrefsPath = join(studyDir, 'xrefs.json');
+  writeFileSync(xrefsPath, JSON.stringify(xrefs, null, 2) + '\n');
+  xrefsWritten = xrefs.anchors.length;
+}
+
+// --- .rag.md breadcrumbed variant (Release-only; only if --rag-out passed) ---
+// Not committed by default per design §7.1 "Release only, referenced from
+// llms.txt". CI Job 1b passes --rag-out to emit at a workflow-artifacts path.
+// Skipped locally unless --rag-out is explicit.
+let ragWritten = false;
+if (args['rag-out']) {
+  const ragPath = resolve(args['rag-out']);
+  mkdirSync(dirname(ragPath), { recursive: true });
+  writeFileSync(ragPath, renderRagMd(studyDir, chapters, slug));
+  ragWritten = true;
+}
+
 // --- Corpus regeneration (in-repo only) ---
 // llms-full.txt chunk index + claims-index.jsonl + per-chapter chunks under
 // site/public/llms/full/<slug>/. Cross-study; walks all studies with versions/.
@@ -179,10 +338,18 @@ if (versionedCount > 0) {
 } else {
   console.log(`  versioned: skipped (source=${sourceKind}; only in-repo writes frozen versions)`);
 }
-if (corpusRegenerated) {
-  console.log(`  corpus: regenerated (llms-full.txt + chunks + claims-index.jsonl)`);
+if (xrefsWritten > 0) {
+  console.log(`  xrefs:     ${xrefsWritten} anchors → studies/${slug}/xrefs.json`);
 } else if (sourceKind === 'in-repo') {
-  console.log(`  corpus: skipped (--skip-corpus)`);
+  console.log(`  xrefs:     skipped (--skip-xrefs)`);
+}
+if (ragWritten) {
+  console.log(`  rag.md:    → ${resolve(args['rag-out'])}`);
+}
+if (corpusRegenerated) {
+  console.log(`  corpus:    regenerated (llms-full.txt + chunks + claims-index.jsonl)`);
+} else if (sourceKind === 'in-repo') {
+  console.log(`  corpus:    skipped (--skip-corpus)`);
 }
 console.log(`chapters (in order):`);
 for (const f of chapters) console.log(`  ${f}`);
