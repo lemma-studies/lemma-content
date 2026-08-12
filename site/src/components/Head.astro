@@ -1,0 +1,138 @@
+---
+// Head.astro — overrides Starlight's default Head component to emit
+// Highwire + JSON-LD ScholarlyArticle/Chapter + Dublin Core meta.
+//
+// Per design v7.1 §11 Phase 2b + §21I anti-drift (metadata is not
+// display, so it doesn't drift with theme changes).
+//
+// Loads studies/<slug>/study.yaml at build time when present. When
+// missing (all stub studies in Phase 2b, /about/, /), emits nothing
+// extra — falls through to Starlight's default meta only.
+
+import Default from '@astrojs/starlight/components/Head.astro';
+import { readFileSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import yaml from 'js-yaml';
+
+// __dirname equivalent for ESM: this file lives at
+// site/src/components/Head.astro; studies live at ../../../studies/<slug>/
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const STUDIES_ROOT = path.resolve(HERE, '..', '..', '..', 'studies');
+
+// Derive slug from URL. First non-empty path segment is the study slug.
+// Landing page (/) has no slug. About pages (/about/*) have slug='about' —
+// study.yaml lookup will miss cleanly.
+const pathname = Astro.url.pathname.replace(/^\/+|\/+$/g, '');
+const segments = pathname.split('/').filter(Boolean);
+const slug = segments[0] ?? null;
+
+// Chapter identification: if URL is /<slug>/<chapter>/... we're on a chapter,
+// not the study root.
+const isStudyRoot = slug !== null && segments.length === 1;
+const isChapter = slug !== null && segments.length >= 2 && segments[1] !== 'versions';
+const isVersionedChapter = slug !== null && segments.length >= 3 && segments[1] === 'versions';
+
+// Try to load study.yaml. Missing file, missing slug, or YAML parse error all
+// resolve to null — no meta gets emitted (silent no-op).
+let study: any = null;
+if (slug) {
+  const studyYamlPath = path.join(STUDIES_ROOT, slug, 'study.yaml');
+  if (existsSync(studyYamlPath)) {
+    try {
+      study = yaml.load(readFileSync(studyYamlPath, 'utf8'));
+    } catch (e) {
+      // Silent: build should not fail because a single study.yaml is malformed.
+      // A separate verify:study step catches schema violations.
+      study = null;
+    }
+  }
+}
+
+// Resolve current version DOI when we have versions[]. Prefer the version in
+// URL if we're on /versions/vN.N/..., else the head of study.versions.
+let versionDoi: string | null = null;
+if (study && Array.isArray(study.versions) && study.versions.length > 0) {
+  const urlVersion = isVersionedChapter ? segments[2] : null;
+  const match = urlVersion
+    ? study.versions.find((v: any) => v.version === urlVersion)
+    : study.versions[study.versions.length - 1];
+  versionDoi = match?.version_doi ?? null;
+}
+
+// js-yaml DEFAULT_SCHEMA auto-parses bare YYYY-MM-DD into a Date object.
+// Highwire / DC citation_publication_date expects the raw ISO date string, so
+// coerce back before emission. Also handles Date objects that come from
+// current_version_date + versions[].date.
+function formatDate(v: unknown): string | null {
+  if (!v) return null;
+  if (v instanceof Date) return v.toISOString().slice(0, 10);
+  if (typeof v === 'string') return v.slice(0, 10);
+  return null;
+}
+const currentVersionDate = formatDate(study?.current_version_date);
+
+const canonicalBaseHint = Astro.site?.toString().replace(/\/$/, '') ?? '';
+const pdfUrl = study && canonicalBaseHint
+  ? `${canonicalBaseHint}/studies/${slug}/versions/${study.current_version}/${slug}-${study.current_version}.pdf`
+  : null;
+---
+
+<Default {...Astro.props} />
+
+{study && (
+  <>
+    {/* Highwire Press citation meta — the format Google Scholar + most
+        academic indexers understand. */}
+    <meta name="citation_title" content={study.title} />
+    <meta name="citation_author" content={study.author} />
+    {currentVersionDate && (
+      <meta name="citation_publication_date" content={currentVersionDate} />
+    )}
+    {isStudyRoot && study.concept_doi && (
+      <meta name="citation_doi" content={study.concept_doi} />
+    )}
+    {!isStudyRoot && versionDoi && (
+      <meta name="citation_doi" content={versionDoi} />
+    )}
+    {isStudyRoot && pdfUrl && (
+      <meta name="citation_pdf_url" content={pdfUrl} />
+    )}
+
+    {/* Schema.org JSON-LD — ScholarlyArticle for study root, Chapter for
+        chapter pages. isPartOf links a chapter back to its parent article. */}
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': isStudyRoot ? 'ScholarlyArticle' : 'Chapter',
+      name: (Astro.props as any)?.entry?.data?.title ?? study.title,
+      author: study.author ? {
+        '@type': 'Person',
+        name: study.author,
+        ...(study.orcid ? { identifier: `https://orcid.org/${study.orcid}` } : {}),
+      } : undefined,
+      datePublished: currentVersionDate,
+      identifier: isStudyRoot
+        ? (study.concept_doi ? `https://doi.org/${study.concept_doi}` : undefined)
+        : (versionDoi ? `https://doi.org/${versionDoi}` : undefined),
+      isPartOf: !isStudyRoot && canonicalBaseHint ? {
+        '@type': 'ScholarlyArticle',
+        name: study.title,
+        '@id': `${canonicalBaseHint}/${slug}/`,
+      } : undefined,
+      license: 'https://creativecommons.org/licenses/by/4.0/',
+    }, null, 0)} />
+
+    {/* Dublin Core — legacy library indexers. */}
+    <meta name="DC.title" content={study.title} />
+    <meta name="DC.creator" content={study.author} />
+    {currentVersionDate && (
+      <meta name="DC.date" content={currentVersionDate} />
+    )}
+    {study.concept_doi && (
+      <meta name="DC.identifier" content={`https://doi.org/${study.concept_doi}`} />
+    )}
+    <meta name="DC.rights" content="https://creativecommons.org/licenses/by/4.0/" />
+    <meta name="DC.language" content={study.language ?? 'en'} />
+    <meta name="DC.type" content="Text" />
+  </>
+)}

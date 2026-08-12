@@ -52,6 +52,7 @@ export default defineConfig({
 			description: 'A theological reference library: exegetical studies using the SCAR Quadrilateral framework',
 			components: {
 				Footer: './src/components/Footer.astro',
+				Head: './src/components/Head.astro',
 			},
 			sidebar: [
 				{
