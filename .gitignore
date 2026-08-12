@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.tmp.*.md
+.tmp.*
+*.log
+site/public/studies/
+site/dist/
+site/node_modules/
+site/.astro/
