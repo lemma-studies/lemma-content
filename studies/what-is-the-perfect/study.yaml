@@ -1,11 +1,24 @@
+# study.yaml — canonical metadata for "What Is the Perfect?"
+# Schema per scripts/verify/verify-study-yaml.mjs REQUIRED_TOP + REQUIRED_VERSION.
+
+slug: what-is-the-perfect
 title: What Is the Perfect?
 author: E. Timothy Uy
 orcid: 0009-0008-8717-2249
+license: cc-by-4.0
 language: en
+type: study
+
 current_version: v5.4
 current_version_date: '2026-08-11'
+
+# concept_doi represents the study as a whole (spans versions).
+# For PATH-A pilot studies: null pre-publish; zenodo-publish.mjs writes it
+# back after Zenodo mints it at first publish. Once set, immutable.
 concept_doi: null
+
 versions:
   - version: v5.4
     date: '2026-08-11'
+    tag: what-is-the-perfect/v5.4
     version_doi: 10.5281/zenodo.21907595
