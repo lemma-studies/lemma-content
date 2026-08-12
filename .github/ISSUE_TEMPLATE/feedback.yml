@@ -1,0 +1,65 @@
+name: Feedback on a study
+description: Suggest an improvement, correction, or raise a question about a lemma study
+labels: ["type:public-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for engaging with the studies.
+
+        **This submission is public.** Your GitHub username and comment will be visible on this repo. If you'd prefer private feedback, email `lemma@gig8.com` instead — that goes to a private workroom and we ask before crediting you publicly.
+
+        For GDPR data-subject requests (erasure, access, etc.), email `privacy@gig8.com` — not this form.
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I understand this submission is public.
+          required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of feedback
+      options:
+        - correction
+        - disagreement
+        - missing content
+        - typo
+        - question
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: study
+    attributes:
+      label: Study slug
+      description: 'For example: what-is-the-perfect'
+      placeholder: what-is-the-perfect
+    validations:
+      required: true
+
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter or section
+      description: 'Optional. Example: 04-Chapter-Reality/§4.3'
+      placeholder: 04-Chapter-Reality/§4.3
+
+  - type: input
+    id: version
+    attributes:
+      label: Study version
+      description: 'Optional. Example: v5.4 — check the study landing page footer for the current version.'
+      placeholder: v5.4
+
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment
+      description: 'What did you notice? For corrections, please cite the specific text you think is wrong and the source that supports the correction.'
+    validations:
+      required: true
