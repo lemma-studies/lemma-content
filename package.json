@@ -7,6 +7,7 @@
   "scripts": {
     "copy-pdfs": "for d in studies/*/; do slug=$(basename \"$d\"); mkdir -p \"site/public/studies/$slug\"; if [ -d \"${d}versions\" ]; then cp -r \"${d}versions\" \"site/public/studies/$slug/\"; fi; done",
     "compile:study": "node scripts/compile-study.js",
+    "regenerate:corpus": "node scripts/regenerate-corpus.mjs",
     "verify:study": "node scripts/verify/index.js",
     "review:dispatch": "node scripts/review/dispatch-reviews.mjs",
     "health-check": "node scripts/lemma-cli/health-check.mjs",

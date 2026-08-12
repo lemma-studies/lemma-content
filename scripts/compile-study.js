@@ -34,6 +34,7 @@ import {
 import { join, resolve, basename, dirname } from 'node:path';
 import { parseArgs } from 'node:util';
 import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const REPO_ROOT = resolve(dirname(__filename), '..');
@@ -52,6 +53,7 @@ const { values: args } = parseArgs({
     out:         { type: 'string' },
     force:       { type: 'boolean', default: false },
     'skip-versioned': { type: 'boolean', default: false },   // dev/test escape hatch
+    'skip-corpus':    { type: 'boolean', default: false },   // dev/test escape hatch
   },
 });
 
@@ -149,6 +151,22 @@ if (sourceKind === 'in-repo' && !args['skip-versioned']) {
   }
 }
 
+// --- Corpus regeneration (in-repo only) ---
+// llms-full.txt chunk index + claims-index.jsonl + per-chapter chunks under
+// site/public/llms/full/<slug>/. Cross-study; walks all studies with versions/.
+// Only fires when source is in-repo (Vault-side legacy studies don't touch corpus).
+let corpusRegenerated = false;
+if (sourceKind === 'in-repo' && !args['skip-corpus']) {
+  const regen = spawnSync(process.execPath, [join(REPO_ROOT, 'scripts', 'regenerate-corpus.mjs')], {
+    stdio: 'inherit',
+  });
+  if (regen.status !== 0) {
+    console.error(`compile-study: regenerate-corpus.mjs exited ${regen.status}`);
+    process.exit(regen.status ?? 1);
+  }
+  corpusRegenerated = true;
+}
+
 // --- Summary ---
 console.log(`compiled ${chapters.length} chapters (${compiled.length} chars, ${compiled.split('\n').length} lines) → ${compositePath}`);
 console.log(`  source: ${sourceKind} (${studyDir})`);
@@ -160,6 +178,11 @@ if (versionedCount > 0) {
   console.log(`  versioned: skipped (--skip-versioned)`);
 } else {
   console.log(`  versioned: skipped (source=${sourceKind}; only in-repo writes frozen versions)`);
+}
+if (corpusRegenerated) {
+  console.log(`  corpus: regenerated (llms-full.txt + chunks + claims-index.jsonl)`);
+} else if (sourceKind === 'in-repo') {
+  console.log(`  corpus: skipped (--skip-corpus)`);
 }
 console.log(`chapters (in order):`);
 for (const f of chapters) console.log(`  ${f}`);
