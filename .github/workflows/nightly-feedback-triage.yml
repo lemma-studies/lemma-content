@@ -25,13 +25,29 @@ jobs:
         with:
           path: lemma-content
 
-      # Sibling clone with cross-repo push permission.
+      # Mint an installation token for lemma-studies-bot (App ID 4566459),
+      # scoped to the workroom repo only (least-privilege — App has access to
+      # all lemma-* repos but we only need workroom for this step).
+      # LEMMA_BOT_APP_ID + LEMMA_BOT_PRIVATE_KEY are org-level (see
+      # /mnt/a/gig8/github-app-credentials.md); free-plan clamp restricts
+      # org secrets to public repos, and lemma-content IS public.
+      - name: Mint App installation token (workroom)
+        uses: actions/create-github-app-token@v1
+        id: workroom-token
+        with:
+          app-id: ${{ vars.LEMMA_BOT_APP_ID }}
+          private-key: ${{ secrets.LEMMA_BOT_PRIVATE_KEY }}
+          owner: lemma-studies
+          repositories: lemma-workroom
+
+      # Sibling clone with cross-repo push permission via the App-minted token.
+      # Commits show as authored by lemma-studies-bot[bot] — clean audit trail.
       - name: Checkout lemma-workroom (App-scoped token)
         uses: actions/checkout@v4
         with:
           repository: lemma-studies/lemma-workroom
           path: lemma-workroom
-          token: ${{ secrets.LEMMA_WORKROOM_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ steps.workroom-token.outputs.token }}
 
       - uses: actions/setup-node@v4
         with:
@@ -51,8 +67,11 @@ jobs:
       - name: Commit to workroom if changed
         working-directory: lemma-workroom
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Commit identity matches the App-minted token so the push authenticates
+          # as lemma-studies-bot[bot] — clean audit trail per §6.4. The bot email
+          # follows the GitHub convention: <app-id>+<app-slug>[bot]@users.noreply.github.com
+          git config user.name "lemma-studies-bot[bot]"
+          git config user.email "${{ vars.LEMMA_BOT_APP_ID }}+lemma-studies-bot[bot]@users.noreply.github.com"
           git add feedback-inbox/
           if git diff --cached --quiet; then
             echo "no change"
