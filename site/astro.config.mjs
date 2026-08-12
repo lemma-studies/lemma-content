@@ -8,20 +8,13 @@ import { readFileSync } from 'fs';
 // Slugs currently stubbed with "Migration Queued" — exclude from sitemap so
 // search engines don't index the transitional state. Remove entries here as
 // each study migrates to canonical /studies/<slug>/ content (Phase 3+).
+// Studies still stubbed out (Migration Queued / Planned — excluded from sitemap
+// so search engines don't index the placeholder state). Removed 2026-08-12
+// mass-migration: what-is-the-perfect (LIVE), wine-and-jesus (LIVE), trumpet-call
+// (LIVE), by-his-stripes (LIVE-tree), and 7 DRAFT-marked studies. Only the 4
+// truly-planned (no Vault content yet) slugs remain excluded.
 const STUBBED_SLUGS = new Set([
-	'by-his-stripes',
-	'meeting-structure',
-	'1-corinthians-11-17-34',
-	'name-above-every-name',
-	'amos-7-1',
-	'daniel-9-24',
-	'trumpet-call',
-	// 'what-is-the-perfect', // Phase 3 pilot content live 2026-08-12 — sitemap enabled
-	'sermon-on-the-mount',
-	'satans-throne',
-	'angel-of-the-lord',
 	'parents-and-adult-children',
-	'wine-and-jesus',
 	'pre-nicene-christianity',
 	'apostolic-quadrilateral',
 	'lords-supper-research',
