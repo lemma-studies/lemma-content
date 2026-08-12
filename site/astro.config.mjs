@@ -1,8 +1,31 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 // import starlightGiscus from 'starlight-giscus';  // TODO(2b): re-enable once Discussions is enabled on lemma-studies/lemma-content and new repoId/categoryId are captured
 import { readFileSync } from 'fs';
+
+// Slugs currently stubbed with "Migration Queued" — exclude from sitemap so
+// search engines don't index the transitional state. Remove entries here as
+// each study migrates to canonical /studies/<slug>/ content (Phase 3+).
+const STUBBED_SLUGS = new Set([
+	'by-his-stripes',
+	'meeting-structure',
+	'1-corinthians-11-17-34',
+	'name-above-every-name',
+	'amos-7-1',
+	'daniel-9-24',
+	'trumpet-call',
+	'what-is-the-perfect',
+	'sermon-on-the-mount',
+	'satans-throne',
+	'angel-of-the-lord',
+	'parents-and-adult-children',
+	'wine-and-jesus',
+	'pre-nicene-christianity',
+	'apostolic-quadrilateral',
+	'lords-supper-research',
+]);
 
 const tag = readFileSync(new URL('./src/version.generated.mjs', import.meta.url), 'utf8')
 	.match(/TAG = "([^"]+)"/)?.[1] || '0.0';
@@ -13,6 +36,14 @@ export default defineConfig({
 	server: { host: '0.0.0.0' },
 	vite: { server: { allowedHosts: ['dev.gig8.com'] } },
 	integrations: [
+		sitemap({
+			filter: (page) => {
+				// Extract the first path segment (the slug).
+				const path = new URL(page).pathname.replace(/^\/+|\/+$/g, '');
+				const slug = path.split('/')[0];
+				return !STUBBED_SLUGS.has(slug);
+			},
+		}),
 		starlight({
 			// TODO(2b): re-attach starlightGiscus plugin with new repo=lemma-studies/lemma-content
 			// after Discussions is enabled and repoId+categoryId are captured.
