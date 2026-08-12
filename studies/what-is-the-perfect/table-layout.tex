@@ -1,0 +1,7 @@
+% Study-level layout additions (review-copy build).
+% Wider text block than LaTeX defaults — still generous margins for annotation.
+\usepackage[letterpaper,margin=1.25in]{geometry}
+% Tables: smaller font + tighter padding inside longtables so wide
+% chronological/definition charts wrap instead of colliding.
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}}

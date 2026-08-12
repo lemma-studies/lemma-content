@@ -8,3 +8,9 @@ site/public/studies/
 site/dist/
 site/node_modules/
 site/.astro/
+
+# Compile:study composite manuscripts land at studies/<slug>/<slug>-vN.N.md.
+# Per design v7.1 §7.1 + canonical-chapters memory: these are RELEASE-ONLY
+# derived artifacts. Chapter files are canonical; composites regen from them.
+# Never commit the composite from the study root.
+studies/*/*-v*.md

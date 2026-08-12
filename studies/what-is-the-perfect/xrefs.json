@@ -1,0 +1,1525 @@
+{
+  "study": "what-is-the-perfect",
+  "version": "v5.4",
+  "extracted_at": "2026-08-12T17:19:56.262Z",
+  "anchors": [
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 1,
+      "level": 1,
+      "text": "What Is the Perfect: At a Glance",
+      "slug": "what-is-the-perfect-at-a-glance"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 3,
+      "level": 2,
+      "text": "The Question",
+      "slug": "the-question"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 12,
+      "level": 2,
+      "text": "SCAR Summary",
+      "slug": "scar-summary"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 23,
+      "level": 2,
+      "text": "Four Views at a Glance",
+      "slug": "four-views-at-a-glance"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 34,
+      "level": 2,
+      "text": "Key Greek Terms",
+      "slug": "key-greek-terms"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 47,
+      "level": 2,
+      "text": "What Is Clear",
+      "slug": "what-is-clear"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 57,
+      "level": 2,
+      "text": "What Is Debated",
+      "slug": "what-is-debated"
+    },
+    {
+      "chapter": "00-At-a-Glance.md",
+      "line": 66,
+      "level": 2,
+      "text": "The Bottom Line",
+      "slug": "the-bottom-line"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 0: Overview",
+      "slug": "chapter-0-overview"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 5,
+      "level": 2,
+      "text": "The Question",
+      "slug": "the-question"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 26,
+      "level": 2,
+      "text": "The Text",
+      "slug": "the-text"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 49,
+      "level": 2,
+      "text": "The Key Words",
+      "slug": "the-key-words"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 75,
+      "level": 2,
+      "text": "Four Views in Brief",
+      "slug": "four-views-in-brief"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 79,
+      "level": 3,
+      "text": "The Completed Canon",
+      "slug": "the-completed-canon"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 92,
+      "level": 3,
+      "text": "Christ's Return",
+      "slug": "christs-return"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 105,
+      "level": 3,
+      "text": "Church Maturity",
+      "slug": "church-maturity"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 116,
+      "level": 3,
+      "text": "The Eternal State",
+      "slug": "the-eternal-state"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 134,
+      "level": 2,
+      "text": "What the Early Church Believed",
+      "slug": "what-the-early-church-believed"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 150,
+      "level": 2,
+      "text": "The Weight of Evidence",
+      "slug": "the-weight-of-evidence"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 166,
+      "level": 2,
+      "text": "Common Ground",
+      "slug": "common-ground"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 189,
+      "level": 2,
+      "text": "How to Read This Study",
+      "slug": "how-to-read-this-study"
+    },
+    {
+      "chapter": "00-Overview.md",
+      "line": 209,
+      "level": 2,
+      "text": "The Heart of the Matter",
+      "slug": "the-heart-of-the-matter"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 1: Scripture --- What Does the Text Actually Say?",
+      "slug": "chapter-1-scripture-----what-does-the-text-actually-say"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview",
+      "slug": "overview"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 11,
+      "level": 2,
+      "text": "The Literary Context: 1 Corinthians 12--14",
+      "slug": "the-literary-context-1-corinthians-12--14"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 15,
+      "level": 3,
+      "text": "The Corinthian Problem",
+      "slug": "the-corinthian-problem"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 19,
+      "level": 3,
+      "text": "The Three-Chapter Arc",
+      "slug": "the-three-chapter-arc"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 47,
+      "level": 2,
+      "text": "The Full Greek Text of 1 Corinthians 13:8--13",
+      "slug": "the-full-greek-text-of-1-corinthians-138--13"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 75,
+      "level": 3,
+      "text": "Verse-by-Verse Grammatical Analysis",
+      "slug": "verse-by-verse-grammatical-analysis"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 121,
+      "level": 2,
+      "text": "Deep Word Studies",
+      "slug": "deep-word-studies"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 123,
+      "level": 3,
+      "text": "τέλειος / τὸ τέλειον (*teleios* / *to teleion*, G5046)",
+      "slug": "teleios-to-teleion-g5046"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 156,
+      "level": 3,
+      "text": "καταργέω (*katargeō*, G2673)",
+      "slug": "katarge-g2673"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 187,
+      "level": 3,
+      "text": "παύω (*pauō*, G3973)",
+      "slug": "pau-g3973"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 205,
+      "level": 3,
+      "text": "ἔσοπτρον (*esoptron*, G2072)",
+      "slug": "esoptron-g2072"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 225,
+      "level": 3,
+      "text": "αἴνιγμα (*ainigma*, G135)",
+      "slug": "ainigma-g135"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 246,
+      "level": 3,
+      "text": "πρόσωπον πρὸς πρόσωπον (*prosōpon pros prosōpon*)",
+      "slug": "prospon-pros-prospon"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 280,
+      "level": 3,
+      "text": "ἐπιγινώσκω (*epiginōskō*, G1921) versus γινώσκω (*ginōskō*, G1097)",
+      "slug": "epiginsk-g1921-versus-ginsk-g1097"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 296,
+      "level": 2,
+      "text": "The Critical Parallel: Ephesians 4:11--13",
+      "slug": "the-critical-parallel-ephesians-411--13"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 322,
+      "level": 2,
+      "text": "Translation Comparison Table",
+      "slug": "translation-comparison-table"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 324,
+      "level": 3,
+      "text": "1 Corinthians 13:8 --- Three Gifts, Key Verbs",
+      "slug": "1-corinthians-138-----three-gifts-key-verbs"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 337,
+      "level": 3,
+      "text": "1 Corinthians 13:10 --- \"The Perfect\"",
+      "slug": "1-corinthians-1310-----the-perfect"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 352,
+      "level": 3,
+      "text": "1 Corinthians 13:12 --- Mirror and Knowing",
+      "slug": "1-corinthians-1312-----mirror-and-knowing"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 367,
+      "level": 2,
+      "text": "The Four Candidate Interpretations: Strongest Scriptural Arguments",
+      "slug": "the-four-candidate-interpretations-strongest-scriptural-arguments"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 371,
+      "level": 3,
+      "text": "Completed Canon (Cessationism)",
+      "slug": "completed-canon-cessationism"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 378,
+      "level": 3,
+      "text": "Christ's Return (Classic Continuationism)",
+      "slug": "christs-return-classic-continuationism"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 385,
+      "level": 3,
+      "text": "Corporate Church Maturity (Progressive-Historical View)",
+      "slug": "corporate-church-maturity-progressive-historical-view"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 392,
+      "level": 3,
+      "text": "Eternal State (Glorification View)",
+      "slug": "eternal-state-glorification-view"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 401,
+      "level": 2,
+      "text": "What Is Clear",
+      "slug": "what-is-clear"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 414,
+      "level": 2,
+      "text": "What Is Debated",
+      "slug": "what-is-debated"
+    },
+    {
+      "chapter": "01-Chapter-Scripture.md",
+      "line": 426,
+      "level": 2,
+      "text": "Summary",
+      "slug": "summary"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 2: Christocentrism --- What Did Jesus Teach and Demonstrate?",
+      "slug": "chapter-2-christocentrism-----what-did-jesus-teach-and-demonstrate"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 3,
+      "level": 2,
+      "text": "Connecting to Chapter 1",
+      "slug": "connecting-to-chapter-1"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 17,
+      "level": 2,
+      "text": "Jesus as the New Moses: The \"Face to Face\" Connection",
+      "slug": "jesus-as-the-new-moses-the-face-to-face-connection"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 75,
+      "level": 2,
+      "text": "Jesus's Teaching on the Spirit and \"All Truth\"",
+      "slug": "jesuss-teaching-on-the-spirit-and-all-truth"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 107,
+      "level": 2,
+      "text": "Jesus's Teaching on Love as the Supreme Ethic",
+      "slug": "jesuss-teaching-on-love-as-the-supreme-ethic"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 134,
+      "level": 2,
+      "text": "Jesus on Maturity: \"Be Ye Perfect\"",
+      "slug": "jesus-on-maturity-be-ye-perfect"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 155,
+      "level": 2,
+      "text": "Jesus's Teaching on His Own Return",
+      "slug": "jesuss-teaching-on-his-own-return"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 187,
+      "level": 2,
+      "text": "The \"Already/Not Yet\" in Jesus's Teaching",
+      "slug": "the-alreadynot-yet-in-jesuss-teaching"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 213,
+      "level": 2,
+      "text": "Jesus's Priorities: How We Handle Disagreement",
+      "slug": "jesuss-priorities-how-we-handle-disagreement"
+    },
+    {
+      "chapter": "02-Chapter-Christocentrism.md",
+      "line": 237,
+      "level": 2,
+      "text": "Summary: What the Christocentric Lens Reveals",
+      "slug": "summary-what-the-christocentric-lens-reveals"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 3: Antiquity --- How Did the Earliest Christians Understand This?",
+      "slug": "chapter-3-antiquity-----how-did-the-earliest-christians-understand-this"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 3,
+      "level": 2,
+      "text": "Why the Early Church Matters",
+      "slug": "why-the-early-church-matters"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 17,
+      "level": 2,
+      "text": "Part One: The Apostolic Fathers (c. 70---150 AD)",
+      "slug": "part-one-the-apostolic-fathers-c-70---150-ad"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 19,
+      "level": 3,
+      "text": "The Didache (c. 70---100 AD)",
+      "slug": "the-didache-c-70---100-ad"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 32,
+      "level": 3,
+      "text": "Clement of Rome (c. 96 AD), 1 Clement",
+      "slug": "clement-of-rome-c-96-ad-1-clement"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 50,
+      "level": 3,
+      "text": "Ignatius of Antioch (c. 107 AD)",
+      "slug": "ignatius-of-antioch-c-107-ad"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 65,
+      "level": 2,
+      "text": "Part Two: The Ante-Nicene Fathers (c. 150---325 AD)",
+      "slug": "part-two-the-ante-nicene-fathers-c-150---325-ad"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 67,
+      "level": 3,
+      "text": "Irenaeus of Lyon (c. 130---202 AD), Against Heresies",
+      "slug": "irenaeus-of-lyon-c-130---202-ad-against-heresies"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 87,
+      "level": 3,
+      "text": "The Anonymous Anti-Montanist (c. 192/193 AD), quoted by Eusebius",
+      "slug": "the-anonymous-anti-montanist-c-192193-ad-quoted-by-eusebius"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 98,
+      "level": 3,
+      "text": "Clement of Alexandria (c. 150---215 AD), Stromata and Paedagogus",
+      "slug": "clement-of-alexandria-c-150---215-ad-stromata-and-paedagogus"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 112,
+      "level": 3,
+      "text": "Tertullian (c. 155---240 AD)",
+      "slug": "tertullian-c-155---240-ad"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 125,
+      "level": 3,
+      "text": "Origen of Alexandria (c. 185---254 AD)",
+      "slug": "origen-of-alexandria-c-185---254-ad"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 137,
+      "level": 3,
+      "text": "Methodius of Olympus (c. 260---311 AD), Banquet of the Ten Virgins",
+      "slug": "methodius-of-olympus-c-260---311-ad-banquet-of-the-ten-virgins"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 148,
+      "level": 2,
+      "text": "Part Three: The Post-Nicene Witness (for context, noting the pre-325 boundary)",
+      "slug": "part-three-the-post-nicene-witness-for-context-noting-the-pre-325-boundary"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 154,
+      "level": 3,
+      "text": "Ambrosiaster (c. 366---384 AD), Commentary on 1 Corinthians",
+      "slug": "ambrosiaster-c-366---384-ad-commentary-on-1-corinthians"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 167,
+      "level": 3,
+      "text": "John Chrysostom (c. 347---407 AD), Homilies on 1 Corinthians, Homily 34",
+      "slug": "john-chrysostom-c-347---407-ad-homilies-on-1-corinthians-homily-34"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 194,
+      "level": 3,
+      "text": "Augustine of Hippo (c. 354---430 AD), De Trinitate Book 15",
+      "slug": "augustine-of-hippo-c-354---430-ad-de-trinitate-book-15"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 214,
+      "level": 2,
+      "text": "Part Four: Patterns and Observations",
+      "slug": "part-four-patterns-and-observations"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 252,
+      "level": 2,
+      "text": "Summary",
+      "slug": "summary"
+    },
+    {
+      "chapter": "03-Chapter-Antiquity.md",
+      "line": 268,
+      "level": 3,
+      "text": "Chronological Summary Table",
+      "slug": "chronological-summary-table"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 4: Reality --- The Major Views and Their Fruit",
+      "slug": "chapter-4-reality-----the-major-views-and-their-fruit"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 3,
+      "level": 2,
+      "text": "Overview",
+      "slug": "overview"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 18,
+      "level": 2,
+      "text": "View 1: The Completed Canon",
+      "slug": "view-1-the-completed-canon"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 20,
+      "level": 3,
+      "text": "Held By",
+      "slug": "held-by"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 26,
+      "level": 3,
+      "text": "Core Claim",
+      "slug": "core-claim"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 32,
+      "level": 3,
+      "text": "Strongest Arguments",
+      "slug": "strongest-arguments"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 76,
+      "level": 3,
+      "text": "Pastoral Fruit",
+      "slug": "pastoral-fruit"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 86,
+      "level": 3,
+      "text": "Honest Challenges",
+      "slug": "honest-challenges"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 146,
+      "level": 2,
+      "text": "View 2: Christ's Return",
+      "slug": "view-2-christs-return"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 148,
+      "level": 3,
+      "text": "Held By",
+      "slug": "held-by"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 152,
+      "level": 3,
+      "text": "Core Claim",
+      "slug": "core-claim"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 156,
+      "level": 3,
+      "text": "Strongest Arguments",
+      "slug": "strongest-arguments"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 206,
+      "level": 3,
+      "text": "Pastoral Fruit",
+      "slug": "pastoral-fruit"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 213,
+      "level": 3,
+      "text": "Honest Challenges",
+      "slug": "honest-challenges"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 222,
+      "level": 2,
+      "text": "View 3: Church Maturity",
+      "slug": "view-3-church-maturity"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 224,
+      "level": 3,
+      "text": "Held By",
+      "slug": "held-by"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 228,
+      "level": 3,
+      "text": "Core Claim",
+      "slug": "core-claim"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 232,
+      "level": 3,
+      "text": "Strongest Arguments",
+      "slug": "strongest-arguments"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 263,
+      "level": 3,
+      "text": "Pastoral Fruit",
+      "slug": "pastoral-fruit"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 270,
+      "level": 3,
+      "text": "Honest Challenges",
+      "slug": "honest-challenges"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 286,
+      "level": 2,
+      "text": "View 4: The Eternal State",
+      "slug": "view-4-the-eternal-state"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 288,
+      "level": 3,
+      "text": "Held By",
+      "slug": "held-by"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 292,
+      "level": 3,
+      "text": "Core Claim",
+      "slug": "core-claim"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 296,
+      "level": 3,
+      "text": "Strongest Arguments",
+      "slug": "strongest-arguments"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 314,
+      "level": 3,
+      "text": "Pastoral Fruit",
+      "slug": "pastoral-fruit"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 320,
+      "level": 3,
+      "text": "Honest Challenges",
+      "slug": "honest-challenges"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 328,
+      "level": 2,
+      "text": "Comparative Analysis",
+      "slug": "comparative-analysis"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 342,
+      "level": 2,
+      "text": "The Cessationist-Continuationist Intersection",
+      "slug": "the-cessationist-continuationist-intersection"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 366,
+      "level": 2,
+      "text": "Pastoral Considerations",
+      "slug": "pastoral-considerations"
+    },
+    {
+      "chapter": "04-Chapter-Reality.md",
+      "line": 388,
+      "level": 2,
+      "text": "Summary",
+      "slug": "summary"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 1,
+      "level": 1,
+      "text": "Chapter 5: Synthesis --- Where Do We Stand?",
+      "slug": "chapter-5-synthesis-----where-do-we-stand"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 3,
+      "level": 2,
+      "text": "What Has Come Before",
+      "slug": "what-has-come-before"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 17,
+      "level": 2,
+      "text": "Areas of Agreement",
+      "slug": "areas-of-agreement"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 55,
+      "level": 2,
+      "text": "Areas of Tension",
+      "slug": "areas-of-tension"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 59,
+      "level": 3,
+      "text": "Tension 1: The Referent of τὸ τέλειον",
+      "slug": "tension-1-the-referent-of"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 69,
+      "level": 3,
+      "text": "Tension 2: The Middle Voice of παύσονται",
+      "slug": "tension-2-the-middle-voice-of"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 77,
+      "level": 3,
+      "text": "Tension 3: The Timing of \"Then\" (τότε)",
+      "slug": "tension-3-the-timing-of-then"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 83,
+      "level": 3,
+      "text": "Tension 4: The Cessationist-Continuationist Divide",
+      "slug": "tension-4-the-cessationist-continuationist-divide"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 93,
+      "level": 2,
+      "text": "The Weight of Evidence",
+      "slug": "the-weight-of-evidence"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 109,
+      "level": 2,
+      "text": "Questions for the Reader",
+      "slug": "questions-for-the-reader"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 113,
+      "level": 3,
+      "text": "From Scripture",
+      "slug": "from-scripture"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 123,
+      "level": 3,
+      "text": "From Christocentrism",
+      "slug": "from-christocentrism"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 131,
+      "level": 3,
+      "text": "From Antiquity",
+      "slug": "from-antiquity"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 139,
+      "level": 3,
+      "text": "From Reality",
+      "slug": "from-reality"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 155,
+      "level": 2,
+      "text": "The Love Imperative",
+      "slug": "the-love-imperative"
+    },
+    {
+      "chapter": "05-Chapter-Synthesis.md",
+      "line": 188,
+      "level": 2,
+      "text": "Final Reflection",
+      "slug": "final-reflection"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 1,
+      "level": 1,
+      "text": "Appendix A: Hebrew and Greek Word Study",
+      "slug": "appendix-a-hebrew-and-greek-word-study"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 9,
+      "level": 2,
+      "text": "Perfect, Complete, Mature --- *teleios / to teleion* (Strong's G5046)",
+      "slug": "perfect-complete-mature-----teleios-to-teleion-strongs-g5046"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 15,
+      "level": 3,
+      "text": "Morphology",
+      "slug": "morphology"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 25,
+      "level": 3,
+      "text": "BDAG Definition",
+      "slug": "bdag-definition"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 34,
+      "level": 3,
+      "text": "Usage in key passages",
+      "slug": "usage-in-key-passages"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 49,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:10",
+      "slug": "translation-comparison-1-corinthians-1310"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 64,
+      "level": 2,
+      "text": "Render Inoperative, Supersede --- *katargeō* (Strong's G2673)",
+      "slug": "render-inoperative-supersede-----katarge-strongs-g2673"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 70,
+      "level": 3,
+      "text": "Paul's signature word",
+      "slug": "pauls-signature-word"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 74,
+      "level": 3,
+      "text": "Usage in key passages",
+      "slug": "usage-in-key-passages"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 92,
+      "level": 3,
+      "text": "The pattern",
+      "slug": "the-pattern"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 98,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:8,10",
+      "slug": "translation-comparison-1-corinthians-13810"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 112,
+      "level": 2,
+      "text": "Cease, Stop --- *pauō* (Strong's G3973)",
+      "slug": "cease-stop-----pau-strongs-g3973"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 118,
+      "level": 3,
+      "text": "The grammatical debate",
+      "slug": "the-grammatical-debate"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 140,
+      "level": 3,
+      "text": "Resolution",
+      "slug": "resolution"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 144,
+      "level": 3,
+      "text": "Usage in key passages",
+      "slug": "usage-in-key-passages"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 151,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:8",
+      "slug": "translation-comparison-1-corinthians-138"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 165,
+      "level": 2,
+      "text": "Mirror --- *esoptron* (Strong's G2072)",
+      "slug": "mirror-----esoptron-strongs-g2072"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 171,
+      "level": 3,
+      "text": "Ancient mirrors: the Corinthian context",
+      "slug": "ancient-mirrors-the-corinthian-context"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 179,
+      "level": 3,
+      "text": "The word \"darkly\" (ἐν αἰνίγματι)",
+      "slug": "the-word-darkly"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 188,
+      "level": 3,
+      "text": "NT occurrences",
+      "slug": "nt-occurrences"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 194,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:12",
+      "slug": "translation-comparison-1-corinthians-1312"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 210,
+      "level": 2,
+      "text": "Riddle, Enigma --- *ainigma* (Strong's G135)",
+      "slug": "riddle-enigma-----ainigma-strongs-g135"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 216,
+      "level": 3,
+      "text": "The single NT occurrence",
+      "slug": "the-single-nt-occurrence"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 220,
+      "level": 3,
+      "text": "The LXX allusion: Numbers 12:8",
+      "slug": "the-lxx-allusion-numbers-128"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 240,
+      "level": 3,
+      "text": "In Greek culture",
+      "slug": "in-greek-culture"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 244,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:12",
+      "slug": "translation-comparison-1-corinthians-1312"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 260,
+      "level": 2,
+      "text": "Face to Face --- *prosōpon pros prosōpon*",
+      "slug": "face-to-face-----prospon-pros-prospon"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 266,
+      "level": 3,
+      "text": "Hebrew background: the panim tradition",
+      "slug": "hebrew-background-the-panim-tradition"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 298,
+      "level": 3,
+      "text": "Paul's construction vs. the LXX",
+      "slug": "pauls-construction-vs-the-lxx"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 302,
+      "level": 3,
+      "text": "The democratization of the Mosaic privilege",
+      "slug": "the-democratization-of-the-mosaic-privilege"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 311,
+      "level": 3,
+      "text": "Cross-references",
+      "slug": "cross-references"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 321,
+      "level": 2,
+      "text": "Know Fully --- *epiginōskō* (Strong's G1921) vs. Know --- *ginōskō* (Strong's G1097)",
+      "slug": "know-fully-----epiginsk-strongs-g1921-vs-know-----ginsk-strongs-g1097"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 329,
+      "level": 3,
+      "text": "The verb shift in 1 Corinthians 13:12",
+      "slug": "the-verb-shift-in-1-corinthians-1312"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 343,
+      "level": 3,
+      "text": "BDAG definitions",
+      "slug": "bdag-definitions"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 349,
+      "level": 3,
+      "text": "The passive: \"as I am fully known\"",
+      "slug": "the-passive-as-i-am-fully-known"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 357,
+      "level": 3,
+      "text": "Usage in key passages",
+      "slug": "usage-in-key-passages"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 369,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:12",
+      "slug": "translation-comparison-1-corinthians-1312"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 385,
+      "level": 2,
+      "text": "In Part, Partially --- *ek merous*",
+      "slug": "in-part-partially-----ek-merous"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 391,
+      "level": 3,
+      "text": "Occurrences in 1 Corinthians 13",
+      "slug": "occurrences-in-1-corinthians-13"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 406,
+      "level": 3,
+      "text": "What \"in part\" does and does not mean",
+      "slug": "what-in-part-does-and-does-not-mean"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 417,
+      "level": 3,
+      "text": "Translation comparison",
+      "slug": "translation-comparison"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 435,
+      "level": 2,
+      "text": "But Now --- *nyni de* (13:13)",
+      "slug": "but-now-----nyni-de-1313"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 441,
+      "level": 3,
+      "text": "The two readings",
+      "slug": "the-two-readings"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 447,
+      "level": 3,
+      "text": "Which reading fits?",
+      "slug": "which-reading-fits"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 459,
+      "level": 3,
+      "text": "The \"remaining\" of faith and hope",
+      "slug": "the-remaining-of-faith-and-hope"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 463,
+      "level": 3,
+      "text": "Translation comparison: 1 Corinthians 13:13",
+      "slug": "translation-comparison-1-corinthians-1313"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 477,
+      "level": 2,
+      "text": "Summary",
+      "slug": "summary"
+    },
+    {
+      "chapter": "Appendix-A-Word-Study.md",
+      "line": 497,
+      "level": 2,
+      "text": "Bibliography",
+      "slug": "bibliography"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 1,
+      "level": 1,
+      "text": "Appendix B: Early Church and Patristic Sources",
+      "slug": "appendix-b-early-church-and-patristic-sources"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 9,
+      "level": 2,
+      "text": "Apostolic Era (c. 70---150 AD)",
+      "slug": "apostolic-era-c-70---150-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 13,
+      "level": 3,
+      "text": "Didache (\"Teaching of the Twelve Apostles\"), Ch. 16 (c. 70---100 AD)",
+      "slug": "didache-teaching-of-the-twelve-apostles-ch-16-c-70---100-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 28,
+      "level": 3,
+      "text": "Clement of Rome, *First Letter to the Corinthians* (1 Clement), Chs. 49---50 (c. 96 AD)",
+      "slug": "clement-of-rome-first-letter-to-the-corinthians-1-clement-chs-49---50-c-96-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 46,
+      "level": 3,
+      "text": "Ignatius of Antioch, *Letter to the Ephesians*, Ch. 14 (c. 107 AD)",
+      "slug": "ignatius-of-antioch-letter-to-the-ephesians-ch-14-c-107-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 61,
+      "level": 2,
+      "text": "Ante-Nicene Era (c. 150---325 AD)",
+      "slug": "ante-nicene-era-c-150---325-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 65,
+      "level": 3,
+      "text": "Irenaeus of Lyon, *Against Heresies* (*Adversus Haereses*), 2.28.3 (c. 180 AD)",
+      "slug": "irenaeus-of-lyon-against-heresies-adversus-haereses-2283-c-180-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 80,
+      "level": 3,
+      "text": "Irenaeus of Lyon, *Against Heresies*, 5.6.1 (c. 180 AD)",
+      "slug": "irenaeus-of-lyon-against-heresies-561-c-180-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 95,
+      "level": 3,
+      "text": "Clement of Alexandria, *Stromata* 7.10 and *Paedagogus* 1.6 (c. 195---215 AD)",
+      "slug": "clement-of-alexandria-stromata-710-and-paedagogus-16-c-195---215-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 111,
+      "level": 3,
+      "text": "The Anonymous Anti-Montanist, in Eusebius, *Church History* 5.17.4 (c. 192/193 AD)",
+      "slug": "the-anonymous-anti-montanist-in-eusebius-church-history-5174-c-192193-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 124,
+      "level": 3,
+      "text": "Tertullian of Carthage, *Adversus Praxean* (Against Praxeas), Ch. 14 (c. 208---213 AD)",
+      "slug": "tertullian-of-carthage-adversus-praxean-against-praxeas-ch-14-c-208---213-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 139,
+      "level": 3,
+      "text": "Origen of Alexandria, *De Principiis* (On First Principles), 2.11.3---4 (c. 225 AD)",
+      "slug": "origen-of-alexandria-de-principiis-on-first-principles-2113---4-c-225-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 153,
+      "level": 3,
+      "text": "Methodius of Olympus, *Banquet of the Ten Virgins* (Symposium), Discourse 9.2 (c. 290---311 AD)",
+      "slug": "methodius-of-olympus-banquet-of-the-ten-virgins-symposium-discourse-92-c-290---311-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 168,
+      "level": 2,
+      "text": "Post-Nicene Witness (included for reference; beyond the pre-325 primary boundary)",
+      "slug": "post-nicene-witness-included-for-reference-beyond-the-pre-325-primary-boundary"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 174,
+      "level": 3,
+      "text": "Ambrosiaster, *Commentary on 1 Corinthians*, on 13:9---12 (c. 366---384 AD)",
+      "slug": "ambrosiaster-commentary-on-1-corinthians-on-139---12-c-366---384-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 187,
+      "level": 3,
+      "text": "John Chrysostom, *Homilies on 1 Corinthians*, Homily 34 (c. 390 AD)",
+      "slug": "john-chrysostom-homilies-on-1-corinthians-homily-34-c-390-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 209,
+      "level": 3,
+      "text": "Augustine of Hippo, *De Trinitate* (On the Trinity), 15.8.14 and 15.23.44 (c. 399---419 AD)",
+      "slug": "augustine-of-hippo-de-trinitate-on-the-trinity-15814-and-152344-c-399---419-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 231,
+      "level": 3,
+      "text": "Theodoret of Cyrrhus, *Interpretatio in xiv epistulas s. Pauli*, on 1 Corinthians 13 (c. 435---450 AD)",
+      "slug": "theodoret-of-cyrrhus-interpretatio-in-xiv-epistulas-s-pauli-on-1-corinthians-13-c-435---450-ad"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 245,
+      "level": 2,
+      "text": "Byzantine Continuation (post-patristic; included for reference)",
+      "slug": "byzantine-continuation-post-patristic-included-for-reference"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 249,
+      "level": 3,
+      "text": "Pseudo-Oecumenius, *Commentarius in epistolam I ad Corinthios*, on 13:8-12 (10th---11th century compilation)",
+      "slug": "pseudo-oecumenius-commentarius-in-epistolam-i-ad-corinthios-on-138-12-10th---11th-century-compilation"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 255,
+      "level": 3,
+      "text": "Theophylact of Ohrid, *Expositio in epistolam I ad Corinthios*, on 13:8-13 (c. 1078---1108)",
+      "slug": "theophylact-of-ohrid-expositio-in-epistolam-i-ad-corinthios-on-138-13-c-1078---1108"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 263,
+      "level": 2,
+      "text": "Chronological Summary Table",
+      "slug": "chronological-summary-table"
+    },
+    {
+      "chapter": "Appendix-B-Patristic-Sources.md",
+      "line": 285,
+      "level": 2,
+      "text": "Patterns in the Ancient Testimony",
+      "slug": "patterns-in-the-ancient-testimony"
+    }
+  ],
+  "internal_links": [],
+  "external_study_links": [
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 51
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "appendix-a-word-study/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 77
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "04-reality/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 136
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "03-antiquity/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 136
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "appendix-b-patristic-sources/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 152
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "05-synthesis/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 193
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "01-scripture/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 195
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "02-christocentrism/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 197
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "03-antiquity/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 199
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "04-reality/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 201
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "05-synthesis/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 203
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "appendix-a-word-study/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "00-Overview.md",
+        "line": 205
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "appendix-b-patristic-sources/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "01-Chapter-Scripture.md",
+        "line": 438
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "02-christocentrism/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "05-Chapter-Synthesis.md",
+        "line": 202
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "overview/",
+      "anchor": null
+    },
+    {
+      "from": {
+        "chapter": "05-Chapter-Synthesis.md",
+        "line": 202
+      },
+      "to_study": "what-is-the-perfect",
+      "to_path": "",
+      "anchor": null
+    }
+  ],
+  "footnotes": []
+}

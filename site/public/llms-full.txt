@@ -15,3 +15,13 @@
 # canonical chapter text without site chrome.
 
 # (chunks appear below this line, sorted by slug then chapter, regenerated per compile)
+
+- /llms/full/what-is-the-perfect/00-At-a-Glance.txt
+- /llms/full/what-is-the-perfect/00-Overview.txt
+- /llms/full/what-is-the-perfect/01-Chapter-Scripture.txt
+- /llms/full/what-is-the-perfect/02-Chapter-Christocentrism.txt
+- /llms/full/what-is-the-perfect/03-Chapter-Antiquity.txt
+- /llms/full/what-is-the-perfect/04-Chapter-Reality.txt
+- /llms/full/what-is-the-perfect/05-Chapter-Synthesis.txt
+- /llms/full/what-is-the-perfect/Appendix-A-Word-Study.txt
+- /llms/full/what-is-the-perfect/Appendix-B-Patristic-Sources.txt

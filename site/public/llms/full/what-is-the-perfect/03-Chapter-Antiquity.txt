@@ -1,0 +1,294 @@
+# study: what-is-the-perfect
+# version: v5.4
+# chapter: 03-Chapter-Antiquity.md
+# canonical: https://lemma-content.pages.dev/what-is-the-perfect/03-chapter-antiquity/
+# license: CC BY 4.0 (see https://creativecommons.org/licenses/by/4.0/)
+# source: /studies/what-is-the-perfect/03-Chapter-Antiquity.md  (canonical chapter file — chunks regenerate per compile)
+
+# Chapter 3: Antiquity --- How Did the Earliest Christians Understand This?
+
+## Why the Early Church Matters
+
+The Christians of the first three centuries read Paul's letters as living correspondence, not as ancient documents. The Corinthian correspondence was already being cited within a generation of its composition. These earliest interpreters were not better exegetes than we are, and they were not infallible --- but they were closer. They knew the apostolic voice directly or through teachers who did. They practiced their faith without the protection of state power and often under its threat. Their testimony carries weight not because they are authorities equal to Scripture, but because of their proximity to the source.
+
+**The pre-Nicene cutoff (325 AD)** marks the Council of Nicaea and the beginning of the church-state alliance under Constantine. Before that date, Christian theology was being worked out under pressure, not under patronage. This matters for our question.
+
+**A critical observation before we begin:** The New Testament canon was still being discussed and debated throughout the period covered by this chapter. Athanasius's Festal Letter 39 (367 AD) is the first document to list exactly the twenty-seven books of our current New Testament. The Council of Hippo (393 AD) and Carthage (397 AD) gave conciliar affirmation to that list. This means that when Irenaeus, Origen, Tertullian, and Chrysostom were reading and interpreting 1 Corinthians 13, the "completed canon of Scripture" did not yet exist as a defined entity. Any interpretation that identifies "the perfect" with the completed canon must reckon with the fact that the very fathers who were interpreting the passage lived before that canon was formally closed --- and none of them made this connection.
+
+**Caution on arguments from silence:** The early fathers often do not address a passage explicitly. When they do not comment on 1 Corinthians 13:10, that silence tells us nothing certain --- it may mean the question was not urgent, not that they would have agreed with any particular interpretation. We note silences honestly but do not build cases on them.
+
+**The fathers are witnesses, not authorities.** When they agree, their agreement is significant. When they conflict with Scripture clearly understood, Scripture takes priority. This chapter presents their testimony; the reader weighs it.
+
+---
+
+## Part One: The Apostolic Fathers (c. 70---150 AD)
+
+### The Didache (c. 70---100 AD)
+
+**Context:** The *Didache* ("Teaching of the Twelve Apostles") is one of the earliest surviving Christian documents outside the New Testament, probably originating in Syria. It functions as a church manual covering baptism, fasting, prayer, the Eucharist, and eschatological watchfulness. It does not interpret 1 Corinthians 13:10 explicitly. Its significance here is the picture it gives of early Christian eschatological orientation.
+
+Didache 16:1-2 reads:
+
+> "Watch for your life's sake. Let not your lamps be quenched, nor your loins unloosed; but be ready, for you know not the hour in which our Lord comes. But often shall you come together, seeking the things which are befitting to your souls: for the whole time of your faith will not profit you, if you be not made perfect in the last time."
+> --- Didache 16:1-2 (M. B. Riddle translation, ANF Vol. 7)
+
+**Significance:** The Didache closes with an urgent eschatological appeal. The phrase "made perfect in the last time" (*teleiōthēte en tō eschatō kairō*) is noteworthy: it uses *teleioō* (the verbal cognate of *teleios*) and connects completion or perfection explicitly with the end time, not with any present achievement. This is not an interpretation of 1 Corinthians 13:10, but it reflects the same semantic world: completeness belongs to the eschatological horizon.
+
+---
+
+### Clement of Rome (c. 96 AD), 1 Clement
+
+**Context:** Clement of Rome wrote to the fractious Corinthian church --- the same community Paul addressed --- around 96 AD, a generation after Paul's letters. His letter is the earliest post-apostolic Christian document we possess outside the Didache. Chapters 49---50 contain a remarkable extended meditation on love that directly echoes 1 Corinthians 13.
+
+1 Clement 49:1---5 reads:
+
+> "Let him who has love in Christ keep the commandments of Christ. Who can describe the [blessed] bond of the love of God? What man is able to tell the excellence of its beauty, as it ought to be told? The height to which love exalts is unspeakable. Love unites us to God. Love covers a multitude of sins. Love bears all things, is long-suffering in all things. There is nothing base, nothing arrogant in love. Love admits of no schisms: love gives rise to no seditions: love does all things in harmony. By love have all the elect of God been made perfect; without love nothing is well-pleasing to God."
+> --- 1 Clement 49:1-5 (Roberts-Donaldson translation, ANF Vol. 1)
+
+And later in chapter 50:
+
+> "Blessed are we, beloved, if we keep the commandments of God in the harmony of love; that so through love our sins may be forgiven us."
+> --- 1 Clement 50 (Roberts-Donaldson translation, ANF Vol. 1)
+
+**Significance:** Clement does not quote 1 Corinthians 13 explicitly, but he is saturated in its vocabulary. Clement's "love bears all things, is long-suffering in all things" (ἀγάπη πάντα ἀνέχεται, πάντα μακροθυμεῖ) echoes the substance of 1 Corinthians 13:4 and 13:7, though with different verbs than Paul's --- the ANF's English "bears all things" happens to coincide with the KJV of 13:7 (πάντα στέγει), but the Greek wording is Clement's own. More importantly, Clement writes that "by love have all the elect of God been made perfect (*eteleiōthēsan*)." For Clement, love is the instrument of final perfection --- a connection that aligns with Paul's own argument that love outlasts the partial gifts. Clement offers no interpretation of "the perfect" in verse 10, but his love-theology is grounded in 1 Corinthians 13, and he does not constrain perfection to the present age.
+
+---
+
+### Ignatius of Antioch (c. 107 AD)
+
+**Context:** Ignatius, bishop of Antioch, wrote seven letters while being transported to Rome under military guard for execution, probably during the reign of Trajan (98---117 AD). His letters are invaluable: they are occasional, urgent, and written by someone within living memory of the apostles. He is the first writer outside the New Testament to quote from Paul's letters with some regularity.
+
+To the Ephesians 14:1 reads:
+
+> "None of these things is hid from you, if you perfectly possess that faith and love towards Christ Jesus which are the beginning and the end of life. For the beginning is faith, and the end is love."
+> --- Ignatius, To the Ephesians 14:1 (Roberts-Donaldson translation, ANF Vol. 1)
+
+The Greek of the key phrase runs: *ἀρχὴ μὲν πίστις, τέλος δὲ ἀγάπη* ("beginning is faith, end/completion is love"). Ignatius uses *telos* here in its fullest sense --- love is not merely a conclusion but the *completion* toward which faith aims.
+
+**Significance:** Ignatius draws a direct line from faith (present, partial) to love (the *telos*, the completion). Whether he is consciously echoing 1 Corinthians 13 or simply breathing the same apostolic air, his conceptual framework is identical: the present state (faith) is partial and forward-pointing; love is the completion. This does not resolve what Paul means by "the perfect," but it shows how naturally the apostolic tradition connected *telos*-language with love as the eschatological goal.
+
+---
+
+## Part Two: The Ante-Nicene Fathers (c. 150---325 AD)
+
+### Irenaeus of Lyon (c. 130---202 AD), Against Heresies
+
+**Context:** Irenaeus was bishop of Lyon (in modern France) and is our most important second-century theological witness. A disciple of Polycarp, who was himself a disciple of John, Irenaeus preserves a strand of theology with genuine apostolic genealogy. His major work, *Against Heresies* (*Adversus Haereses*, written c. 180 AD), is a sustained refutation of Gnostic systems that claimed superior, hidden knowledge. In this context, 1 Corinthians 13:9-12 becomes a key text: the Gnostics claimed to possess *complete* knowledge now; Paul, Irenaeus argues, teaches that complete knowledge is not yet available.
+
+**From AH 2.28.3** (ANF Vol. 1, p. 401). The larger argument of Book 2, chapter 28, is that human beings cannot comprehend God's full purposes, and that intellectual humility is the proper Christian posture. Irenaeus summarizes the Pauline basis for this humility as follows:
+
+> "If, therefore, even with respect to creation, there are some things [the knowledge of] which belongs only to God, and others which come within the range of our own knowledge, what ground is there for complaint, if, in regard to those things which we investigate in the Scriptures (which are throughout spiritual), we are able by the grace of God to explain some of them, while we must leave others in the hands of God, and that not only in the present world, but also in that which is to come, so that God should for ever teach, and man should for ever learn the things taught him by God? As the apostle has said on this point, that, when other things have been done away, then these three, faith, hope, and charity, shall endure."
+> --- Irenaeus, *Against Heresies* 2.28.3 (Roberts-Rambaut translation, ANF Vol. 1)
+
+Irenaeus then explicitly draws on the "in part / when that which is perfect is come" language to argue that the full knowledge the Gnostics claim is not available in this age. The "perfect" --- the complete, comprehensive knowledge --- belongs to the age to come.
+
+**From AH 5.6.1** (ANF Vol. 1, p. 531). Here Irenaeus addresses the resurrection body and what a "complete" human being looks like:
+
+> "Now the soul and the spirit are certainly a part of the man, but certainly not the man; for the perfect man consists in the commingling and the union of the soul receiving the spirit of the Father, and the admixture of that fleshly nature which was moulded after the image of God."
+> --- Irenaeus, *Against Heresies* 5.6.1 (Roberts-Rambaut translation, ANF Vol. 1)
+
+**Significance:** In AH 2.28.3, Irenaeus interprets the present age as a time of partial knowledge and looks to the future age for its completion. His argument against Gnostic claims of complete present knowledge is precisely that Paul denies it: we know "in part" now; the complete (*to teleion*) is ahead. In AH 5.6.1, *teleios* denotes the complete, resurrected human being. Both usages point forward, not to a present achievement or a completed document. **It should be noted:** Irenaeus lived during a period when the New Testament canon was still being assembled. He is the first writer to speak of four Gospels as a unit, but the broader canon had not yet been defined. He does not connect "the perfect" with the completion of Scripture --- the very category did not exist in his time.
+
+---
+
+### The Anonymous Anti-Montanist (c. 192/193 AD), quoted by Eusebius
+
+**Context:** The earliest datable interpretation of 1 Corinthians 13:8-12 anywhere in Christian literature comes from the Montanist crisis. The "New Prophecy" of Montanus claimed that the Paraclete was delivering fuller, final revelation through its prophets --- the nearest ancient analog to any reading that locates a completion of revelation after Paul. An anonymous churchman, writing about the fourteenth year after the death of the prophetess Maximilla (which places him in the early 190s), answered the movement from this very passage; Eusebius preserves his words:
+
+> "For the apostle thought it necessary that the prophetic gift should continue in all the Church until the final coming."
+> --- Anonymous anti-Montanist, in Eusebius, *Church History* 5.17.4 (McGiffert translation, NPNF Series 2, Vol. 1)
+
+**Significance:** Two things follow. First, the earliest recorded exegesis of the passage reads it as teaching that the prophetic gift continues "until the final coming" --- the eschatological reading, present at the very fountainhead of the interpretive tradition. Second, the first recorded *appropriation* of the passage in the completed-revelation direction was the Montanists' own claim (Augustine and Theodoret later report their reading that Paul's "partial" anticipated the Paraclete's fuller revelation) --- and the church answered it with this text, not from it. This is a historical observation, not a polemical equation: the canon view is not Montanism, and its advocates ground themselves in Scripture's sufficiency, not new prophecy. But the shape of the second-century exchange shows that when ancient Christians first confronted a claim that revelation's completion had superseded the partial, they read 1 Corinthians 13 *against* the claim (Shogren, "How Did They Suppose 'the Perfect' Would Come?", *JPT* 15 [1999]: 99-121, which surveys the whole exchange).
+
+---
+
+### Clement of Alexandria (c. 150---215 AD), Stromata and Paedagogus
+
+**Context:** Titus Flavius Clemens (not Clement of Rome) was the head of the Catechetical School of Alexandria, the most intellectually sophisticated center of early Christian learning. His major work, the *Stromata* ("Miscellanies," c. 195---215 AD), is a sprawling, deliberately unsystematic collection of theological reflections. Clement operated at the intersection of Christian faith and Greek philosophy. He developed the concept of the "true Gnostic" --- the mature Christian believer who has progressed from simple faith to deeper knowledge through virtue and contemplation.
+
+In *Stromata* 7.10.57 (PG 9, col. 473), Clement argues that faith is the beginning and knowledge (*gnosis*) is the completion --- *faith as the foundation, knowledge built upon it* (this study's summary of Clement's argument --- not a quotation; the ANF Vol. 2 Wilson translation renders the concept but the phrasing varies).
+
+More directly relevant is Clement's distinction between the *ek merous* (partial) believer and the mature believer. Across *Stromata* 7 --- notably 7.10, "Steps to Perfection" --- Clement develops the idea that partial apprehension belongs to an earlier stage of Christian growth, while mature knowledge (*gnosis*) belongs to the advanced believer: the "in part" describes the beginning stage; "the perfect" the mature believer's fuller apprehension of divine truth. His direct handling of vv. 11-12, however, is in *Paedagogus* 1.6, and it complicates his classification in a direction that matters. There Clement reads "when I was a child" as Paul's life under the law ("when I was a Jew... I thought as a child, when I followed the law; but after becoming a man, I no longer entertain the sentiments of a child") --- a salvation-historical, not developmental, reading of verse 11. And on verse 12 Clement himself writes that the "meat" the Corinthians could not yet bear "may indicate the clear revelation in the future world, like food, face to face. For now we see as through a glass, the same apostle says, but then face to face" (*Paedagogus* 1.6, ANF Vol. 2). So even the tradition's one maturity-reader, when he handles verse 12 directly, places the face-to-face in the future world. Clement's maturity reading concerns the believer's present growth; his verse 12 remains eschatological.
+
+**A critical note on Clement's quotations:** The Clement sections of the ANF translation (Vol. 2, William Wilson translation) are often paraphrase and condensation rather than strict translation of the Greek. The PG edition (*Patrologia Graeca*, Vols. 8 and 9) preserves the Greek text. Readers wanting to verify Clement's exact wording should consult PG 8 (*Paedagogus*) and PG 9 (*Stromata*) directly. The argument summarized above is Clement's, faithfully represented, but readers should not treat the paraphrase as a direct quotation.
+
+**Significance:** Clement is the earliest advocate for what we might call the "maturity" interpretation of "the perfect." For him, *to teleion* is not primarily an eschatological event but a present spiritual trajectory --- the progression from immature faith to mature knowledge, available in principle to any dedicated believer in this life. This is a genuine outlier in the early tradition: Clement's Platonic and Stoic philosophical influences shape his reading in a direction that differs from the more consistently eschatological readings of Irenaeus, Tertullian, and Origen. It is worth noting that Clement's "gnosis" is emphatically not heretical Gnosticism; he uses the term to describe orthodox Christian maturity. But his interpretation does plant a seed that would later grow into various forms of the "spiritual completeness" reading.
+
+---
+
+### Tertullian (c. 155---240 AD)
+
+**Context:** Quintus Septimius Florens Tertullianus was a North African apologist writing from Carthage. He is the first major Latin theological writer, and his work spans apology, polemic, and what we would now call dogmatic theology. Tertullian is notable for his Montanist sympathies in his later career (Montanism was a charismatic renewal movement that claimed ongoing prophetic gifts). This background makes his testimony particularly interesting: a man who believed in the continuation of spiritual gifts interpreted "the perfect" as the resurrection, not as the completion of any present-age phenomenon.
+
+**From Adversus Praxean (Against Praxeas), chapter 14** (ANF Vol. 3, Holmes translation). Arguing about the visibility of God, Tertullian sets Numbers 12:6-8 --- God's "mouth to mouth" speech with Moses, "not enigmatically" --- directly beside 1 Corinthians 13:12:
+
+> "...not as with Moses, with whom I shall speak mouth to mouth, even apparently, that is to say, in truth, and not enigmatically, that is to say, in image; as the apostle also expresses it, 'Now we see through a glass, darkly (or enigmatically), but then face to face.' Since, therefore, He reserves to some future time His presence and speech face to face with Moses --- a promise which was afterwards fulfilled in the retirement of the mount (of transfiguration), when as we read in the Gospel, Moses appeared talking with Jesus --- it is evident that in early times it was always in a glass, (as it were,) and an enigma, in vision and dream, that God, I mean the Son of God, appeared --- to the prophets and the patriarchs, as also to Moses indeed himself."
+> --- Tertullian, *Against Praxeas* 14 (Holmes translation, ANF Vol. 3)
+
+**Significance:** Two things stand out. First, Tertullian explicitly connects Numbers 12:6-8 with 1 Corinthians 13:12 --- the same Moses-and-enigma typology this study's Chapter 1 develops. The connection is not a modern construction; the first major Latin theologian read the two texts together. Second, Tertullian "reserves to some future time" the face-to-face encounter --- for Moses, fulfilled at the Transfiguration in seeing Christ visibly; for believers, still ahead. He does not comment on verse 10 directly, so his exact understanding of "the perfect" cannot be pinned (Decker's survey draws the same conclusion); but his instinct for the passage runs future-ward, toward the visible presence of Christ --- never toward a completed text. Writing as a man who believed the gifts continued in his own day, he had every occasion to notice a canon-completion reading if one had existed. He gives no hint of one.
+
+---
+
+### Origen of Alexandria (c. 185---254 AD)
+
+**Context:** Origen is the most prolific and most philosophically sophisticated of the Ante-Nicene fathers. Born in Alexandria and later based in Caesarea, he produced the first systematic Christian theology (*De Principiis* / *Peri Archon*), the massive *Hexapla* (a six-column Old Testament comparison), and extensive biblical commentaries. His commentary on 1 Corinthians survives only in fragments, preserved in later catena (chain commentary) manuscripts. His systematic work, however, addresses the themes of 1 Corinthians 13 at several points.
+
+**From De Principiis (On First Principles) 2.11.3-4** (ANF Vol. 4, pp. 297---298, Crombie translation; Greek fragments in PG 11, cols. 237---240). In his discussion of the afterlife and the progressive education of souls, Origen argues that what we understand now "in part" (*ek merous*) will be replaced by comprehensive understanding when we enter the presence of God directly. He envisions this as a multi-stage process: even in the age to come, souls continue to grow in knowledge of God, but "the perfect" represents the state when the partial is finally and entirely superseded. Origen reads 1 Corinthians 13:9-12 as describing an eschatological transition, not a present-age achievement. (Note: the original Greek of *De Principiis* is largely lost; we depend primarily on Rufinus's Latin translation, which is at times an adaptation rather than a strict rendering. The argument summarized here is Origen's own, faithfully represented.)
+
+**From the Commentary on 1 Corinthians (fragments in catenae):** Fragments attributed to Origen on 1 Corinthians 13 indicate that he understood the "in part" as the condition of every believer in this age --- knowledge mediated through Scripture, through the Spirit's teaching, through analogy and type --- and "the perfect" as the direct, unmediated knowledge of God available in the age to come. The Greek distinction that mattered to him was between *gnōsis ek merous* (partial knowledge) and *epignōsis* (complete, face-to-face recognition), the very distinction Paul draws in verse 12: *tote de epignōsomai kathōs kai epegnōsthēn* ("then I shall know fully, even as I have been fully known").
+
+**Significance:** Origen holds what might be called a "progressive eschatology" position: knowledge grows both now (through the Spirit and Scripture) and in the age to come (through direct divine presence), but the decisive transition --- when the partial is finally "done away" --- is the eschatological moment of entering God's direct presence. He bridges the "maturity" and "eschatological" readings, but the decisive transition is future, not present.
+
+---
+
+### Methodius of Olympus (c. 260---311 AD), Banquet of the Ten Virgins
+
+**Context:** Methodius, bishop and martyr (d. c. 311), wrote the *Banquet of the Ten Virgins* (*Symposium*) as a Christian counterpart to Plato's dialogue --- ten virgins discoursing on chastity and the resurrection hope. In Discourse 9 he sets the law, the church, and the coming kingdom in a shadow-image-reality sequence and reaches directly for 1 Corinthians 13:
+
+> "For now we know in part, and as it were through a glass, since that which is perfect has not yet come to us; namely, the kingdom of heaven and the resurrection, when that which is in part shall be done away."
+> --- Methodius, *Banquet of the Ten Virgins* 9.2 (William R. Clark translation, ANF Vol. 6)
+
+**Significance:** This is among the most explicit pre-Nicene identifications of "the perfect" anywhere in the tradition: Methodius supplies the referent himself --- "namely, the kingdom of heaven and the resurrection" --- and continues, "For then will all our tabernacles be firmly set up, when again the body shall rise." Writing within two decades of Nicaea, a bishop of the persecuted church glosses *to teleion* eschatologically as a matter of course, with no alternative in view.
+
+---
+
+## Part Three: The Post-Nicene Witness (for context, noting the pre-325 boundary)
+
+The SCAR framework places primary weight on pre-Nicene evidence. The following post-Nicene fathers (Ambrosiaster, Chrysostom, and Augustine) are included because they represent the most detailed and influential patristic interpretations of this specific passage, and their readings illuminate the trajectory of the tradition.
+
+---
+
+### Ambrosiaster (c. 366---384 AD), Commentary on 1 Corinthians
+
+**Context:** "Ambrosiaster" is the modern name for the anonymous author of the earliest complete Latin commentary on Paul's epistles, written at Rome in the later fourth century and long transmitted under Ambrose's name (Latin text in PL 17; critical edition CSEL 81). His comment on 1 Corinthians 13 is the earliest surviving verse-by-verse Latin treatment of the passage.
+
+On verse 12 (translation of the PL 17 text by Charles A. Sullivan):
+
+> "It has now been revealed to see the images by faith, then the events themselves. ... That is, I will see what has been promised even as I am being seen. This is to be present near the Lord where Christ is."
+> --- Ambrosiaster, *Commentary on 1 Corinthians* 13:12 (Sullivan translation of the PL 17 text)
+
+**Significance:** The earliest Latin commentator refers the "then" of verse 12 to being "present near the Lord where Christ is" --- and in the adjacent comment he reaches for 1 John 3:2 ("at that time we will see that one, even as He is"), the same cross-reference this study's Chapter 2 develops. No connection to a completed canon appears anywhere in his treatment; the gifts are "purged" when imperfection "is completed into truth."
+
+---
+
+### John Chrysostom (c. 347---407 AD), Homilies on 1 Corinthians, Homily 34
+
+**Context:** John "Chrysostom" (the "golden-mouthed") was bishop of Constantinople and the greatest preacher of antiquity. His *Homilies on 1 Corinthians* (NPNF Series 1, Vol. 12, pp. 196---205) provide the most sustained patristic exegesis of 1 Corinthians 13. Homily 34 covers 1 Corinthians 13:8-13 in detail. The Greek text is preserved in PG 61, cols. 285---294.
+
+On the meaning of "the perfect" (1 Cor 13:10), Chrysostom writes:
+
+> "It is not therefore knowledge that is done away, but the circumstance that our knowledge is in part. For we shall not only know as much, but even a great deal more. ... But then shall we know somewhat more and clearer concerning these things."
+> --- Chrysostom, *Homilies on 1 Corinthians* 34.2 (Chambers translation, NPNF 1.12, p. 202)
+
+On the mirror analogy (1 Cor 13:12):
+
+> "For now we see in a mirror. Further, because the glass sets before us the thing seen indefinitely, he added, darkly, to show very strongly that the present knowledge is most partial. But then face to face. Not as though God has a face, but to express the notion of greater clearness and perspicuity."
+> --- Chrysostom, *Homilies on 1 Corinthians* 34 (Chambers translation, NPNF 1.12)
+
+Chrysostom identifies "the perfect" with the complete knowledge of the age to come --- when the partial mode of knowing gives way and we know "somewhat more and clearer," no longer "in a mirror... darkly" but "face to face." Decker's survey characterizes his position the same way: complete knowledge, "which from the context of his remarks, will be when we see God." Chrysostom does not connect the cessation of the partial gifts to a completed canon; for him the partial gives way when the complete arrives.
+
+On the question of when gifts cease, Chrysostom's exegetical argument is that gifts belong to the present age and will not be needed when believers see God directly. But as a matter of observed fact, Chrysostom believed the miraculous gifts had already ceased in his own day. Opening his exposition of the gifts material, he says of the whole subject:
+
+> "This whole place is very obscure: but the obscurity is produced by our ignorance of the facts referred to, and by their cessation, being such as then used to occur but now no longer take place."
+> --- Chrysostom, *Homilies on 1 Corinthians* 29.1 (Chambers translation, NPNF 1.12)
+
+This makes Chrysostom antiquity's clearest witness that the eschatological reading of verse 10 and a functional cessationism can cohabit: he held both. He read "the perfect" as the resurrection *and* observed that the gifts of the apostolic age no longer occurred around him --- without ever connecting their cessation to the completion of a canon. He is, in effect, a fourth-century anticipation of the modern cessationists who accept the eschatological reading of this verse while grounding cessation elsewhere.
+
+**Significance:** Chrysostom reads "the perfect" as the complete, direct knowledge of God belonging to the age to come. This eschatological direction is the dominant reading in the Greek-speaking church. Shogren's survey states the two-sidedness precisely: Chrysostom "insisted that his exegesis moved within the orbit of catholic eschatology," yet "diverged from tradition because of his belief that tongues and prophecy had ceased in the interim. Thus, a historical datum affected his exegesis, and he separated the fulfillment of 13.8 from the completion of 13.9-12."
+
+---
+
+### Augustine of Hippo (c. 354---430 AD), De Trinitate Book 15
+
+**Context:** Augustine's *De Trinitate* (written c. 399---419 AD) is one of the most ambitious works in the history of Christian thought --- a sustained investigation of the Trinity through the analogy of the human mind. Book 15 brings the entire project to a conclusion by turning to 1 Corinthians 13:12, which Augustine treats as the key text for understanding the limits of present knowledge of God. The Latin text is in PL 42, cols. 1057---1098; the NPNF translation is Series 1, Vol. 3, pp. 200---228.
+
+On "through a glass" and "in an enigma" (1 Cor 13:12):
+
+> "...and yet a man so great and so spiritual [as Paul] says, 'We see now through a glass, in an enigma, but then face to face.' If we ask what and of what sort is this glass, this assuredly occurs to our minds, that in a glass nothing is discerned but an image."
+> --- Augustine, *De Trinitate* 15.8.14 (Haddan translation, NPNF 1.3)
+
+And on the promised "face to face" sight:
+
+> "But when the sight shall have come which is promised anew to us face to face, we shall see this not only incorporeal but also absolutely indivisible and truly unchangeable Trinity far more clearly and certainly than we now see its image which we ourselves are."
+> --- Augustine, *De Trinitate* 15.23.44 (Haddan translation, NPNF 1.3)
+
+Augustine's argument in Book 15 is meticulous. He explores every analogy by which finite minds might contemplate an infinite God, and his conclusion is that even the best analogy --- seeing God's image in the structure of the human mind --- falls short. The "mirror" and "enigma" of 1 Corinthians 13:12 describe the condition of all present knowledge of God, however advanced. The "face to face" vision is categorically different: it is the beatific vision, the direct sight of God promised in the life to come.
+
+**Significance:** Augustine places "the perfect" in the eschatological future --- the beatific vision of God in eternity. He is also notable for his careful parsing of "in an enigma" (*in aenigmate*): seeing truth through figures, types, analogies, and partial revelations is the mode of all present knowledge, including knowledge received through Scripture. Scripture itself is part of the "mirror" --- it mediates the divine but is not the direct vision. This directly undermines any reading that would identify "the completion of Scripture" with "the perfect," since for Augustine Scripture belongs to the present age of mediated knowledge, not to the "face to face" age.
+
+---
+
+## Part Four: Patterns and Observations
+
+Having surveyed the evidence from c. 70 AD to c. 430 AD, several clear patterns emerge.
+
+**1. The dominant early reading is eschatological.**
+
+From the Didache's call to "be made perfect in the last time," through Irenaeus's argument that complete knowledge belongs to the age to come, through Tertullian's reserving of the face-to-face encounter "to some future time," through Origen's multi-stage eschatology, to Chrysostom's complete knowledge of the age to come and Augustine's beatific vision --- the overwhelming weight of the ancient tradition reads *to teleion* as the future state that accompanies Christ's return, the resurrection of the dead, or the eternal presence of God.
+
+**2. Clement of Alexandria is the significant early exception.**
+
+Clement interprets "the perfect" as mature spiritual knowledge, available in principle to the dedicated believer in this life through the progression from faith to gnosis. This is the earliest witness to the "maturity" interpretation. Clement's reading is shaped by his Platonic philosophical inheritance and his apologetic project of showing Christianity's intellectual respectability. It is a genuine interpretation, not a misreading --- but it stands largely alone in the early period.
+
+**3. No ancient interpreter connects "the perfect" with the completion of the biblical canon.**
+
+This is perhaps the most significant observation of this chapter. Not one pre-Nicene father, not one post-Nicene father before the modern period, identifies *to teleion* with the closing of the scriptural canon. The fathers who lived during the period when the canon was being defined --- Irenaeus, Origen, Tertullian --- were themselves part of that process, and none of them made the connection. Chrysostom and Augustine wrote after the 27-book canon had been defined by Athanasius (367 AD) and confirmed by Hippo (393 AD) and Carthage (397 AD), and they still do not make the connection. This is a sustained and consistent silence across the roughly three and a half centuries of surviving comment, from the Didache to Augustine, and across every major region of early Christianity. Nor does the silence end with antiquity. The medieval tradition continued the ancient direction: Aquinas glosses verse 10's *quod perfectum est* as *perfectio gloriae* --- "the perfection of glory" --- and locates the face-to-face vision *in patria*, "in the fatherland" (*Super I Epistolam ad Corinthios*, cap. 13), citing Numbers 12:6 in the same exposition, the same Moses-and-enigma linkage Tertullian had drawn a millennium earlier. And the fullest history of interpretation of this verse finds no writer even mentioning the canon identification before the nineteenth century --- the earliest who does, Robert Govett (1813-1901), reports the view only to argue against it (Decker).
+
+The pattern holds across every later father Decker's survey reaches. Cyprian cites the glass of verse 12 as still valid in his own day --- "which would imply," Decker notes, "that he views the glass analogy to be still valid even after the completion of the canon." Basil relates *to teleion* to the complete knowledge of the truth in the life to come; Athanasius, Gregory Nazianzen, Gregory of Nyssa, Jerome, Theodoret, and Leo the Great handle the passage's partial-knowledge language as the condition of the present age over against the fuller knowledge ahead. The survey's last father, John of Damascus, reads "the perfect" as the law of Christ over against the law of Moses --- a third interpretive direction. Precision matters here: his referent is a body of revelation within history, which shows that a revelational-corpus referent was ancient-*thinkable* --- but it is the law of Christ as covenant reality, not a book-collection whose completion ends the gifts, and the silence on the canon identification itself remains total. Across these further witnesses and centuries, the canon identification never appears. Independent confirmation comes from Gary Shogren's study of the patristic exegesis of this very passage --- a survey built on "45 comments from the ante-Nicene fathers, and 149 from the Nicene and post-Nicene fathers," gathered with the Thesaurus Linguae Graecae. His conclusion: "The evidence demands the conclusion that almost every church father understood the whole text of 1 Cor. 13.8-12 to be a prediction of the return of Christ." And he sharpens the silence into something stronger than silence: the catholic church "believed that despite their possession of the Holy Spirit and the full canon (reference to the canon being implicit throughout the fathers, but explicit in Didymus Caecus, Ambrose, Gregory of Nyssa), the church would have to wait for the resurrection to see God's truth perfectly." Three fathers, that is, mention the completed canon in connection with this passage --- and still refer perfection to the resurrection. Awareness plus non-identification is a harder fact than silence ("How Did They Suppose 'the Perfect' Would Come? 1 Corinthians 13.8-12 in Patristic Exegesis," *Journal of Pentecostal Theology* 15 [1999]: 99-121; full text in Primary-Sources). Shogren also counts the extant ancient commentaries on the passage: five --- Origen, Chrysostom, Theodoret, Ambrosiaster, and the sixth-century Pseudo-Primasius. This study engages the four that fall within or adjacent to its window.
+
+The "completed canon" interpretation is a modern reading: its earliest known appearance in the history of interpretation is the nineteenth century, and there in a writer reporting the view in order to refute it (Decker). This does not make it wrong --- later insights can be valid insights --- but it means it carries no ancient attestation and must stand on exegetical grounds alone.
+
+**4. The "knowledge" theme runs through all ancient interpretations.**
+
+Whether eschatological (Irenaeus, Tertullian, Origen, Chrysostom, Augustine) or developmental (Clement), the ancient interpreters all anchor their reading in the *knowledge* dimension of Paul's argument: knowing "in part" now, knowing "fully" then. The gifts --- prophecy, tongues, knowledge --- are partial precisely because our knowledge of God is partial. The completion of those gifts awaits the completion of our knowledge, which awaits either the maturity process (Clement) or the direct divine presence (everyone else).
+
+**5. The pre-Nicene fathers assumed spiritual gifts continued in their time.**
+
+This is worth stating carefully. The Ante-Nicene fathers do not treat 1 Corinthians 13 as a text about when the gifts would cease. They read it as a text about the relationship between the present age and the age to come. Tertullian, who was a Montanist and deeply committed to the continuation of prophecy and spiritual gifts, reads the passage as eschatological --- the gifts give way to "the perfect" at the resurrection, not before. Irenaeus, writing against Gnostics who claimed complete present knowledge, does not suggest that the gifts had already ceased; he argues that *no one* in this age has complete knowledge. The question of when exactly the gifts would cease was not, for the ancient church, the question that 1 Corinthians 13:10 was answering.
+
+**6. The "face to face" language is consistently future and personal.**
+
+No surviving ancient gloss of "face to face" (*prosōpon pros prosōpon*) in verse 12 reads it as a metaphor for comprehensive textual access or as the Spirit's illumination in the present age; those who comment on the clause read it as a future, personal encounter with God or Christ. The phrase carries in their reading the same weight it carries in the Old Testament (where it describes theophanic encounters: Gen 32:30, Exod 33:11, Deut 34:10) --- direct, unmediated presence.
+
+**7. There is more interest in the hope of divine vision than in the cessation of gifts.**
+
+Reading through the ancient interpreters, one is struck by where their interest lies. They are not primarily interested in which gifts will cease and when. They are drawn to the promise: that believers will one day see God directly, know as they are known, be complete as they are presently incomplete. The "doing away" of the partial is interesting to them chiefly as evidence of what the perfect must be like. The ancient church's primary orientation toward 1 Corinthians 13:8-13 was hopeful and eschatological, not cessationist or polemical.
+
+---
+
+## Summary
+
+The early church's reading of 1 Corinthians 13:10 tilts strongly and consistently toward the eschatological: "the perfect" is the future state in which believers see God face to face at Christ's return, in the resurrection, or in the eternal beatific vision. This reading spans the Apostolic Fathers, the major Ante-Nicene writers, and the great post-Nicene theologians of both East (Chrysostom) and West (Augustine).
+
+The one significant exception is Clement of Alexandria, who reads "the perfect" as the goal of present spiritual maturation --- knowledge that can grow toward completion in this life. His reading has been influential in mystical and contemplative traditions.
+
+No ancient interpreter reads "the perfect" as the completed biblical canon. Given that the canon was itself still being formed during the Ante-Nicene period, this silence is not surprising --- but it is significant. The "completed canon" interpretation has no ancient attestation and must make its case entirely on exegetical grounds.
+
+The historical weight of the ancient tradition falls on the side of the eschatological reading. This does not close the question --- later exegesis may illuminate what earlier readers missed, and the canon-completion reading might find support in the structure of Paul's argument that the ancient church did not develop. But any account of 1 Corinthians 13:10 that claims to represent ancient Christianity must acknowledge that it is representing a tradition that pointed --- with one exception, and that exception toward present maturity, never toward a text --- at Christ's return and the resurrection, not at any event in church history.
+
+**For the early church, "the perfect" was not something that had already come. It was the thing they were waiting for.**
+
+*(Chapter 4 examines the major interpretive views held by Christians today, presenting each at its strongest.)*
+
+---
+
+### Chronological Summary Table
+
+| Father | Date | Location | Primary Reading / Orientation (1 Cor 13:10-12) | Source |
+|----------|----------------|------------|----------------------------------|----------|
+| Didache | c. 70-100 | Syria | Eschatological completion (indirect) | ANF Vol. 7 |
+| Clement of Rome | c. 96 | Rome | Love as instrument of completion (no direct interp.) | ANF Vol. 1 |
+| Ignatius | c. 107 | Antioch | Love as *telos* of faith (no direct interp.) | ANF Vol. 1 |
+| Irenaeus | c. 180 | Lyon | Future age: complete knowledge vs. present partial | ANF Vol. 1 |
+| Anonymous anti-Montanist | c. 192/193 | Asia Minor | Prophetic gift continues "until the final coming" | Eusebius, HE 5.17.4; NPNF 2.1 |
+| Clement of Alexandria | c. 200 | Alexandria | Present maturity via gnosis (*Stromata*); refers v. 12 "face to face" to the future world (*Paedagogus* 1.6) | ANF Vol. 2 |
+| Tertullian | c. 208-213 | Carthage | Future encounter (on v. 12 "face to face"; v. 10 not directly glossed --- Praxeas 14) | ANF Vol. 3 |
+| Origen | c. 225 | Alexandria | Eschatological: direct divine presence in age to come | ANF Vol. 4 |
+| Methodius | c. 290-311 | Olympus | "The kingdom of heaven and the resurrection" (Banquet 9.2) | ANF Vol. 6 |
+| Ambrosiaster | c. 366-384 | Rome | Future life: "present near the Lord where Christ is" (on v. 12) | PL 17 |
+| Chrysostom | c. 390 | Antioch/Constantinople | Complete knowledge of the age to come: "a great deal more" (Hom. 34.2) | NPNF 1.12 |
+| Augustine | c. 415 | Hippo | Beatific vision: "the sight... which is promised anew to us face to face" | NPNF 1.3 |
+| Theodoret of Cyrrhus | c. 435-450 | Cyrrhus, Syria | Present partial knowledge vs. resurrection intimacy: glosses ἐπεγνώσθην with ᾠκειώθην, "made his own" (treated in Appendix B) | PG 82:336-337 |
+| Ps.-Oecumenius | 10th-11th c. | Byzantine (Chrysostom epitomator) | "Perfect --- that is, in the time to come"; "not as though God has a bodily face" (treated in Appendix B) | PG 118 |
+| Theophylact of Ohrid | c. 1078-1108 | Ohrid (Chrysostom epitomator) | The perfect knowledge "of the life to come"; at the consummation faith and hope cease, love remains (treated in Appendix B) | PG 124 |
+

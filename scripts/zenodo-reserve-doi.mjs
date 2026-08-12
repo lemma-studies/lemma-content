@@ -21,32 +21,21 @@
 //     If > 1 orphan exists → refuse (zenodo-draft-collision failure mode,
 //     autonomy: human-gate).
 //
-// base_url comes from data/phase-state.yaml.base_url — during Phases 2b-3
-// this is https://lemma-content.pages.dev; flips to https://lemma.gig8.com
-// at Phase 4 exit. Zenodo permits metadata updates post-publish (not file
-// content); scripts/phase4-exit.mjs walks published records at cutover.
-//
-// Per §21A contract:
-//   --study <slug>       required
-//   --version vN.N       required
-//   --check              validate credentials + inspect Zenodo state, no mutation
-//   --dry-run            print the payload that would be sent, no create
-//   --json               machine-readable (default when non-TTY)
-//   --verbose
-//
 // Env:
-//   ZENODO_ACCESS_TOKEN   PAT with deposition:write scope
+//   ZENODO_ACCESS_TOKEN   PAT with deposit:write + deposit:actions scopes
 //   ZENODO_HOST           default https://zenodo.org; override for sandbox
 //
 // Exit: 0 = reserved, 1 = fail, 2 = usage, 3 = human-gate (draft collision).
-//
-// PHASE 2b SCAFFOLD: implements arg parsing, phase-state read, base_url
-// resolution, credential env check. Live Zenodo API calls TODO for Task 3.5.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { load as yamlLoad, dump as yamlDump } from 'js-yaml';
 import { parseArgs, isJsonMode, REPO_ROOT, loadPhaseState } from './lemma-cli/_common.mjs';
+import {
+  createFreshConceptDraft, createNewVersionDraft, updateDepositionMetadata,
+  findLatestPublishedByConcept, findOrphanDraftsMatching, listMyDepositions,
+  getDeposition, ZenodoError,
+} from './lemma-cli/_zenodo.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const slug = args.values.get('study');
@@ -55,6 +44,19 @@ const jsonMode = isJsonMode(args);
 const verbose = args.flags.has('verbose');
 const check = args.flags.has('check');
 const dryRun = args.flags.has('dry-run');
+
+function report(obj, extra = {}) {
+  const full = { timestamp: new Date().toISOString(), slug, version, ...obj, ...extra };
+  if (jsonMode) console.log(JSON.stringify(full, null, 2));
+  else {
+    const summary = `zenodo-reserve-doi ${slug}/${version}: ${obj.status}`;
+    console.log(summary);
+    if (verbose) console.log(JSON.stringify(full, null, 2));
+    else if (obj.reason) console.log(`  ${obj.reason}`);
+    else if (obj.version_doi) console.log(`  version_doi=${obj.version_doi}  concept_doi=${obj.concept_doi ?? '(assigned at publish)'}`);
+  }
+  return full;
+}
 
 if (!slug || !version) {
   console.error('usage: zenodo-reserve-doi --study <slug> --version vN.N [--check|--dry-run] [--json] [--verbose]');
@@ -66,69 +68,169 @@ const baseUrl = phase.base_url;
 
 const studyYamlPath = path.join(REPO_ROOT, 'studies', slug, 'study.yaml');
 if (!fs.existsSync(studyYamlPath)) {
-  const msg = `study.yaml not found at ${studyYamlPath}`;
-  if (jsonMode) console.log(JSON.stringify({ status: 'fail', reason: msg }));
-  else console.error(msg);
+  report({ status: 'fail', reason: `study.yaml not found at ${studyYamlPath}` });
   process.exit(1);
 }
 const study = yamlLoad(fs.readFileSync(studyYamlPath, 'utf8'));
 
 const token = process.env.ZENODO_ACCESS_TOKEN;
 if (!token) {
-  const msg = 'ZENODO_ACCESS_TOKEN not set';
-  if (jsonMode) console.log(JSON.stringify({ status: 'skipped', reason: msg }));
-  else console.error(msg);
+  report({ status: 'skipped', reason: 'ZENODO_ACCESS_TOKEN not set' });
   process.exit(check ? 1 : 0);
 }
 
-const zenodoHost = process.env.ZENODO_HOST ?? 'https://zenodo.org';
+const pathTaken = study.concept_doi ? 'PATH-B-newversion' : 'PATH-A-fresh-concept';
 
-const path_ = study.concept_doi ? 'PATH-B-newversion' : 'PATH-A-fresh-concept';
-
-// Metadata that would be sent to Zenodo. Deriving here so --dry-run can
+// Metadata that would be sent to Zenodo. Built up-front so --dry-run can
 // print it without any network activity.
 const proposedMetadata = {
-  metadata: {
-    title: study.title,
-    creators: [{ name: study.author, orcid: study.orcid ?? undefined }],
-    description: `Concept DOI + version DOI reservation for ${slug} ${version}. Canonical URL: ${baseUrl}/${slug}/`,
-    version,
-    upload_type: 'publication',
-    publication_type: 'article',
-    license: 'cc-by-4.0',
-    publication_date: study.current_version_date ?? new Date().toISOString().slice(0, 10),
-    related_identifiers: [
-      { relation: 'isVersionOf', identifier: `${baseUrl}/${slug}/`, resource_type: 'publication-article' },
-      { relation: 'isDocumentedBy', identifier: `https://github.com/lemma-studies/lemma-content/tree/${slug}/${version}`, resource_type: 'software' },
-    ],
-  },
+  title: study.title,
+  creators: [{ name: formatCreatorName(study.author), orcid: study.orcid ?? undefined }],
+  description: buildDescription(study, slug, version, baseUrl),
+  version,
+  upload_type: 'publication',
+  publication_type: 'article',
+  license: 'cc-by-4.0',
+  publication_date: (study.versions?.find(v => v.version === version)?.date) ?? study.current_version_date ?? new Date().toISOString().slice(0, 10),
+  related_identifiers: [
+    { relation: 'isVersionOf', identifier: `${baseUrl}/${slug}/`, resource_type: 'publication-article' },
+    { relation: 'isDocumentedBy', identifier: `https://github.com/lemma-studies/lemma-content/tree/${slug}/${version}`, resource_type: 'software' },
+  ],
+  access_right: 'open',
 };
 
-// TODO(Task 3.5): implement PATH-A vs PATH-B against Zenodo REST + orphan-draft reuse.
-const report = {
-  timestamp: new Date().toISOString(),
-  slug, version,
-  path: path_,
-  phase: phase.current_phase,
-  base_url: baseUrl,
-  zenodo_host: zenodoHost,
-  proposed_metadata: proposedMetadata,
-  concept_doi: study.concept_doi,
-  status: 'scaffold',
-  dry_run: dryRun,
-  check_only: check,
-  next_step: 'implement PATH-A/B API calls + orphan-draft reuse in Task 3.5',
-};
-
-if (jsonMode) console.log(JSON.stringify(report, null, 2));
-else {
-  console.log(`zenodo-reserve-doi ${slug}/${version}: ${report.status} (${path_}) → base_url=${baseUrl}`);
-  if (verbose) console.log(JSON.stringify(proposedMetadata, null, 2));
+function formatCreatorName(displayName) {
+  // Zenodo prefers "Family, Given" for creator names. Convert "E. Timothy Uy" → "Uy, E. Timothy".
+  const parts = displayName.trim().split(/\s+/);
+  if (parts.length < 2) return displayName;
+  const family = parts.pop();
+  const given = parts.join(' ');
+  return `${family}, ${given}`;
 }
 
-// Explicitly do NOT write back to study.yaml in scaffold mode; real impl will
-// use yamlDump to update concept_doi + versions[].version_doi after successful
-// API call, single atomic write. (yamlDump imported to shake out the dep now.)
-void yamlDump;
+function buildDescription(study, slug, version, baseUrl) {
+  return `<p>Version ${version} of "${escapeHtml(study.title)}" — a lemma-studies exegetical work published under the Lemma Press imprint.</p>` +
+    `<p>Canonical URL: <a href="${baseUrl}/${slug}/">${baseUrl}/${slug}/</a></p>` +
+    `<p>This version: <a href="${baseUrl}/${slug}/versions/${version}/">${baseUrl}/${slug}/versions/${version}/</a></p>` +
+    `<p>Source repository: <a href="https://github.com/lemma-studies/lemma-content">github.com/lemma-studies/lemma-content</a> (tag <code>${slug}/${version}</code>)</p>`;
+}
 
-process.exit(0);
+function escapeHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+async function main() {
+  // --check: verify token + inspect state; no mutation.
+  if (check) {
+    try {
+      const mine = await listMyDepositions({ token, size: 1 });
+      const orphans = pathTaken === 'PATH-A-fresh-concept'
+        ? await findOrphanDraftsMatching({ token, title: study.title, knownVersionDois: (study.versions || []).map(v => v.version_doi) })
+        : [];
+      const latestPublished = pathTaken === 'PATH-B-newversion' && study.concept_doi
+        ? await findLatestPublishedByConcept({ token, conceptDoi: study.concept_doi })
+        : null;
+      return report({
+        status: 'ok',
+        path: pathTaken,
+        base_url: baseUrl,
+        token_valid: Array.isArray(mine),
+        orphans_matching_title: orphans.length,
+        latest_published_id: latestPublished?.id ?? null,
+        proposed_metadata: proposedMetadata,
+      });
+    } catch (e) {
+      return report({ status: 'fail', reason: e.message, path: pathTaken });
+    }
+  }
+
+  // --dry-run: print the payload, no mutation.
+  if (dryRun) {
+    return report({
+      status: 'dry-run',
+      path: pathTaken,
+      base_url: baseUrl,
+      proposed_metadata: proposedMetadata,
+    });
+  }
+
+  // Real mutation path.
+  try {
+    let created;
+    if (pathTaken === 'PATH-A-fresh-concept') {
+      const orphans = await findOrphanDraftsMatching({
+        token,
+        title: study.title,
+        knownVersionDois: (study.versions || []).map(v => v.version_doi),
+      });
+      if (orphans.length > 1) {
+        return report({ status: 'human-gate', reason: `${orphans.length} orphan drafts match title — refusing (zenodo-draft-collision)`, orphan_ids: orphans.map(o => o.id) })
+          && process.exit(3);
+      }
+      if (orphans.length === 1) {
+        created = orphans[0];
+        // Refresh metadata to be sure we have the latest published_date + description.
+        created = await updateDepositionMetadata({ token, id: created.id, metadata: proposedMetadata });
+      } else {
+        created = await createFreshConceptDraft({ token, metadata: proposedMetadata });
+      }
+    } else {
+      // PATH-B
+      const parent = await findLatestPublishedByConcept({ token, conceptDoi: study.concept_doi });
+      if (!parent) {
+        return report({ status: 'fail', reason: `concept_doi ${study.concept_doi} has no published records on Zenodo — orphan concept in study.yaml`, path: pathTaken });
+      }
+      created = await createNewVersionDraft({ token, parentId: parent.id });
+      // Update metadata for the new version.
+      created = await updateDepositionMetadata({ token, id: created.id, metadata: proposedMetadata });
+    }
+
+    const versionDoi = created?.metadata?.prereserve_doi?.doi ?? created?.metadata?.doi ?? null;
+    const conceptDoi = created?.conceptdoi ?? created?.metadata?.conceptdoi ?? null;
+    if (!versionDoi) {
+      return report({ status: 'fail', reason: 'no prereserve_doi on created draft', deposition_id: created?.id });
+    }
+
+    // Write back to study.yaml (idempotent — only sets fields that were null).
+    const changed = writeBackToStudyYaml({ studyYamlPath, version, versionDoi, conceptDoi });
+
+    return report({
+      status: 'reserved',
+      path: pathTaken,
+      deposition_id: created.id,
+      version_doi: versionDoi,
+      concept_doi: conceptDoi,
+      study_yaml_changed: changed,
+    });
+  } catch (e) {
+    return report({ status: 'fail', reason: e.message, path: pathTaken, error_body: e instanceof ZenodoError ? e.body : undefined });
+  }
+}
+
+function writeBackToStudyYaml({ studyYamlPath, version, versionDoi, conceptDoi }) {
+  const doc = yamlLoad(fs.readFileSync(studyYamlPath, 'utf8'));
+  let changed = false;
+  if (conceptDoi && !doc.concept_doi) {
+    doc.concept_doi = conceptDoi;
+    changed = true;
+  }
+  const versions = doc.versions || (doc.versions = []);
+  let entry = versions.find(v => v.version === version);
+  if (!entry) {
+    entry = { version, date: (doc.current_version_date ?? new Date().toISOString().slice(0, 10)) };
+    versions.push(entry);
+    changed = true;
+  }
+  if (!entry.version_doi) {
+    entry.version_doi = versionDoi;
+    changed = true;
+  }
+  if (!changed) return false;
+  // Atomic write.
+  const tmp = studyYamlPath + '.tmp.' + process.pid;
+  fs.writeFileSync(tmp, yamlDump(doc, { lineWidth: -1 }));
+  fs.renameSync(tmp, studyYamlPath);
+  return true;
+}
+
+main().then(r => process.exit(r.status === 'fail' ? 1 : 0));

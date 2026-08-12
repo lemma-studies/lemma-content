@@ -4,12 +4,19 @@
 # Any manual edit MUST be reviewed — this file gates release publish, base URL,
 # and phase-scoped health-check severities.
 
-current_phase: phase-2b  # phase-1 | phase-2a | phase-2b | phase-3-pilot | phase-3-complete | phase-4-bulk | phase-4-exit | steady-state
+current_phase: phase-3-pilot  # phase-1 | phase-2a | phase-2b | phase-3-pilot | phase-3-complete | phase-4-bulk | phase-4-exit | steady-state
 
 # release_publish_unlocked flips true at Phase 3 first release (Task 3.5).
 # Pre-Phase-3, Zenodo publishes are refused; only reservations allowed.
-release_publish_unlocked: false
+# Flipped true on 2026-08-12 for the "What Is the Perfect?" v5.4 pilot cut.
+release_publish_unlocked: true
 
-# base_url is what Zenodo metadata + canonical <link> point at. Flips to
+# base_url is what Zenodo metadata references. Stays on .pages.dev during
+# phase-3-pilot per design v7.1 §21 — defensive posture that lets us mint
+# DOIs against a stable CF-product URL, then rewrite metadata to the
+# canonical lemma.gig8.com at phase-4-exit via zenodo-update-metadata.mjs.
+# HTML `canonical` + Highwire meta go through astro.config.mjs `site:` which
+# is already https://lemma.gig8.com from day one (readers see the imprint
+# domain; Zenodo records track the deploy target). Flips to
 # https://lemma.gig8.com at Phase 4 exit domain cutover.
 base_url: https://lemma-content.pages.dev
