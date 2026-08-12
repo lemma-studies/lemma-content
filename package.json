@@ -1,0 +1,16 @@
+{
+  "name": "lemma-content",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lemma theological studies — canonical content + site + tooling (monorepo root)",
+  "scripts": {
+    "copy-pdfs": "for d in studies/*/; do slug=$(basename \"$d\"); mkdir -p \"site/public/studies/$slug\" && [ -d \"${d}versions\" ] && cp -r \"${d}versions\" \"site/public/studies/$slug/\" || true; done",
+    "compile:study": "node scripts/compile-study.js",
+    "verify:study": "node scripts/verify/index.js",
+    "review:dispatch": "node scripts/review/dispatch-reviews.mjs",
+    "site:build": "npm run copy-pdfs && cd site && npm run build",
+    "site:dev": "cd site && npm run dev",
+    "site:preview": "cd site && npm run preview"
+  }
+}

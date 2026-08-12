@@ -1,0 +1,93 @@
+---
+import EditLink from 'virtual:starlight/components/EditLink';
+import LastUpdated from 'virtual:starlight/components/LastUpdated';
+import Pagination from 'virtual:starlight/components/Pagination';
+import config from 'virtual:starlight/user-config';
+import { Icon } from '@astrojs/starlight/components';
+import { VERSION } from '../version.generated.ts';
+---
+
+<footer class="sl-flex">
+	<div class="meta sl-flex">
+		<EditLink />
+		<LastUpdated />
+	</div>
+	<Pagination />
+
+	{
+		config.credits && (
+			<a class="kudos sl-flex" href="https://starlight.astro.build">
+				<Icon name={'starlight'} /> {Astro.locals.t('builtWithStarlight.label')}
+			</a>
+		)
+	}
+
+</footer>
+
+<script is:inline define:vars={{ VERSION }}>
+	// Append version badge directly to <body> so position:fixed works
+	// regardless of ancestor transform/contain properties
+	if (!document.getElementById('lemma-version')) {
+		const el = document.createElement('div');
+		el.id = 'lemma-version';
+		el.textContent = 'v' + VERSION;
+		document.body.appendChild(el);
+	}
+</script>
+
+<style>
+	@layer starlight.core {
+		footer {
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+		.meta {
+			gap: 0.75rem 3rem;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 3rem;
+			font-size: var(--sl-text-sm);
+			color: var(--sl-color-gray-3);
+		}
+		.meta > :global(p:only-child) {
+			margin-inline-start: auto;
+		}
+
+		.kudos {
+			align-items: center;
+			gap: 0.5em;
+			margin: 1.5rem auto;
+			font-size: var(--sl-text-xs);
+			text-decoration: none;
+			color: var(--sl-color-gray-3);
+		}
+		.kudos:hover {
+			color: var(--sl-color-white);
+		}
+	}
+
+	@layer starlight.components {
+		.kudos :global(svg) {
+			color: var(--sl-color-orange);
+		}
+	}
+</style>
+
+<style is:global>
+	#lemma-version {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: right;
+		padding: 0.15rem 1rem;
+		font-size: 0.65rem;
+		font-family: var(--sl-font-mono, monospace);
+		color: var(--sl-color-gray-3);
+		background: var(--sl-color-bg);
+		border-top: 1px solid var(--sl-color-gray-6);
+		opacity: 0.7;
+		pointer-events: none;
+		z-index: 9999;
+	}
+</style>
