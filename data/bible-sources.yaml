@@ -10,15 +10,17 @@
 #   - primary: source used TODAY (public-domain, safe to publish)
 #   - upgrade_candidates (optional): contemporary sources we may anchor to.
 #     Two kinds:
-#       * permission-pending — needs a grant. When a study uses one,
-#         study.yaml.rights_tier must be 'private_pending_grant' until the grant
-#         lands, and verify-release blocks public publish.
+#       * permission-pending — needs a grant. A study using one must carry
+#         study.yaml.rights_tier 'private_pending_grant' until the grant lands.
 #       * open licence (CC-BY-SA-4.0) — no grant needed. A study anchored to one
 #         is published as its own edition licensed 'cc-by-sa-4.0' (ADR §2.4);
-#         edition_license says so. These stay 'private_pending_grant' as well
-#         until the licence is enforced end to end (publish_blocked_until):
-#         today every publish path stamps CC BY 4.0, which would breach
-#         ShareAlike.
+#         edition_license says so. These are also held at
+#         'private_pending_grant' until the licence is enforced end to end
+#         (publish_blocked_until): today every publish path stamps CC BY 4.0,
+#         which would breach ShareAlike.
+#     NOTE: rights_tier is a documented gate, not yet a code gate. As of
+#     2026-09-11 verify-study-yaml only checks the value is one of the three
+#     tiers, and verify-release does not read it. Check by hand before publishing.
 #
 # Where the open texts live, their hashes and licence evidence:
 #   loqu8/strongs docs/bible-sources-licensing.md and docs/open-bibles.tsv.
@@ -74,9 +76,10 @@ ar:
       license: CC-BY-SA-4.0
       source: "eBible arbnav; BibleNLP corpus arb-arbnav.txt"
       note: >-
-        Biblica Rights & Permissions (email to tim@gig8.com, 2026-08-31): no permission
-        request or agreement needed; use under CC BY-SA. No BY-compatible grant is
-        offered, so an NAV-anchored study is a CC-BY-SA edition (ADR §2.4).
+        Biblica Rights & Permissions (email to tim@gig8.com, 2026-08-31): the Arabic and
+        Persian texts need no permission request or signed agreement and are used under
+        CC BY-SA; no further action is needed from Biblica. The reply offered no other
+        terms, so an NAV-anchored study is a CC-BY-SA edition (ADR §2.4).
       rights_tier_when_used: private_pending_grant
       publish_blocked_until: edition-licence-enforcement
       edition_license: cc-by-sa-4.0
