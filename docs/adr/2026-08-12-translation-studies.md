@@ -27,7 +27,7 @@ A target-language translation "covers" a PD source only if the translation itsel
 
 Priced all-rights-reserved editions block all of the above regardless of price. Consequently: **a well-produced $30 print import that the target audience can neither afford nor lawfully reprint is not "covered" for our purposes** — it is a gap under this doctrine.
 
-CC-BY 4.0 is the specific license instrument that unblocks all four distribution channels. This ADR commits translation studies to CC-BY 4.0 without exception.
+CC-BY 4.0 is the specific license instrument that unblocks all four distribution channels. This ADR commits translation studies to CC-BY 4.0, with the one exception in §2.4.
 
 ### 2.2 Re-translation from PD source is a legitimate publication motivation
 
@@ -42,6 +42,20 @@ Applies to entire copyrighted product lines whose underlying sources are PD: Ban
 Length constraint: favor titles under 100pp so one review circle can meaningfully evaluate translation quality, design, scripture anchoring, and distribution reach in a single pass. Do not pre-commit a slate of titles; sequence is decided empirically after each pilot lands.
 
 This doctrine rules against batch-planning ("first-year lineup") and in favor of sequential learning. Each translation study is a testable hypothesis about audience fit; the second title's identity depends on what the first title's audience feedback surfaces.
+
+### 2.4 Share-alike exception for open modern-version anchors
+
+*Amendment, 2026-09-11.* Readers in Arabic, Persian and Hebrew are served by a modern Bible as well as the public-domain one. The best openly licensed modern versions in these languages are Biblica's Open editions (NAV, Open Persian Contemporary Bible, Hebrew Living NT), and they are CC-BY-SA 4.0. For the Arabic and Persian texts, Biblica replied on 2026-08-31 that they need no permission request or signed agreement, are used under CC-BY-SA, and need no further action from Biblica; the reply offered no other terms. The Hebrew Living NT's licence rests on its own published copyright page.
+
+Therefore:
+
+- The **primary edition** of every translation study stays anchored to a public-domain Bible and licensed CC-BY 4.0, as §2.1 requires.
+- A study may add a **modern-anchored edition** whose scripture is pinned to an open-licence `upgrade_candidate` in `data/bible-sources.yaml`. That edition is licensed **CC-BY-SA 4.0** (`edition_license`). Our CC-BY prose may be relicensed this way; the reverse is not possible, so the CC-BY primary always exists first.
+- Alignment and interlinear data built from a CC-BY-SA text are released CC-BY-SA 4.0.
+- Biblica's terms apply to such editions: remove the Biblica® trademark from derivatives, state the changes, and attribute "The original work by Biblica, Inc. is available for free at www.biblica.com and open.bible."
+- **Gate until enforced.** Today every publish path stamps CC-BY 4.0 (`scripts/zenodo-reserve-doi.mjs`, `scripts/regenerate-corpus.mjs`, `scripts/update-huggingface-ds.mjs` default, `site/public/.well-known/ai.txt`), and `verify-study-yaml.mjs` does not compare a study's scripture anchor with its licence. Until those honour `edition_license` and verify rejects a CC-BY-SA-anchored study licensed `cc-by-4.0`, the open-licence candidates stay `rights_tier_when_used: private_pending_grant` (`publish_blocked_until: edition-licence-enforcement`). This is a documented convention, not yet a code gate: `verify-study-yaml.mjs` only checks that `rights_tier` is a known value, `scripts/lemma-cli/verify-release.mjs` does not read it, and each study sets its own tier. Until the follow-up lands (verify rejects a mismatched licence; verify-release blocks `private_pending_grant`; the publish scripts read the study's licence), check any modern-anchored study by hand before publishing.
+
+CC-BY-SA keeps all four distribution channels of §2.1 open; its only added duty is that reprints and adaptations stay CC-BY-SA. Licences with NC or ND terms remain excluded: ND forbids alignment and interlinears, and NC blocks commercial reprint. Sources, hashes and licence evidence: `loqu8/strongs` `docs/bible-sources-licensing.md`.
 
 ## 3. Schema extensions
 

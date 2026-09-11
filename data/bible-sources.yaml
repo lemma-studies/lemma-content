@@ -4,14 +4,26 @@
 # rendering is verbatim from the configured Bible source, and the source-
 # language rendering (usually English) matches translation_of.scripture_anchor.
 #
-# Design per ADR 2026-08-12-translation-studies.md §7.3.
+# Design per ADR 2026-08-12-translation-studies.md §7.3 and §2.4.
 #
 # Each language has:
 #   - primary: source used TODAY (public-domain, safe to publish)
-#   - upgrade_candidate (optional): permission-pending contemporary source that
-#     we might switch to once granted. When a study uses an upgrade_candidate,
-#     study.yaml.rights_tier must be 'private_pending_grant' until the grant
-#     lands, and verify-release blocks public publish.
+#   - upgrade_candidates (optional): contemporary sources we may anchor to.
+#     Two kinds:
+#       * permission-pending — needs a grant. A study using one must carry
+#         study.yaml.rights_tier 'private_pending_grant' until the grant lands.
+#       * open licence (CC-BY-SA-4.0) — no grant needed. A study anchored to one
+#         is published as its own edition licensed 'cc-by-sa-4.0' (ADR §2.4);
+#         edition_license says so. These are also held at
+#         'private_pending_grant' until the licence is enforced end to end
+#         (publish_blocked_until): today every publish path stamps CC BY 4.0,
+#         which would breach ShareAlike.
+#     NOTE: rights_tier is a documented gate, not yet a code gate. As of
+#     2026-09-11 verify-study-yaml only checks the value is one of the three
+#     tiers, and verify-release does not read it. Check by hand before publishing.
+#
+# Where the open texts live, their hashes and licence evidence:
+#   loqu8/strongs docs/bible-sources-licensing.md and docs/open-bibles.tsv.
 
 en:
   primary:
@@ -35,8 +47,20 @@ he:
     license: PD
     api: local-cache
   upgrade_candidates:
+    - id: heblb-biblica
+      citation: "Hebrew Living New Testament (הברית החדשה/הדרך), Biblica, Inc. © 1979, 2009"
+      covers: nt            # no open modern-Hebrew OT exists; OT stays Masoretic
+      license: CC-BY-SA-4.0
+      source: "eBible heblb; BibleNLP corpus heb-heblb.txt"
+      note: >-
+        Licence rests on its eBible copyright page (creativecommons.org/licenses/by-sa/4.0);
+        Biblica's 2026-08-31 email covered only the Arabic and Persian texts.
+      rights_tier_when_used: private_pending_grant
+      publish_blocked_until: edition-licence-enforcement
+      edition_license: cc-by-sa-4.0
     - id: kalisher-bsi-contemporary-2025
       citation: "Kalisher Contemporary Hebrew, BSI 2025 (both OT+NT)"
+      note: "First modern-Hebrew OT, launched 2025-11-20"
       license: permission-pending
       contact: "BSI (Bible Society in Israel) — letter sent 2026-08-12; response 10-15 bus days"
       rights_tier_when_used: private_pending_grant
@@ -48,10 +72,17 @@ ar:
     license: PD
   upgrade_candidates:
     - id: nav-biblica
-      citation: "New Arabic Version (NAV), Biblica"
+      citation: "New Arabic Version (NAV, Ketab El Hayat), Biblica, Inc. © 1988, 1997, 2012"
       license: CC-BY-SA-4.0
-      note: "CC-BY-SA is INCOMPATIBLE with our CC-BY-4.0 container unless we get bounded BY-compat grant"
+      source: "eBible arbnav; BibleNLP corpus arb-arbnav.txt"
+      note: >-
+        Biblica Rights & Permissions (email to tim@gig8.com, 2026-08-31): the Arabic and
+        Persian texts need no permission request or signed agreement and are used under
+        CC BY-SA; no further action is needed from Biblica. The reply offered no other
+        terms, so an NAV-anchored study is a CC-BY-SA edition (ADR §2.4).
       rights_tier_when_used: private_pending_grant
+      publish_blocked_until: edition-licence-enforcement
+      edition_license: cc-by-sa-4.0
 
 fa:
   primary:
@@ -59,8 +90,20 @@ fa:
     citation: "Henry Martyn Persian New Testament, 1837"
     license: PD
   upgrade_candidates:
+    - id: opcb-biblica
+      citation: "Open Persian Contemporary Bible, Biblica, Inc. © 1995, 2005, 2018, 2022"
+      license: CC-BY-SA-4.0
+      source: "eBible pesopcb; BibleNLP corpus pes-pesopcb.txt"
+      note: "Covered by the same 2026-08-31 Biblica reply as the NAV."
+      rights_tier_when_used: private_pending_grant
+      publish_blocked_until: edition-licence-enforcement
+      edition_license: cc-by-sa-4.0
     - id: elam-pmv
       citation: "Elam Ministries Persian Modern Version (PMV)"
+      note: >-
+        Elam correspondence (Golnar Jamieson, 2026-08) concerns the New Millennium
+        Version (NMV); confirm which text this id means. Grants go via DBL to
+        organisations; call proposed 16/17 Sep 2026.
       license: permission-pending
       rights_tier_when_used: private_pending_grant
 
