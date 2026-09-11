@@ -31,6 +31,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { load as yamlLoad, dump as yamlDump } from 'js-yaml';
 import { parseArgs, isJsonMode, REPO_ROOT, loadPhaseState } from './lemma-cli/_common.mjs';
+import { licenceInfo, rightsTierPublishable } from './lemma-cli/_licence.mjs';
 import {
   createFreshConceptDraft, createNewVersionDraft, updateDepositionMetadata,
   findLatestPublishedByConcept, findOrphanDraftsMatching, listMyDepositions,
@@ -73,6 +74,22 @@ if (!fs.existsSync(studyYamlPath)) {
 }
 const study = yamlLoad(fs.readFileSync(studyYamlPath, 'utf8'));
 
+// ADR 2026-08-12 §2.4: the deposit carries the study's own licence (a
+// modern-anchored edition is CC BY-SA), and a study held at
+// private_pending_grant is not deposited at all.
+let licence;
+try {
+  licence = licenceInfo(study.license);
+} catch (e) {
+  report({ status: 'fail', reason: `study.yaml: ${e.message}` });
+  process.exit(1);
+}
+const tierGate = rightsTierPublishable(study);
+if (tierGate.status === 'fail') {
+  report({ status: 'fail', reason: tierGate.message });
+  process.exit(1);
+}
+
 const token = process.env.ZENODO_ACCESS_TOKEN;
 if (!token) {
   report({ status: 'skipped', reason: 'ZENODO_ACCESS_TOKEN not set' });
@@ -90,7 +107,7 @@ const proposedMetadata = {
   version,
   upload_type: 'publication',
   publication_type: 'article',
-  license: 'cc-by-4.0',
+  license: licence.zenodo,
   publication_date: (study.versions?.find(v => v.version === version)?.date) ?? study.current_version_date ?? new Date().toISOString().slice(0, 10),
   related_identifiers: [
     { relation: 'isVersionOf', identifier: `${baseUrl}/${slug}/`, resource_type: 'publication-article' },

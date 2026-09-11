@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { load as yamlLoad } from 'js-yaml';
 import { parseArgs, isJsonMode, REPO_ROOT } from '../lemma-cli/_common.mjs';
+import { loadBibleSources, upgradeCandidates, editionLicenceViolations } from '../lemma-cli/_licence.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const jsonMode = isJsonMode(args);
@@ -28,6 +29,8 @@ const targetSlug = args.values.get('study') ?? null;
 
 const studiesRoot = path.join(REPO_ROOT, 'studies');
 const violations = [];
+// data/bible-sources.yaml upgrade candidates, for the edition-licence rule.
+const candidates = upgradeCandidates(loadBibleSources());
 
 // Minimum schema — extended when concrete fields firm up in Phase 3.
 // (Zod / JSON Schema library dep deferred until it's actually load-bearing.)
@@ -53,8 +56,13 @@ const REQUIRED_VERSION = ['version', 'date', 'tag'];
 //   'private_pending_grant'. Reflects whether the study can be publicly
 //   rendered given the license posture of all anchor layers it uses
 //   (scripture Bible sources, etc.). verify-release blocks publish when
-//   rights_tier == 'private_pending_grant'. See ADR-018 §7.3 upgrade_candidate
-//   discussion; the tier is a study-level rollup of all anchor-layer choices.
+//   rights_tier == 'private_pending_grant' (check rights_tier_publishable).
+//   See ADR-018 §7.3 upgrade_candidate discussion; the tier is a study-level
+//   rollup of all anchor-layer choices.
+// - Edition licence (ADR §2.4, scripts/lemma-cli/_licence.mjs): a study whose
+//   translation_of.scripture_anchor names an upgrade candidate must carry
+//   that candidate's edition_license and, while the candidate is held, its
+//   rights_tier; cc-by-sa-4.0 is only for such an edition.
 const OPTIONAL_TOP_TYPES = {
   type: ['study', 'article', 'book', 'translation'],
   rights_tier: ['full_public', 'pd_anchor_only', 'private_pending_grant'],
@@ -160,6 +168,9 @@ function validateStudyYaml(slug) {
   }
   if (study.rights_tier !== undefined && !OPTIONAL_TOP_TYPES.rights_tier.includes(study.rights_tier)) {
     violations.push({ slug, error: `rights_tier=${study.rights_tier} not in {${OPTIONAL_TOP_TYPES.rights_tier.join('|')}}` });
+  }
+  for (const error of editionLicenceViolations(study, candidates)) {
+    violations.push({ slug, error });
   }
 }
 

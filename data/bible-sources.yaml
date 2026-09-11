@@ -15,12 +15,13 @@
 #       * open licence (CC-BY-SA-4.0) — no grant needed. A study anchored to one
 #         is published as its own edition licensed 'cc-by-sa-4.0' (ADR §2.4);
 #         edition_license says so. These are also held at
-#         'private_pending_grant' until the licence is enforced end to end
-#         (publish_blocked_until): today every publish path stamps CC BY 4.0,
-#         which would breach ShareAlike.
-#     NOTE: rights_tier is a documented gate, not yet a code gate. As of
-#     2026-09-11 verify-study-yaml only checks the value is one of the three
-#     tiers, and verify-release does not read it. Check by hand before publishing.
+#         'private_pending_grant' (publish_blocked_until) until the site
+#         states a page's licence from its study; Head.astro, ai.txt and
+#         llms.txt still say CC BY 4.0 for every page.
+#     Enforced in code (scripts/lemma-cli/_licence.mjs): verify-study-yaml
+#     requires a study anchored to a candidate to carry its edition_license and
+#     rights_tier_when_used; verify-release fails a private_pending_grant study;
+#     zenodo / HF / regenerate-corpus take the licence from study.yaml.
 #
 # Where the open texts live, their hashes and licence evidence:
 #   loqu8/strongs docs/bible-sources-licensing.md and docs/open-bibles.tsv.

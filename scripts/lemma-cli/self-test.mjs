@@ -19,6 +19,11 @@ import {
   REPO_ROOT, parseArgs, isJsonMode,
   loadPhaseState, loadHealthChecks, loadFailureModes,
 } from './_common.mjs';
+import {
+  licenceInfo, loadBibleSources, upgradeCandidates,
+  editionLicenceViolations, rightsTierPublishable,
+} from './_licence.mjs';
+import { CHECK_REGISTRY } from './_checks.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const jsonMode = isJsonMode(args);
@@ -102,6 +107,52 @@ try {
   assert('failure-mode health_check_hooks resolve to real checks', missing.length === 0, missing.join('; '));
 } catch (e) {
   assert('cross-check failure-modes ↔ health-checks', false, e.message);
+}
+
+// 5. Edition licence (ADR 2026-08-12 §2.4): a study anchored to a CC-BY-SA
+//    Bible must carry that licence and tier, and nothing publishes under a
+//    CC BY default.
+try {
+  const candidates = upgradeCandidates(loadBibleSources());
+  const nav = candidates.get('nav-biblica');
+  assert('bible-sources.yaml: nav-biblica carries edition_license cc-by-sa-4.0',
+    nav?.edition_license === 'cc-by-sa-4.0', `got: ${nav?.edition_license}`);
+
+  const study = (license, anchor, rights_tier) =>
+    ({ license, rights_tier, translation_of: { scripture_anchor: anchor } });
+  const v = (s) => editionLicenceViolations(s, candidates);
+
+  assert('NAV-anchored study licensed cc-by-4.0 is rejected',
+    v(study('cc-by-4.0', 'nav-biblica', 'private_pending_grant')).some(e => e.includes('must be cc-by-sa-4.0')));
+  assert('NAV-anchored study at full_public is rejected while the candidate is held',
+    v(study('cc-by-sa-4.0', 'nav-biblica', 'full_public')).some(e => e.includes('private_pending_grant')));
+  const heldOk = v(study('cc-by-sa-4.0', 'nav-biblica', 'private_pending_grant'));
+  assert('NAV-anchored study licensed cc-by-sa-4.0 and held private is clean',
+    heldOk.length === 0, heldOk.join('; '));
+  assert('a candidate inside a compound anchor is still caught',
+    v(study('cc-by-4.0', 'sefaria-masoretic + heblb-biblica', 'private_pending_grant')).length > 0);
+  const pdOk = v(study('cc-by-4.0', 'van-dyck-svd-1865', undefined));
+  assert('PD-anchored cc-by-4.0 study is clean', pdOk.length === 0, pdOk.join('; '));
+  assert('cc-by-sa-4.0 without an open-licence anchor is rejected',
+    v(study('cc-by-sa-4.0', 'van-dyck-svd-1865', undefined)).length === 1);
+
+  assert('licenceInfo keeps the published CC BY chunk-header text',
+    licenceInfo('CC-BY-4.0').name === 'CC BY 4.0'
+      && licenceInfo('cc-by-4.0').url === 'https://creativecommons.org/licenses/by/4.0/');
+  let threw = false;
+  try { licenceInfo(undefined); } catch { threw = true; }
+  assert('licenceInfo refuses a missing licence (no CC BY default)', threw);
+
+  assert('rights_tier_publishable fails private_pending_grant, passes full_public',
+    rightsTierPublishable({ rights_tier: 'private_pending_grant' }).status === 'fail'
+      && rightsTierPublishable({ rights_tier: 'full_public' }).status === 'clean');
+  const hc = loadHealthChecks();
+  const wired = ['study_yaml_schema', 'rights_tier_publishable']
+    .filter(id => !hc.checks[id] || !CHECK_REGISTRY[id]);
+  assert('study_yaml_schema + rights_tier_publishable are in health-checks.yaml and CHECK_REGISTRY',
+    wired.length === 0, wired.join(', '));
+} catch (e) {
+  assert('edition licence rule', false, e.message);
 }
 
 const allPassed = assertions.every(a => a.passed);

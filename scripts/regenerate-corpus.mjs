@@ -35,6 +35,7 @@ import { load as yamlLoad } from 'js-yaml';
 import {
   REPO_ROOT, parseArgs, isJsonMode, loadPhaseState,
 } from './lemma-cli/_common.mjs';
+import { licenceInfo } from './lemma-cli/_licence.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const jsonMode = isJsonMode(args);
@@ -87,13 +88,13 @@ function chapterFilesIn(dir) {
 
 // -------- Chunk generation --------
 
-function chunkPreamble({ slug, version, chapter, chapterAnchor }) {
+function chunkPreamble({ slug, version, chapter, chapterAnchor, licence }) {
   return [
     `# study: ${slug}`,
     `# version: ${version}`,
     `# chapter: ${chapter}`,
     `# canonical: ${baseUrl}/${slug}/${chapterAnchor}/`,
-    `# license: CC BY 4.0 (see https://creativecommons.org/licenses/by/4.0/)`,
+    `# license: ${licence.name} (see ${licence.url})`,
     `# source: /studies/${slug}/${chapter}  (canonical chapter file — chunks regenerate per compile)`,
     ``,
     ``,
@@ -122,12 +123,22 @@ for (const slug of studySlugs) {
   const study = readStudyMeta(slug);
   const latest = latestVersionDir(slug, study);
   if (!latest) continue;   // stub studies with no versions/ dir — skip
+  // A study held at private_pending_grant (an anchor not cleared for
+  // publication, ADR §2.4 / §7.3) is not published to the corpus.
+  if (study?.rights_tier === 'private_pending_grant') continue;
+  // The chunk header states the study's own licence; there is no CC BY default.
+  let licence;
+  try {
+    licence = licenceInfo(study?.license);
+  } catch (e) {
+    throw new Error(`${slug}: ${e.message}`);
+  }
 
   const chapters = chapterFilesIn(latest.dir);
   for (const chapter of chapters) {
     const source = fs.readFileSync(path.join(latest.dir, chapter), 'utf8');
     const anchor = chapterAnchorFromFilename(chapter);
-    const chunkText = chunkPreamble({ slug, version: latest.version, chapter, chapterAnchor: anchor }) + source;
+    const chunkText = chunkPreamble({ slug, version: latest.version, chapter, chapterAnchor: anchor, licence }) + source;
     const chunkPath = path.join(CHUNK_ROOT, slug, chapter.replace(/\.md$/i, '.txt'));
     chunksWritten.push({ slug, chapter, path: chunkPath, bytes: chunkText.length, contents: chunkText });
     chunkIndexLines.push(`- /llms/full/${slug}/${chapter.replace(/\.md$/i, '.txt')}`);

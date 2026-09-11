@@ -18,6 +18,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { load as yamlLoad } from 'js-yaml';
+import { rightsTierPublishable } from './_licence.mjs';
 import { REPO_ROOT } from './_common.mjs';
 
 // ------------- HTTP helper -------------
@@ -346,6 +347,12 @@ export const CHECK_REGISTRY = {
   claims_jsonl_schema: async ({ slug }) => checkClaimsJsonlSchema(slug),
   xrefs_json_schema: async ({ slug }) => checkXrefsJsonSchema(slug),
   rag_breadcrumbs_present: async ({ slug }) => checkRagBreadcrumbsPresent(slug),
+  study_yaml_schema: async ({ slug }) => checkStudyYamlSchema(slug),
+
+  // Rights (ADR 2026-08-12 §2.4 / §7.3)
+  rights_tier_publishable: async ({ study }) => study
+    ? rightsTierPublishable(study)
+    : { status: 'pending', message: 'no study in scope' },
 
   // Design drift
   design_version_header_matches: async () => checkDesignVersionHeaderMatches(),

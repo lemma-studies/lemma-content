@@ -31,6 +31,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { load as yamlLoad } from 'js-yaml';
 import { parseArgs, isJsonMode, REPO_ROOT, loadPhaseState } from './lemma-cli/_common.mjs';
+import { licenceInfo, rightsTierPublishable } from './lemma-cli/_licence.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const slug = args.values.get('study');
@@ -70,6 +71,23 @@ if (!versionEntry) {
   process.exit(1);
 }
 
+// ADR 2026-08-12 §2.4: the row carries the study's own licence (no CC BY
+// default), and a study held at private_pending_grant is not pushed.
+let licence;
+let refusal = null;
+try {
+  licence = licenceInfo(study.license);
+  const tierGate = rightsTierPublishable(study);
+  if (tierGate.status === 'fail') refusal = tierGate.message;
+} catch (e) {
+  refusal = `study.yaml: ${e.message}`;
+}
+if (refusal) {
+  if (jsonMode) console.log(JSON.stringify({ status: 'fail', reason: refusal }));
+  else console.error(refusal);
+  process.exit(1);
+}
+
 const phase = loadPhaseState();
 
 // Build the row payload (deferred read of composite/rag body until real push
@@ -82,7 +100,7 @@ const row = {
   version,
   title: study.title,
   author: study.author,
-  license: study.license ?? 'CC-BY-4.0',
+  license: licence.id,
   language: study.language ?? 'en',
   type: study.type ?? 'study',
   concept_doi: study.concept_doi,

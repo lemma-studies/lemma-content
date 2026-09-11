@@ -102,6 +102,17 @@ checks:
     severity: blocking
     runtime_context: [ci, local]
 
+  # study.yaml schema, including the edition-licence rule (ADR §2.4).
+  study_yaml_schema:
+    severity: blocking
+    runtime_context: [ci, local]
+
+  # A study at rights_tier private_pending_grant uses an anchor not cleared
+  # for publication; its release must not go out.
+  rights_tier_publishable:
+    severity: blocking
+    runtime_context: [ci, local]
+
   design_version_header_matches:
     severity: warn
     runtime_context: [local]
