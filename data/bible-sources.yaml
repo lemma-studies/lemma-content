@@ -14,8 +14,11 @@
 #         study.yaml.rights_tier must be 'private_pending_grant' until the grant
 #         lands, and verify-release blocks public publish.
 #       * open licence (CC-BY-SA-4.0) — no grant needed. A study anchored to one
-#         is published as its own edition with license 'cc-by-sa-4.0' (ADR §2.4);
-#         edition_license says so.
+#         is published as its own edition licensed 'cc-by-sa-4.0' (ADR §2.4);
+#         edition_license says so. These stay 'private_pending_grant' as well
+#         until the licence is enforced end to end (publish_blocked_until):
+#         today every publish path stamps CC BY 4.0, which would breach
+#         ShareAlike.
 #
 # Where the open texts live, their hashes and licence evidence:
 #   loqu8/strongs docs/bible-sources-licensing.md and docs/open-bibles.tsv.
@@ -47,7 +50,11 @@ he:
       covers: nt            # no open modern-Hebrew OT exists; OT stays Masoretic
       license: CC-BY-SA-4.0
       source: "eBible heblb; BibleNLP corpus heb-heblb.txt"
-      rights_tier_when_used: full_public
+      note: >-
+        Licence rests on its eBible copyright page (creativecommons.org/licenses/by-sa/4.0);
+        Biblica's 2026-08-31 email covered only the Arabic and Persian texts.
+      rights_tier_when_used: private_pending_grant
+      publish_blocked_until: edition-licence-enforcement
       edition_license: cc-by-sa-4.0
     - id: kalisher-bsi-contemporary-2025
       citation: "Kalisher Contemporary Hebrew, BSI 2025 (both OT+NT)"
@@ -70,7 +77,8 @@ ar:
         Biblica Rights & Permissions (email to tim@gig8.com, 2026-08-31): no permission
         request or agreement needed; use under CC BY-SA. No BY-compatible grant is
         offered, so an NAV-anchored study is a CC-BY-SA edition (ADR §2.4).
-      rights_tier_when_used: full_public
+      rights_tier_when_used: private_pending_grant
+      publish_blocked_until: edition-licence-enforcement
       edition_license: cc-by-sa-4.0
 
 fa:
@@ -84,7 +92,8 @@ fa:
       license: CC-BY-SA-4.0
       source: "eBible pesopcb; BibleNLP corpus pes-pesopcb.txt"
       note: "Covered by the same 2026-08-31 Biblica reply as the NAV."
-      rights_tier_when_used: full_public
+      rights_tier_when_used: private_pending_grant
+      publish_blocked_until: edition-licence-enforcement
       edition_license: cc-by-sa-4.0
     - id: elam-pmv
       citation: "Elam Ministries Persian Modern Version (PMV)"

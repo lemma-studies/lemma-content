@@ -45,7 +45,7 @@ This doctrine rules against batch-planning ("first-year lineup") and in favor of
 
 ### 2.4 Share-alike exception for open modern-version anchors
 
-*Amendment, 2026-09-11.* Readers in Arabic, Persian and Hebrew are served by a modern Bible as well as the public-domain one. The best openly licensed modern versions in these languages are Biblica's Open editions (NAV, Open Persian Contemporary Bible, Hebrew Living NT), and they are CC-BY-SA 4.0. Biblica confirmed on 2026-08-31 that no permission or agreement is needed and that no CC-BY-compatible grant is offered.
+*Amendment, 2026-09-11.* Readers in Arabic, Persian and Hebrew are served by a modern Bible as well as the public-domain one. The best openly licensed modern versions in these languages are Biblica's Open editions (NAV, Open Persian Contemporary Bible, Hebrew Living NT), and they are CC-BY-SA 4.0. For the Arabic and Persian texts, Biblica confirmed on 2026-08-31 that no permission or agreement is needed and that no CC-BY-compatible grant is offered; the Hebrew Living NT's licence rests on its own published copyright page.
 
 Therefore:
 
@@ -53,6 +53,7 @@ Therefore:
 - A study may add a **modern-anchored edition** whose scripture is pinned to an open-licence `upgrade_candidate` in `data/bible-sources.yaml`. That edition is licensed **CC-BY-SA 4.0** (`edition_license`). Our CC-BY prose may be relicensed this way; the reverse is not possible, so the CC-BY primary always exists first.
 - Alignment and interlinear data built from a CC-BY-SA text are released CC-BY-SA 4.0.
 - Biblica's terms apply to such editions: remove the Biblica® trademark from derivatives, state the changes, and attribute "The original work by Biblica, Inc. is available for free at www.biblica.com and open.bible."
+- **Gate until enforced.** Today every publish path stamps CC-BY 4.0 (`scripts/zenodo-reserve-doi.mjs`, `scripts/regenerate-corpus.mjs`, `scripts/update-huggingface-ds.mjs` default, `site/public/.well-known/ai.txt`), and `verify-study-yaml.mjs` does not compare a study's scripture anchor with its licence. Until those honour `edition_license` and verify rejects a CC-BY-SA-anchored study licensed `cc-by-4.0`, the open-licence candidates stay `rights_tier_when_used: private_pending_grant` (`publish_blocked_until: edition-licence-enforcement`), so no modern-anchored edition can be published under the wrong licence.
 
 CC-BY-SA keeps all four distribution channels of §2.1 open; its only added duty is that reprints and adaptations stay CC-BY-SA. Licences with NC or ND terms remain excluded: ND forbids alignment and interlinears, and NC blocks commercial reprint. Sources, hashes and licence evidence: `loqu8/strongs` `docs/bible-sources-licensing.md`.
 
